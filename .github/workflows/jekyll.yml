@@ -25,7 +25,7 @@ jobs:
           bundler-cache: true
       - uses: actions/configure-pages@v5
         id: pages
-      - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - uses: actions/upload-pages-artifact@v3
