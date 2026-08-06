@@ -20,6 +20,7 @@
 
 title: Guide to Open Source in Australia
 email: hello@opensourceaustralia.guide
+tagline: Software, hardware, data and policy
 description: >- # this means to ignore newlines until "baseurl:"
   Discover the open source landscape in Australia: software, hardware, data and policy.
 baseurl: "" # the subpath of your site, e.g. /blog
