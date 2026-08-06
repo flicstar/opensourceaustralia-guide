@@ -27,6 +27,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://opensourceaustralia.guide" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  flicstar
 
+# Remove this line at launch to allow search engines to index the site
+seo_noindex: true
+
 # Build settings
 plugins:
   - jekyll-feed
