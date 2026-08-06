@@ -4,3 +4,8 @@
 
 layout: home
 ---
+<ul>
+{% for category in site.data.categories %}
+  <li><a href="/{{ category.slug }}">{{ category.title }}</a> — {{ category.summary }}</li>
+{% endfor %}
+</ul>
