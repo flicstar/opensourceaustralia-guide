@@ -24,8 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Discover the open source landscape in Australia: software, hardware, data and policy.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://opensourceaustralia.guide" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  flicstar
 
 # Build settings
 plugins:
