@@ -5,7 +5,9 @@ description: The Guide to Open Source in Australia is made by Felicity Brand, a 
 permalink: /about
 ---
 
-<img src="/assets/images/flicstarimage.jpg" alt="Cartoon image of flicstar" align="right"/>
+<img src="/assets/images/flicstarimage.jpg"
+     alt="Cartoon portrait of Felicity Brand"
+     width="80" height="80" class="author-photo">
 
 I'm Felicity Brand. I write and edit for a living, mostly for open source organisations — my day job is at [Open Strategy Partners](https://openstrategypartners.com), a communications agency based in Cologne, Germany. 
 
