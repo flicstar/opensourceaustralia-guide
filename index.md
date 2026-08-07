@@ -7,8 +7,8 @@ layout: home
 
 ## Under construction
 
-This site is new and still filling out. Expect gaps.
+This site is new (as of August 2026) and I'm working on filling it out. Expect gaps. 
 
-If you know something that belongs here, [tell me](/about).
+I'm **working in the open** and writing about the build as I go - which feels naked and vulnerable but this method should encourage input from others and we'll end up with a higher quality product this way. I hope you're as excited about this site existing as I am. 
 
-I'm **working in the open** and writing about the build as I go. I feel exposed and vulnerable but I'm hoping it ends up a higher quality product this way. I'm also hoping you're as excited about this site existing as I am. Follow me on [LinkedIn](https://www.linkedin.com/in/felicitybrand) or over on [my blog](https://flicstar.com) for updates.
+Got a suggestion, a correction, or a link that belongs here? Please [get in touch](/about).
