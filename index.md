@@ -9,9 +9,11 @@ layout: home
 
 This site is new (as of August 2026) and I'm working on filling it out. Expect gaps. 
 
-I'm **working in the open** and writing about the build as I go - which feels naked and embarrassing but this method should encourage input from others and we'll end up with a higher quality product this way. I hope you're as excited about this site existing as I am. 
+I'm **working in the open** which feels naked and embarrassing but this method should encourage input from others and we'll end up with a higher quality product this way. I hope you're as excited about this site existing as I am. 
 
 Got a suggestion, a correction, or a link that belongs here? Please [get in touch](mailto:hello@opensourceaustralia.guide).
+
+---
 
 ## What I'm planning
 
@@ -29,4 +31,4 @@ Got a suggestion, a correction, or a link that belongs here? Please [get in touc
 - Maybe a high-level glossary. These exist elsewhere so I'm not sold on the idea but it might be useful. I think it will become apparent as I go.
 - A blog with current RSS and future newsletter signup. I intend to write some pieces about stuff. It would be good to have a space to do that. It'd also be cool to be able to publish things written by other people.
 
-I'm intending to reach out to people who know more than me to get valuable insight into a lot of these topics, because I want this site to be useful. If you are a cool person I should talk to (or know someone who is one of those cool people), please let me know: [hello@opensourceaustralia.guide](mailto:hello@opensourceaustralia.guide).
+I'm intending to reach out to people who know more than me to get valuable insight into a lot of these topics. If you are a cool person I should talk to (or know someone who is), please let me know: [hello@opensourceaustralia.guide](mailto:hello@opensourceaustralia.guide).
