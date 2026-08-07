@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="206 40 266 195"
+     width="200" height="147" role="img" aria-label="Under construction sign">
+  <rect x="253.6" y="157" width="11.2" height="73.6" fill="#1B2A4A" opacity=".7"/>
+  <rect x="415.2" y="157" width="11.2" height="73.6" fill="#1B2A4A" opacity=".7"/>
+  <rect x="212" y="73.8" width="256" height="92.8" rx="6" fill="#1B2A4A"/>
+  <rect x="221.6" y="83.4" width="236.8" height="73.6" rx="3"
+        fill="none" stroke="#2D8C82" stroke-width="2"/>
+  <g fill="#2D8C82">
+    <path d="M231.2 144.2h22.4L276 93h-22.4Z"/>
+    <path d="M276 144.2h22.4L320.8 93h-22.4Z"/>
+    <path d="M320.8 144.2h22.4L365.6 93h-22.4Z"/>
+    <path d="M365.6 144.2h22.4L410.4 93h-22.4Z"/>
+    <path d="M410.4 144.2h22.4L455.2 93h-22.4Z"/>
+  </g>
+  <path d="M218 73.8a32 30 0 0 1 64 0Z" fill="#E0A030"/>
+  <path d="M250 44v29.8" fill="none" stroke="#B8801F" stroke-width="2" stroke-linecap="round"/>
+  <path d="M233 51.5q-7 11-8.5 22.3" fill="none" stroke="#B8801F" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M267 51.5q7 11 8.5 22.3" fill="none" stroke="#B8801F" stroke-width="1.5" stroke-linecap="round"/>
+  <ellipse cx="250" cy="73.8" rx="40" ry="6.5" fill="#E8B24A"/>
+</svg>
