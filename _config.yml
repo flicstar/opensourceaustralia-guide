@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+lang: en-AU
 title: Guide to Open Source in Australia
 email: hello@opensourceaustralia.guide
 tagline: Software, hardware, data and policy
