@@ -4,7 +4,7 @@ This is a working list of things to look into. Nothing here has been checked for
 
 Entries move from here to the site only after verification.
 
-**How to add something:** Add a line here or email me at hello@opensourceaustralia.guide. A bare link with no notes is welcome. So is a correction.
+Feel free to add a line here or email me at hello@opensourceaustralia.guide. A bare link with a note is welcome. So is a correction.
 
 ---
 

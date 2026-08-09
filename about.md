@@ -17,4 +17,4 @@ They say write the book you want to read, so I built the site I wanted to browse
 
 In this guide, I use the term **open source** quite broadly, to cover software, hardware, data, standards, repair, policies, you name it. I know I’m casting a wide net but I really wanted to bring everything into one place. 
 
-Something that should be here but isn't? [Let me know what I've missed](mailto:hello@opensourceaustralia.guide), I'd love to add it.
+Something that should be here but isn't? [Let me know what I've missed](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"}, I'd love to add it.

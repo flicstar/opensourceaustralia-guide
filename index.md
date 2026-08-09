@@ -2,12 +2,18 @@
 layout: home
 ---
 
+<h1 class="site-tagline">Open source in Australia: software, hardware, data and policy</h1>
+
 <img src="/assets/images/under-construction.svg"
      alt="" width="200" height="147" class="construction-sign">
 
 ## Under construction
 
 This site is new (as of August 2026) and I'm working on filling it out. Expect gaps. 
+
+<aside class="callout" markdown="1">
+**Who are you and what even is this?** I'm Felicity Brand, a technical writer in Melbourne. I think this site needs to exist. [More about why](/about).
+</aside>
 
 I'm **working in the open** which feels naked and embarrassing but this method should encourage input from others and we'll end up with a higher quality product this way. I hope you're as excited about this site existing as I am. 
 

@@ -275,3 +275,18 @@
     }
   }
 }
+.callout {
+  border-left: 4px solid #2D8C82;
+  background-color: #E8F2F0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  > :last-child { margin-bottom: 0; }
+}
+
+.site-tagline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
