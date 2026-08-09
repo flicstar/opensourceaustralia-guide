@@ -1,8 +1,14 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
+   <a class="site-logo" rel="author" href="/">
+    <picture>
+      <source srcset="/assets/images/logo-dark.svg" media="(prefers-color-scheme: dark)">
+      <img src="/assets/images/logo.svg"
+           alt="Guide to Open Source in Australia"
+           width="280" height="73">
+    </picture>
+  </a>
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
