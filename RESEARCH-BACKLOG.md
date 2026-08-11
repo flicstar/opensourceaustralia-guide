@@ -2,7 +2,7 @@
 
 This is a working list of things to look into. Nothing here has been checked for accuracy, Australian relevance, or whether the project is still alive.
 
-Entries move from here to the site after verification.
+Entries move from here to the live site ([opensourceaustralia.guide](opensourceaustralia.guide)) after verification.
 
 Feel free to add a line here or email me at hello@opensourceaustralia.guide. A bare link with a note is welcome. So is a correction.
 
