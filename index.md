@@ -15,7 +15,7 @@ This site is new (as of August 2026) and I'm working on filling it out. Expect g
 **Who are you and what even is this?** I'm Felicity Brand, a technical writer in Melbourne. I think this site needs to exist. [More about why](/about).
 </aside>
 
-I'm **working in the open** which feels naked and embarrassing but this method should encourage input from others and we'll end up with a higher quality product this way. I hope you're as excited about this site existing as I am. 
+I'm **working in the open** which feels embarrassing but this method should encourage input from others and we'll end up with a higher quality product. I hope you're as excited about this site existing as I am. 
 
 Got a suggestion, a correction, or a link that belongs here? Please get in touch: [hello@opensourceaustralia.guide](mailto:hello@opensourceaustralia.guide) or checkout my [Reseach backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"} to see what I've captured so far, and let me know what I've missed.
 

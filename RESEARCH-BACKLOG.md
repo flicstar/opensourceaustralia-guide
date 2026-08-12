@@ -17,7 +17,6 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. A b
 
 ## Open data, open access
 
-- [Mozilla Data Collective](https://mozilladatacollective.com/) - see also [PyCon AU 2025 talk](https://2025.pycon.org.au/program/ZFWMZ7/)
 - [data.gov.au](https://data.gov.au)
 - [Australian Bureau of Statistics](https://www.abs.gov.au)
 - [data.vic.gov.au](https://data.vic.gov.au)
@@ -28,8 +27,6 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. A b
 - [data.act.gov.au](https://data.act.gov.au)
 - [data.nt.gov.au](https://data.nt.gov.au)
 - [LISTdata (Tasmania)](https://listdata.thelist.tas.gov.au/opendata/)
-
-- [Australia guide, WUSTL Libraries](https://libguides.wustl.edu/c.php?g=1096234&p=8117568) - an American directory. Is there an Aus version?
   
 #### Civic tech
  
@@ -40,6 +37,7 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. A b
 - [PlanningAlerts](https://www.planningalerts.org.au/)
 - [Code for Australia](https://www.codeforaustralia.org/)
 - [Open Knowledge Australia](https://au.okfn.org/index.html)
+
 #### GLAM
  
 - [Trove](https://trove.nla.gov.au)
