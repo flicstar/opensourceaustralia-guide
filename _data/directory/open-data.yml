@@ -1,0 +1,26 @@
+- slug: "data-sa"
+  name: "Data.SA"
+  url: "https://data.sa.gov.au/"
+  type: "government-portals"
+  status: "active"
+  description: "The South Australian government data directory. Contains open datasets released by South Australian government agencies and local councils."
+
+- slug: "openaustralia"
+  name: "OpenAustralia"
+  url: "https://www.openaustralia.org.au/"
+  type: "civic-tech"
+  status: "active"
+  run_by: "openaustralia-foundation"
+  description: "Publishes Hansard records for the House of Representatives and the Senate, going back to 2006. Written questions, petitions, divisions and committee records are not included."
+
+- slug: "glam-workbench"
+  name: "GLAM Workbench"
+  url: "https://glam-workbench.net/"
+  type: "glam"
+  status: "active"
+  description: |
+    A maintained catalogue of Australian GLAM data sources, built by
+    [Tim Sherratt](https://timsherratt.au/). Includes Trove, the National
+    Library of Australia, and the Australian War Memorial.
+
+    This is an index of sources, not a data source itself.
