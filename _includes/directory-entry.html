@@ -14,4 +14,11 @@
   <div class="entry-description">
     {{ entry.description | markdownify }}
   </div>
+  {% if entry.tags %}
+    <ul class="entry-tags">
+      {% for tag in entry.tags %}
+        <li class="entry-tag">{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </article>

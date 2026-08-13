@@ -36,3 +36,10 @@ Section blurb.
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
+
+## Events
+
+{% assign tagged = site.data.events | where_exp: "e", "e.tags contains 'open-data'" | sort_natural: "slug" %}
+{% for entry in tagged %}
+  {% include directory-entry.html entry=entry %}
+{% endfor %}
