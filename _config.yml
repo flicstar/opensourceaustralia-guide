@@ -26,7 +26,7 @@ url: "https://opensourceaustralia.guide"
 author: "Felicity Brand"
 email: "hello@opensourceaustralia.guide"
 repo_url: "https://github.com/flicstar/opensourceaustralia-guide"
-
+permalink: /blog/:title
 licence:
   content_name: "CC BY 4.0"
   content_url: "https://creativecommons.org/licenses/by/4.0/"
