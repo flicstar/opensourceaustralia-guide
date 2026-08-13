@@ -1,14 +1,14 @@
 {% assign orgs = site.data.directory["organisations-and-groups"] %}
 <article class="entry" id="{{ entry.slug }}">
   <h3 class="entry-name">
-    <a href="{{ entry.url }}">{{ entry.name }}</a>
+    <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.name }}</a>
     {% if entry.status == "retired" %}<span class="entry-status">Retired{% if entry.retired %} {{ entry.retired }}{% endif %}</span>{% endif %}
     <a class="entry-anchor" href="#{{ entry.slug }}" aria-label="Link to {{ entry.name }}">#</a>
   </h3>
   {% if entry.run_by %}
     {% assign org = orgs | where: "slug", entry.run_by | first %}
     {% if org %}
-      <p class="entry-run-by">Run by <a href="{{ org.url }}">{{ org.name }}</a></p>
+      <p class="entry-run-by">Run by <a href="/organisations-and-groups#{{ org.slug }}">{{ org.name }}</a></p>
     {% endif %}
   {% endif %}
   <div class="entry-description">
