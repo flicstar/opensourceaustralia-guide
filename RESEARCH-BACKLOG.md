@@ -87,10 +87,6 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. A b
 - [Global Indigenous Data Alliance](https://www.gida-global.org/)
 - [Framework for Governance of Indigenous Data, NIAA](https://www.niaa.gov.au/sites/default/files/documents/2024-05/framework-governance-indigenous-data.pdf)
 
-#### Retired
- 
-- NationalMap — decommissioned 27 June 2025, datasets moved to data.gov.au
-
 
 ## Open APIs
 
