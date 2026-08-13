@@ -3,7 +3,8 @@
   url: "https://www.openaustraliafoundation.org.au/"
   status: "active"
   description: "An Australian charity that builds and runs civic tech projects using public government data, including OpenAustralia, They Vote For You, Right To Know, and PlanningAlerts."
-  - slug: "linux-australia"
+
+- slug: "linux-australia"
   name: "Linux Australia"
   url: "https://linux.org.au/"
   status: "active"
