@@ -14,7 +14,7 @@ Intro prose goes here.
 
 Section blurb.
 
-{% assign group = active | where: "type", "government-portals" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "government-portals" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
@@ -32,7 +32,7 @@ Section blurb.
 
 Section blurb.
 
-{% assign group = active | where: "type", "glam" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "glam" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
