@@ -6,7 +6,7 @@ permalink: /open-data
 description: "Australian open data: government portals, civic tech, GLAM collections, research and spatial data."
 ---
 
-{% assign entries = site.data.category["open-data"] %}
+{% assign entries = site.data.category_data["open-data"] %}
 
 Intro prose goes here.
 
