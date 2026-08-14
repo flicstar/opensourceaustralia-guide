@@ -22,7 +22,7 @@
   status: "active"
   description: "A Melbourne workspace and community hub hosting events on software freedom, privacy, right to repair and internet governance."
 
-- slug: "ardc"
+- slug: "australian-research-data-commons"
   name: "Australia Research Data Commons (ARDC)"
   url: "https://ardc.edu.au/"
   status: "active"

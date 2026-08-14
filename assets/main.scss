@@ -2,6 +2,14 @@
 # Front matter is required. It tells Jekyll to compile this file.
 ---
 
+@import
+  "fonts",
+  "tokens",
+  "base",
+  "layout",
+  "toc",
+  "syntax"
+;
 @import "tokens";
 @import "base";
 @import "layout";
