@@ -5,7 +5,7 @@
     {% if entry.status == "inactive" %}<span class="entry-status">Inactive{% if entry.inactive %} {{ entry.inactive }}{% endif %}</span>{% endif %}
     <a class="entry-anchor" href="#{{ entry.slug }}" aria-label="Link to {{ entry.name }}">#</a>
   </h3>
-  {% if entry.run_by %}
+  {% if entry.run_by and include.show_run_by != false %}
     {% assign org = orgs | where: "slug", entry.run_by | first %}
     {% if org %}
       <p class="entry-run-by">Run by <a href="/organisations-and-groups#{{ org.slug }}">{{ org.name }}</a></p>

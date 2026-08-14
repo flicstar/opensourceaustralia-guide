@@ -36,7 +36,7 @@ it's worth checking your state portal directly.
 
 {% assign group = entries | where: "type", "government-portals" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry %}
+  {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
 
 ## Civic tech
@@ -46,7 +46,7 @@ civic tech sector is small. Much of it runs on volunteer time and donations.
 
 {% assign group = entries | where: "type", "civic-tech" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry %}
+  {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
 
 ## GLAM
@@ -57,7 +57,7 @@ catalogues and digitised material that these institutions hold.
 
 {% assign group = entries | where: "type", "glam" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry %}
+  {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
 
 ## Transport
@@ -68,7 +68,7 @@ transit data.
 
 {% assign group = entries | where: "type", "transport" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry %}
+  {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
 
 ## Sciences and geospatial
@@ -81,7 +81,7 @@ with biodiversity, marine, soil and elevation data.
 
 {% assign group = entries | where: "type", "sciences-geospatial" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry %}
+  {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
 
 ## Research data and open access
@@ -95,12 +95,12 @@ on Wikipedia.
 
 {% assign group = entries | where: "type", "research-data" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry %}
+  {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
 
 ## Events
 
 {% assign tagged = site.data.events | where_exp: "e", "e.tags contains 'open-data'" | sort_natural: "sort_key" %}
 {% for entry in tagged %}
-  {% include directory-entry.html entry=entry %}
+  {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
