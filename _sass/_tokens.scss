@@ -33,6 +33,9 @@ $measure:          63ch;     // prose measure, constrained separately
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$small-font-size:  $base-font-size * 0.85;
+$table-text-align: left;
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
@@ -98,69 +101,3 @@ $on-laptop:        800px;
     --focus-ring:        #4FC3B5;   //  7.9:1 against the page
   }
 }
-
-
-// ---------------------------------------------------------------------------
-// Minima compatibility. Temporary.
-// Plain hex only, so no colour function is called on a custom property.
-// Delete this block once _base, _layout, _toc and _syntax use var().
-// ---------------------------------------------------------------------------
-
-$base-font-family:   $font-body;
-$base-font-weight:   400;
-$small-font-size:    $base-font-size * 0.85;
-
-$text-color:         #39414F;
-$background-color:   #F1F1F1;
-$brand-color:        #1F6B62;
-
-$grey-color:         #5C6470;
-$grey-color-light:   #C7CCD4;
-$grey-color-dark:    #1B2A4A;
-
-$table-text-align:   left;@charset "utf-8";
-
-// Define defaults for each variable.
-
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
-
-$spacing-unit:     30px !default;
-
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
-
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
-
-$table-text-align: left !default;
-
-// Width of the content area
-$content-width:    800px !default;
-
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
-
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
-}
-
-;

@@ -1,5 +1,4 @@
 // On this page nav.
-// Swap the hex values for your existing tokens if you have them declared.
 
 .page-with-toc {
   display: grid;
@@ -7,19 +6,26 @@
   grid-template-columns: minmax(0, 1fr);
 }
 
+// Constrain the prose measure, not the grid column, so the sidebar
+// keeps its position while body text stays readable.
+.page-with-toc__content > * {
+  max-width: var(--measure);
+}
+
 .toc {
   font-size: 0.875rem;
   line-height: 1.5;
-  border-left: 3px solid #2D8C82;
+  border-left: 3px solid var(--accent);
   padding-left: 1rem;
 }
 
 .toc__heading {
+  font-family: var(--font-display);
   font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin: 0 0 0.5rem;
-  color: #1B2A4A;
+  color: var(--text-meta);
 }
 
 .toc__list {
@@ -33,11 +39,19 @@
 }
 
 .toc a {
+  color: var(--text-meta);
   text-decoration: none;
+  display: inline-block;
+  min-height: 24px;
+}
+
+.toc a:visited {
+  color: var(--text-meta);
 }
 
 .toc a:hover,
 .toc a:focus-visible {
+  color: var(--link-hover);
   text-decoration: underline;
 }
 
@@ -53,7 +67,6 @@
     grid-row: 1;
     position: sticky;
     align-self: start;
-    // Clear the header, then match your existing scroll-margin-top value.
     top: 5rem;
     max-height: calc(100vh - 7rem);
     overflow-y: auto;
@@ -62,15 +75,5 @@
   .page-with-toc__content {
     grid-column: 1;
     grid-row: 1;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .toc {
-    border-left-color: #4FC3B5;
-  }
-
-  .toc__heading {
-    color: #4FC3B5;
   }
 }
