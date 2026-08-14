@@ -14,14 +14,14 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  font-family: var(--font-body);
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: $base-line-height;
+  color: var(--text-body);
+  background-color: var(--surface-page);
   -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
   min-height: 100vh;
@@ -46,7 +46,7 @@ ul, ol, dl, figure,
  * `main` element
  */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  display: block;
 }
 
 
@@ -70,6 +70,7 @@ figure > img {
 
 figcaption {
   font-size: $small-font-size;
+  color: var(--text-meta);
 }
 
 
@@ -94,25 +95,49 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: var(--text-heading);
+  line-height: 1.25;
+  text-wrap: balance;
 }
+
+h1 { @include relative-font-size(2.1); letter-spacing: -0.015em; }
+h2 { @include relative-font-size(1.5); letter-spacing: -0.01em; }
+h3 { @include relative-font-size(1.15); }
+h4 { @include relative-font-size(1); }
 
 
 
 /**
  * Links
+ *
+ * Underlined by default. Colour alone is not a sufficient affordance
+ * (WCAG 1.4.1), and the site's teal does not carry enough contrast
+ * against body text to be distinguishable without it.
+ *
+ * Navigation, footer and entry names opt out in their own stylesheets.
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: var(--link-visited);
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: var(--link-hover);
+    text-decoration-color: currentColor;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+    border-radius: 2px;
   }
 
   .social-media-list &:hover {
@@ -125,16 +150,26 @@ a {
 }
 
 
+
+/**
+ * Focus, everything else
+ */
+:is(button, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+
+
 /**
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: var(--text-meta);
+  border-left: 3px solid var(--accent);
   padding-left: $spacing-unit * 0.5;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+  @include relative-font-size(1.0625);
+  font-style: normal;
 
   > :last-child {
     margin-bottom: 0;
@@ -148,10 +183,12 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  font-family: var(--font-mono);
+  @include relative-font-size(0.875);
+  border: 1px solid var(--rule);
   border-radius: 3px;
-  background-color: #eef;
+  background-color: var(--surface-code);
+  color: var(--text-body);
 }
 
 code {
@@ -159,7 +196,7 @@ code {
 }
 
 pre {
-  padding: 8px 12px;
+  padding: 10px 14px;
   overflow-x: auto;
 
   > code {
@@ -175,8 +212,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
@@ -184,8 +220,7 @@ pre {
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    max-width: calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit * 0.5;
     padding-left: $spacing-unit * 0.5;
   }
@@ -207,14 +242,13 @@ pre {
 /**
  * Icons
  */
-
 .svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$grey-color};
-    padding-right: 5px;
-    vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: var(--text-meta);
+  padding-right: 5px;
+  vertical-align: text-top;
 }
 
 .social-media-list {
@@ -232,23 +266,28 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: var(--text-body);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
-    }
+  border: 1px solid var(--rule);
+
+  tr:nth-child(even) {
+    background-color: var(--surface-raised);
   }
+
   th, td {
     padding: ($spacing-unit * 0.3333333333) ($spacing-unit * 0.5);
   }
+
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    font-family: var(--font-display);
+    font-weight: 500;
+    color: var(--text-heading);
+    background-color: var(--surface-code);
+    border: 1px solid var(--rule);
+    border-bottom-color: var(--rule-strong);
   }
+
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid var(--rule);
   }
 }
