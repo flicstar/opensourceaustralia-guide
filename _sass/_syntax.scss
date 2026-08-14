@@ -1,141 +1,3 @@
-/
-Claude is responding
-scss
-
-// On this page nav.
-
-.page-with-toc {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: minmax(0, 1fr);
-}
-
-// Constrain the prose measure, not the grid column, so the sidebar
-// keeps its position while body text stays readable.
-.page-with-toc__content > * {
-  max-width: var(--measure);
-}
-
-.toc {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  border-left: 3px solid var(--accent);
-  padding-left: 1rem;
-}
-
-.toc__heading {
-  font-family: var(--font-display);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin: 0 0 0.5rem;
-  color: var(--text-meta);
-}
-
-.toc__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.toc__item + .toc__item {
-  margin-top: 0.375rem;
-}
-
-.toc a {
-  color: var(--text-meta);
-  text-decoration: none;
-  display: inline-block;
-  min-height: 24px;
-}
-
-.toc a:visited {
-  color: var(--text-meta);
-}
-
-.toc a:hover,
-.toc a:focus-visible {
-  color: var(--link-hover);
-  text-decoration: underline;
-}
-
-// Sidebar only when there is room for one.
-// Below this width the nav sits in flow above the content.
-@media (min-width: 64em) {
-  .page-with-toc {
-    grid-template-columns: minmax(0, 1fr) 14rem;
-  }
-
-  .toc {
-    grid-column: 2;
-    grid-row: 1;
-    position: sticky;
-    align-self: start;
-    top: 5rem;
-    max-height: calc(100vh - 7rem);
-    overflow-y: auto;
-  }
-
-  .page-with-toc__content {
-    grid-column: 1;
-    grid-row: 1;
-  }
-}
-
-The dark mode block is gone, since --accent and --text-meta already flip.
-
-Three additions beyond the swap:
-
-TOC links are muted gray, not teal. This was the point of the mockup. A teal list of seven items in the margin pulls the eye harder than the content does.
-
-The heading is --text-meta, not navy. "On this page" is a label, not a heading you read.
-
-max-width: var(--measure) on the content children. This is what actually fixes your narrow reading pane, and it's why the measure lives in tokens. Applying it to the children rather than the container means full-width things can opt out later.
-
-Watch that last one after you push. If it constrains something you wanted wide, tell me and we'll scope it to prose elements only.
-
-I'd like to fix the syntax file now, so it doesn't bit me in the bum later. What are our options to replace the minima syntax theme?
-Evaluated syntax highlighting alternatives and prioritized accessible built-in themes
-
-Recommendation: hand-roll a minimal theme from your own tokens. Four reasons it wins here, but the decisive one is that any off-the-shelf theme has to be converted to var() anyway to get dark mode, and converting 60 rules is more work than writing 10.
-
-The options, briefly.
-
-Minimal token-based theme. Roughly ten rules: comments, strings, keywords, numbers, function names, everything else inherits body color. Uses your navy and teal family, so code looks like part of your site. Flips for dark mode free. Passes contrast because you pick the values.
-
-A Rouge built-in theme, like github plus github-dark. Generated with rougify style github, which needs local Ruby you don't have. You'd be copying a published stylesheet from somewhere and trusting its contrast. Two themes means duplicating everything inside a media query.
-
-Base16 or Solarized. Same problem, plus these were designed for editors on dark backgrounds. Solarized in particular fails 4.5:1 on several token types.
-
-No highlighting at all. Plain monospace in --surface-code. Defensible, since your spec puts technical how-tos out of scope, so code on your site is going to be a YAML snippet in a contributing guide, not a tutorial. Zero maintenance, zero contrast risk.
-
-Given how little code you'll actually show, I'd go minimal theme rather than none, because YAML with the keys distinguished from the values is genuinely easier to read, and it costs you ten rules once.
-
-Want me to write it?
-
-Yes, please write a minimal token-based theme that fits in our family but don't go too samey-samey. I think here you're allowed to introduce new colors.
-Recalibrated color contrast for accessibility compliance
-
-Comments at #6B7280 came in at 4.08:1, just under. Swapped to your existing
---text-meta, which clears it.
-
-The palette I landed on: rust for strings, plum for keywords, your teal for functions, deep blue for numbers, amber for builtins. It's warmer than the site chrome on purpose, so code reads as a distinct surface rather than more navy.
-Created a file, read a file
-
-Three things worth knowing.
-
-The syntax variables live in this file, not tokens. They're only used here, and keeping them next to the rules they feed means the whole theme is one file you can swap out. Say the word if you'd rather they sat with the rest.
-
-Rouge class names are terse and there are a lot of aliases. .s1, .s2, .sb, .dl are all string variants, which is why the selectors look repetitive. Grouping them is what keeps this to nine roles instead of forty.
-
-Test it with YAML specifically, since that's what you'll actually publish. Rouge tags
-syntax
-Code · SCSS 
-Want to be notified when Claude responds?
-
-
-Claude is AI and can make mistakes. Please double-check responses.
-syntax · SCSS
 /**
  * Syntax highlighting
  *
@@ -147,7 +9,7 @@ syntax · SCSS
  * The palette is warmer than the site chrome so that code reads as its own
  * surface. Ratios are noted against the code background in each mode.
  */
- 
+
 :root {
   --code-plain:     var(--text-body);
   --code-comment:   var(--text-meta);   //  5.0:1
@@ -159,7 +21,7 @@ syntax · SCSS
   --code-error:     #A01B3C;            //  6.5:1  crimson
   --code-punct:     var(--text-meta);
 }
- 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --code-string:    #E8A08D;          //  6.8:1
@@ -170,65 +32,65 @@ syntax · SCSS
     --code-error:     #F0919F;          //  6.4:1
   }
 }
- 
- 
+
+
 .highlight,
 .highlighter-rouge .highlight {
   background: transparent;
   color: var(--code-plain);
 }
- 
- 
+
+
 /* Comments */
 .highlight {
   .c, .ch, .cd, .cm, .cp, .cpf, .c1, .cs {
     color: var(--code-comment);
     font-style: italic;
   }
- 
+
   /* Keywords */
   .k, .kc, .kd, .kn, .kp, .kr, .kt, .kv {
     color: var(--code-keyword);
   }
- 
+
   /* Strings, and anything string-shaped */
   .s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss {
     color: var(--code-string);
   }
- 
+
   /* Numbers and literals */
   .m, .mb, .mf, .mh, .mi, .il, .mo, .mx {
     color: var(--code-number);
   }
- 
+
   /* Names that carry meaning: functions, classes, tags, YAML and HTML keys */
   .nf, .fm, .nc, .nt, .na, .nd {
     color: var(--code-name);
   }
- 
+
   /* Built-ins, constants, variables */
   .nb, .bp, .no, .nv, .vc, .vg, .vi, .vm, .nl, .ne, .py {
     color: var(--code-builtin);
   }
- 
+
   /* Operators and punctuation stay quiet */
   .o, .ow, .p, .pi {
     color: var(--code-punct);
   }
- 
+
   /* Errors */
   .err, .gr, .gt {
     color: var(--code-error);
     background: transparent;
   }
- 
+
   /* Diff output */
   .gd { color: var(--code-error); }
   .gi { color: var(--code-name); }
   .gh, .gu { color: var(--code-comment); font-weight: 500; }
   .ge { font-style: italic; }
   .gs { font-weight: 600; }
- 
+
   /* Line numbers, if you ever turn them on */
   .lineno, .gl {
     color: var(--code-comment);
@@ -236,4 +98,3 @@ syntax · SCSS
     padding-right: 0.75em;
   }
 }
- 
