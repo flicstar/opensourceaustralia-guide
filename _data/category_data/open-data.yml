@@ -17,7 +17,7 @@
   status: "active"
   description: "The ACT Government open data portal."
 
-- slug: "data-au"
+- slug: "data-gov-au"
   name: "data.gov.au"
   url: "https://data.gov.au/"
   type: "government-portals"
@@ -120,7 +120,7 @@
   run_by: "openaustralia-foundation"
   description: "Shows how your MP has voted on any issue, in language designed to be readable without prior knowledge of parliamentary procedure."
 
-# GLAM (Galleries, Libraries, Archives and Museums)
+# GLAM
 
 - slug: "glam-workbench"
   name: "GLAM Workbench"

@@ -66,6 +66,11 @@ Timetables, stop locations, real-time vehicle positions and road network data.
 Most Australian transport agencies publish in GTFS, an open standard for
 transit data.
 
+{% assign group = entries | where: "type", "transport" | sort_natural: "slug" %}
+{% for entry in group %}
+  {% include directory-entry.html entry=entry %}
+{% endfor %}
+
 ## Sciences and geospatial
  
 Spatial data is any information with a location attached to it, describing where
@@ -73,6 +78,11 @@ something is and what shape and size it takes. You use geographic information
 systems (GIS) and other specialised software to view and analyse it. Australia's
 science agencies and research infrastructure programs publish theirs openly, along
 with biodiversity, marine, soil and elevation data.
+
+{% assign group = entries | where: "type", "sciences-geospatial" | sort_natural: "slug" %}
+{% for entry in group %}
+  {% include directory-entry.html entry=entry %}
+{% endfor %}
 
 ## Research data and open access
  
@@ -83,10 +93,10 @@ them. For the history of how open access developed here, see
 [Open access in Australia](https://en.wikipedia.org/wiki/Open_access_in_Australia)
 on Wikipedia.
 
-
-
-
-
+{% assign group = entries | where: "type", "research-dat" | sort_natural: "slug" %}
+{% for entry in group %}
+  {% include directory-entry.html entry=entry %}
+{% endfor %}
 
 ## Events
 
