@@ -1,0 +1,205 @@
+/**
+ * Directory and event entries
+ *
+ * Markup comes from _includes/directory-entry.html:
+ *
+ *   article.entry#slug
+ *     h3.entry-name > a, span.entry-status, a.entry-anchor
+ *     p.entry-run-by
+ *     div.entry-description
+ *     ul.entry-tags > li.entry-tag
+ */
+
+
+/* ---------------------------------------------------------------------------
+   Section headings
+   Entries only appear inside the category content column, so the section
+   rule is scoped there rather than applied to every h2 on the site.
+   --------------------------------------------------------------------------- */
+
+.page-with-toc__content > h2 {
+  margin-top: 3rem;
+  padding-top: 0.875rem;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 5rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+
+/* ---------------------------------------------------------------------------
+   The entry
+   --------------------------------------------------------------------------- */
+
+.entry {
+  margin-bottom: 2rem;
+  scroll-margin-top: 5rem;
+}
+
+.entry:target {
+  /* Bleed the highlight past the text so it reads as a marked block */
+  background-color: var(--surface-accent);
+  box-shadow: 0 0 0 0.75rem var(--surface-accent);
+  border-radius: 2px;
+}
+
+
+/* Name -------------------------------------------------------------------- */
+
+.entry-name {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--text-heading);
+  margin-bottom: 0.2rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:visited {
+      color: inherit;
+    }
+
+    &:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.15em;
+    }
+  }
+}
+
+
+/* Anchor affordance ------------------------------------------------------- */
+
+.entry-anchor {
+  color: var(--text-meta);
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 0.15em;
+
+  /* Hidden until wanted, but never hover-only: focus reveals it too,
+     which is what keeps this passing WCAG 2.2 AA. */
+  opacity: 0;
+
+  /* 24px minimum target without disturbing the heading's line box */
+  display: inline-block;
+  min-width: 24px;
+  text-align: center;
+
+  &:visited {
+    color: var(--text-meta);
+  }
+
+  &:hover {
+    color: var(--link-hover);
+    opacity: 1;
+  }
+
+  &:focus-visible {
+    opacity: 1;
+  }
+}
+
+.entry:hover .entry-anchor,
+.entry:focus-within .entry-anchor {
+  opacity: 1;
+}
+
+/* Anyone who prefers not to rely on a hover reveal gets it permanently */
+@media (hover: none) {
+  .entry-anchor {
+    opacity: 1;
+  }
+}
+
+
+/* Status ------------------------------------------------------------------ */
+
+.entry-status {
+  display: inline-block;
+  vertical-align: 0.15em;
+  margin-left: 0.4rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 3px;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-meta);
+}
+
+
+/* Run by ------------------------------------------------------------------ */
+
+.entry-run-by {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--text-meta);
+  margin-bottom: 0.5rem;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--rule-strong);
+    text-underline-offset: 0.15em;
+
+    &:visited {
+      color: inherit;
+    }
+
+    &:hover {
+      color: var(--link-hover);
+      text-decoration-color: currentColor;
+    }
+  }
+}
+
+
+/* Description ------------------------------------------------------------- */
+
+.entry-description {
+  max-width: var(--measure);
+
+  p {
+    margin-bottom: 0.6rem;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  /* First paragraph is the factual, contributable one.
+     Anything after it is editorial and sits back a little. */
+  p:not(:first-child) {
+    color: var(--text-meta);
+    font-size: 0.95rem;
+  }
+}
+
+
+/* Tags -------------------------------------------------------------------- */
+
+.entry-tags {
+  list-style: none;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.entry-tag {
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  color: var(--text-meta);
+}
