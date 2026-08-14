@@ -34,7 +34,7 @@ Every level of government publishes data, and each runs its own catalogue. The
 federal catalogue aggregates some state and local material, but not all of it, so
 it's worth checking your state portal directly.
 
-{% assign group = entries | where: "type", "government-portals" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "government-portals" | sort_natural: "sort_key" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
@@ -44,7 +44,7 @@ it's worth checking your state portal directly.
 Civic tech projects take government information that that anyone can see but few can use, and republish it in a form people can actually work with. Australia's
 civic tech sector is small. Much of it runs on volunteer time and donations.
 
-{% assign group = entries | where: "type", "civic-tech" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "civic-tech" | sort_natural: "sort_key" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
@@ -55,7 +55,7 @@ GLAM stands for Galleries, Libraries, Archives and Museums. Open GLAM is a
 movement for free and open access to digital cultural heritage: the collections,
 catalogues and digitised material that these institutions hold.
 
-{% assign group = entries | where: "type", "glam" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "glam" | sort_natural: "sort_key" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
@@ -66,7 +66,7 @@ Timetables, stop locations, real-time vehicle positions and road network data.
 Most Australian transport agencies publish in GTFS, an open standard for
 transit data.
 
-{% assign group = entries | where: "type", "transport" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "transport" | sort_natural: "sort_key" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
@@ -79,7 +79,7 @@ systems (GIS) and other specialised software to view and analyse it. Australia's
 science agencies and research infrastructure programs publish theirs openly, along
 with biodiversity, marine, soil and elevation data.
 
-{% assign group = entries | where: "type", "sciences-geospatial" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "sciences-geospatial" | sort_natural: "sort_key" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
@@ -93,14 +93,14 @@ them. For the history of how open access developed here, see
 [Open access in Australia](https://en.wikipedia.org/wiki/Open_access_in_Australia)
 on Wikipedia.
 
-{% assign group = entries | where: "type", "research-data" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "research-data" | sort_natural: "sort_key" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Events
 
-{% assign tagged = site.data.events | where_exp: "e", "e.tags contains 'open-data'" | sort_natural: "slug" %}
+{% assign tagged = site.data.events | where_exp: "e", "e.tags contains 'open-data'" | sort_natural: "sort_key" %}
 {% for entry in tagged %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
