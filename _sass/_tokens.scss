@@ -1,5 +1,125 @@
 @charset "utf-8";
 
+// ===========================================================================
+// Tokens
+//
+// Two sections:
+//   1. Dimensions and type scale, as SCSS variables. Media query conditions
+//      and compile-time font maths cannot read CSS custom properties.
+//   2. Colour, as CSS custom properties, so every value flips for dark mode.
+//
+// Minima's own variables are redefined at the foot of this file as plain hex,
+// with no lighten() or darken() calls. Nothing breaks. They are removed once
+// the remaining stylesheets are converted to var().
+// ===========================================================================
+
+
+// ---------------------------------------------------------------------------
+// 1. Dimensions and type
+// ---------------------------------------------------------------------------
+
+$font-display:     "Montserrat", system-ui, sans-serif;
+$font-body:        "Inter", system-ui, sans-serif;
+$font-mono:        "JetBrains Mono", ui-monospace, monospace;
+
+$base-font-size:   17px;
+$base-line-height: 1.65;
+
+$spacing-unit:     30px;
+
+$content-width:    1080px;   // full column, sidebar included
+$measure:          63ch;     // prose measure, constrained separately
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+
+// ---------------------------------------------------------------------------
+// 2. Colour
+// Ratios noted against the background each value sits on.
+// ---------------------------------------------------------------------------
+
+:root {
+  --surface-page:      #F1F1F1;
+  --surface-raised:    #FFFFFF;
+  --surface-accent:    #E4EFED;   // callouts
+  --surface-code:      #EAECEF;
+
+  --text-heading:      #1B2A4A;   // 12.6:1
+  --text-body:         #39414F;   //  9.1:1
+  --text-meta:         #5C6470;   //  5.3:1
+
+  --link:              #1F6B62;   //  5.6:1
+  --link-hover:        #164F49;   //  8.3:1
+  --link-visited:      #4A4A7A;   //  7.3:1
+
+  --accent:            #2D8C82;   // brand teal. Rules and borders only.
+  --rule:              #C7CCD4;
+  --rule-strong:       #98A1AF;
+
+  --focus-ring:        #1F6B62;   //  5.6:1 against the page
+
+  --font-display:      #{$font-display};
+  --font-body:         #{$font-body};
+  --font-mono:         #{$font-mono};
+
+  --measure:           #{$measure};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-page:      #141D31;
+    --surface-raised:    #1B2A4A;
+    --surface-accent:    #1B3A37;
+    --surface-code:      #1E2942;
+
+    --text-heading:      #FFFFFF;   // 16.8:1
+    --text-body:         #DCE1E9;   // 12.8:1
+    --text-meta:         #A3ABB9;   //  7.3:1
+
+    --link:              #4FC3B5;   //  7.9:1
+    --link-hover:        #7FD8CC;   // 10.1:1
+    --link-visited:      #BFB4EC;   //  8.8:1
+
+    --accent:            #4FC3B5;
+    --rule:              #2F3B54;
+    --rule-strong:       #4C5A7A;
+
+    --focus-ring:        #4FC3B5;   //  7.9:1 against the page
+  }
+}
+
+
+// ---------------------------------------------------------------------------
+// Minima compatibility. Temporary.
+// Plain hex only, so no colour function is called on a custom property.
+// Delete this block once _base, _layout, _toc and _syntax use var().
+// ---------------------------------------------------------------------------
+
+$base-font-family:   $font-body;
+$base-font-weight:   400;
+$small-font-size:    $base-font-size * 0.85;
+
+$text-color:         #39414F;
+$background-color:   #F1F1F1;
+$brand-color:        #1F6B62;
+
+$grey-color:         #5C6470;
+$grey-color-light:   #C7CCD4;
+$grey-color-dark:    #1B2A4A;
+
+$table-text-align:   left;@charset "utf-8";
+
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
