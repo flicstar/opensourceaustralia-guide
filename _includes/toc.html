@@ -1,0 +1,19 @@
+{%- comment -%}
+On this page: builds a list of H2s from the rendered page content.
+Kramdown adds id attributes to headings. Call this from a layout, not from a page. 
+{%- endcomment -%}
+
+{%- assign chunks = content | split: '<h2 id="' -%}
+{%- if chunks.size > 1 -%}
+<nav class="toc" aria-labelledby="toc-heading">
+  <h2 class="toc__heading" id="toc-heading">On this page</h2>
+  <ul class="toc__list">
+    {%- for chunk in chunks offset: 1 -%}
+      {%- assign pre = chunk | split: '</h2>' | first -%}
+      {%- assign id = pre | split: '"' | first -%}
+      {%- assign text = pre | remove_first: id | remove_first: '">' | strip_html | strip -%}
+      <li class="toc__item"><a href="#{{ id }}">{{ text }}</a></li>
+    {%- endfor -%}
+  </ul>
+</nav>
+{%- endif -%}

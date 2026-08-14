@@ -15,9 +15,12 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+<div class="page-with-toc">
+  {% include toc.html %}
+  <div class="page-with-toc__content post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+</div>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

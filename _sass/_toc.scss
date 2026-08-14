@@ -1,0 +1,76 @@
+// On this page nav.
+// Swap the hex values for your existing tokens if you have them declared.
+
+.page-with-toc {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.toc {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-left: 3px solid #2D8C82;
+  padding-left: 1rem;
+}
+
+.toc__heading {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+  color: #1B2A4A;
+}
+
+.toc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toc__item + .toc__item {
+  margin-top: 0.375rem;
+}
+
+.toc a {
+  text-decoration: none;
+}
+
+.toc a:hover,
+.toc a:focus-visible {
+  text-decoration: underline;
+}
+
+// Sidebar only when there is room for one.
+// Below this width the nav sits in flow above the content.
+@media (min-width: 64em) {
+  .page-with-toc {
+    grid-template-columns: minmax(0, 1fr) 14rem;
+  }
+
+  .toc {
+    grid-column: 2;
+    grid-row: 1;
+    position: sticky;
+    align-self: start;
+    // Clear the header, then match your existing scroll-margin-top value.
+    top: 5rem;
+    max-height: calc(100vh - 7rem);
+    overflow-y: auto;
+  }
+
+  .page-with-toc__content {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .toc {
+    border-left-color: #4FC3B5;
+  }
+
+  .toc__heading {
+    color: #4FC3B5;
+  }
+}

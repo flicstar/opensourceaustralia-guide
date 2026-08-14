@@ -10,7 +10,12 @@ layout: default
     {{ category.summary }}
   </div>
 
-  {{ content }}
+  <div class="page-with-toc">
+    {% include toc.html %}
+    <div class="page-with-toc__content">
+      {{ content }}
+    </div>
+  </div>
 
   {% comment %} Directory entries will loop in here {% endcomment %}
 </article>
