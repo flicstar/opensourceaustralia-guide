@@ -56,9 +56,12 @@
   color: var(--text-heading);
   margin-bottom: 0.2rem;
 
-  a {
+ a {
     color: inherit;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+    text-decoration-color: var(--rule-strong);
 
     &:visited {
       color: inherit;
@@ -66,9 +69,7 @@
 
     &:hover {
       color: var(--link-hover);
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 0.15em;
+      text-decoration-color: currentColor;
     }
   }
 }
