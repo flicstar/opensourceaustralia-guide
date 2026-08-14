@@ -6,7 +6,7 @@ permalink: /organisations-and-groups
 description: "Australian organisations, foundations and community groups working in open source."
 ---
 
-{% assign entries = site.data.directory["organisations-and-groups"] %}
+{% assign entries = site.data.category["organisations-and-groups"] %}
 
 Intro prose goes here.
 
