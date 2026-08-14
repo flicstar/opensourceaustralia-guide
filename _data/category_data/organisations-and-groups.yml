@@ -21,3 +21,9 @@
   url: "https://electronworkshop.org/"
   status: "active"
   description: "A Melbourne workspace and community hub hosting events on software freedom, privacy, right to repair and internet governance."
+
+- slug: "ardc"
+  name: "Australia Research Data Commons (ARDC)"
+  url: "https://ardc.edu.au/"
+  status: "active"
+  description: "A national research data infrastructure that supports the management, preservation, and sharing of research data across Australian universities and research institutions."
