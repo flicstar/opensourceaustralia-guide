@@ -175,12 +175,6 @@
     margin-bottom: 0;
   }
 
-  /* First paragraph is the factual, contributable one.
-     Anything after it is editorial and sits back a little. */
-  p:not(:first-child) {
-    color: var(--text-meta);
-    font-size: 0.95rem;
-  }
 }
 
 
