@@ -1,26 +1,11 @@
 ---
 # Government portals
 
-- slug: "australian-bureau-of-statistics"
-  name: "Australian Bureau of Statistics"
-  url: "https://www.abs.gov.au/"
-  type: "government-portals"
-  status: "active"
-  description: |
-    Publishes census data, along with the classifications and standards used to
-    collect it. Custom data requests are available for a fee.
-
-- slug: "data-act"
-  name: "data.act.gov.au"
-  url: "https://www.data.act.gov.au/"
-  type: "government-portals"
-  status: "active"
-  description: "The ACT Government open data portal."
-
 - slug: "data-gov-au"
   name: "data.gov.au"
   url: "https://data.gov.au/"
   type: "government-portals"
+  sort_key: "010"
   status: "active"
   description: |
     The central catalogue of Australian open government data. Alongside
@@ -30,54 +15,79 @@
     Some state and local material is aggregated here, but each state and
     territory also runs its own portal.
 
+- slug: "australian-bureau-of-statistics"
+  name: "Australian Bureau of Statistics"
+  url: "https://www.abs.gov.au/"
+  type: "government-portals"
+  sort_key: "020"
+  status: "active"
+  description: |
+    Publishes census data, along with the classifications and standards used to
+    collect it. Custom data requests are available for a fee.
+
 - slug: "data-nsw"
   name: "Data.NSW"
   url: "https://data.nsw.gov.au/"
   type: "government-portals"
+  sort_key: "030"
   status: "active"
   description: "NSW public sector datasets, plus the policies, tools and resources that go with them."
-
-- slug: "data-nt"
-  name: "NTG Open Data Portal"
-  url: "https://data.nt.gov.au/"
-  type: "government-portals"
-  status: "active"
-  description: "Datasets released openly by Northern Territory Government agencies."
-
-- slug: "data-qld"
-  name: "Queensland Government Open Data Portal"
-  url: "https://www.data.qld.gov.au/"
-  type: "government-portals"
-  status: "active"
-  description: "Open datasets from Queensland Government agencies, including mobile speed camera locations."
-
-- slug: "data-sa"
-  name: "Data.SA"
-  url: "https://data.sa.gov.au/"
-  type: "government-portals"
-  status: "active"
-  description: |
-    The South Australian government data directory. Holds open datasets
-    released by South Australian Government agencies and local councils.
 
 - slug: "data-vic"
   name: "DataVic"
   url: "https://www.data.vic.gov.au/"
   type: "government-portals"
+  sort_key: "040"
   status: "active"
   description: "Open data from organisations across the Victorian public sector, browsable by theme."
+
+- slug: "data-qld"
+  name: "Queensland Government Open Data Portal"
+  url: "https://www.data.qld.gov.au/"
+  type: "government-portals"
+  sort_key: "050"
+  status: "active"
+  description: "Open datasets from Queensland Government agencies, including mobile speed camera locations."
 
 - slug: "data-wa"
   name: "Data WA"
   url: "https://data.wa.gov.au/"
   type: "government-portals"
+  sort_key: "060"
   status: "active"
   description: "A catalogue of datasets from organisations across the Western Australian public sector."
+
+- slug: "data-sa"
+  name: "Data.SA"
+  url: "https://data.sa.gov.au/"
+  type: "government-portals"
+  sort_key: "070"
+  status: "active"
+  description: |
+    The South Australian government data directory. Holds open datasets
+    released by South Australian Government agencies and local councils.
+
+- slug: "data-act"
+  name: "data.act.gov.au"
+  url: "https://www.data.act.gov.au/"
+  type: "government-portals"
+  sort_key: "080"
+  status: "active"
+  description: "The ACT Government open data portal."
+
+- slug: "data-nt"
+  name: "NTG Open Data Portal"
+  url: "https://data.nt.gov.au/"
+  type: "government-portals"
+  sort_key: "090"
+  status: "active"
+  description: "Datasets released openly by Northern Territory Government agencies."
 
 - slug: "listdata-tasmania"
   name: "LISTdata"
   url: "https://listdata.thelist.tas.gov.au/"
   type: "government-portals"
+  sort_key: "100"
   status: "active"
   description: |
     Spatial, land and property datasets for Tasmania, managed by Land Tasmania.
@@ -86,39 +96,52 @@
     material sits on individual department sites, such as Libraries Tasmania
     and Mineral Resources Tasmania, or on national platforms.
 
+- slug: "dateno"
+  name: "Dateno"
+  url: "https://dateno.io/"
+  type: "government-portals"
+  status: "active"
+  sort_key: "110"
+  description: |
+     Dateno is a search engine built specifically to run over open data sets around the world, and it includes some Australian datasets. 
+
 # Civic tech
 
 - slug: "openaustralia"
   name: "OpenAustralia"
   url: "https://www.openaustralia.org.au/"
   type: "civic-tech"
+  sort_key: "010"
   status: "active"
   run_by: "openaustralia-foundation"
   description: "Publishes Hansard records for the House of Representatives and the Senate, going back to 2006. Written questions, petitions, divisions and committee records are not included."
-
-- slug: "planningalerts"
-  name: "PlanningAlerts"
-  url: "https://www.planningalerts.org.au/"
-  type: "civic-tech"
-  status: "active"
-  run_by: "openaustralia-foundation"
-  description: "A searchable collection of Australian local government planning applications, so you can see what is being built and knocked down near you."
-
-- slug: "right-to-know"
-  name: "Right To Know"
-  url: "https://www.righttoknow.org.au/"
-  type: "civic-tech"
-  status: "active"
-  run_by: "openaustralia-foundation"
-  description: "Helps you submit a Freedom of Information request. Requests and responses are published and archived."
 
 - slug: "they-vote-for-you"
   name: "They Vote For You"
   url: "https://theyvoteforyou.org.au/"
   type: "civic-tech"
+  sort_key: "020"
   status: "active"
   run_by: "openaustralia-foundation"
   description: "Shows how your MP has voted on any issue, in language designed to be readable without prior knowledge of parliamentary procedure."
+
+- slug: "right-to-know"
+  name: "Right To Know"
+  url: "https://www.righttoknow.org.au/"
+  type: "civic-tech"
+  sort_key: "030"
+  status: "active"
+  run_by: "openaustralia-foundation"
+  description: "Helps you submit a Freedom of Information request. Requests and responses are published and archived."
+
+- slug: "planningalerts"
+  name: "PlanningAlerts"
+  url: "https://www.planningalerts.org.au/"
+  type: "civic-tech"
+  sort_key: "040"
+  status: "active"
+  run_by: "openaustralia-foundation"
+  description: "A searchable collection of Australian local government planning applications, so you can see what is being built and knocked down near you."
 
 # GLAM
 
@@ -126,6 +149,7 @@
   name: "GLAM Workbench"
   url: "https://glam-workbench.net/"
   type: "glam"
+  sort_key: "010"
   status: "active"
   description: |
     A maintained catalogue of Australian GLAM data sources, built by
@@ -138,6 +162,7 @@
   name: "iMOVE Australia transport data directory"
   url: "https://imoveaustralia.com/transport-data-hub/" # [CHECK]
   type: "transport"
+  sort_key: "010"
   status: "active"
   description: |
     A directory of Australian transport open data sources, with links to the
@@ -152,6 +177,7 @@
   name: "Atlas of Living Australia"
   url: "https://www.ala.org.au/"
   type: "sciences-geospatial"
+  sort_key: "010"
   status: "active"
   description: |
     Open digital infrastructure that brings Australian biodiversity data
@@ -164,6 +190,7 @@
   name: "AURIN data catalogue"
   url: "https://aurin.org.au/"
   type: "sciences-geospatial"
+  sort_key: "020"
   status: "active"
   description: |
     The Australian Urban Research Infrastructure Network. Provides integrated
@@ -174,6 +201,7 @@
   name: "Australian Ocean Data Network portal"
   url: "https://portal.aodn.org.au/"
   type: "sciences-geospatial"
+  sort_key: "030"
   status: "active"
   description: |
     Australian marine and climate science data, and the main access point for
@@ -186,6 +214,7 @@
   name: "CSIRO Data Access Portal"
   url: "https://data.csiro.au/"
   type: "sciences-geospatial"
+  sort_key: "040"
   status: "active"
   description: "Research data, software and other digital assets from Australia's national science agency, across a range of disciplines."
 
@@ -193,6 +222,7 @@
   name: "Elvis elevation and depth"
   url: "https://elevation.fsdf.org.au/" # [CHECK]
   type: "sciences-geospatial"
+  sort_key: "050"
   status: "active"
   description: |
     Australian elevation and bathymetry data, searchable by area of interest.
@@ -206,6 +236,7 @@
   name: "Geoscience Australia Portal"
   url: "https://portal.ga.gov.au/"
   type: "sciences-geospatial"
+  sort_key: "060"
   status: "active"
   description: |
     Geoscientific data, maps and tools covering Australian resources, geology,
@@ -218,6 +249,7 @@
   name: "OpenStreetMap Australian data sources"
   url: "https://wiki.openstreetmap.org/wiki/Australian_Data_Sources"
   type: "sciences-geospatial"
+  sort_key: "070"
   status: "active"
   description: |
     A wiki page listing the open datasets that Australian OpenStreetMap
@@ -228,6 +260,7 @@
   name: "Soil and Landscape Grid of Australia"
   url: "https://esoil.io/TERNLandscapes/Public/Pages/SLGA/" # [CHECK]
   type: "sciences-geospatial"
+  sort_key: "080"
   status: "active"
   description: "Consistent, nation-wide soil and landscape attribute data in a downloadable format."
 
@@ -235,6 +268,7 @@
   name: "TERN Data Discovery Portal"
   url: "https://portal.tern.org.au/"
   type: "sciences-geospatial"
+  sort_key: "090"
   status: "active"
   description: |
     Environmental monitoring data from TERN, Australia's ecosystem
@@ -249,26 +283,17 @@
   name: "Australian Research Data Commons"
   url: "https://ardc.edu.au/"
   type: "research-data"
+  sort_key: "010"
   status: "active"
   description: |
     National digital research infrastructure that helps Australian researchers
     find, manage, analyse and share research data across all disciplines.
 
-- slug: "open-access-australasia"
-  name: "Open Access Australasia"
-  url: "https://oaaustralasia.org/"
-  type: "research-data"
-  status: "active"
-  description: |
-    Publishes a list of open repositories across the region, including the open
-    access repository of every major Australian university.
-
-    This is an index of repositories, not a repository itself.
-
 - slug: "research-data-australia"
   name: "Research Data Australia"
   url: "https://researchdata.edu.au/"
   type: "research-data"
+  sort_key: "020"
   status: "active"
   run_by: "australian-research-data-commons"
   description: |
@@ -283,8 +308,21 @@
   name: "Research Infrastructure Connected"
   url: "https://riconnected.org.au/"
   type: "research-data"
+  sort_key: "030"
   status: "active"
   description: |
     A searchable index of the national research infrastructure supported by the
     National Collaborative Research Infrastructure Strategy, connecting
     researchers to the facilities and services they need.
+
+- slug: "open-access-australasia"
+  name: "Open Access Australasia"
+  url: "https://oaaustralasia.org/"
+  type: "research-data"
+  sort_key: "040"
+  status: "active"
+  description: |
+    Publishes a list of open repositories across the region, including the open
+    access repository of every major Australian university.
+
+    This is an index of repositories, not a repository itself.

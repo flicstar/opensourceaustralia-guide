@@ -93,7 +93,7 @@ them. For the history of how open access developed here, see
 [Open access in Australia](https://en.wikipedia.org/wiki/Open_access_in_Australia)
 on Wikipedia.
 
-{% assign group = entries | where: "type", "research-dat" | sort_natural: "slug" %}
+{% assign group = entries | where: "type", "research-data" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
