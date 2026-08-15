@@ -40,6 +40,11 @@
    The entry
    --------------------------------------------------------------------------- */
 
+.page-with-toc__content > .entry {
+  margin-left: clamp(0.5rem, 1vw, 1rem);
+  padding-left: 0.5rem;
+}
+
 .entry {
   margin-bottom: 1.25rem;
   scroll-margin-top: 5rem;
