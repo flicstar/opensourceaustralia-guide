@@ -28,13 +28,20 @@
   }
 }
 
+.page-with-toc__content > h2 + p {
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--text-body);
+  max-width: 58ch;
+  margin-bottom: 1rem;
+}
 
 /* ---------------------------------------------------------------------------
    The entry
    --------------------------------------------------------------------------- */
 
 .entry {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   scroll-margin-top: 5rem;
 }
 
@@ -49,7 +56,7 @@
 /* Name -------------------------------------------------------------------- */
 
 .entry-name {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.35;
@@ -167,6 +174,7 @@
 
 .entry-description {
   max-width: var(--measure);
+  font-size: 0.95rem;
 
   p {
     margin-bottom: 0.6rem;

@@ -6,6 +6,7 @@
   run_by: "linux-australia"
   tags:
     - "everything-open"
+  summary: "Australia's main conference for open technologies."
   description: |
     Australia's main conference for open technologies. Across three days it covers
     open source software, open hardware, open data, open government, the GLAM
@@ -24,14 +25,12 @@
   tags:
     - "open-software"
     - "open-data"
+  summary: "The Australia, New Zealand and Pacific regional conference for open source mapping and geospatial technology."
   description: |
     The Australia, New Zealand and Pacific regional conference for open source
-    mapping and geospatial technology. The programme includes conference sessions,
-    workshop days, and a community day for mapathons.
+    mapping and geospatial technology. The programme includes conference sessions, workshop days, and a community day for mapathons.
 
-    The name merges two global conference series. FOSS4G stands for Free and Open
-    Source Software for Geospatial. State of the Map is the conference of the
-    OpenStreetMap Foundation.
+    The name merges two global conference series. FOSS4G stands for Free and Open Source Software for Geospatial. State of the Map is the conference of the OpenStreetMap Foundation.
 
 - slug: "govhack"
   name: "GovHack"
@@ -42,11 +41,9 @@
   tags:
     - "open-data"
     - "open-software"
+  summary: "A weekend hackathon to build something using openly published government data."
   description: |
-    An open data competition held across Australia and New Zealand. Over a single
-    weekend, teams build something using openly published government data, at
-    physical venues and online. Government agencies set many of the challenges
-    and sponsor prizes.
+    An open data competition held across Australia and New Zealand. Over a single weekend, teams build something using openly published government data, at physical venues and online. Government agencies set many of the challenges and sponsor prizes.
 
     GovHack began under the auspice of Linux Australia and is now an independent
     not-for-profit company.
@@ -61,14 +58,11 @@
     - "open-software"
     - "open-research"
     - "open-hardware"
+  summary: "A weekend hackathon pairing healthcare professionals with software developers."
   description: |
-    A free, volunteer-run hackathon that paired medical researchers and healthcare
-    professionals with software developers, designers, educators and engineers to
-    work on research problems over a weekend. Everything produced was released
-    openly. It ran from 2013 to 2020 in cities around Australia.
+    A free, volunteer-run hackathon that paired medical researchers and healthcare professionals with software developers, designers, educators and engineers to work on research problems over a weekend. Everything produced was released openly. It ran from 2013 to 2020 in cities around Australia.
 
-    Linux Australia, which auspiced the event, has said it is on hiatus pending a
-    volunteer team to carry it forward. Past projects remain on GitHub.
+    Linux Australia, which auspiced the event, has said it is on hiatus pending a volunteer team to carry it forward. Past projects remain on GitHub.
 
 - slug: "electron-workshop"
   name: "Electron Workshop"
@@ -77,6 +71,7 @@
   status: "active"
   tags:
     - "everything-open"
+  summary:  "A recurring program of gatherings in Melbourne and online."
   description: |
     A recurring program of gatherings in Melbourne and online, spanning software
     freedom, open source, privacy, right to repair, cooperatives and internet
