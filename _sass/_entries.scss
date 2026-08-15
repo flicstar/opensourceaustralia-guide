@@ -186,6 +186,64 @@
 
 }
 
+/* Sidebar events ---------------------------------------------------------- */
+
+.page-events {
+  margin-top: 2rem;
+  border-left: 3px solid var(--rule-strong);
+  padding-left: 1rem;
+}
+
+.page-events__heading {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+  color: var(--text-meta);
+}
+
+.page-events__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-events__item + .page-events__item {
+  margin-top: 1rem;
+}
+
+.page-events__name {
+  margin: 0 0 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.page-events__name a {
+  color: var(--text-body);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  text-decoration-color: var(--rule-strong);
+}
+
+.page-events__name a:visited {
+  color: var(--text-body);
+}
+
+.page-events__name a:hover,
+.page-events__name a:focus-visible {
+  color: var(--link-hover);
+  text-decoration-color: currentColor;
+}
+
+.page-events__summary {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: var(--text-body);
+}
 
 /* Tags -------------------------------------------------------------------- */
 

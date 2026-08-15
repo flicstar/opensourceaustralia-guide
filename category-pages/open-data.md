@@ -97,10 +97,3 @@ on Wikipedia.
 {% for entry in group %}
   {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
-
-## Events
-
-{% assign tagged = site.data.events | where_exp: "e", "e.tags contains 'open-data'" | sort_natural: "sort_key" %}
-{% for entry in tagged %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
-{% endfor %}
