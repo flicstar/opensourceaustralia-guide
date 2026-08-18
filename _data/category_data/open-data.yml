@@ -326,3 +326,12 @@
     access repository of every major Australian university.
 
     This is an index of repositories, not a repository itself.
+
+- slug: "open-electricity-platform"
+  name: "Open electricity platform"
+  url: "https://platform.openelectricity.org.au/"
+  type: "research-data"
+  sort_key: "050"
+  status: "active"
+  description: |
+        Access real-time and historical energy data from across Australia's electricity grid.
