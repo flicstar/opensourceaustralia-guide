@@ -5,6 +5,7 @@
   border-top: 5px solid var(--text-heading);
   border-bottom: 1px solid var(--rule);
   min-height: $spacing-unit * 1.865;
+  background-color: var(--surface-raised);
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -123,64 +124,82 @@
  * Site footer
  */
 .site-footer {
+  background-color: var(--surface-page);
   border-top: 1px solid var(--rule);
-  padding: $spacing-unit 0;
 }
 
-.footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit * 0.5;
+.site-footer__top {
+  padding: $spacing-unit * 1.5 0;
 }
 
-.contact-list,
-.social-media-list {
+.site-footer__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: $spacing-unit * 2;
+
+  @include media-query($on-laptop) {
+    grid-template-columns: 1fr;
+    gap: $spacing-unit;
+  }
+}
+
+.site-footer__section {
+  &--main {
+    grid-column: 1;
+
+    @include media-query($on-laptop) {
+      grid-column: 1;
+    }
+  }
+}
+
+.site-footer__tagline {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin: 0 0 $spacing-unit * 0.5 0;
+  letter-spacing: -0.01em;
+}
+
+.site-footer__description {
+  font-size: 0.9375rem;
+  color: var(--text-body);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.site-footer__heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin: 0 0 $spacing-unit * 0.75 0;
+}
+
+.site-footer__list {
   list-style: none;
-  margin-left: 0;
-}
-
-.footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: var(--text-meta);
-  margin-left: -$spacing-unit * 0.5;
-  @extend %clearfix;
-}
-
-.footer-col {
-  float: left;
-  margin-bottom: $spacing-unit * 0.5;
-  padding-left: $spacing-unit * 0.5;
-}
-
-.footer-col-1 {
-  width: calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-  width: calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-  width: calc(45% - (#{$spacing-unit} / 2));
-}
-
-.site-footer__links {
-  list-style: none;
-  margin: 0 0 1rem;
+  margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+
+  li {
+    margin-bottom: $spacing-unit * 0.35;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 
   a {
+    color: var(--link);
+    text-decoration: none;
+    font-size: 0.9375rem;
+    line-height: 1.5;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    min-height: 24px;
-    color: var(--text-meta);
-    text-decoration: none;
 
     &:visited {
-      color: var(--text-meta);
+      color: var(--link-visited);
     }
 
     &:hover {
@@ -188,29 +207,60 @@
       text-decoration: underline;
     }
   }
+
+  &--secondary {
+    a {
+      color: var(--text-body);
+      font-size: 0.9375rem;
+
+      &:visited {
+        color: var(--text-body);
+      }
+
+      &:hover {
+        color: var(--link-hover);
+        text-decoration: underline;
+      }
+    }
+
+    li {
+      font-size: 0.9375rem;
+      color: var(--text-body);
+      line-height: 1.5;
+    }
+  }
+
+  &--with-icons {
+    li {
+      font-size: 0.9375rem;
+      color: var(--link);
+      line-height: 1.5;
+    }
+
+    a {
+      color: var(--link);
+    }
+  }
 }
 
-.footer-icon {
-  width: 1.1em;
-  height: 1.1em;
+.site-footer__icon {
+  width: 1.2em;
+  height: 1.2em;
   flex-shrink: 0;
 }
 
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: calc(50% - (#{$spacing-unit} / 2));
-  }
+.site-footer__country {
+  padding: $spacing-unit * 1.25 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  background-color: var(--surface-raised);
 
-  .footer-col-3 {
-    width: calc(100% - (#{$spacing-unit} / 2));
-  }
-}
-
-@include media-query($on-palm) {
-  .footer-col {
-    float: none;
-    width: calc(100% - (#{$spacing-unit} / 2));
+  p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--text-body);
+    margin: 0;
+    text-align: center;
   }
 }
 
@@ -222,6 +272,7 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  background-color: var(--surface-raised);
 }
 
 .page-heading {

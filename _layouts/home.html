@@ -3,9 +3,80 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <section class="home-hero">
+    <div class="home-hero__container">
+      <h1 class="home-hero__title">{{ page.tagline }}</h1>
+      <p class="home-hero__subtitle">{{ page.subtitle }}</p>
+    </div>
+  </section>
 
-  {{ content }}
+  <section class="home-categories">
+    <div class="home-categories__container">
+      <div class="home-categories__grid">
+        <div class="category-card">
+          <div class="category-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+            </svg>
+          </div>
+          <h3 class="category-card__title">Software</h3>
+          <p class="category-card__description">Projects with Australian roots, and the people behind them.</p>
+        </div>
+        <div class="category-card">
+          <div class="category-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+            </svg>
+          </div>
+          <h3 class="category-card__title">Hardware</h3>
+          <p class="category-card__description">Open hardware, makerspaces and repair-friendly devices.</p>
+        </div>
+        <div class="category-card">
+          <div class="category-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+            </svg>
+          </div>
+          <h3 class="category-card__title">Organisations</h3>
+          <p class="category-card__description">The bodies and communities doing the work.</p>
+        </div>
+        <div class="category-card">
+          <div class="category-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3"></polyline>
+            </svg>
+          </div>
+          <h3 class="category-card__title">Government</h3>
+          <p class="category-card__description">Procurement rules, policy and open data.</p>
+        </div>
+      </div>
+      <p class="home-categories__footer"><a href="/explore">Explore all categories</a></p>
+    </div>
+  </section>
+
+  <section class="home-construction">
+    <div class="home-construction__container">
+      <img src="/assets/images/under-construction.svg" alt="" width="200" height="147" class="construction-sign">
+      <h2>Under construction</h2>
+      <p>This site was created in August 2026 and I'm working on filling it out.</p>
+      
+      <aside class="callout" markdown="1">
+      <strong>Who are you and what even is this?</strong> I'm Felicity Brand, a technical writer in Melbourne. I think this site needs to exist. <a href="/about">More about why</a>.
+      </aside>
+
+      <p>I'm <strong>working in the open</strong>. Checkout my <a href="https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md" target="_blank">Reseach backlog</a> to see what I've captured so far, and let me know what I've missed. I hope you're as excited about this site existing as I am.</p>
+      
+      <p>Got a suggestion, a correction, or a link that belongs here? Please get in touch: <a href="mailto:hello@opensourceaustralia.guide">hello@opensourceaustralia.guide</a>.</p>
+    </div>
+  </section>
+
+  <section class="home-cta">
+    <div class="home-cta__container">
+      <div class="home-cta__content">
+        <h2 class="home-cta__title">New to all this?</h2>
+        <p class="home-cta__description">Start with what open source actually means, and why it matters here.</p>
+      </div>
+      <a href="/glossary" class="home-cta__button">What is open source?</a>
+    </div>
+  </section>
 </div>
