@@ -1,23 +1,33 @@
 /**
  * Home page sections
+
  */
+
+%full-bleed {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+%band-container {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
+}
+
 
 /* ---------------------------------------------------------------------------
    Hero section
    --------------------------------------------------------------------------- */
 
 .home-hero {
+  @extend %full-bleed;
   background-color: var(--surface-raised);
-  padding: $spacing-unit * 2 0;
+  padding: $spacing-unit * 1.75 0 $spacing-unit * 2;
   border-bottom: 1px solid var(--rule);
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
 }
 
 .home-hero__container {
-  max-width: $content-width;
-  margin: 0 auto;
-  padding: 0 $spacing-unit;
+  @extend %band-container;
   text-align: center;
 }
 
@@ -27,70 +37,77 @@
   font-weight: 600;
   line-height: 1.3;
   color: var(--text-heading);
-  margin-bottom: $spacing-unit * 0.5;
+  margin-bottom: $spacing-unit * 0.45;
   letter-spacing: -0.01em;
 }
 
 .home-hero__subtitle {
   font-size: 1.0625rem;
-  line-height: 1.6;
+  line-height: 1.7;
   color: var(--text-body);
-  max-width: 65ch;
+  max-width: 36rem;          // was 65ch, which ran too wide when centred
   margin: 0 auto;
 }
+
 
 /* ---------------------------------------------------------------------------
    Categories section
    --------------------------------------------------------------------------- */
 
 .home-categories {
+  @extend %full-bleed;
   background-color: var(--surface-page);
-  padding: $spacing-unit * 3 0;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  padding: $spacing-unit * 1.5 0;
 }
 
 .home-categories__container {
-  max-width: $content-width;
-  margin: 0 auto;
-  padding: 0 $spacing-unit;
+  @extend %band-container;
 }
 
 .home-categories__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: $spacing-unit * 1.5;
-  margin-bottom: $spacing-unit * 2;
+  gap: $spacing-unit * 0.7;
+  margin-bottom: $spacing-unit * 0.8;
 
   @include media-query($on-laptop) {
     grid-template-columns: repeat(2, 1fr);
-    gap: $spacing-unit;
+    gap: $spacing-unit * 0.7;
   }
 
   @include media-query($on-palm) {
     grid-template-columns: 1fr;
-    gap: $spacing-unit;
+    gap: $spacing-unit * 0.5;
   }
 }
 
 .category-card {
   background-color: var(--surface-raised);
-  border: 2px solid var(--accent);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--accent);
   border-radius: 12px;
-  padding: $spacing-unit * .5;
-  transition: all 200ms ease-in-out;
+  padding: $spacing-unit * 0.7;
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
 
   &:hover {
-    transform: translateY(-4px);
+    transform: translateY(-3px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
   }
 }
 
 .category-card__icon {
   color: var(--accent);
-  width: 48px;
-  height: 48px;
-  margin-bottom: $spacing-unit * 0.75;
+  width: 28px;
+  height: 28px;
+  margin-bottom: $spacing-unit * 0.4;
   flex-shrink: 0;
 
   svg {
@@ -100,16 +117,17 @@
 }
 
 .category-card__title {
-  font-size: 1.125rem;
+  font-family: var(--font-display);
+  font-size: 1.0625rem;
   font-weight: 600;
   color: var(--text-heading);
-  margin-bottom: $spacing-unit * 0.5;
   margin-top: 0;
+  margin-bottom: $spacing-unit * 0.25;
 }
 
 .category-card__description {
   font-size: 0.9375rem;
-  line-height: 1.55;
+  line-height: 1.6;
   color: var(--text-body);
   margin: 0;
 }
@@ -123,9 +141,7 @@
     text-decoration: none;
     font-weight: 500;
 
-    &:visited {
-      color: var(--link-visited);
-    }
+    &:visited { color: var(--link-visited); }
 
     &:hover {
       color: var(--link-hover);
@@ -134,30 +150,95 @@
   }
 }
 
+
+/* ---------------------------------------------------------------------------
+   Under construction section
+
+   Temporary. Remove this block and its markup once the directory is populated.
+   --------------------------------------------------------------------------- */
+
+.home-construction {
+  @extend %full-bleed;
+  background-color: var(--surface-raised);
+  padding: $spacing-unit * 1.75 0;
+}
+
+.home-construction__container {
+  @extend %band-container;
+  text-align: center;
+}
+
+.construction-sign {
+  margin-bottom: $spacing-unit * 0.6;
+}
+
+.home-construction__container h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-heading);
+  margin-bottom: $spacing-unit * 0.45;
+  letter-spacing: -0.01em;
+}
+
+.home-construction__container p {
+  color: var(--text-body);
+  line-height: 1.7;
+  max-width: 36rem;
+  margin: 0 auto $spacing-unit * 0.6;
+  text-align: left;
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.home-construction__container .callout {
+  max-width: 36rem;
+  margin: $spacing-unit * 0.8 auto;
+  text-align: left;
+}
+
+.home-construction__container a {
+  color: var(--link);
+  text-decoration: none;
+
+  &:visited { color: var(--link-visited); }
+
+  &:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+  }
+}
+
+
 /* ---------------------------------------------------------------------------
    Call-to-action section
+
+   The navy is an inset rounded card, not a full-width band, so it reads as an
+   object on the page rather than another stripe.
    --------------------------------------------------------------------------- */
 
 .home-cta {
-  background-color: var(--text-heading);
-  padding: $spacing-unit * 2.5 0;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  @extend %full-bleed;
+  background-color: var(--surface-raised);
+  padding: 0 $spacing-unit $spacing-unit * 1.75;
 }
 
 .home-cta__container {
-  max-width: $content-width;
+  max-width: $content-width - ($spacing-unit * 2);
   margin: 0 auto;
-  padding: 0 $spacing-unit;
+  background-color: var(--surface-invert);
+  border-radius: 12px;
+  padding: $spacing-unit * 0.9 $spacing-unit;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: $spacing-unit * 2;
+  gap: $spacing-unit;
 
   @include media-query($on-palm) {
     flex-direction: column;
     text-align: center;
-    align-items: center;
+    align-items: stretch;
+    gap: $spacing-unit * 0.6;
   }
 }
 
@@ -167,105 +248,47 @@
 
 .home-cta__title {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.375rem;
   font-weight: 600;
-  color: var(--surface-raised);
-  margin: 0 0 $spacing-unit * 0.5 0;
+  color: var(--on-invert-heading);
+  margin: 0 0 $spacing-unit * 0.2 0;
   letter-spacing: -0.01em;
 }
 
 .home-cta__description {
-  font-size: 1rem;
+  font-size: 0.9375rem;
   line-height: 1.6;
-  color: var(--surface-accent);
+  color: var(--on-invert-meta);
   margin: 0;
 }
 
 .home-cta__button {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
+  padding: 0.6rem 1.25rem;
   background-color: transparent;
-  border: 2px solid var(--surface-raised);
-  border-radius: 6px;
-  color: var(--surface-raised);
+  border: 1px solid var(--on-invert-accent);
+  border-radius: 8px;
+  color: var(--on-invert-accent);
   font-weight: 500;
   text-decoration: none;
   font-size: 0.9375rem;
-  transition: all 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
   white-space: nowrap;
 
-  &:visited {
-    color: var(--surface-raised);
-  }
+  &:visited { color: var(--on-invert-accent); }
 
   &:hover {
-    background-color: var(--surface-raised);
-    color: var(--text-heading);
+    background-color: var(--on-invert-accent);
+    color: var(--surface-invert);
   }
 
-  &:focus {
-    outline: 2px solid var(--focus-ring);
-    outline-offset: 2px;
+  &:focus-visible {
+    outline: 2px solid var(--on-invert-accent);
+    outline-offset: 3px;
   }
 
   @include media-query($on-palm) {
     display: block;
-    width: 100%;
     text-align: center;
-  }
-}
-
-/* ---------------------------------------------------------------------------
-   Under construction section
-   --------------------------------------------------------------------------- */
-
-.home-construction {
-  background-color: var(--surface-raised);
-  padding: $spacing-unit * 3 0;
-  border-top: 1px solid var(--rule);
-}
-
-.home-construction__container {
-  max-width: $content-width;
-  margin: 0 auto;
-  padding: 0 $spacing-unit;
-  text-align: center;
-}
-
-.construction-sign {
-  margin-bottom: $spacing-unit;
-}
-
-.home-construction__container h2 {
-  font-family: var(--font-display);
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: var(--text-heading);
-  margin-bottom: $spacing-unit * 0.5;
-  letter-spacing: -0.01em;
-}
-
-.home-construction__container p {
-  color: var(--text-body);
-  line-height: 1.6;
-  max-width: 65ch;
-  margin: 0 auto $spacing-unit;
-}
-
-.home-construction__container .callout {
-  margin: $spacing-unit 0;
-}
-
-.home-construction__container a {
-  color: var(--link);
-  text-decoration: none;
-
-  &:visited {
-    color: var(--link-visited);
-  }
-
-  &:hover {
-    color: var(--link-hover);
-    text-decoration: underline;
   }
 }

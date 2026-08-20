@@ -101,6 +101,7 @@ Check out the [Open Data](https://opensourceaustralia.guide/open-data) page. Wha
 - [Australian Repair Summit](https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network/events), see also: [Australian Repair Network](https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network)
 - [GovHack](https://govhack.org)
 - [Research Bazaar](https://github.com/resbaz) (ResBaz)
+- [Research Software Asia Australia Conference](https://rseaa.org/) (RSAA26)
 
 #### Community celebration days
 - [Software Freedom Day](https://sfd.org.au)
@@ -111,6 +112,7 @@ Check out the [Open Data](https://opensourceaustralia.guide/open-data) page. Wha
 - [Electron workshop](https://electronworkshop.org/calendar/)
 - [Linux user groups](https://linux.org.au/lugs/)
 - [Hackerspaces](https://linux.org.au/hackerspaces/)
+- [Flounder](https://flounder.linux.org.au/)
 
 #### Past events
 - [LinuxConfAu](https://linux.org.au/linux-conf-au/) (LCA)

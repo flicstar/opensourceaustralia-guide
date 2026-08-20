@@ -77,6 +77,11 @@ $table-text-align: left;
   --font-mono:         #{$font-mono};
 
   --measure:           #{$measure};
+  
+  --surface-invert:     #1B2A4A;
+  --on-invert-heading:  #FFFFFF;   // 12.6:1
+  --on-invert-meta:     #C9D2E0;   //  9.0:1
+  --on-invert-accent:   #4FC3B5;   //  7.9:1
 }
 
 @media (prefers-color-scheme: dark) {
