@@ -1,52 +1,58 @@
 <footer class="site-footer">
-  <div class="site-footer__top">
-    <div class="wrapper">
-      <div class="site-footer__content">
-        <div class="site-footer__section site-footer__section--main">
-          <h2 class="site-footer__tagline">Guide to the open source landscape in Australia</h2>
-          <ul class="site-footer__list site-footer__list--secondary">
-            <li><a href="/about">About</a></li>
-            <li><a href="/glossary">What is Open Source?</a></li>
-            <li><a href="/sitemap">Sitemap</a></li>
-          </ul>
-        </div>
+  <div class="site-footer__container">
 
-        <div class="site-footer__section">
-          <ul class="site-footer__list site-footer__list--with-icons">
-            <li>
-              <a href="{{ site.repo_url }}" target="_blank">
-                <svg class="site-footer__icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
-                </svg>
-                Contribute on GitHub
-              </a>
-            </li>
-            <li>
-              <a href="mailto:hello@opensourceaustralia.guide">
-                <svg class="site-footer__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                  <rect x="2" y="4" width="20" height="16" rx="2"/>
-                  <path d="m2 7 10 6 10-6"/>
-                </svg>
-                hello@opensourceaustralia.guide
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div class="site-footer__columns">
 
-        <div class="site-footer__section">
-          <ul class="site-footer__list site-footer__list--secondary">
-            <li><a href="/privacy">Privacy Policy</a></li>
-            <li>Content licensed CC BY 4.0, code licensed MIT.</li>
-            <li>&copy; 2026 Felicity Brand.</li>
-          </ul>
-        </div>
+      <div class="site-footer__brand">
+        <a href="{{ '/' | relative_url }}" class="site-footer__logo" aria-label="Guide to Open Source in Australia, home">
+          {% include logo-footer.svg %}
+        </a>
+        <p class="site-footer__blurb">A curated directory of the </br>          Australian open source ecosystem.</p><p class="site-footer__blurb">Built in the open.</p>
+        <ul class="site-footer__contact">
+          <li>
+            <a href="https://github.com/flicstar/opensourceaustralia-guide">
+              {% include icons/github.svg %}Contribute on GitHub
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
 
-  <div class="site-footer__country">
-    <div class="wrapper">
-      <p>We acknowledge the Traditional Custodians of Country throughout Australia and their connections to land, sea, and community. We pay our respect to their Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples today.</p>
+      <nav class="site-footer__nav" aria-labelledby="footer-nav-heading">
+        <h2 class="site-footer__heading" id="footer-nav-heading">Site</h2>
+        <ul>
+          <li><a href="{{ '/what-is-open-source' | relative_url }}">What is open source?</a></li>
+          <li><a href="{{ '/explore' | relative_url }}">Explore</a></li>
+          <li><a href="{{ '/events' | relative_url }}">Events</a></li>
+          <li><a href="{{ '/glossary' | relative_url }}">Glossary</a></li>
+          <li><a href="{{ '/about' | relative_url }}">About</a></li>
+          <li><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__newsletter">
+        <h2 class="site-footer__heading">Newsletter</h2>
+        
+       <p class="site-footer__badge">Coming soon</p>
+       <ul class="site-footer__contact">
+          <li>
+            <a href="mailto:hello@opensourceaustralia.guide">
+              {% include icons/mail.svg %}hello@opensourceaustralia.guide
+            </a>
+          </li>
+          <li>&NonBreakingSpace;</li>
+          <li class="site-footer__legal">Content: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> | Code: <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</a></li>
+          <li class="site-footer__legal">&copy; {{ site.time | date: "%Y" }} Felicity Brand</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="site-footer__bottom">
+      <p class="site-footer__acknowledgement">
+        This site is made on the unceded lands of the Wurundjeri Woi Wurrung people of the
+        Kulin Nation. Respect is paid to Elders past and present, and to Traditional Owners
+        of Country across Australia.
+      </p>
     </div>
   </div>
 </footer>
