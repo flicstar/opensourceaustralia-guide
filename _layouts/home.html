@@ -4,14 +4,14 @@ layout: default
 
 <div class="home">
   <section class="home-hero">
-    <div class="home-hero__container">
+    <div class="home-hero__container wrapper">
       <h1 class="home-hero__title">{{ page.tagline }}</h1>
       <p class="home-hero__subtitle">{{ page.subtitle }}</p>
     </div>
   </section>
 
   <section class="home-categories">
-    <div class="home-categories__container">
+    <div class="home-categories__container wrapper">
       <div class="home-categories__grid">
         <div class="category-card">
           <div class="category-card__icon">{% include icons/software.svg %}</div>
@@ -42,7 +42,7 @@ layout: default
   </section>
 
   <section class="home-construction">
-    <div class="home-construction__container">
+    <div class="home-construction__container wrapper">
       <img src="/assets/images/under-construction.svg" alt="" width="200" height="147" class="construction-sign">
       <h2>Under construction</h2>
       <p>This site was created in August 2026 and I'm working on filling it out.</p>
@@ -58,12 +58,14 @@ layout: default
   </section>
 
   <section class="home-cta">
-    <div class="home-cta__container">
-      <div class="home-cta__content">
-        <h2 class="home-cta__title">New to all this?</h2>
-        <p class="home-cta__description">Start with what open source actually means, and why it matters here.</p>
+    <div class="home-cta__container wrapper">
+      <div class="home-cta__card">
+        <div class="home-cta__content">
+          <h2 class="home-cta__title">New to all this?</h2>
+          <p class="home-cta__description">Start with what open source actually means, and why it matters here.</p>
+        </div>
+        <a href="/glossary" class="home-cta__button">What is open source?</a>
       </div>
-      <a href="/glossary" class="home-cta__button">What is open source?</a>
     </div>
   </section>
 </div>

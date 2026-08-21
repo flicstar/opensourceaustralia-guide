@@ -13,11 +13,8 @@
 }
 
 .site-footer__container {
-  max-width: $content-width;
-  margin: 0 auto;
-  padding: $spacing-unit $spacing-unit $spacing-unit * 0.75;
+  padding-top: $spacing-unit;
 }
-
 
 /* ---------------------------------------------------------------------------
    Columns

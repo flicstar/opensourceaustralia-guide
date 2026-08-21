@@ -8,13 +8,6 @@
   margin-left: calc(-50vw + 50%);
 }
 
-%band-container {
-  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin: 0 auto;
-  padding: 0 $spacing-unit;
-}
-
-
 /* ---------------------------------------------------------------------------
    Hero section
    --------------------------------------------------------------------------- */
@@ -27,7 +20,6 @@
 }
 
 .home-hero__container {
-  @extend %band-container;
   text-align: center;
 }
 
@@ -58,10 +50,6 @@
   @extend %full-bleed;
   background-color: var(--surface-page);
   padding: $spacing-unit * 1.2 0;
-}
-
-.home-categories__container {
-  @extend %band-container;
 }
 
 .home-categories__grid {
@@ -164,7 +152,6 @@
 }
 
 .home-construction__container {
-  @extend %band-container;
   text-align: center;
 }
 
@@ -223,9 +210,7 @@
   padding: 0 $spacing-unit $spacing-unit * 1.75;
 }
 
-.home-cta__container {
-  max-width: $content-width - ($spacing-unit * 2);
-  margin: 0 auto;
+.home-cta__card {
   background-color: var(--surface-invert);
   border-radius: 12px;
   padding: $spacing-unit * 0.9 $spacing-unit;

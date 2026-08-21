@@ -30,7 +30,9 @@
 }
 
 .site-nav {
+  flex: 1;
   line-height: 1;
+  text-align: right;
 
   .nav-trigger {
     display: none;
