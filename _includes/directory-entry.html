@@ -1,4 +1,4 @@
-{% assign orgs = site.data.category_data["organisations-and-groups"] %}
+{% assign orgs = site.data.category_data["organisations"] %}
 <article class="entry" id="{{ entry.slug }}">
   <h3 class="entry-name">
     <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.name }}</a>
@@ -8,7 +8,7 @@
   {% if entry.run_by and include.show_run_by != false %}
     {% assign org = orgs | where: "slug", entry.run_by | first %}
     {% if org %}
-      <p class="entry-run-by">Run by <a href="/organisations-and-groups#{{ org.slug }}">{{ org.name }}</a></p>
+      <p class="entry-run-by">Run by <a href="/organisations#{{ org.slug }}">{{ org.name }}</a></p>
     {% endif %}
   {% endif %}
   <div class="entry-description">

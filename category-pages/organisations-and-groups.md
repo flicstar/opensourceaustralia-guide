@@ -1,11 +1,11 @@
 ---
 layout: category
-category: organisations-and-groups
+category: organisations
 title: "Organisations and Groups"
-permalink: /organisations-and-groups
+permalink: /organisations
 ---
 
-{% assign entries = site.data.category_data["organisations-and-groups"] %}
+{% assign entries = site.data.category_data["organisations"] %}
 
 Intro prose goes here.
 
