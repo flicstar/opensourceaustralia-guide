@@ -5,7 +5,7 @@ description: The Guide to Open Source in Australia is made by Felicity Brand, a 
 permalink: /about
 ---
 
-<img src="/assets/images/flicstarimage.jpg"
+<img src="/assets/images/flicstarimage.png"
      alt="Cartoon portrait of Felicity Brand"
      width="80" height="80" class="author-photo">
 
