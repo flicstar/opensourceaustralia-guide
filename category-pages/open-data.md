@@ -3,7 +3,6 @@ layout: category
 category: open-data
 title: "Open Data"
 permalink: /open-data
-description: "Australian open data: government portals, civic tech, GLAM collections, research and spatial data."
 ---
 
 {% assign entries = site.data.category_data["open-data"] %}

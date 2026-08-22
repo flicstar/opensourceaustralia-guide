@@ -1,11 +1,21 @@
 ---
 # Government portals
 
+- slug: "australian-bureau-of-statistics"
+  name: "Australian Bureau of Statistics"
+  url: "https://www.abs.gov.au/"
+  type: "government-portals"
+  sort_key: "010"
+  status: "active"
+  description: |
+    Publishes census data, along with the classifications and standards used to
+    collect it. Custom data requests are available for a fee.
+        
 - slug: "data-gov-au"
   name: "data.gov.au"
   url: "https://data.gov.au/"
   type: "government-portals"
-  sort_key: "010"
+  sort_key: "020"
   status: "active"
   description: |
     The central catalogue of Australian open government data. Alongside
@@ -14,16 +24,6 @@
 
     Some state and local material is aggregated here, but each state and
     territory also runs its own portal.
-
-- slug: "australian-bureau-of-statistics"
-  name: "Australian Bureau of Statistics"
-  url: "https://www.abs.gov.au/"
-  type: "government-portals"
-  sort_key: "020"
-  status: "active"
-  description: |
-    Publishes census data, along with the classifications and standards used to
-    collect it. Custom data requests are available for a fee.
 
 - slug: "data-nsw"
   name: "Data.NSW"

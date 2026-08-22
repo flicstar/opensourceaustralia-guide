@@ -3,7 +3,6 @@ layout: category
 category: organisations-and-groups
 title: "Organisations and Groups"
 permalink: /organisations-and-groups
-description: "Australian organisations, foundations and community groups working in open source."
 ---
 
 {% assign entries = site.data.category_data["organisations-and-groups"] %}
