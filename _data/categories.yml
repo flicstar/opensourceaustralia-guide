@@ -3,38 +3,54 @@
   summary: >-
     Open source software in Australia, and the people behind the projects.
   description: >-
-    Australian open source software projects, organisations and communities,
-    from infrastructure and public interest technology to developer tools.
+    Australian open source software projects, from infrastructure and public interest technology to developer tools.
 
 - slug: open-source-hardware
   title: Open Source Hardware
   summary: >-
     Openly licensed hardware designs, makerspaces and repair-friendly devices.
   description: >-
-    Hardware designs that anyone can study, modify and build, along with the
-    makerspaces, repair communities and projects developing them in Australia.
+    Hardware designs that anyone can study, modify and build, along with the makerspaces, repair communities and projects developing them in Australia.
 
 - slug: organisations-and-groups
   title: Organisations & Groups
   summary: >-
+    Australian groups working in open source.
+  description: >-
     Peak bodies, foundations, user groups and communities working with open
     source in Australia.
-  description: >-
-    Australian organisations, foundations and community groups working in open
-    source.
 
-- slug: government-procurement-and-policy
+- slug: government
   title: Government Procurement & Policy
   summary: >-
     How Australian governments build and work with open source.
   description: >-
-    The policies, procurement practices and public sector initiatives shaping
-    how Australian governments build, buy and share technology.
+    The policies, procurement practices and public sector initiatives shaping how Australian governments build, buy and share technology.
 
 - slug: open-data
   title: Open Data
   summary: >-
     Public datasets, civic technology, cultural collections and geospatial data.
   description: >-
-    Australian open data: government portals, civic tech, GLAM collections,
-    research and spatial data.
+    Australian open datasets: government portals, civic tech, GLAM collections, research and spatial data.
+
+- slug: open-apis
+  title: Open APIs
+  summary: >-
+    Public APIs, developer tools and integration platforms.
+  description: >-
+    Australian open APIs: government services, civic tech, and developer resources.
+
+- slug: open-standards
+  title: Open Standards
+  summary: >-
+    Open standards for software, data and interoperability.
+  description: >-
+    Australian open standards for software, data and interoperability, including web, geospatial and research standards.
+
+- slug: open-science
+  title: Open Science
+  summary: >-
+    Open access research, open source tools and open data for science.
+  description: >-
+    Australian open science: open access research, open source tools and open data for science.

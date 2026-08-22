@@ -1,11 +1,11 @@
 ---
 layout: category
-category: open-source-software
-title: Open Source Software
-permalink: /open-source-software
+category: government
+title: Government procurement and policy
+permalink: /government
 ---
 
-{% assign entries = site.data.category_data["open-source-software"] %}
+{% assign entries = site.data.category_data["government"] %}
 
 Intro prose goes here.
 

@@ -1,11 +1,11 @@
 ---
 layout: category
-category: open-source-software
-title: Open Source Software
-permalink: /open-source-software
+category: open-source-hardware
+title: Open Source Hardware
+permalink: /open-source-hardware
 ---
 
-{% assign entries = site.data.category_data["open-source-software"] %}
+{% assign entries = site.data.category_data["open-source-hardware"] %}
 
 Intro prose goes here.
 

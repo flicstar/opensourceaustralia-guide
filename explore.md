@@ -7,5 +7,5 @@ permalink: /explore
 {% for category in site.data.categories %}
 ### [{{ category.title }}]({{ category.slug | prepend: "/" }})
 
-{{ category.summary }}
+{{ category.description }}
 {% endfor %}
