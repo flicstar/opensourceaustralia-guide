@@ -13,33 +13,83 @@ layout: default
   <section class="home-categories">
     <div class="home-categories__container wrapper">
       <div class="home-categories__grid">
-        <div class="category-card">
-          <div class="category-card__icon">{% include icons/software.svg %}</div>
-          <h3 class="category-card__title">Software</h3>
-          <p class="category-card__description">Projects with Australian roots, and the people behind them.</p>
-        </div>
-        <div class="category-card">
-          <div class="category-card__icon">{% include icons/hardware.svg %}</div>
-          <h3 class="category-card__title">Hardware</h3>
-          <p class="category-card__description">Open hardware, makerspaces and repair-friendly devices.</p>
-        </div>
-        <div class="category-card">
-          <div class="category-card__icon">{% include icons/groups.svg %}
+ 
+        <a class="category-card" href="/open-source-software">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/software.svg %}</div>
+            <h3 class="category-card__title">Software</h3>
           </div>
-          <h3 class="category-card__title">Organisations</h3>
-          <p class="category-card__description">The bodies and communities doing the work.</p>
-        </div>
-        <div class="category-card">
-          <div class="category-card__icon">
-            {% include icons/government.svg %}
+          <p class="category-card__description">Projects with Australian roots.</p>
+        </a>
+ 
+        <a class="category-card" href="/open-source-hardware">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/hardware.svg %}</div>
+            <h3 class="category-card__title">Hardware</h3>
           </div>
-          <h3 class="category-card__title">Government</h3>
-          <p class="category-card__description">Procurement rules, policy and open data.</p>
-        </div>
+          <p class="category-card__description">Open devices, and published designs.</p>
+        </a>
+ 
+        <a class="category-card" href="/open-data">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/database.svg %}</div>
+            <h3 class="category-card__title">Open data</h3>
+          </div>
+          <p class="category-card__description">Public datasets you can use.</p>
+        </a>
+ 
+        <a class="category-card" href="/open-standards">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/standards.svg %}</div>
+            <h3 class="category-card__title">Open standards</h3>
+          </div>
+          <p class="category-card__description">Shared rules for interoperable systems.</p>
+        </a>
+ 
+        <a class="category-card" href="/open-apis">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/api.svg %}</div>
+            <h3 class="category-card__title">Open APIs</h3>
+          </div>
+          <p class="category-card__description">Things developers can build on.</p>
+        </a>
+ 
+        <a class="category-card" href="/open-science">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/science.svg %}</div>
+            <h3 class="category-card__title">Open science</h3>
+          </div>
+          <p class="category-card__description">Research anyone can check.</p>
+        </a>
+ 
+        <a class="category-card" href="/government">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/government.svg %}</div>
+            <h3 class="category-card__title">Government</h3>
+          </div>
+          <p class="category-card__description">Procurement rules and policy.</p>
+        </a>
+ 
+        <a class="category-card" href="/organisations">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/groups.svg %}</div>
+            <h3 class="category-card__title">Organisations</h3>
+          </div>
+          <p class="category-card__description">Who's doing the work.</p>
+        </a>
+ 
+        <a class="category-card" href="/events">
+          <div class="category-card__header">
+            <div class="category-card__icon">{% include icons/event.svg %}</div>
+            <h3 class="category-card__title">Events</h3>
+          </div>
+          <p class="category-card__description">Conferences, meetups and hack days.</p>
+        </a>
+ 
       </div>
-      <p class="home-categories__footer"><a href="/explore">Explore all categories</a></p>
     </div>
   </section>
+ 
 
   <section class="home-construction">
     <div class="home-construction__container wrapper">
