@@ -20,7 +20,7 @@
 lang: en-AU
 title: "Guide to Open Source in Australia"
 tagline: "Software, hardware, data and policy"
-description: "A curated directory of Australian open source projects, organisations, policies and events."
+description: "A curated directory of the Australian open source landscape: tools, data, groups, policies and events."
 baseurl: ""
 url: "https://opensourceaustralia.guide"
 author: "Felicity Brand"
