@@ -2,13 +2,13 @@
   name: "OpenAustralia Foundation"
   url: "https://www.openaustraliafoundation.org.au/"
   status: "active"
-  description: "An Australian charity that builds and runs civic tech projects using public government data, including OpenAustralia, They Vote For You, Right To Know, and PlanningAlerts."
+  description: "An Australian charity that builds and runs civic tech projects using public government data."
 
 - slug: "linux-australia"
   name: "Linux Australia"
   url: "https://linux.org.au/"
   status: "active"
-  description: "The peak body for open source communities in Australia. It auspices conferences, events and community projects, holding funds and providing legal and organisational support for volunteer-run activities."
+  description: "The peak body for open source communities in Australasia. It supports conferences, events and community projects, holding funds and providing organisational backing for volunteer-run activities."
 
 - slug: "osgeo-oceania"
   name: "OSGeo Oceania"
@@ -20,10 +20,10 @@
   name: "Electron Workshop"
   url: "https://electronworkshop.org/"
   status: "active"
-  description: "A Melbourne workspace and community hub hosting events on software freedom, privacy, right to repair and internet governance."
+  description: "A peer network connecting community groups, non-profits, and individuals working in the open source and innovation commons space."
 
 - slug: "australian-research-data-commons"
   name: "Australia Research Data Commons (ARDC)"
   url: "https://ardc.edu.au/"
   status: "active"
-  description: "A national research data infrastructure that supports the management, preservation, and sharing of research data across Australian universities and research institutions."
+  description: "A national research data infrastructure facility that supports the management, preservation, and sharing of research data across Australian universities and research institutions."

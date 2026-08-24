@@ -1,7 +1,7 @@
 - slug: open-source-software
   title: Open Source Software
   summary: >-
-    Open source software in Australia, and the people behind the projects.
+    Open source software in Australia.
   description: >-
     Australian open source software projects, from infrastructure and public interest technology to developer tools.
 
@@ -46,7 +46,7 @@
   summary: >-
     Open standards for software, data and interoperability.
   description: >-
-    Australian open standards for software, data and interoperability, including web, geospatial and research standards.
+    Australian open standards for software, data and interoperability.
 
 - slug: open-science
   title: Open Science
