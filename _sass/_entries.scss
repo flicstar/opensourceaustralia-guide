@@ -51,12 +51,9 @@
    The entry
    --------------------------------------------------------------------------- */
 
-.page-with-toc__content > .entry {
-  margin-left: clamp(0.5rem, 1vw, 1rem);
-  padding-left: 0.5rem;
-}
-
 .entry {
+  --entry-indent: 1.5rem;
+  padding-left: var(--entry-indent);
   margin-bottom: 1.25rem;
   scroll-margin-top: 5rem;
 }
@@ -77,6 +74,7 @@
   font-weight: 500;
   line-height: 1.35;
   color: var(--text-heading);
+  margin-left: calc(var(--entry-indent) * -1);
   margin-bottom: 0.2rem;
 
  a {
