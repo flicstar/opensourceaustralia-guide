@@ -7,7 +7,7 @@ permalink: /government
 
 {% assign entries = site.data.category_data["government"] %}
 
-Intro prose goes here.
+Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"} file to see what I've captured so far, and let me know what I've missed.
 
 {% assign group = entries | sort_natural: "slug" %}
 {% for entry in group %}
