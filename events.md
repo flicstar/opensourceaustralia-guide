@@ -7,9 +7,9 @@ description: "Conferences, meetups and community events for open source in Austr
 
 {% assign events = site.data.events %}
 
-Open source events in Australia: conferences, meetups, hackathons and community gatherings.
+<div class="category-summary">Australia has open source events ranging from national conferences to free monthly meetups. Check the organiser's site for current information.</div>
 
-Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"} file to see what I've captured so far, and let me know what I've missed.
+🙋‍♀️ Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"} file to see what I've captured so far, and let me know what I've missed.
 
 ## Conferences
 

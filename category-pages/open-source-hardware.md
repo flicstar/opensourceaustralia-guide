@@ -1,7 +1,7 @@
 ---
 layout: category
 category: open-source-hardware
-title: Open Source Hardware
+title: Open source hardware
 permalink: /open-source-hardware
 ---
 

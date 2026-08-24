@@ -1,0 +1,123 @@
+---
+
+# Research data collections
+
+- slug: "atlas-of-living-australia"
+  name: "Atlas of Living Australia"
+  url: "https://www.ala.org.au/"
+  type: "research-data-collection"
+  sort_key: "010"
+  status: "active"
+  description: |
+    Open digital infrastructure that brings Australian biodiversity data
+    together from many sources into one accessible, reusable collection.
+
+    The ALA is the Australian node and a full voting member of the Global
+    Biodiversity Information Facility.
+
+- slug: "aurin"
+  name: "AURIN data catalogue"
+  url: "https://aurin.org.au/"
+  type: "research-data-collection"
+  sort_key: "020"
+  status: "active"
+  description: |
+    The Australian Urban Research Infrastructure Network. Provides integrated
+    access to health, transport, housing, economic, land use and demographic
+    data for urban, regional and social science research.
+  
+- slug: "australian-ocean-data-network"
+  name: "Australian Ocean Data Network portal"
+  url: "https://portal.aodn.org.au/"
+  type: "research-data-collection"
+  sort_key: "030"
+  status: "active"
+  description: |
+    Australian marine and climate science data, and the main access point for
+    data and metadata from the Integrated Marine Observing System.
+
+    A rebuilt version of the portal is in beta at
+    [portal-beta.aodn.org.au](https://portal-beta.aodn.org.au/).
+   
+- slug: "csiro-data-access-portal"
+  name: "CSIRO Data Access Portal"
+  url: "https://data.csiro.au/"
+  type: "research-data-collection"
+  sort_key: "040"
+  status: "active"
+  description: "Research data, software and other digital assets from Australia's national science agency, across a range of disciplines."
+
+
+- slug: "soil-and-landscape-grid-of-australia"
+  name: "Soil and Landscape Grid of Australia"
+  url: "https://esoil.io/TERNLandscapes/Public/Pages/SLGA/" # [CHECK]
+  type: "research-data-collection"
+  sort_key: "050"
+  status: "active"
+  description: "Consistent, nation-wide soil and landscape attribute data in a downloadable format."   
+
+- slug: "tern-data-discovery-portal"
+  name: "TERN Data Discovery Portal"
+  url: "https://portal.tern.org.au/"
+  type: "research-data-collection"
+  sort_key: "060"
+  status: "active"
+  description: |
+    Environmental monitoring data from TERN, Australia's ecosystem
+    observatory. Search geographically, then browse, query and extract.
+
+    The data supports terrestrial and coastal ecosystem science and
+    environmental management.
+
+
+# Finding research data
+
+- slug: "australian-research-data-commons"
+  name: "Australian Research Data Commons"
+  url: "https://ardc.edu.au/"
+  type: "finding-research"
+  sort_key: "010"
+  status: "active"
+  description: |
+    National digital research infrastructure that helps Australian researchers
+    find, manage, analyse and share research data across all disciplines.
+
+- slug: "open-access-australasia"
+  name: "Open Access Australasia"
+  url: "https://oaaustralasia.org/"
+  type: "finding-research"
+  sort_key: "020"
+  status: "active"
+  description: |
+    Publishes a list of open repositories across the region, including the open
+    access repository of every major Australian university.
+
+    This is an index of repositories, not a repository itself.
+
+- slug: "research-data-australia"
+  name: "Research Data Australia"
+  url: "https://researchdata.edu.au/"
+  type: "finding-research"
+  sort_key: "030"
+  status: "active"
+  description: |
+    A search portal covering data, projects, researchers and data services from
+    more than a hundred Australian research organisations, government agencies
+    and cultural institutions. Most datasets are accessible online.
+
+    The portal holds descriptions of and links to data. The data itself stays
+    with the publishing organisation.
+
+- slug: "research-infrastructure-connected"
+  name: "Research Infrastructure Connected"
+  url: "https://riconnected.org.au/"
+  type: "finding-research"
+  sort_key: "040"
+  status: "active"
+  description: |
+    A searchable index of the national research infrastructure supported by the
+    National Collaborative Research Infrastructure Strategy, connecting
+    researchers to the facilities and services they need.
+
+
+

@@ -1,7 +1,7 @@
 ---
 layout: category
 category: organisations
-title: "Organisations and Groups"
+title: "Organisations and groups"
 permalink: /organisations
 ---
 

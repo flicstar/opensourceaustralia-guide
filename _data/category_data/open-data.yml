@@ -171,58 +171,13 @@
     Compiled by iMOVE Australia, a federally funded not-for-profit. This is an
     index of sources, not a data source itself.
 
-# Sciences and geospatial
-
-- slug: "atlas-of-living-australia"
-  name: "Atlas of Living Australia"
-  url: "https://www.ala.org.au/"
-  type: "sciences-geospatial"
-  sort_key: "010"
-  status: "active"
-  description: |
-    Open digital infrastructure that brings Australian biodiversity data
-    together from many sources into one accessible, reusable collection.
-
-    The ALA is the Australian node and a full voting member of the Global
-    Biodiversity Information Facility.
-
-- slug: "aurin"
-  name: "AURIN data catalogue"
-  url: "https://aurin.org.au/"
-  type: "sciences-geospatial"
-  sort_key: "020"
-  status: "active"
-  description: |
-    The Australian Urban Research Infrastructure Network. Provides integrated
-    access to health, transport, housing, economic, land use and demographic
-    data for urban, regional and social science research.
-
-- slug: "australian-ocean-data-network"
-  name: "Australian Ocean Data Network portal"
-  url: "https://portal.aodn.org.au/"
-  type: "sciences-geospatial"
-  sort_key: "030"
-  status: "active"
-  description: |
-    Australian marine and climate science data, and the main access point for
-    data and metadata from the Integrated Marine Observing System.
-
-    A rebuilt version of the portal is in beta at
-    [portal-beta.aodn.org.au](https://portal-beta.aodn.org.au/).
-
-- slug: "csiro-data-access-portal"
-  name: "CSIRO Data Access Portal"
-  url: "https://data.csiro.au/"
-  type: "sciences-geospatial"
-  sort_key: "040"
-  status: "active"
-  description: "Research data, software and other digital assets from Australia's national science agency, across a range of disciplines."
+# Geospatial and mapping
 
 - slug: "elvis"
   name: "Elvis elevation and depth"
   url: "https://elevation.fsdf.org.au/" # [CHECK]
-  type: "sciences-geospatial"
-  sort_key: "050"
+  type: "geospatial-and-mapping"
+  sort_key: "010"
   status: "active"
   description: |
     Australian elevation and bathymetry data, searchable by area of interest.
@@ -235,8 +190,8 @@
 - slug: "geoscience-australia-portal"
   name: "Geoscience Australia Portal"
   url: "https://portal.ga.gov.au/"
-  type: "sciences-geospatial"
-  sort_key: "060"
+  type: "geospatial-and-mapping"
+  sort_key: "020"
   status: "active"
   description: |
     Geoscientific data, maps and tools covering Australian resources, geology,
@@ -248,90 +203,21 @@
 - slug: "openstreetmap-australian-data-sources"
   name: "OpenStreetMap Australian data sources"
   url: "https://wiki.openstreetmap.org/wiki/Australian_Data_Sources"
-  type: "sciences-geospatial"
-  sort_key: "070"
+  type: "geospatial-and-mapping"
+  sort_key: "030"
   status: "active"
   description: |
     A wiki page listing the open datasets that Australian OpenStreetMap
     contributors are permitted to use, along with the import catalogue and the
     state mapping projects.
 
-- slug: "soil-and-landscape-grid-of-australia"
-  name: "Soil and Landscape Grid of Australia"
-  url: "https://esoil.io/TERNLandscapes/Public/Pages/SLGA/" # [CHECK]
-  type: "sciences-geospatial"
-  sort_key: "080"
-  status: "active"
-  description: "Consistent, nation-wide soil and landscape attribute data in a downloadable format."
-
-- slug: "tern-data-discovery-portal"
-  name: "TERN Data Discovery Portal"
-  url: "https://portal.tern.org.au/"
-  type: "sciences-geospatial"
-  sort_key: "090"
-  status: "active"
-  description: |
-    Environmental monitoring data from TERN, Australia's ecosystem
-    observatory. Search geographically, then browse, query and extract.
-
-    The data supports terrestrial and coastal ecosystem science and
-    environmental management.
-
-# Research data and open access
-
-- slug: "australian-research-data-commons"
-  name: "Australian Research Data Commons"
-  url: "https://ardc.edu.au/"
-  type: "research-data"
-  sort_key: "010"
-  status: "active"
-  description: |
-    National digital research infrastructure that helps Australian researchers
-    find, manage, analyse and share research data across all disciplines.
-
-- slug: "research-data-australia"
-  name: "Research Data Australia"
-  url: "https://researchdata.edu.au/"
-  type: "research-data"
-  sort_key: "020"
-  status: "active"
-  run_by: "australian-research-data-commons"
-  description: |
-    A search portal covering data, projects, researchers and data services from
-    more than a hundred Australian research organisations, government agencies
-    and cultural institutions. Most datasets are accessible online.
-
-    The portal holds descriptions of and links to data. The data itself stays
-    with the publishing organisation.
-
-- slug: "research-infrastructure-connected"
-  name: "Research Infrastructure Connected"
-  url: "https://riconnected.org.au/"
-  type: "research-data"
-  sort_key: "030"
-  status: "active"
-  description: |
-    A searchable index of the national research infrastructure supported by the
-    National Collaborative Research Infrastructure Strategy, connecting
-    researchers to the facilities and services they need.
-
-- slug: "open-access-australasia"
-  name: "Open Access Australasia"
-  url: "https://oaaustralasia.org/"
-  type: "research-data"
-  sort_key: "040"
-  status: "active"
-  description: |
-    Publishes a list of open repositories across the region, including the open
-    access repository of every major Australian university.
-
-    This is an index of repositories, not a repository itself.
+# Energy
 
 - slug: "open-electricity-platform"
   name: "Open electricity platform"
   url: "https://platform.openelectricity.org.au/"
-  type: "research-data"
-  sort_key: "050"
+  type: "energy"
+  sort_key: "010"
   status: "active"
   description: |
         Access real-time and historical energy data from across Australia's electricity grid.

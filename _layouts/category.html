@@ -13,23 +13,6 @@ layout: default
   <div class="page-with-toc">
     <aside class="page-sidebar">
       {% include toc.html %}
-
-      {% assign category_event_tag = page.category | replace: "open-source-", "open-" %}
-      {% assign category_title = category.title %}
-      {% assign tagged = site.data.events | where_exp: "e", "e.tags contains category_event_tag" | sort_natural: "sort_key" %}
-      {% if tagged.size > 0 %}
-        <section class="page-events" aria-labelledby="page-events-heading">
-          <h2 class="page-events__heading" id="page-events-heading">{{ category_title }} events</h2>
-          <ul class="page-events__list">
-            {% for entry in tagged %}
-              <li class="page-events__item">
-                <h3 class="page-events__name"><a href="{{ '/events#' | append: entry.slug | relative_url }}">{{ entry.name }}</a></h3>
-                <p class="page-events__summary">{{ entry.summary }}</p>
-              </li>
-            {% endfor %}
-          </ul>
-        </section>
-      {% endif %}
     </aside>
 
     <div class="page-with-toc__content">

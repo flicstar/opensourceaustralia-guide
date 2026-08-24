@@ -15,9 +15,9 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. A b
 
 ## Open hardware
 
-## Open data, open access
+## Open data
 
-Check out the [Open Data](https://opensourceaustralia.guide/open-data) page. What have I missed?
+Check out the [Open data](https://opensourceaustralia.guide/open-data) page. What have I missed?
 
 ## Open standards
 
@@ -51,6 +51,8 @@ Check out the [Open Data](https://opensourceaustralia.guide/open-data) page. Wha
 - [Open Electricity REST API](https://docs.openelectricity.org.au/api-reference/overview/) - Australian Electricity Market Data 
 
 ## Open science
+
+Check out the [Open science](https://opensourceaustralia.guide/open-science) page. What have I missed?
 
 ## Organisations and groups
 

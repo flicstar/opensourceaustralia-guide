@@ -1,7 +1,7 @@
 ---
 layout: category
 category: open-source-software
-title: Open Source Software
+title: Open source software
 permalink: /open-source-software
 ---
 

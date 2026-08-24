@@ -1,7 +1,7 @@
 ---
 layout: category
 category: open-standards
-title: Open Standards
+title: Open standards
 permalink: /open-standards
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: category
 category: open-data
-title: "Open Data"
+title: "Open data"
 permalink: /open-data
 ---
 
@@ -52,7 +52,7 @@ civic tech sector is small. Much of it runs on volunteer time and donations.
 
 GLAM stands for Galleries, Libraries, Archives and Museums. Open GLAM is a
 movement for free and open access to digital cultural heritage: the collections,
-catalogues and digitised material that these institutions hold.
+catalogues and digitised material that these institutions hold. Open GLAM enables humanities research using cultural collections.
 
 {% assign group = entries | where: "type", "glam" | sort_natural: "sort_key" %}
 {% for entry in group %}
@@ -70,7 +70,7 @@ transit data.
   {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
 
-## Sciences and geospatial
+## Geospatial and mapping
  
 Spatial data is any information with a location attached to it, describing where
 something is and what shape and size it takes. You use geographic information
@@ -78,21 +78,16 @@ systems (GIS) and other specialised software to view and analyse it. Australia's
 science agencies and research infrastructure programs publish theirs openly, along
 with biodiversity, marine, soil and elevation data.
 
-{% assign group = entries | where: "type", "sciences-geospatial" | sort_natural: "sort_key" %}
+{% assign group = entries | where: "type", "geospatial-and-mapping" | sort_natural: "sort_key" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
 
-## Research data and open access
- 
-Open access means published research that anyone can read without paying for it.
-Open research data is the material behind those publications. Australian
-universities each run their own repository, and national infrastructure connects
-them. For the history of how open access developed here, see
-[Open access in Australia](https://en.wikipedia.org/wiki/Open_access_in_Australia)
-on Wikipedia.
+## Energy
 
-{% assign group = entries | where: "type", "research-data" | sort_natural: "sort_key" %}
+blurb
+
+{% assign group = entries | where: "type", "energy" | sort_natural: "sort_key" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry show_run_by=false %}
 {% endfor %}
