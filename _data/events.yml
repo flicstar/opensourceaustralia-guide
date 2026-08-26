@@ -1,3 +1,7 @@
+---
+
+# Conferences
+
 - slug: "everything-open"
   name: "Everything Open"
   url: "https://everythingopen.au"
@@ -10,8 +14,8 @@
   description: |
     Australia's main conference for open technologies. Across three days it covers open source software, open hardware, open data, open government, the GLAM sector, and open communities. This is an annual conference, and is volunteer-run.
 
-    Born out of linux.conf.au, the premier Linux and open source conference for Australia and New Zealand from 1999 to 2022, Everything Open started in 2023 to broaden those connections beyond Linux. 
-    
+    Born out of linux.conf.au, the premier Linux and open source conference for Australia and New Zealand from 1999 to 2022, Everything Open started in 2023 to broaden those connections beyond Linux.
+
     Sessions from past events are available to watch on the [Everything Open YouTube channel](https://www.youtube.com/@EverythingOpen).
 
 - slug: "foss4g-sotm-oceania"
@@ -55,6 +59,147 @@
 
     Sessions from past events are available to watch on the [DrupalSouth YouTube channel](https://www.youtube.com/user/DrupalSouth).
 
+- slug: "auigf"
+  name: "auIGF"
+  url: "https://auigf.au"
+  type: "conferences"
+  status: "active"
+  run_by: "auda"
+  tags:
+    - "internet-governance"
+  summary: "The annual Australian forum on internet public policy."
+  description: |
+    The Australian Internet Governance Forum is an annual gathering where people from government, industry, civil society, academia and the technical community discuss public policy questions about the internet in Australia. It is modelled on the global Internet Governance Forum and uses the same multi-stakeholder approach, meaning no single sector sets the agenda.
+
+    The programme is built from session proposals submitted by the community. Recent programmes have covered digital trust, online safety, AI, infrastructure, participation and resilience. The forum is volunteer-run, with secretariat support from auDA, the administrator of the .au domain. It was previously called NetThing.
+
+- slug: "rsaa"
+  name: "Research Software Asia Australia Conference"
+  url: "https://rseaa.org/"
+  type: "conferences"
+  status: "active"
+  tags:
+    - "open-science"
+    - "open-software"
+  summary: "An online conference for people who build and maintain research software."
+  description: |
+    An annual online conference for research software engineers, meaning people who combine programming and research skills. That includes researchers who code, people who train others to work on high performance computing and cloud systems, and software engineers working inside the research domain.
+
+    The programme covers making research software more visible and easier to use, scaling research workflows, and the career recognition problems that come with an ill-defined role. It runs as a joint partnership between the RSE Asia Association and the RSE Association of Australia and New Zealand. The conference is online, which keeps it accessible across the region, and it offers scholarships and micro-grants to help people take part.
+
+    Programmes and recordings from past years are linked from the conference site.
+
+- slug: "australian-repair-summit"
+  name: "Australian Repair Summit"
+  url: "https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network"
+  type: "conferences"
+  status: "active"
+  run_by: "australian-repair-network"
+  tags:
+    - "right-to-repair"
+    - "open-hardware"
+  summary: "A one-day gathering on the right to repair the things you own."
+  description: |
+    A one-day gathering that brings repair businesses, consumer advocates, researchers, industry bodies and government together to discuss the right to repair. That is the question of whether you can get the things you own fixed by a repairer of your choosing, rather than being locked into the manufacturer.
+
+    Sessions have covered competition and consumer law, product labelling, and the environmental case for repair. Government ministers have spoken at several editions. The first summit was held in 2021.
+
+- slug: "eresearch-australasia"
+  name: "eResearch Australasia"
+  url: "https://conference.eresearch.edu.au"
+  type: "conferences"
+  status: "active"
+  run_by: "aero"
+  tags:
+    - "open-data"
+    - "open-science"
+  summary: "The regional conference for the people and infrastructure behind digital research."
+  description: |
+    The main regional conference for the people and infrastructure behind digital research: data specialists, research software engineers, librarians, technologists, policy makers and industry partners. This is an institutional event rather than a community-run one, and universities, national research infrastructure and funding bodies attend.
+
+    The conference is broader than open source, but open source tools, open data and reproducible research methods feature throughout.
+
+- slug: "joomladay-australia"
+  name: "JoomlaDay Australia"
+  url: "https://linux.org.au/joomladay/"
+  type: "conferences"
+  status: "inactive"
+  run_by: "linux-australia"
+  tags:
+    - "open-software"
+  summary: "A community event for users of the Joomla content management system."
+  description: |
+    A community event for users of Joomla, an open source content management system for building websites. JoomlaDay Australia has run irregularly, with long gaps between editions. Joomla has a smaller user base in Australia than WordPress or Drupal, and its Australian events have been correspondingly sporadic.
+
+- slug: "kubernetes-community-days-australia"
+  name: "Kubernetes Community Days Australia"
+  url: "https://community.cncf.io/kcd-australia/"
+  type: "conferences"
+  status: "active"
+  tags:
+    - "open-software"
+  summary: "Community-run conferences on Kubernetes and cloud native technology."
+  description: |
+    Community-run conferences on Kubernetes and cloud native technology, organised under the Cloud Native Computing Foundation. Australian editions have been held in Sydney and Melbourne.
+
+- slug: "linux-conf-au"
+  name: "linux.conf.au"
+  url: "https://linux.org.au/linux-conf-au/"
+  type: "conferences"
+  status: "inactive"
+  run_by: "linux-australia"
+  tags:
+    - "open-software"
+  summary: "The premier Linux and open source conference for Australia and New Zealand from 1999 to 2022."
+  description: |
+    linux.conf.au, usually shortened to LCA, was the premier Linux and open source conference for Australia and New Zealand for over two decades. It ran nearly every year from 1999 to 2022, moving to a different city each time, and regularly drew more than 600 delegates. It was entirely volunteer-run.
+
+    The format spanned five days: two days of miniconfs, which were special-interest tracks, followed by three days of main-conference talks. It began as CALU, the Conference of Australian Linux Users, held at Monash University in Melbourne in 1999, and was renamed linux.conf.au in 2001. The 2021 and 2022 editions ran online, and the conference was succeeded by Everything Open in 2023.
+
+    Recordings of talks going back years remain publicly available.
+
+- slug: "resbaz"
+  name: "ResBaz"
+  url: "https://github.com/resbaz"
+  type: "conferences"
+  status: "active"
+  tags:
+    - "open-science"
+    - "open-data"
+  summary: "A three-day festival of digital research skills."
+  description: |
+    Research Bazaar, known as ResBaz, is a three-day festival of digital research skills. Researchers from any discipline learn practical tools and techniques including programming, data analysis, reproducible workflows, open science and research communication. It is highly participatory, with talks, networking and a deliberately social programme alongside the training.
+
+    ResBaz is pitched at all levels, and is free or low-cost by design. PhD candidates and early career researchers are especially encouraged. It is an Australian invention that went global, starting at the University of Melbourne in 2015. It now runs as separate state-based editions, each with its own volunteer organising committee and website. Teaching materials from past events are published openly on GitHub.
+
+- slug: "osdc"
+  name: "OSDC"
+  url: "https://en.wikipedia.org/wiki/Open_Source_Developers%27_Conference"
+  type: "conferences"
+  status: "inactive"
+  tags:
+    - "open-software"
+  summary: "A not-for-profit conference for open source developers in Australasia."
+  description: |
+    The Open Source Developers' Conference was a not-for-profit conference for open source developers in Australasia, organised around programming languages and tools rather than around Linux specifically. Talks covered Perl, Python, PHP, Ruby and Java, along with open source databases and version control systems.
+
+    Founded in Melbourne in 2004, the event was initially intended as a Perl conference, but broadened to take in PHP and Python. The model spread, spawning sibling conferences in Israel, Taiwan, Malaysia, France and Norway. No OSDC has been held since 2015, and the association behind it merged into Linux Australia.
+
+- slug: "wordcamps-australia"
+  name: "WordCamps Australia"
+  url: "https://wpaustralia.org/events/"
+  type: "conferences"
+  status: "active"
+  run_by: "linux-australia"
+  tags:
+    - "open-software"
+  summary: "Community conferences about WordPress, held in cities around Australia."
+  description: |
+    Community conferences about WordPress, the open source software behind a large share of the world's websites. They usually run over two days on a weekend. Each one is organised locally, so the host city changes, and they cater to everyone from complete beginners through to professional developers.
+
+    Alongside the WordCamps, local WordPress meetup groups run every month in most capital cities and a few regional centres. These are informal, usually free, and welcome attendees at any level of experience.
+
+# Hackathons
 
 - slug: "govhack"
   name: "GovHack"
@@ -85,6 +230,8 @@
 
     According to Linux Australia, [HealthHack is currently on hiatus](https://linux.org.au/healthhack/) pending a volunteer team to carry it forward. Code from past projects can be found in the [HealthHack Australia repository](https://github.com/HealthHackAustralia/HealthHackAustralia/blob/master/README.md) on GitHub.
 
+# Regular gatherings
+
 - slug: "electron-workshop"
   name: "Electron Workshop"
   url: "https://electronworkshop.org/calendar/"
@@ -95,4 +242,117 @@
     - "everything-open"
   summary:  "A recurring program of gatherings in Melbourne and online."
   description: |
-    A recurring program of gatherings in Melbourne and online, spanning software freedom, open source, privacy, right to repair, cooperatives and internet governance. Formats include un-forum sessions, chainferences (satellite gatherings held in conjunction with a main conference) and fortnightly sprints. 
+    A recurring program of gatherings in Melbourne and online, spanning software freedom, open source, privacy, right to repair, cooperatives and internet governance. Formats include un-forum sessions, chainferences (satellite gatherings held in conjunction with a main conference) and fortnightly sprints.
+
+- slug: "flounder"
+  name: "Flounder"
+  url: "https://flounder.linux.org.au/"
+  type: "regular-gatherings"
+  status: "active"
+  tags:
+    - "open-software"
+  summary: "An online meeting group for free software users in Australia and New Zealand."
+  description: |
+    Flounder, short for FLOSS Down Under, is an online meeting group for free software users across Australia and New Zealand. Meetings run as open discussion rather than a talks programme, covering whatever members are working on, and the group has also held hack days. Because it is online only, it suits people outside the capital cities where most user groups meet.
+
+    Summaries of past meetings are published on the site, and the group has a mailing list hosted by Linux Australia.
+
+- slug: "homelab-brisbane"
+  name: "Homelab Brisbane"
+  url: "https://homelabbrisbane.com.au/"
+  type: "regular-gatherings"
+  status: "active"
+  tags:
+    - "open-software"
+    - "open-hardware"
+  summary: "A Brisbane group for people running their own hardware at home."
+  description: |
+    A Brisbane group for tech enthusiasts who run their own hardware at home. They meet online every month and in person once a month at a library meeting room, moving the venue around the city. The group runs its own Jitsi server for the online meetings and its own Discourse forum for discussion between them.
+
+- slug: "rust-sydney"
+  name: "Rust Sydney"
+  url: "https://github.com/RustAU/Sydney"
+  type: "regular-gatherings"
+  status: "active"
+  tags:
+    - "open-software"
+  summary: "A Sydney meetup for people working with the Rust programming language."
+  description: |
+    A Sydney meetup for people working with Rust, an open source systems programming language. Meetups run as a series of short talks followed by the pub, and cover everything from embedded work and compilers to games and audio. Sessions are streamed and recorded, and slides are published in the group's GitHub repository.
+
+    Meetups happen a few times a year rather than monthly. Dates are announced on GitHub, on Meetup and in the RustAU Discord.
+
+- slug: "geogeeks"
+  name: "GeoGeeks"
+  url: "https://geogeeks.org/"
+  type: "regular-gatherings"
+  status: "active"
+  tags:
+    - "open-software"
+    - "open-data"
+  summary: "A Perth meetup group for open geospatial software and mapping."
+  description: |
+    A Perth meetup group for people working with open geospatial software and data. Topics include QGIS, PostGIS, OpenStreetMap and geospatial Python. Events include guest speakers, mapathons and technical workshops, and are open to anyone.
+
+- slug: "humbug"
+  name: "HUMBUG"
+  url: "https://www.humbug.org.au/"
+  type: "regular-gatherings"
+  status: "active"
+  tags:
+    - "open-software"
+  summary: "A Brisbane computer club focused on Unix-like operating systems and open source software."
+  description: |
+    Home Unix Machine Brisbane User Group, better known as HUMBUG, is a Brisbane computer club for people interested in Unix and Unix-like operating systems and open source software. It is one of the longer-running community groups of its kind in Australia.
+
+- slug: "laravel-perth"
+  name: "Laravel Perth"
+  url: "https://laravelperth.au/"
+  type: "regular-gatherings"
+  status: "active"
+  tags:
+    - "open-software"
+  summary: "A Perth meetup group for developers using the Laravel PHP framework."
+  description: |
+    A Perth meetup group for developers using Laravel, an open source web application framework written in PHP. Meetups cover tools and techniques in Laravel development, and the group is aimed at connecting PHP developers in Western Australia.
+
+- slug: "linux-user-groups"
+  name: "Linux user groups"
+  url: "https://linux.org.au/lugs/"
+  type: "regular-gatherings"
+  status: "active"
+  tags:
+    - "open-software"
+  summary: "Local groups for people interested in Linux and open source software."
+  description: |
+    Linux user groups, or LUGs, are local groups for people interested in Linux and open source software. They hold meetings, provide education and community support, and sometimes run events like installfests and Software Freedom Day. Most are free or very cheap to attend and welcome people with no experience.
+
+    Linux Australia maintains a list of Australian LUGs, organised by state, with contact details for each. Groups form and fold over time, so that list is the best place to check what is currently running near you.
+
+# Community celebration days
+
+- slug: "hardware-freedom-day"
+  name: "Hardware Freedom Day"
+  url: "https://linuxvictoria.org"
+  type: "community-celebration-days"
+  status: "active"
+  run_by: "linux-victoria"
+  tags:
+    - "open-hardware"
+  summary: "A community celebration of open hardware designs."
+  description: |
+    A community celebration of designs for physical things that anyone can study, build on and modify. It is a small, community-scale gathering rather than a conference. Australia has few events dedicated specifically to open source hardware, and this is one of them.
+
+- slug: "software-freedom-day"
+  name: "Software Freedom Day"
+  url: "https://sfd.org.au"
+  type: "community-celebration-days"
+  status: "active"
+  run_by: "linux-victoria"
+  tags:
+    - "open-software"
+  summary: "An annual celebration of free and open source software, held each September."
+  description: |
+    Software Freedom Day is an international celebration of free and open source software held each September. The Australian celebration is a free hybrid event that explicitly welcomes newcomers, with lightning talks from the community and a mix of in-person and online attendance.
+
+    The emphasis sits on the ethical side of open source, meaning the freedoms to use, study, share and modify software, rather than on any particular technology. Australia has celebrated it every year since 2004, which makes it one of the longest-running open source community events in the country. Talks from past years are archived at [past.sfd.org.au](https://past.sfd.org.au).

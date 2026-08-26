@@ -10,8 +10,8 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. A b
 
 ## Open source software (FOSS)
 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 
 ## Open hardware
 
@@ -21,34 +21,34 @@ Check out the [Open data](https://opensourceaustralia.guide/open-data) page. Wha
 
 ## Open standards
 
-* [api.gov.au](https://api.gov.au/) - Design Standards for Whole of Australian Government (WoG) Application Programming Interfaces (API)s. 
-* [Consumer Data Standards](https://dsb.gov.au/consumer-data-right/data-standards) - the technical specs under CDR. The [Data Standards Body](https://dsb.gov.au/).  
-* [PINT A-NZ Specifications (OpenPeppol)](https://docs.peppol.eu/poac/aunz/) replaced [A-NZ BIS Billing 3.0](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0)  
-* [AU Core FHIR](https://github.com/hl7au/au-fhir-core) 
-* [METEOR](https://meteor.aihw.gov.au/)   
-* [ANZLIC metadata profile](https://www.anzlic.gov.au/resources/asnzs-iso-1911512015-metadata) 
-* [RO-Crate](https://www.researchobject.org/ro-crate/)  
-* [CAP-AU-STD](https://www.bom.gov.au/metadata/CAP-AU/Spec.shtml) 
-* [SNOMED CT-AU and Australian Medicines Terminology](https://www.healthterminologies.gov.au/)  
+* [api.gov.au](https://api.gov.au/) - Design Standards for Whole of Australian Government (WoG) Application Programming Interfaces (API)s.
+* [Consumer Data Standards](https://dsb.gov.au/consumer-data-right/data-standards) - the technical specs under CDR. The [Data Standards Body](https://dsb.gov.au/).
+* [PINT A-NZ Specifications (OpenPeppol)](https://docs.peppol.eu/poac/aunz/) replaced [A-NZ BIS Billing 3.0](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0)
+* [AU Core FHIR](https://github.com/hl7au/au-fhir-core)
+* [METEOR](https://meteor.aihw.gov.au/)
+* [ANZLIC metadata profile](https://www.anzlic.gov.au/resources/asnzs-iso-1911512015-metadata)
+* [RO-Crate](https://www.researchobject.org/ro-crate/)
+* [CAP-AU-STD](https://www.bom.gov.au/metadata/CAP-AU/Spec.shtml)
+* [SNOMED CT-AU and Australian Medicines Terminology](https://www.healthterminologies.gov.au/)
 * [Australian Access Federation](https://aaf.edu.au/)
 * [AGRkMS](https://www.naa.gov.au/information-management/standards/australian-government-recordkeeping-metadata-standard)
-* [AGLS Metadata Standard (AS 5044\)](https://webarchive.nla.gov.au/awa/20230802044920/https://agls.gov.au/) - decommissioned  
+* [AGLS Metadata Standard (AS 5044\)](https://webarchive.nla.gov.au/awa/20230802044920/https://agls.gov.au/) - decommissioned
 * [Standards Australia](https://www.standards.org.au/) - national standards body. Most AS standards sit behind a paywall.
 
 ## Open APIs
 
-- [api.gov.au API list](https://api.gov.au/apis) - federal, state and territory APIs in one catalogue   
-- [Developer Victoria API catalogue](https://www.developer.vic.gov.au/api-catalogue)  
+- [api.gov.au API list](https://api.gov.au/apis) - federal, state and territory APIs in one catalogue
+- [Developer Victoria API catalogue](https://www.developer.vic.gov.au/api-catalogue)
 - [IP Australia APIs](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/apis)
-- [Consumer Data Right](https://www.cdr.gov.au/). Technical specs at [Data Standards Body](https://dsb.gov.au/consumer-data-right/data-standards)  
+- [Consumer Data Right](https://www.cdr.gov.au/). Technical specs at [Data Standards Body](https://dsb.gov.au/consumer-data-right/data-standards)
 - [Magda](https://magda.io/) - data catalog system (possibly doesn't belong in this section)
-- [ABS Data API](https://api.data.abs.gov.au/)  
-- [ABN Lookup web services](https://abr.business.gov.au/Tools/WebServices)  
-- [Trove API](https://trove.nla.gov.au/about/create-something/using-api)  
-- [Transport for NSW Open Data Hub](https://opendata.transport.nsw.gov.au/)  
-- [Bureau of Meteorology](http://www.bom.gov.au/)   
-- [METEOR API](https://meteor.aihw.gov.au/content/811642)  
-- [Open Electricity REST API](https://docs.openelectricity.org.au/api-reference/overview/) - Australian Electricity Market Data 
+- [ABS Data API](https://api.data.abs.gov.au/)
+- [ABN Lookup web services](https://abr.business.gov.au/Tools/WebServices)
+- [Trove API](https://trove.nla.gov.au/about/create-something/using-api)
+- [Transport for NSW Open Data Hub](https://opendata.transport.nsw.gov.au/)
+- [Bureau of Meteorology](http://www.bom.gov.au/)
+- [METEOR API](https://meteor.aihw.gov.au/content/811642)
+- [Open Electricity REST API](https://docs.openelectricity.org.au/api-reference/overview/) - Australian Electricity Market Data
 
 ## Open science
 
@@ -68,7 +68,7 @@ Check out the [Open science](https://opensourceaustralia.guide/open-science) pag
 - [Tech guilds](https://techguilds.au/)
 - [Electron workshop](https://electronworkshop.org/)
 - [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet society
-- [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/) 
+- [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/)
 - [OpenSI](https://opensi.net/)
 - [Linux Australia](https://linux.org.au/)
 - [Free software australia](https://freesoftware.org.au/)
@@ -80,12 +80,20 @@ Check out the [Open science](https://opensourceaustralia.guide/open-science) pag
 - [Australian Integrity Advocacy Organisations](https://www.accountabilityrt.org/australian-integrity-advocacy-organisations/)
 - [Australian Government Linked Data Working Group](https://www.linked.data.gov.au/showcase)
 - [Open Electricity](https://openelectricity.org.au/about)
+- [Free Software Australia](https://freesoftware.au/)
 
 ## Government procurement and policy
 
-## Open Source AI
+## Hackerspaces and makerspaces
 
-## Open GLAM
+- [Hackerspaces Wiki](https://wiki.hackerspaces.org/australia)
+- [The Australian Hackerspace Network](https://groups.google.com/g/ozhs-net) - Inactive
+- Australian Hackerspaces Association
+- [Australian Makerspace Directory](https://makerspaces.com.au/)
+- [Connected Community Hackerspace](https://www.hackmelbourne.org/about-the-cchs/), [CCHS - Melbourne Hackerspace](https://hackaday.io/hackerspace/734-cchs-melbourne-hackerspace)
+
+
+## Open Source AI
 
 ## Education or Open learning
 
@@ -110,7 +118,7 @@ Check out the [Open science](https://opensourceaustralia.guide/open-science) pag
 - [Software Freedom Day](https://sfd.org.au)
 - [Hardware Freedom Day](https://linuxvictoria.org)
 - [Document Freedom Day](https://digitalfreedoms.org/en/document-freedom-day)
- 
+
 #### Regular gatherings and meetups
 - [Electron workshop](https://electronworkshop.org/calendar/)
 - [Linux user groups](https://linux.org.au/lugs/)

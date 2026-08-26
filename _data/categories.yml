@@ -54,3 +54,10 @@
     Open access research: publications, data and methods.
   description: >-
     Australian open science: open access research, publications, data and methods.
+
+- slug: hackerspaces-makerspaces
+  title: "Hackerspaces and makerspaces"
+  summary: >-
+    Community spaces for people to collaborate on open source and open hardware projects.
+  description: >-
+    Hackerspaces and makerspaces are community spaces where people can collaborate on open source and open hardware projects.
