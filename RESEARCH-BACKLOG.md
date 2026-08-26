@@ -21,7 +21,7 @@ Check out the [Open data](https://opensourceaustralia.guide/open-data) page. Wha
 
 ## Open standards
 
-* [api.gov.au](https://api.gov.au/) - Design Standards for Whole of Australian Government (WoG) Application Programming Interfaces (API)s.
+* [api.gov.au](https://api.gov.au/) - Design Standards for Whole of Australian Government (WoG) APIs.
 * [Consumer Data Standards](https://dsb.gov.au/consumer-data-right/data-standards) - the technical specs under CDR. The [Data Standards Body](https://dsb.gov.au/).
 * [PINT A-NZ Specifications (OpenPeppol)](https://docs.peppol.eu/poac/aunz/) replaced [A-NZ BIS Billing 3.0](https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0)
 * [AU Core FHIR](https://github.com/hl7au/au-fhir-core)

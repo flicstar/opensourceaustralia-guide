@@ -6,7 +6,7 @@ Live at [**opensourceaustralia.guide**](https://opensourceaustralia.guide)
 
 ## Contributing
 
-This is a community garden. The plot is open, the work is visible, and there is always more to plant. Corrections, missing entries and thoughtful refinements are welcome. Please open an issue.
+This is a community garden. Corrections, missing entries and thoughtful refinements are welcome. Please open an issue.
 
 An entry needs a significant Australian presence and a stated relationship to open source in Australia.
 
@@ -14,7 +14,7 @@ There's a [research backlog](RESEARCH-BACKLOG.md) of links and names I've found 
 
 ## Site details
 
-It's a Jekyll site on GitHub Pages. 
+It's a Jekyll site on GitHub Pages.
 
 There's no analytics yet and no cookies, no tracking pixels, and nothing loads from a third party. I'll probably add some kind of cookieless analytics eventually - like GoatCounter maybe?
 

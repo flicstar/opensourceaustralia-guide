@@ -27,8 +27,6 @@ description: "Conferences, meetups and community events for open source in Austr
 
 ## Hackathons
 
-Section blurb.
-
 {% assign group = events | where: "type", "hackathons" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
