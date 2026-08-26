@@ -173,7 +173,6 @@
   status: "active"
   description: "Australian elevation and bathymetry data, searchable by area of interest. Brings together open data from Commonwealth, state and territory governments."
 
-
 - slug: "geoscience-australia-portal"
   name: "Geoscience Australia Portal"
   url: "https://portal.ga.gov.au/"
@@ -192,10 +191,33 @@
 
 # Energy
 
+- slug: "aemo"
+  name: "Australian Energy Market Operator (AEMO)"
+  url: "https://www.aemo.com.au/energy-systems/data-dashboards"
+  type: "energy"
+  sort_key: "010"
+  status: "active"
+  description: "Generation, demand, price and dispatch data for Australia's electricity markets."
+
+- slug: "apvi-solar-maps"
+  name: "APVI Solar Maps"
+  url: "https://pv-map.apvi.org.au/"
+  type: "energy"
+  sort_key: "020"
+  status: "active"
+  description: "Rooftop solar data for Australia from the Australian Photovoltaic Institute."
+- slug: "clean-energy-regulator"
+  name: "Clean Energy Regulator"
+  url: "https://data.cer.gov.au/"
+  type: "energy"
+  sort_key: "030"
+  status: "active"
+  description: "Data on Australia's carbon and renewable energy schemes."
+
 - slug: "open-electricity-platform"
   name: "Open electricity platform"
   url: "https://platform.openelectricity.org.au/"
   type: "energy"
-  sort_key: "010"
+  sort_key: "040"
   status: "active"
   description: "Access real-time and historical energy data from across Australia's electricity grid."
