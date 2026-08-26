@@ -158,7 +158,19 @@
     text-decoration: underline;
   }
 }
+.explore-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    color: var(--color-teal);
+  }
+}
+.explore-heading + p { margin-left: 2rem; }
 
 
 /**

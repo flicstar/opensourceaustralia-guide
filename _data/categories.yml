@@ -1,34 +1,22 @@
 - slug: open-source-software
-  title: Open Source Software
+  title: Open source software
+  icon: software
   summary: >-
     Open source software in Australia.
   description: >-
     Australian open source software projects, from infrastructure and public interest technology to developer tools.
 
 - slug: open-source-hardware
-  title: Open Source Hardware
+  title: Open source hardware
+  icon: hardware
   summary: >-
     Openly licensed hardware designs, makerspaces and repair-friendly devices.
   description: >-
     Hardware designs that anyone can study, modify and build, along with the makerspaces, repair communities and projects developing them in Australia.
 
-- slug: organisations
-  title: Organisations & Groups
-  summary: >-
-    Australian groups working in open source.
-  description: >-
-    Peak bodies, foundations, user groups and communities working with open
-    source in Australia.
-
-- slug: government
-  title: Government Procurement & Policy
-  summary: >-
-    How Australian governments build and work with open source.
-  description: >-
-    The policies, procurement practices and public sector initiatives shaping how Australian governments build, buy and share technology.
-
 - slug: open-data
-  title: Open Data
+  title: Open data
+  icon: database
   summary: >-
     Public datasets, civic technology, cultural collections and geospatial data.
   description: >-
@@ -36,28 +24,49 @@
 
 - slug: open-apis
   title: Open APIs
+  icon: api
   summary: >-
     Public APIs, developer tools and integration platforms.
   description: >-
     Australian open APIs: government services, civic tech, and developer resources.
 
 - slug: open-standards
-  title: Open Standards
+  title: Open standards
+  icon: standards
   summary: >-
     Open standards for software, data and interoperability.
   description: >-
     Australian open standards for software, data and interoperability.
 
 - slug: open-science
-  title: Open Science
+  title: Open science
+  icon: science
   summary: >-
     Open access research: publications, data and methods.
   description: >-
     Australian open science: open access research, publications, data and methods.
 
+- slug: organisations
+  title: Organisations and groups
+  icon: groups
+  summary: >-
+    Australian groups working in open source.
+  description: >-
+    Peak bodies, foundations, user groups and communities working with open
+    source in Australia.
+
 - slug: hackerspaces-makerspaces
-  title: "Hackerspaces and makerspaces"
+  title: Hackerspaces and makerspaces
+  icon: groups
   summary: >-
     Community spaces for people to work on projects with shared tools and equipment.
   description: >-
     Australian hackerspaces and makerspaces: community workshops with shared tools and equipment.
+
+- slug: government
+  title: Government procurement and policy
+  icon: government
+  summary: >-
+    How Australian governments build and work with open source.
+  description: >-
+    The policies, procurement practices and public sector initiatives shaping how Australian governments build, buy and share technology.

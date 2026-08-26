@@ -4,8 +4,13 @@ title: Explore
 permalink: /explore
 ---
 
-{% for category in site.data.categories %}
-### [{{ category.title }}]({{ category.slug | prepend: "/" }})
+{% assign categories = site.data.categories %}
+{% for category in categories %}
+{% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
+<h2 class="explore-heading">
+  {% include {{ icon_path }} %}
+  <a href="/{{ category.slug }}">{{ category.title }}</a>
+</h2>
 
-{{ category.description }}
+<p>{{ category.description }}</p>
 {% endfor %}
