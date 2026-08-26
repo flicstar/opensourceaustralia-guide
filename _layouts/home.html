@@ -15,64 +15,80 @@ layout: default
       <div class="home-categories__grid">
 
         <a class="category-card" href="/open-source-software">
+          {% assign category = site.data.categories | where: "slug", "open-source-software" | first %}
+          {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
           <div class="category-card__header">
-            <div class="category-card__icon">{% include icons/software.svg %}</div>
+            <div class="category-card__icon">{% include {{ icon_path }} %}</div>
             <h3 class="category-card__title">Software</h3>
           </div>
           <p class="category-card__description">Projects with Australian roots.</p>
         </a>
 
         <a class="category-card" href="/open-source-hardware">
+          {% assign category = site.data.categories | where: "slug", "open-source-hardware" | first %}
+          {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
           <div class="category-card__header">
-            <div class="category-card__icon">{% include icons/hardware.svg %}</div>
+            <div class="category-card__icon">{% include {{ icon_path }} %}</div>
             <h3 class="category-card__title">Hardware</h3>
           </div>
           <p class="category-card__description">Open devices and published designs.</p>
         </a>
 
         <a class="category-card" href="/open-data">
+          {% assign category = site.data.categories | where: "slug", "open-data" | first %}
+          {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
           <div class="category-card__header">
-            <div class="category-card__icon">{% include icons/database.svg %}</div>
+            <div class="category-card__icon">{% include {{ icon_path }} %}</div>
             <h3 class="category-card__title">Open data</h3>
           </div>
           <p class="category-card__description">Public datasets you can use.</p>
         </a>
 
         <a class="category-card" href="/open-standards">
+          {% assign category = site.data.categories | where: "slug", "open-standards" | first %}
+          {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
           <div class="category-card__header">
-            <div class="category-card__icon">{% include icons/standards.svg %}</div>
+            <div class="category-card__icon">{% include {{ icon_path }} %}</div>
             <h3 class="category-card__title">Open standards</h3>
           </div>
           <p class="category-card__description">Shared rules for interoperable systems.</p>
         </a>
 
         <a class="category-card" href="/open-apis">
+          {% assign category = site.data.categories | where: "slug", "open-apis" | first %}
+          {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
           <div class="category-card__header">
-            <div class="category-card__icon">{% include icons/api.svg %}</div>
+            <div class="category-card__icon">{% include {{ icon_path }} %}</div>
             <h3 class="category-card__title">Open APIs</h3>
           </div>
           <p class="category-card__description">Things developers can build on.</p>
         </a>
 
         <a class="category-card" href="/open-science">
+          {% assign category = site.data.categories | where: "slug", "open-science" | first %}
+          {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
           <div class="category-card__header">
-            <div class="category-card__icon">{% include icons/science.svg %}</div>
+            <div class="category-card__icon">{% include {{ icon_path }} %}</div>
             <h3 class="category-card__title">Open science</h3>
           </div>
           <p class="category-card__description">Research anyone can check.</p>
         </a>
 
         <a class="category-card" href="/government">
+          {% assign category = site.data.categories | where: "slug", "government" | first %}
+          {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
           <div class="category-card__header">
-            <div class="category-card__icon">{% include icons/government.svg %}</div>
+            <div class="category-card__icon">{% include {{ icon_path }} %}</div>
             <h3 class="category-card__title">Government</h3>
           </div>
           <p class="category-card__description">Procurement rules and policy.</p>
         </a>
 
         <a class="category-card" href="/organisations">
+          {% assign category = site.data.categories | where: "slug", "organisations" | first %}
+          {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
           <div class="category-card__header">
-            <div class="category-card__icon">{% include icons/groups.svg %}</div>
+            <div class="category-card__icon">{% include {{ icon_path }} %}</div>
             <h3 class="category-card__title">Organisations</h3>
           </div>
           <p class="category-card__description">Who's doing the work.</p>
