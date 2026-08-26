@@ -9,7 +9,7 @@ permalink: /open-science
 
 Open science is a broad term that covers all systematic scholarship including natural sciences as well as history and philosophy. This page covers research across all disciplines. You might see the term "open scholarship" used when people want to be explicit about including humanities.
 
-Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"} file to see what I've captured so far, and let me know what I've missed.
+<span>{% include icons/construction.svg %}</span> Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"} file to see what I've captured so far, and let me know what I've missed. {% include icons/construction.svg %}
 
 {% comment %}
 

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="category">
+  <h1>{{ page.title }}</h1>
+  <div class="page-with-toc">
+    <aside class="page-sidebar">
+      {% include toc.html %}
+    </aside>
+
+    <div class="page-with-toc__content">
+      {{ content }}
+    </div>
+  </div>
+
+  {% comment %} Directory entries will loop in here {% endcomment %}
+</article>

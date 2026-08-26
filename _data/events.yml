@@ -8,29 +8,53 @@
     - "everything-open"
   summary: "Australia's main conference for open technologies."
   description: |
-    Australia's main conference for open technologies. Across three days it covers
-    open source software, open hardware, open data, open government, the GLAM
-    sector, and open communities.
+    Australia's main conference for open technologies. Across three days it covers open source software, open hardware, open data, open government, the GLAM sector, and open communities. This is an annual conference, and is volunteer-run.
 
-    Born out of linux.conf.au, the premier Linux and open source conference in
-    Australia and New Zealand from 1999 to 2022. Everything Open started in 2023
-    to broaden those connections beyond Linux.
+    Born out of linux.conf.au, the premier Linux and open source conference for Australia and New Zealand from 1999 to 2022, Everything Open started in 2023 to broaden those connections beyond Linux. 
+    
+    Sessions from past events are available to watch on the [Everything Open YouTube channel](https://www.youtube.com/@EverythingOpen).
 
 - slug: "foss4g-sotm-oceania"
   name: "FOSS4G SotM Oceania"
-  url: "https://osgeo-oceania.org"
+  url: "https://osgeo-oceania.org/events/"
   type: "conferences"
-  status: "active"
+  status: "inactive"
   run_by: "osgeo-oceania"
   tags:
     - "open-software"
     - "open-data"
   summary: "The Australia, New Zealand and Pacific regional conference for open source mapping and geospatial technology."
   description: |
-    The Australia, New Zealand and Pacific regional conference for open source
-    mapping and geospatial technology. The programme includes conference sessions, workshop days, and a community day for mapathons.
+    The Australia, New Zealand and Pacific annual conference for open source mapping and geospatial technology. [Free and Open Source Software for Geospatial](https://foss4g.org/) (FOSS4G) is the open software and libraries to do geospatial analysis and make maps. [State of the Map](https://stateofthemap.org/) (SotM) focuses on using and contributing to OpenStreetMap.
 
-    The name merges two global conference series. FOSS4G stands for Free and Open Source Software for Geospatial. State of the Map is the conference of the OpenStreetMap Foundation.
+- slug: "pycon-au"
+  name: "PyCon AU"
+  url: "https://pycon.org.au"
+  type: "conferences"
+  status: "active"
+  run_by: "linux-australia"
+  tags:
+    - "open-software"
+  summary: "The national conference for everyone using the Python Programming Language."
+  description: |
+    PyCon AU is the national conference for everyone using the Python Programming Language. Hosted annually since 2010, this event brings the national and international Python community together. PyCon AU deliberately mixes first-time and experienced presenters. The programme usually combines free workshops, several days of main-conference talks with specialist tracks, and development sprints where attendees contribute directly to open source projects.
+
+    Sessions from past events are available to watch on the [PyCon AU YouTube channel](https://www.youtube.com/user/PyConAU).
+
+- slug: "drupal-south"
+  name: "DrupalSouth"
+  url: "https://drupalsouth.org/"
+  type: "conferences"
+  status: "active"
+  run_by: "drupal-south"
+  tags:
+    - "open-software"
+  summary: "The Drupal conference for Australia and New Zealand."
+  description: |
+    DrupalSouth is the trans-Tasman regional conference for Drupal, an open source content management system used to build websites. It usually includes a contribution day where attendees work on Drupal. This event location alternates between Australia and New Zealand. DrupalSouth also runs DrupalGov events aimed at the public sector agencies that use Drupal to build and run their websites.
+
+    Sessions from past events are available to watch on the [DrupalSouth YouTube channel](https://www.youtube.com/user/DrupalSouth).
+
 
 - slug: "govhack"
   name: "GovHack"
@@ -43,14 +67,11 @@
     - "open-software"
   summary: "A weekend hackathon to build something using openly published government data."
   description: |
-    An open data competition held across Australia and New Zealand. Over a single weekend, teams build something using openly published government data, at physical venues and online. Government agencies set many of the challenges and sponsor prizes.
-
-    GovHack began under the auspice of Linux Australia and is now an independent
-    not-for-profit company.
+    An annual open government data competition held across Australia and New Zealand. Over a single weekend, teams build something using openly published government data. Government agencies set many of the challenges and sponsor prizes.
 
 - slug: "healthhack"
   name: "HealthHack"
-  url: "https://linux.org.au/healthhack/"
+  url: "https://www.healthhack.com.au/"
   type: "hackathons"
   status: "inactive"
   run_by: "linux-australia"
@@ -62,19 +83,16 @@
   description: |
     A free, volunteer-run hackathon that paired medical researchers and healthcare professionals with software developers, designers, educators and engineers to work on research problems over a weekend. Everything produced was released openly. It ran from 2013 to 2020 in cities around Australia.
 
-    Linux Australia, which auspiced the event, has said it is on hiatus pending a volunteer team to carry it forward. Past projects remain on GitHub.
+    According to Linux Australia, [HealthHack is currently on hiatus](https://linux.org.au/healthhack/) pending a volunteer team to carry it forward. Code from past projects can be found in the [HealthHack Australia repository](https://github.com/HealthHackAustralia/HealthHackAustralia/blob/master/README.md) on GitHub.
 
 - slug: "electron-workshop"
   name: "Electron Workshop"
   url: "https://electronworkshop.org/calendar/"
   type: "regular-gatherings"
   status: "active"
+  run_by: "electron-workshop"
   tags:
     - "everything-open"
   summary:  "A recurring program of gatherings in Melbourne and online."
   description: |
-    A recurring program of gatherings in Melbourne and online, spanning software
-    freedom, open source, privacy, right to repair, cooperatives and internet
-    governance. Formats include un-forum sessions, chainferences and fortnightly
-    sprints. Sessions include drafting and reviewing submissions to the Internet
-    Governance Forum, timed ahead of auIGF.
+    A recurring program of gatherings in Melbourne and online, spanning software freedom, open source, privacy, right to repair, cooperatives and internet governance. Formats include un-forum sessions, chainferences (satellite gatherings held in conjunction with a main conference) and fortnightly sprints. 

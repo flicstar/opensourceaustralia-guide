@@ -255,6 +255,13 @@ pre {
   vertical-align: text-top;
 }
 
+.inline-icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.125em;
+}
+
 .social-media-list {
   li + li {
     padding-top: 5px;
