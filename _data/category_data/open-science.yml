@@ -8,24 +8,19 @@
   type: "research-data-collection"
   sort_key: "010"
   status: "active"
-  description: |
-    Open digital infrastructure that brings Australian biodiversity data
-    together from many sources into one accessible, reusable collection.
-
-    The ALA is the Australian node and a full voting member of the Global
-    Biodiversity Information Facility.
+  description: "Open digital infrastructure that brings Australian biodiversity data together from many sources into one accessible, reusable collection."
 
 - slug: "aurin"
   name: "AURIN data catalogue"
-  url: "https://aurin.org.au/"
+  url: "https://data.aurin.org.au/"
   type: "research-data-collection"
   sort_key: "020"
   status: "active"
   description: |
-    The Australian Urban Research Infrastructure Network. Provides integrated
-    access to health, transport, housing, economic, land use and demographic
-    data for urban, regional and social science research.
-  
+    The Australian Urban Research Infrastructure Network. Holds health, transport, housing, economic, land use and demographic data for urban, regional and social science research.
+
+    Most of the catalogue is openly licensed. A small number of datasets are restricted, and AURIN negotiates access to those on behalf of researchers. Each dataset lists its own [access group](https://data.aurin.org.au/group) and licence.
+
 - slug: "australian-ocean-data-network"
   name: "Australian Ocean Data Network portal"
   url: "https://portal.aodn.org.au/"
@@ -33,12 +28,10 @@
   sort_key: "030"
   status: "active"
   description: |
-    Australian marine and climate science data, and the main access point for
-    data and metadata from the Integrated Marine Observing System.
+    Australian marine and climate science data, and the main access point for data and metadata from the Integrated Marine Observing System.
 
-    A rebuilt version of the portal is in beta at
-    [portal-beta.aodn.org.au](https://portal-beta.aodn.org.au/).
-   
+    A rebuilt version of the portal is in beta at [portal-beta.aodn.org.au](https://portal-beta.aodn.org.au/).
+
 - slug: "csiro-data-access-portal"
   name: "CSIRO Data Access Portal"
   url: "https://data.csiro.au/"
@@ -47,14 +40,13 @@
   status: "active"
   description: "Research data, software and other digital assets from Australia's national science agency, across a range of disciplines."
 
-
 - slug: "soil-and-landscape-grid-of-australia"
   name: "Soil and Landscape Grid of Australia"
-  url: "https://esoil.io/TERNLandscapes/Public/Pages/SLGA/" # [CHECK]
+  url: "https://esoil.io/TERNLandscapes/Public/Pages/SLGA/"
   type: "research-data-collection"
   sort_key: "050"
   status: "active"
-  description: "Consistent, nation-wide soil and landscape attribute data in a downloadable format."   
+  description: "Consistent, nation-wide soil and landscape attribute data in a downloadable format."
 
 - slug: "tern-data-discovery-portal"
   name: "TERN Data Discovery Portal"
@@ -62,62 +54,60 @@
   type: "research-data-collection"
   sort_key: "060"
   status: "active"
-  description: |
-    Environmental monitoring data from TERN, Australia's ecosystem
-    observatory. Search geographically, then browse, query and extract.
+  description: "Environmental monitoring data from TERN, Australia's ecosystem observatory. The data supports terrestrial and coastal ecosystem science and environmental management."
 
-    The data supports terrestrial and coastal ecosystem science and
-    environmental management.
-
-
-# Finding research data
+# Catalogues and search
 
 - slug: "australian-research-data-commons"
   name: "Australian Research Data Commons"
   url: "https://ardc.edu.au/"
-  type: "finding-research"
+  type: "catalogue-search"
   sort_key: "010"
   status: "active"
-  description: |
-    National digital research infrastructure that helps Australian researchers
-    find, manage, analyse and share research data across all disciplines.
-
-- slug: "open-access-australasia"
-  name: "Open Access Australasia"
-  url: "https://oaaustralasia.org/"
-  type: "finding-research"
-  sort_key: "020"
-  status: "active"
-  description: |
-    Publishes a list of open repositories across the region, including the open
-    access repository of every major Australian university.
-
-    This is an index of repositories, not a repository itself.
+  description: "National digital research infrastructure that helps Australian researchers find, manage, analyse and share research data across all disciplines."
 
 - slug: "research-data-australia"
   name: "Research Data Australia"
   url: "https://researchdata.edu.au/"
-  type: "finding-research"
-  sort_key: "030"
+  type: "catalogue-search"
+  sort_key: "020"
   status: "active"
-  description: |
-    A search portal covering data, projects, researchers and data services from
-    more than a hundred Australian research organisations, government agencies
-    and cultural institutions. Most datasets are accessible online.
-
-    The portal holds descriptions of and links to data. The data itself stays
-    with the publishing organisation.
+  description: "A search portal covering data, projects, researchers and data services from more than a hundred Australian research organisations, government agencies"
 
 - slug: "research-infrastructure-connected"
   name: "Research Infrastructure Connected"
   url: "https://riconnected.org.au/"
-  type: "finding-research"
-  sort_key: "040"
+  type: "catalogue-search"
+  sort_key: "030"
   status: "active"
+  description: "A searchable index of the national research infrastructure supported by the National Collaborative Research Infrastructure Strategy, connecting researchers to the facilities and services they need."
+
+# Open access publishing
+
+- slug: "open-access-australasia"
+  name: "Open Access Australasia"
+  url: "https://oaaustralasia.org/"
+  type: "open-access"
+  sort_key: "010"
+  status: "active"
+  description: "Publishes a list of open repositories across the region, including the open access repository of every major Australian university."
+
+# Open methods
+
+- slug: "open-research-toolkit"
+  name: "Open Research Toolkit"
+  url: "https://caul.libguides.com/open-research-toolkit"
+  type: "open-methods"
+  sort_key: "010"
+  status: "active"
+  description: "Guidance for making research open across the whole research cycle, covering policy, governance, pathways and processes."
+
+- slug: "fair4rs"
+  name: "FAIR Principles for Research Software"
+  url: "https://ardc.edu.au/resource/fair-principles-for-research-software-fair4rs/"
+  type: "open-methods"
+  sort_key: "020"
+  status: "active"
+  run_by: "australian-research-data-commons"
   description: |
-    A searchable index of the national research infrastructure supported by the
-    National Collaborative Research Infrastructure Strategy, connecting
-    researchers to the facilities and services they need.
-
-
-
+    Principles for making research software findable, accessible, interoperable and reusable, adapted from the FAIR principles for data. Developed internationally, with the [ARDC](https://opensourceaustralia.guide/organisations#australian-research-data-commons) playing an active role. The ARDC publishes guidance on adopting the principles in Australia.

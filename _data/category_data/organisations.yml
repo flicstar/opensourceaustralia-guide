@@ -16,7 +16,7 @@
   name: "OSGeo Oceania"
   url: "https://osgeo-oceania.org/"
   status: "active"
-  description: "The regional chapter of the Open Source Geospatial Foundation, covering Australia, New Zealand and the Pacific. OSGeo Oceania works with the open geospatial community across the region to run the annual FOSS4G SotM Oceania conference, local user group meetings, and mapathons."
+  description: "The regional chapter of the Open Source Geospatial Foundation, covering Australia, New Zealand and the Pacific."
 
 - slug: "electron-workshop"
   name: "Electron Workshop"
