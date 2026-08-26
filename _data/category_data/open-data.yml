@@ -8,9 +8,8 @@
   sort_key: "010"
   status: "active"
   description: |
-    Publishes census data, along with the classifications and standards used to
-    collect it. Custom data requests are available for a fee.
-        
+    Publishes census data, along with the classifications and standards used to collect it. Custom data requests are available for a fee.
+
 - slug: "data-gov-au"
   name: "data.gov.au"
   url: "https://data.gov.au/"
@@ -18,12 +17,9 @@
   sort_key: "020"
   status: "active"
   description: |
-    The central catalogue of Australian open government data. Alongside
-    government data it lists publicly funded research data and datasets from
-    private institutions held to be in the public interest.
+    The central catalogue of Australian open government data. Alongside government data it lists publicly funded research data and datasets from private institutions held to be in the public interest.
 
-    Some state and local material is aggregated here, but each state and
-    territory also runs its own portal.
+    Some state and local material is aggregated here, but each state and territory also runs its own portal.
 
 - slug: "data-nsw"
   name: "Data.NSW"
@@ -31,7 +27,7 @@
   type: "government-portals"
   sort_key: "030"
   status: "active"
-  description: "NSW public sector datasets, plus the policies, tools and resources that go with them."
+  description: "Datasets published by New South Wales government agencies."
 
 - slug: "data-vic"
   name: "DataVic"
@@ -39,7 +35,7 @@
   type: "government-portals"
   sort_key: "040"
   status: "active"
-  description: "Open data from organisations across the Victorian public sector, browsable by theme."
+  description: "Datasets published by Victorian government agencies."
 
 - slug: "data-qld"
   name: "Queensland Government Open Data Portal"
@@ -47,7 +43,7 @@
   type: "government-portals"
   sort_key: "050"
   status: "active"
-  description: "Open datasets from Queensland Government agencies, including mobile speed camera locations."
+  description: "Datasets published by Queensland government agencies."
 
 - slug: "data-wa"
   name: "Data WA"
@@ -55,7 +51,7 @@
   type: "government-portals"
   sort_key: "060"
   status: "active"
-  description: "A catalogue of datasets from organisations across the Western Australian public sector."
+  description: "Datasets published by Western Australian government agencies."
 
 - slug: "data-sa"
   name: "Data.SA"
@@ -63,9 +59,7 @@
   type: "government-portals"
   sort_key: "070"
   status: "active"
-  description: |
-    The South Australian government data directory. Holds open datasets
-    released by South Australian Government agencies and local councils.
+  description: "Datasets published by South Australian government agencies."
 
 - slug: "data-act"
   name: "data.act.gov.au"
@@ -73,7 +67,7 @@
   type: "government-portals"
   sort_key: "080"
   status: "active"
-  description: "The ACT Government open data portal."
+  description: "Datasets published by ACT government agencies."
 
 - slug: "data-nt"
   name: "NTG Open Data Portal"
@@ -81,7 +75,7 @@
   type: "government-portals"
   sort_key: "090"
   status: "active"
-  description: "Datasets released openly by Northern Territory Government agencies."
+  description: "Datasets published by Northern Territory government agencies."
 
 - slug: "listdata-tasmania"
   name: "LISTdata"
@@ -92,9 +86,7 @@
   description: |
     Spatial, land and property datasets for Tasmania, managed by Land Tasmania.
 
-    Tasmania has no equivalent central portal for non-spatial data. That
-    material sits on individual department sites, such as Libraries Tasmania
-    and Mineral Resources Tasmania, or on national platforms.
+    Tasmania has no equivalent central portal for non-spatial data. That material sits on individual department sites, such as Libraries Tasmania and Mineral Resources Tasmania, or on national platforms.
 
 - slug: "dateno"
   name: "Dateno"
@@ -103,7 +95,7 @@
   status: "active"
   sort_key: "110"
   description: |
-     Dateno is a search engine built specifically to run over open data sets around the world, and it includes some Australian datasets. 
+     Dateno is a search engine built specifically to run over open data sets around the world, and it includes some Australian datasets.
 
 # Civic tech
 
@@ -114,7 +106,7 @@
   sort_key: "010"
   status: "active"
   run_by: "openaustralia-foundation"
-  description: "Publishes Hansard records for the House of Representatives and the Senate, going back to 2006. Written questions, petitions, divisions and committee records are not included."
+  description: "Publishes Hansard records for the House of Representatives and the Senate, going back to 2006."
 
 - slug: "they-vote-for-you"
   name: "They Vote For You"
@@ -151,41 +143,36 @@
   type: "glam"
   sort_key: "010"
   status: "active"
-  description: |
-    A maintained catalogue of Australian GLAM data sources, built by
-    [Tim Sherratt](https://timsherratt.au/). Includes Trove, the National
-    Library of Australia, and the Australian War Memorial among many others.
+  description: "A maintained catalogue of Australian GLAM data sources, built by [Tim Sherratt](https://timsherratt.au/). Includes Trove, the National Library of Australia, and the Australian War Memorial among many others."
 
 # Transport
 
 - slug: "imove-transport-data-directory"
   name: "iMOVE Australia transport data directory"
-  url: "https://imoveaustralia.com/transport-data-hub/" # [CHECK]
+  url: "https://imoveaustralia.com/news-articles/intelligent-transport-systems/australian-transport-open-data/"
   type: "transport"
   sort_key: "010"
   status: "active"
-  description: |
-    A directory of Australian transport open data sources, with links to the
-    portals run by each state and territory.
+  description: "A maintained list of Australian transport open data sources, compiled by iMOVE Australia, a federally funded not-for-profit organisation."
 
-    Compiled by iMOVE Australia, a federally funded not-for-profit. This is an
-    index of sources, not a data source itself.
+- slug: "national-freight-data-hub"
+  name: "National Freight Data Hub"
+  url: "https://datahub.freightaustralia.gov.au/"
+  type: "transport"
+  sort_key: "020"
+  status: "active"
+  description: "Freight data across Australia covering road, rail, sea and air."
 
 # Geospatial and mapping
 
 - slug: "elvis"
   name: "Elvis elevation and depth"
-  url: "https://elevation.fsdf.org.au/" # [CHECK]
+  url: "https://elevation.fsdf.org.au/"
   type: "geospatial-and-mapping"
   sort_key: "010"
   status: "active"
-  description: |
-    Australian elevation and bathymetry data, searchable by area of interest.
-    Brings together open data from Commonwealth, state and territory
-    governments in one place.
+  description: "Australian elevation and bathymetry data, searchable by area of interest. Brings together open data from Commonwealth, state and territory governments."
 
-    Developed by agencies participating in the Intergovernmental Committee on
-    Surveying and Mapping.
 
 - slug: "geoscience-australia-portal"
   name: "Geoscience Australia Portal"
@@ -193,12 +180,7 @@
   type: "geospatial-and-mapping"
   sort_key: "020"
   status: "active"
-  description: |
-    Geoscientific data, maps and tools covering Australian resources, geology,
-    groundwater and natural hazards.
-
-    Geoscience Australia also runs the Digital Atlas of Australia, Digital
-    Earth Australia and AusSeabed.
+  description: "Geoscientific data, maps and tools covering Australian resources, geology, groundwater and natural hazards."
 
 - slug: "openstreetmap-australian-data-sources"
   name: "OpenStreetMap Australian data sources"
@@ -206,10 +188,7 @@
   type: "geospatial-and-mapping"
   sort_key: "030"
   status: "active"
-  description: |
-    A wiki page listing the open datasets that Australian OpenStreetMap
-    contributors are permitted to use, along with the import catalogue and the
-    state mapping projects.
+  description: "A wiki page listing the open datasets that Australian OpenStreetMap contributors are permitted to use, along with the import catalogue and the state mapping projects."
 
 # Energy
 
@@ -219,5 +198,4 @@
   type: "energy"
   sort_key: "010"
   status: "active"
-  description: |
-        Access real-time and historical energy data from across Australia's electricity grid.
+  description: "Access real-time and historical energy data from across Australia's electricity grid."
