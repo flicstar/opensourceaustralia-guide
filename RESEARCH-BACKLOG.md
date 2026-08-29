@@ -19,6 +19,21 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide.
 
 Check out the [Open data](https://opensourceaustralia.guide/open-data) page. What have I missed?
 
+## Open APIs
+
+- [api.gov.au API list](https://api.gov.au/apis) - federal, state and territory APIs in one catalogue
+- [Developer Victoria API catalogue](https://www.developer.vic.gov.au/api-catalogue)
+- [IP Australia APIs](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/apis)
+- [Consumer Data Right](https://www.cdr.gov.au/). Technical specs at [Data Standards Body](https://dsb.gov.au/consumer-data-right/data-standards)
+- [Magda](https://magda.io/) - data catalog system (possibly doesn't belong in this section)
+- [ABS Data API](https://api.data.abs.gov.au/)
+- [ABN Lookup web services](https://abr.business.gov.au/Tools/WebServices)
+- [Trove API](https://trove.nla.gov.au/about/create-something/using-api)
+- [Transport for NSW Open Data Hub](https://opendata.transport.nsw.gov.au/)
+- [Bureau of Meteorology](http://www.bom.gov.au/)
+- [METEOR API](https://meteor.aihw.gov.au/content/811642)
+- [Open Electricity REST API](https://docs.openelectricity.org.au/api-reference/overview/) - Australian Electricity Market Data
+
 ## Open standards
 
 * [api.gov.au](https://api.gov.au/) - Design Standards for Whole of Australian Government (WoG) APIs.
@@ -34,21 +49,6 @@ Check out the [Open data](https://opensourceaustralia.guide/open-data) page. Wha
 * [AGRkMS](https://www.naa.gov.au/information-management/standards/australian-government-recordkeeping-metadata-standard)
 * [AGLS Metadata Standard (AS 5044\)](https://webarchive.nla.gov.au/awa/20230802044920/https://agls.gov.au/) - decommissioned
 * [Standards Australia](https://www.standards.org.au/) - national standards body. Most AS standards sit behind a paywall.
-
-## Open APIs
-
-- [api.gov.au API list](https://api.gov.au/apis) - federal, state and territory APIs in one catalogue
-- [Developer Victoria API catalogue](https://www.developer.vic.gov.au/api-catalogue)
-- [IP Australia APIs](https://www.ipaustralia.gov.au/tools-and-research/professional-resources/apis)
-- [Consumer Data Right](https://www.cdr.gov.au/). Technical specs at [Data Standards Body](https://dsb.gov.au/consumer-data-right/data-standards)
-- [Magda](https://magda.io/) - data catalog system (possibly doesn't belong in this section)
-- [ABS Data API](https://api.data.abs.gov.au/)
-- [ABN Lookup web services](https://abr.business.gov.au/Tools/WebServices)
-- [Trove API](https://trove.nla.gov.au/about/create-something/using-api)
-- [Transport for NSW Open Data Hub](https://opendata.transport.nsw.gov.au/)
-- [Bureau of Meteorology](http://www.bom.gov.au/)
-- [METEOR API](https://meteor.aihw.gov.au/content/811642)
-- [Open Electricity REST API](https://docs.openelectricity.org.au/api-reference/overview/) - Australian Electricity Market Data
 
 ## Open science
 
@@ -82,8 +82,6 @@ Check out the [Open science](https://opensourceaustralia.guide/open-science) pag
 - [Open Electricity](https://openelectricity.org.au/about)
 - [Free Software Australia](https://freesoftware.au/)
 
-## Government procurement and policy
-
 ## Hackerspaces and makerspaces
 
 - [Hackerspaces Wiki](https://wiki.hackerspaces.org/australia)
@@ -92,6 +90,7 @@ Check out the [Open science](https://opensourceaustralia.guide/open-science) pag
 - [Australian Makerspace Directory](https://makerspaces.com.au/)
 - [Connected Community Hackerspace](https://www.hackmelbourne.org/about-the-cchs/), [CCHS - Melbourne Hackerspace](https://hackaday.io/hackerspace/734-cchs-melbourne-hackerspace)
 
+## Government procurement and policy
 
 ## Open Source AI
 
@@ -146,7 +145,6 @@ Check out the [Open science](https://opensourceaustralia.guide/open-science) pag
 - Four Freedoms
 - Free and Open Source Software (FOSS)
 - GNU General Public License (GPL)
-- License compatibility
 - MIT License
 - Open Publication License (OPL)
 - Open Source Definition
@@ -161,41 +159,29 @@ Check out the [Open science](https://opensourceaustralia.guide/open-science) pag
 - Code of conduct
 - Contributor
 - Fork
-- Foundation (software foundation)
 - Governance model
 - Good first issue
 - Maintainer
 - Open Community
 - Open Knowledge
-- Request for Comments (RFC)
-- Upstream / downstream
-- User group
 
 **Development practice**
-- Continuous integration / continuous delivery (CI/CD)
-- Distribution (distro)
 - Git
-- Issue tracker
+- Issue tracking
 - Long-term support (LTS)
 - Open Architecture
 - Open Computing
 - Open Systems
-- Package manager
 - Pull request / merge request
-- Reproducible builds
 - Repository
-- Semantic versioning
-- Software Bill of Materials (SBOM)
-- Software supply chain
-- Version control
 
 **Business and sustainability**
 - Commercial open source
 - Digital public goods
 - Maintainer burnout
 - Open core
+- Open Source Program Office (OSPO)
 - Public Money, Public Code
-- Sponsorship / funding models
 - Vendor lock-in
 
 **Data and standards**
@@ -204,57 +190,44 @@ Check out the [Open science](https://opensourceaustralia.guide/open-science) pag
 - CKAN
 - FAIR principles
 - FHIR
-- GLAM
-- GTFS (General Transit Feed Specification)
-- IIIF
 - Interoperability
-- Linked open data
-- Machine-readable
 - Metadata
 - Open API
-- Open Data
 - Open Data Format
 - Open Educational Resources (OER)
 - OGC web services (WMS, WFS)
 - Open government
-- Open licence
 - Open Standards
-- Peppol
 - Persistent identifier (DOI, ORCID)
-- RDF
 - Standards body
 
 **Science and research**
 - Citizen science
-- Open Access (gold, green, diamond)
-- Open notebook science
+- Open Access
 - Open peer review
 - Preprint
 - Reproducibility
 
 **Hardware**
-- CERN Open Hardware Licence
 - Open source hardware certification
 - Planned obsolescence
-- Repair café
 - Right to Repair
-- RISC-V
 
 **AI**
-- Model card
-- Open Source AI
 - Open weights
 - OSAID (Open Source AI Definition)
 - Training data transparency
 
 **Sovereignty and policy**
-- Cloud repatriation
 - Data residency
-- Data sovereignty
 - Digital public infrastructure
 - Digital sovereignty
 - Indigenous Data Sovereignty
-- Sovereign capability
+
+## Blog posts
+
+- A post for each category page, giving a longer definition, examples of use, international context, etc
+-
 
 ## People to talk to
 
