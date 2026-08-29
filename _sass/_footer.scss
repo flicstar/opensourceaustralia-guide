@@ -227,6 +227,14 @@
     }
   }
 
+  .site-footer__logo,
+  .site-footer__logo:visited,
+  .site-footer__logo:hover,
+  .site-footer__logo:focus-visible {
+    color: var(--text-heading);
+    text-decoration: none;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     * { transition: none; }
   }
