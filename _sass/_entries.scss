@@ -60,8 +60,8 @@
 
 .entry:target {
   /* Bleed the highlight past the text so it reads as a marked block */
-  background-color: var(--surface-accent);
-  box-shadow: 0 0 0 0.75rem var(--surface-accent);
+  background-color: var(--surface-target);
+  box-shadow: 0 0 0 0.75rem var(--surface-target);
   border-radius: 2px;
 }
 
