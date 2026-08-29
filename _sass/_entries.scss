@@ -3,9 +3,9 @@
  *
  * Markup comes from _includes/directory-entry.html:
  *
- *   article.entry#slug
- *     h3.entry-name > a, span.entry-status, a.entry-anchor
- *     p.entry-run-by
+ *   article.entry.entry--inactive#slug
+ *     h3.entry-name > a, a.entry-anchor
+ *     p.entry-run-by > span.entry-status, ...
  *     div.entry-description
  *     ul.entry-tags > li.entry-tag
  */
@@ -63,6 +63,19 @@
   background-color: var(--surface-target);
   box-shadow: 0 0 0 0.75rem var(--surface-target);
   border-radius: 2px;
+}
+
+.entry--inactive .entry-name {
+  color: var(--text-meta);
+
+  a {
+    text-decoration-color: var(--rule);
+  }
+
+  a:hover {
+    color: var(--link-hover);
+    text-decoration-color: currentColor;
+  }
 }
 
 
@@ -143,24 +156,32 @@
 /* Status ------------------------------------------------------------------ */
 
 .entry-status {
-  display: inline-block;
-  vertical-align: 0.15em;
-  margin-left: 0.4rem;
-  padding: 0.1rem 0.45rem;
-  border: 1px solid var(--rule-strong);
-  border-radius: 3px;
-  font-family: var(--font-body);
-  font-size: 0.7rem;
-  font-weight: 400;
-  letter-spacing: 0.04em;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--text-meta);
+
+  &:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 0.7em;
+    margin-left: 0.5rem;
+    vertical-align: -0.05em;
+    background-color: var(--rule);
+  }
 }
 
 
 /* Run by ------------------------------------------------------------------ */
 
 .entry-run-by {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   font-size: 0.8rem;
   line-height: 1.4;
   color: var(--text-meta);
@@ -273,8 +294,9 @@
 .entry-tag {
   font-size: 0.75rem;
   line-height: 1;
-  padding: 0.3rem 0.5rem;
-  border: 1px solid var(--rule);
+  padding: 0.3rem 0.55rem;
+  border: 0;
   border-radius: 3px;
-  color: var(--text-meta);
+  background-color: var(--surface-chip);
+  color: var(--chip-text);
 }

@@ -56,6 +56,7 @@ $table-text-align: left;
   --surface-page:      #F1F1F1;
   --surface-raised:    #FFFFFF;
   --surface-accent:    #E4EFED;   // callouts
+  --surface-chip:      #E4EFED;   // tag fill
   --surface-target:    #F4F8F7;   // entry:target
   --surface-code:      #EAECEF;
 
@@ -66,6 +67,7 @@ $table-text-align: left;
   --link:              #1F6B62;   //  5.6:1
   --link-hover:        #164F49;   //  8.3:1
   --link-visited:      #2A5E6E;   //  7.3:1
+  --chip-text:         #1A5C54;   //  5.9:1 on the chip
 
   --accent:            #2D8C82;   // brand teal. Rules and borders only.
   --rule:              #C7CCD4;
@@ -90,6 +92,7 @@ $table-text-align: left;
     --surface-page:      #141D31;
     --surface-raised:    #1B2A4A;
     --surface-accent:    #a3b0af;
+    --surface-chip:      #22354F;   // sits just above --surface-raised
     --surface-target:    #1B2A4A;
     --surface-code:      #1E2942;
 
@@ -100,6 +103,7 @@ $table-text-align: left;
     --link:              #4FC3B5;   //  7.9:1
     --link-hover:        #7FD8CC;   // 10.1:1
     --link-visited:      #8CC8D6;   //  8.8:1
+    --chip-text:         #7FD8CC;   //  7.4:1 on the chip
 
     --accent:            #4FC3B5;
     --rule:              #2F3B54;
