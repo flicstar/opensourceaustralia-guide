@@ -52,11 +52,13 @@
 .site-footer__logo {
   display: inline-block;
   margin-bottom: $spacing-unit * 0.45;
+  color: var(--text-heading);
 
   svg {
     display: block;
     height: auto;
     width: 250px;
+    color: currentColor;
   }
 }
 
