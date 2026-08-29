@@ -9,7 +9,7 @@ description: "Conferences, meetups and community events for open source in Austr
 
 <div class="category-summary">Australia has open source events ranging from national conferences to free monthly meetups. Check the organiser's site for current information.</div>
 
-<span>{% include icons/construction.svg %}</span> Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"} file to see what I've captured so far, and let me know what I've missed. {% include icons/construction.svg %}
+<span>{% include icons/construction.svg %}</span> Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#events){:target="_blank"} file to see what I've captured so far, and let me know what I've missed. {% include icons/construction.svg %}
 
 ## Conferences
 
