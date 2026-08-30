@@ -3,11 +3,6 @@ layout: category
 category: open-data
 title: "Open data"
 permalink: /open-data
-contributors:
-  - name: "@joeblogs"
-    url: "https://github.com/joeblogs"
-  - name: "sarahM"
-    url: "https://github.com/sarahm"
 ---
 
 {% assign entries = site.data.category_data["open-data"] %}
