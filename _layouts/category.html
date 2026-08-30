@@ -13,6 +13,27 @@ layout: default
   <div class="page-with-toc">
     <aside class="page-sidebar">
       {% include toc.html %}
+
+      {% if page.contributors %}
+        <div class="page-credits">
+          <p class="page-credits__label">Contributors</p>
+          <p class="page-credits__text">
+            Thanks to
+            {% for person in page.contributors %}
+              {% if forloop.length == 1 %}
+                <a href="{{ person.url }}">{{ person.name }}</a>
+              {% elsif forloop.first %}
+                <a href="{{ person.url }}">{{ person.name }}</a>
+              {% elsif forloop.last %}
+                and <a href="{{ person.url }}">{{ person.name }}</a>
+              {% else %}
+                , <a href="{{ person.url }}">{{ person.name }}</a>
+              {% endif %}
+            {% endfor %}
+            for help with this page.
+          </p>
+        </div>
+      {% endif %}
     </aside>
 
     <div class="page-with-toc__content">
