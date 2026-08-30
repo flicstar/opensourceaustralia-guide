@@ -8,7 +8,7 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide.
 
 ---
 
-## Open source software (FOSS)
+## Open source software
 
 - [ ]
 - [ ]
