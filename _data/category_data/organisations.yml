@@ -12,12 +12,6 @@
   status: "active"
   description: "The peak body for open source communities in Australasia. It supports conferences, events and community projects, holding funds and providing organisational backing for volunteer-run activities."
 
-- slug: "linux-victoria"
-  name: "Linux Victoria (LUV)"
-  url: "https://linuxvictoria.org"
-  status: "active"
-  description: "Linux Victoria (LUV) is a Linux user group based in Melbourne, incorporated in 1993. It runs install fests, workshops, monthly town hall meetings and a regional summit outside Melbourne. "
-
 - slug: "osgeo-oceania"
   name: "OSGeo Oceania"
   url: "https://osgeo-oceania.org/"
