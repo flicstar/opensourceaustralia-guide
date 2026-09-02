@@ -30,3 +30,8 @@
   status: "active"
   description: "A national research data infrastructure facility that supports the management, preservation, and sharing of research data across Australian universities and research institutions."
 
+- slug: "australian-repair-network"
+  name: "Australia Repair Network"
+  url: "https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network"
+  status: "active"
+  description: "A network of individuals and organisations working to promote the right to repair in Australia."

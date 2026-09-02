@@ -54,6 +54,10 @@ Check out the [Open data](https://opensourceaustralia.guide/open-data) page. Wha
 
 Check out the [Open science](https://opensourceaustralia.guide/open-science) page. What have I missed?
 
+Do these need a mention on the page?
+- [Access National Research Infrastructure](https://www.access-nri.org.au/)
+- [Australian Access Federation](https://aaf.edu.au/)
+
 ## Organisations and groups
 
 - [Open Access Australasia](https://oaaustralasia.org/) (OAA)

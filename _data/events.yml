@@ -14,7 +14,7 @@
   description: |
     Australia's main conference for open technologies. Across three days it covers open source software, open hardware, open data, open government, the GLAM sector, and open communities. This is an annual conference, and is volunteer-run.
 
-    Born out of linux.conf.au, the premier Linux and open source conference for Australia and New Zealand from 1999 to 2022, Everything Open started in 2023 to broaden those connections beyond Linux.
+    Born out of linux.conf.au (LCA), the premier Linux and open source conference for Australia and New Zealand from 1999 to 2022, Everything Open started in 2023 to broaden those connections beyond Linux.
 
     Sessions from past events are available to watch on the [Everything Open YouTube channel](https://www.youtube.com/@EverythingOpen).
 
@@ -41,7 +41,7 @@
     - "open-software"
   summary: "The national conference for everyone using the Python Programming Language."
   description: |
-    PyCon AU is the national conference for everyone using the Python Programming Language. Hosted annually since 2010, this event brings the national and international Python community together. PyCon AU deliberately mixes first-time and experienced presenters. The programme usually combines free workshops, several days of main-conference talks with specialist tracks, and development sprints where attendees contribute directly to open source projects.
+    PyCon AU is the national conference for people using the Python Programming Language. Hosted annually since 2010, this event brings the national and international Python community together. PyCon AU deliberately mixes first-time and experienced presenters. The programme usually combines free workshops, several days of main-conference talks with specialist tracks, and development sprints where attendees contribute directly to open source projects.
 
     Sessions from past events are available to watch on the [PyCon AU YouTube channel](https://www.youtube.com/user/PyConAU).
 
@@ -50,12 +50,11 @@
   url: "https://drupalsouth.org/"
   type: "conferences"
   status: "active"
-  run_by: "drupal-south"
   tags:
     - "open-software"
   summary: "The Drupal conference for Australia and New Zealand."
   description: |
-    DrupalSouth is the trans-Tasman regional conference for Drupal, an open source content management system used to build websites. It usually includes a contribution day where attendees work on Drupal. This event location alternates between Australia and New Zealand. DrupalSouth also runs DrupalGov events aimed at the public sector agencies that use Drupal to build and run their websites. DrupalSouth also holds community events like [DrupalSouth Community Day 2026](https://drupalsouth.org/events/drupalsouth-community-day-2026).
+    DrupalSouth is the trans-Tasman regional conference for Drupal, an open source content management system. It usually includes a contribution day where attendees work on Drupal. The event location alternates between Australia and New Zealand. DrupalSouth also runs DrupalGov events aimed at the public sector agencies that use Drupal to build and run their websites; as well as community events like [DrupalSouth Community Day](https://drupalsouth.org/events/drupalsouth-community-day-2026).
 
     Sessions from past events are available to watch on the [DrupalSouth YouTube channel](https://www.youtube.com/user/DrupalSouth).
 
@@ -64,14 +63,13 @@
   url: "https://auigf.au"
   type: "conferences"
   status: "active"
-  run_by: "auda"
   tags:
     - "internet-governance"
   summary: "The annual Australian forum on internet public policy."
   description: |
-    The Australian Internet Governance Forum is an annual gathering where people from government, industry, civil society, academia and the technical community discuss public policy questions about the internet in Australia. It is modelled on the global Internet Governance Forum and uses the same multi-stakeholder approach, meaning no single sector sets the agenda.
+    The Australian Internet Governance Forum (auIGF) is an annual gathering where people from government, industry, civil society, academia and the technical community discuss public policy questions about the internet in Australia. It is modelled on the global [Internet Governance Forum](https://www.intgovforum.org/en) and uses the same multi-stakeholder approach, meaning no single sector sets the agenda.
 
-    The programme is built from session proposals submitted by the community. Recent programmes have covered digital trust, online safety, AI, infrastructure, participation and resilience. The forum is volunteer-run, with secretariat support from auDA, the administrator of the .au domain. It was previously called NetThing.
+    The programme is built from session proposals submitted by the community and forum is volunteer-run. Read more about the event, including a brief history, from the [.au Domain Administration (auDA)](https://www.auda.org.au/news-insights/events/australian-internet-governance-forum-auigf/).
 
 - slug: "rsaa"
   name: "Research Software Asia Australia Conference"
@@ -83,41 +81,36 @@
     - "open-software"
   summary: "An online conference for people who build and maintain research software."
   description: |
-    An annual online conference for research software engineers, meaning people who combine programming and research skills. That includes researchers who code, people who train others to work on high performance computing and cloud systems, and software engineers working inside the research domain.
-
-    The programme covers making research software more visible and easier to use, scaling research workflows, and the career recognition problems that come with an ill-defined role. It runs as a joint partnership between the RSE Asia Association and the RSE Association of Australia and New Zealand. The conference is online, which keeps it accessible across the region, and it offers scholarships and micro-grants to help people take part.
-
-    Programmes and recordings from past years are linked from the conference site.
+      An annual online conference for people who build and maintain software for research - research software engineers (RSE). It's a joint event between the [RSE Asia Association](https://rse-asia.github.io/RSE_Asia/) and the [RSE Association of Australia and New Zealand](https://rse-aunz.org/)
 
 - slug: "australian-repair-summit"
   name: "Australian Repair Summit"
   url: "https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network"
   type: "conferences"
-  status: "active"
+  status: "Inactive"
   run_by: "australian-repair-network"
   tags:
     - "right-to-repair"
     - "open-hardware"
   summary: "A one-day gathering on the right to repair the things you own."
   description: |
-    A one-day gathering that brings repair businesses, consumer advocates, researchers, industry bodies and government together to discuss the right to repair. That is the question of whether you can get the things you own fixed by a repairer of your choosing, rather than being locked into the manufacturer.
+    A one-day gathering that brings repair businesses, consumer advocates, researchers, industry bodies and government together to discuss the right to repair. The first summit was held in 2021 and it runs annually.
 
-    Sessions have covered competition and consumer law, product labelling, and the environmental case for repair. Government ministers have spoken at several editions. The first summit was held in 2021.
+    Sessions from the 2025 event are available to [watch online](https://events.griffith.edu.au/event/c73c75df-a339-45df-9ec4-e06506d4d380/program-videos).
 
 - slug: "eresearch-australasia"
   name: "eResearch Australasia"
   url: "https://conference.eresearch.edu.au"
   type: "conferences"
   status: "active"
-  run_by: "aero"
   tags:
     - "open-data"
     - "open-science"
-  summary: "The regional conference for the people and infrastructure behind digital research."
+  summary: "The conference for the people and infrastructure behind digital research."
   description: |
-    The main regional conference for the people and infrastructure behind digital research: data specialists, research software engineers, librarians, technologists, policy makers and industry partners. This is an institutional event rather than a community-run one, and universities, national research infrastructure and funding bodies attend.
+    The main conference for the people and infrastructure behind digital research: data specialists, research software engineers, librarians, technologists, policy makers and industry partners. Hosted by [Australasian eResearch Organisations](https://www.aero.edu.au/) (AeRO), this is an institutional rather than community-run event for universities, national research infrastructure and funding bodies. The conference is broader than open source, but open source tools, open data and reproducible research methods feature throughout.
 
-    The conference is broader than open source, but open source tools, open data and reproducible research methods feature throughout.
+    Content from previous events is [available in their archive](https://conference.eresearch.edu.au/archive/).
 
 - slug: "joomladay-australia"
   name: "JoomlaDay Australia"
@@ -129,10 +122,10 @@
     - "open-software"
   summary: "A community event for users of the Joomla content management system."
   description: |
-    A community event for users of Joomla, an open source content management system for building websites. JoomlaDay Australia has run irregularly, with long gaps between editions. Joomla has a smaller user base in Australia than WordPress or Drupal, and its Australian events have been correspondingly sporadic.
+    JoomlaDay is a community event for users of Joomla, an open source content management system. Joomla has a smaller user base in Australia than WordPress or Drupal, and its Australian events are sporadic.
 
 - slug: "kubernetes-community-days-australia"
-  name: "Kubernetes Community Days Australia"
+  name: "Kubernetes Community Days Australia (KCD)"
   url: "https://community.cncf.io/kcd-australia/"
   type: "conferences"
   status: "active"
@@ -140,7 +133,7 @@
     - "open-software"
   summary: "Community-run conferences on Kubernetes and cloud native technology."
   description: |
-    Community-run conferences on Kubernetes and cloud native technology, organised under the Cloud Native Computing Foundation. Australian editions have been held in Sydney and Melbourne.
+    Community-run conferences on Kubernetes and cloud native technology, organised under the [Cloud Native Computing Foundation](https://www.cncf.io/). Australian editions have been held in Sydney and Melbourne.
 
 - slug: "linux-conf-au"
   name: "linux.conf.au"
@@ -152,11 +145,11 @@
     - "open-software"
   summary: "The premier Linux and open source conference for Australia and New Zealand from 1999 to 2022."
   description: |
-    linux.conf.au, usually shortened to LCA, was the premier Linux and open source conference for Australia and New Zealand for over two decades. It ran nearly every year from 1999 to 2022, moving to a different city each time, and regularly drew more than 600 delegates. It was entirely volunteer-run.
+    linux.conf.au (LCA) was the premier Linux and open source conference for Australia and New Zealand for over two decades. It ran nearly every year from 1999 to 2022, moving to a different city each time, and was entirely volunteer-run.
 
-    The format spanned five days: two days of miniconfs, which were special-interest tracks, followed by three days of main-conference talks. It began as CALU, the Conference of Australian Linux Users, held at Monash University in Melbourne in 1999, and was renamed linux.conf.au in 2001. The 2021 and 2022 editions ran online, and the conference was succeeded by Everything Open in 2023.
+    The format spanned five days: two days of miniconfs (special-interest tracks), followed by three days of main-conference talks.
 
-    Recordings of talks going back years remain publicly available.
+    Sessions from past events are available to watch on the [Linux.conf.au YouTube channel](https://www.youtube.com/@linuxconfau/playlists).
 
 - slug: "resbaz"
   name: "ResBaz"
@@ -168,11 +161,11 @@
     - "open-data"
   summary: "A three-day festival of digital research skills."
   description: |
-    Research Bazaar, known as ResBaz, is a three-day festival of digital research skills. Researchers from any discipline learn practical tools and techniques including programming, data analysis, reproducible workflows, open science and research communication. It is highly participatory, with talks, networking and a deliberately social programme alongside the training.
+    Research Bazaar (ResBaz) is a three-day festival of digital research skills. It's a highly participatory event where researchers from many disciplines learn practical tools and techniques like programming, data analysis, reproducible workflows, open science and research communication.
 
-    ResBaz is pitched at all levels, and is free or low-cost by design. PhD candidates and early career researchers are especially encouraged. It is an Australian invention that went global, starting at the University of Melbourne in 2015. It now runs as separate state-based editions, each with its own volunteer organising committee and website. Teaching materials from past events are published openly on GitHub.
+    ResBaz started at the University of Melbourne in 2015. It now runs as separate state-based editions. Teaching materials from past events are [published openly on GitHub](https://github.com/resbaz/lessons).
 
-- slug: "osdc"
+- slug: "osdc" UP TO HERE
   name: "OSDC"
   url: "https://en.wikipedia.org/wiki/Open_Source_Developers%27_Conference"
   type: "conferences"
