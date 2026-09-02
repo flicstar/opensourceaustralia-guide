@@ -315,14 +315,3 @@
     Linux user groups, or LUGs, are local groups for people interested in [Linux](https://www.linux.org/) and open source software. They hold meetings, provide education and community support, and sometimes run events like installfests. Most are free or very cheap to attend and welcome people with no experience.
 
     Linux Australia maintains a current list of Australian LUGs, organised by state, with contact details for each.
-
-- slug: "linux-victoria"
-  name: "Linux Victoria"
-  url: "https://linuxvictoria.org/events/"
-  type: "regular-gatherings"
-  status: "active"
-  tags:
-    - "open-software"
-  summary: "Monthly meetups, install fests and workshops for Linux users in Victoria."
-  description: |
-    Linux Victoria runs a monthly Town Hall meeting in person in Melbourne and online. There's also a weekly online chat, install fests where you can bring a machine and get help putting Linux on it, and a Regional Summit held outside Melbourne each year. Members can propose their own catchups and have them listed on the group calendar.
