@@ -12,6 +12,12 @@
   status: "active"
   description: "The peak body for open source communities in Australasia. It supports conferences, events and community projects, holding funds and providing organisational backing for volunteer-run activities."
 
+- slug: "linux-victoria"
+  name: "Linux Victoria (LUV)"
+  url: "https://linuxvictoria.org"
+  status: "active"
+  description: "Linux Victoria (LUV) is a Linux user group based in Melbourne, incorporated in 1993. It runs install fests, workshops, monthly town hall meetings and a regional summit outside Melbourne. "
+
 - slug: "osgeo-oceania"
   name: "OSGeo Oceania"
   url: "https://osgeo-oceania.org/"
@@ -35,3 +41,15 @@
   url: "https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network"
   status: "active"
   description: "A network of individuals and organisations working to promote the right to repair in Australia."
+
+- slug: "computerbank-victoria"
+  name: "Computerbank Victoria"
+  url: "https://www.computerbank.org.au/"
+  status: "active"
+  description: "Computerbank is a Melbourne not for profit organisation that has been refurbishing donated computers since 1998. Skilled volunteers install Linux and useful software, and the machines go to concession card holders, community groups and not-for-profits at low cost."
+
+- slug: "melbourne-tech-guilds"
+  name: "Melbourne Tech Guilds"
+  url: "https://techguilds.au/"
+  status: "active"
+  description: "Melbourne Tech Guilds is a maker community that started in December 2025. It meets on the first Sunday of the month and splits into five interest groups: robotics, mechanics, IoT, coding and deep dive. Projects run on open hardware and open tooling, mostly Arduino, ESP32 and Raspberry Pi, with Home Assistant and MQTT on the IoT side. Mentoring is free and the group is non-commercial."

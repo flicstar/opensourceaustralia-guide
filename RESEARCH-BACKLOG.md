@@ -93,6 +93,7 @@ Do these need a mention on the page?
 - Australian Hackerspaces Association
 - [Australian Makerspace Directory](https://makerspaces.com.au/)
 - [Connected Community Hackerspace](https://www.hackmelbourne.org/about-the-cchs/), [CCHS - Melbourne Hackerspace](https://hackaday.io/hackerspace/734-cchs-melbourne-hackerspace)
+- [Melbourne Tech Guilds](https://techguilds.au/)
 
 ## Government procurement and policy
 
@@ -102,37 +103,15 @@ Do these need a mention on the page?
 
 ## Events
 
-#### Conferences
-- [Everything Open](https://everythingopen.au)
-- [PyCon AU](https://pycon.org.au)
-- [FOSS4G SotM Oceania](https://osgeo-oceania.org)
-- [DrupalSouth](https://drupalsouth.org)
-- [WordCamps Australia](https://wpaustralia.org/events/)
-- [Kubernetes Community Days Australia](https://community2.cncf.io/kcd-australia/) (KCD)
-- [Australian Internet Governance Forum](https://auigf.au) (auIGF)
-- [eResearch Australasia](https://conference.eresearch.edu.au)
-- [JoomlaDay Australia](https://linux.org.au/joomladay/)
-- [Australian Repair Summit](https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network/events), see also: [Australian Repair Network](https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network)
-- [GovHack](https://govhack.org)
-- [Research Bazaar](https://github.com/resbaz) (ResBaz)
-- [Research Software Asia Australia Conference](https://rseaa.org/) (RSAA26)
+Check out the [Events](https://opensourceaustralia.guide/events) page. What have I missed?
 
-#### Community celebration days
-- [Software Freedom Day](https://sfd.org.au)
-- [Hardware Freedom Day](https://linuxvictoria.org)
-- [Document Freedom Day](https://digitalfreedoms.org/en/document-freedom-day)
+Maybe add:
+- [Software Freedom Day 2025](https://sfd.org.au)
+- [Hardware Freedom Day 2026](https://linuxvictoria.org/posts/2026-04-27_hardware-freedom-day-2026/). [Hardware Freedom Day](https://digitalfreedoms.org/en/hfd) is an annual community celebration of designs for physical things that anyone can study, build on and modify.
+- [Document Freedom Day](https://digitalfreedoms.org/en/document-freedom-day).
+- [Adfinis events](https://www.adfinis.com/en-au/events) - Adfinis is a service provider of open source IT solutions and they hold meetups and webinars around open source solutions including GitLab and SUSE.
 
-#### Regular gatherings and meetups
-- [Electron workshop](https://electronworkshop.org/calendar/)
-- [Linux user groups](https://linux.org.au/lugs/)
-- [Hackerspaces](https://linux.org.au/hackerspaces/)
-- [Flounder](https://flounder.linux.org.au/)
 
-#### Past events
-- [LinuxConfAu](https://linux.org.au/linux-conf-au/) (LCA)
-- [Open Source Developers Conference](https://en.wikipedia.org/wiki/Open_Source_Developers%27_Conference) (OSDC), see also: [OSDC](https://scott.dd.com.au/docs/open-source/osdc/)
-- [HealthHack](https://linux.org.au/healthhack/)
-- [DrupalGov](https://drupalgov.org/)
 
 ## Glossary terms
 

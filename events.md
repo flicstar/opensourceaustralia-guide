@@ -38,9 +38,11 @@ You might also find relevant meetups near you by searching for the term “open 
   {% include directory-entry.html entry=entry %}
 {% endfor %}
 
+{% comment %}
 ## Community celebration days
 
 {% assign group = events | where: "type", "community-celebration-days" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
+{% endcomment %}
