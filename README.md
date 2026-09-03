@@ -2,7 +2,7 @@
 
 An information hub website for the Australian open source ecosystem: hardware and software projects, organisations, events, and policy.
 
-Live at [**opensourceaustralia.guide**](https://opensourceaustralia.guide)
+🌐 [**opensourceaustralia.guide**](https://opensourceaustralia.guide)
 
 ## Contributing
 
