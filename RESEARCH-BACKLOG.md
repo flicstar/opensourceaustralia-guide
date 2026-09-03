@@ -4,7 +4,7 @@ This is a working list of things to look into. Nothing here has been checked for
 
 Entries move from here to the live site ([opensourceaustralia.guide](opensourceaustralia.guide)) after verification. I want to link out to external sites as much as possible, so where directories already exist, I will link to them rather than recreate them.
 
-Feel free to add a line here or email me at hello@opensourceaustralia.guide. If you don't have a GitHub account, you can make suggestions in this [Google doc]([text](https://docs.google.com/document/d/1_6RP8DH57jTOLEeAZqtfAr8RNfr68mi8_ND75Guy9B0/edit?tab=t.0)).
+Feel free to add a line here or email me at hello@opensourceaustralia.guide. If you don't have a GitHub account, you can make suggestions in this [Google doc](https://docs.google.com/document/d/1_6RP8DH57jTOLEeAZqtfAr8RNfr68mi8_ND75Guy9B0/edit?tab=t.0).
 
 ---
 
@@ -105,6 +105,8 @@ Do these need a mention on the page?
 - [Melbourne Tech Guilds](https://techguilds.au/)
 
 ## Government procurement and policy
+
+This is the page I most want to read and the one I don't know how to write. If you understand this area, or can point me in the right direction, please get in touch!
 
 - [Digital Service Standard](https://www.digital.gov.au/policy/digital-experience/digital-service-standard) from digital.gov.au
 - Getting help from the Digital Transformation Agency: [Digital Service Standard](https://www.dta.gov.au/help-and-advice/digital-service-standard/digital-service-standard-criteria)
