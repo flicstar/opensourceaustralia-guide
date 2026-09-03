@@ -4,14 +4,11 @@ This is a working list of things to look into. Nothing here has been checked for
 
 Entries move from here to the live site ([opensourceaustralia.guide](opensourceaustralia.guide)) after verification. I want to link out to external sites as much as possible, so where directories already exist, I will link to them rather than recreate them.
 
-Feel free to add a line here or email me at hello@opensourceaustralia.guide.
+Feel free to add a line here or email me at hello@opensourceaustralia.guide. If you don't have a GitHub account, you can make suggestions in this [Google doc]([text](https://docs.google.com/document/d/1_6RP8DH57jTOLEeAZqtfAr8RNfr68mi8_ND75Guy9B0/edit?tab=t.0)).
 
 ---
 
 ## Open source software
-
-- [ ]
-- [ ]
 
 ## Open hardware
 
@@ -60,9 +57,7 @@ Do these need a mention on the page?
 
 ## Organisations and groups
 
-**Groups that advocate and set policy**
-
-- [Open Knowledge Australia](https://au.okfn.org/index.html) - an archived project from the Open Knowledge Foundation.
+- [Linux Australia](https://linux.org.au/)
 - [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet society
 - [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/)
 - [Free software australia](https://freesoftware.org.au/), and this one too [Free Software Australia](https://freesoftware.au/)
@@ -70,7 +65,7 @@ Do these need a mention on the page?
 - [Australia internet governance forum](https://auigf.au/news)
 - [Australian Integrity Advocacy Organisations](https://www.accountabilityrt.org/australian-integrity-advocacy-organisations/)
 - [Australian Government Linked Data Working Group](https://www.linked.data.gov.au/showcase)
-- [Free Software Australia](https://freesoftware.au/)
+-  [Open Knowledge Australia](https://au.okfn.org/index.html) - an archived project from the Open Knowledge Foundation.
 
 **Groups that run infrastructure you can use**
 
@@ -79,7 +74,6 @@ Do these need a mention on the page?
 - [Geoscience Australia](https://www.ga.gov.au/)
 - [ANZLIC](https://www.anzlic.gov.au/)
 - [OpenSI](https://opensi.net/)
-- [Linux Australia](https://linux.org.au/)
 - [CSIRO's Data61](https://csirostaff.org.au/news/2026/04/30/csiro-pulls-the-plug-on-data61-with-manufacturing-amalgamation/) retired
 
 **Groups that build things for the public**
@@ -111,6 +105,23 @@ Do these need a mention on the page?
 - [Melbourne Tech Guilds](https://techguilds.au/)
 
 ## Government procurement and policy
+
+- [Digital Service Standard](https://www.digital.gov.au/policy/digital-experience/digital-service-standard) from digital.gov.au
+- Getting help from the Digital Transformation Agency: [Digital Service Standard](https://www.dta.gov.au/help-and-advice/digital-service-standard/digital-service-standard-criteria)
+- What even is this architecture subdomain? This is for use within government? [https://architecture.digital.gov.au/capability/software-engineering-and-development](https://architecture.digital.gov.au/capability/software-engineering-and-development)
+- [Data and Digital Government Strategy](https://www.dataanddigital.gov.au/) plus 2025 Implementation Plan
+- [Public Data Policy](https://www.finance.gov.au/government/public-data/public-data-policy) (Department of Finance)
+- [cyber.gov.au](http://cyber.gov.au). Is there anything on the Australian Signals Directorate (ASD) or Australian Cyber Security Centre (ACSC) we can include? [Exploring memory safety in critical open source projects](https://www.cyber.gov.au/business-government/secure-design/secure-by-design/exploring-memory-safety-in-critical-open-source-projects?ref=search)
+- [GovCMS](https://www.govcms.gov.au/) - Drupal
+- [BuyICT](https://www.buyict.gov.au/public)
+- [Victoria: make your project open source](https://www.vic.gov.au/make-your-project-open-source-digital-standards) digital guide
+- [NSW: using open source assets](https://www.digital.nsw.gov.au/delivery/digital-service-toolkit/resources/technology-and-tools/using-open-source-assets)
+- [Queensland: open source software guideline](https://www.forgov.qld.gov.au/information-technology/queensland-government-enterprise-architecture-qgea/qgea-directions-and-guidance/qgea-policies-standards-and-guidelines/open-source-software-guideline)
+- [http://www.os-global.org/Country/Australia.html](http://www.os-global.org/Country/Australia.html) \- looks fairly old
+- [Australian Research Council Open Access Policy](https://www.arc.gov.au/about-arc/strategies-and-policies/open-access-policy)
+- [OSI: Governments recognizing OSI authority](https://opensource.org/about/authority#Australia) is this worth including?
+- [OSS Country Intelligence Factsheet: Australia (European Commission)](https://interoperable-europe.ec.europa.eu/sites/default/files/inline-files/OSS%20Country%20Intelligence%20Factsheet%20AU_0.pdf) Out of date?
+- 2011 AGIMO Open Source Software Policy. [A Guide to Open Source Software for Australian Government Agencies, version 2 (AGIMO, 2011\)](https://blog.tomw.net.au/2011/07/guide-to-open-source-software-for.html) Tom Worthington
 
 ## Open Source AI
 
