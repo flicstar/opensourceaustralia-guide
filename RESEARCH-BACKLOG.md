@@ -60,31 +60,46 @@ Do these need a mention on the page?
 
 ## Organisations and groups
 
-- [Open Access Australasia](https://oaaustralasia.org/) (OAA)
-- [Australian Research Data Commons](https://ardc.edu.au/) (ARDC)
-- [Open Australia foundation](https://oaf.org.au/)
+**Groups that advocate and set policy**
+
 - [Open Knowledge Australia](https://au.okfn.org/index.html) - an archived project from the Open Knowledge Foundation.
-- [Australia’s Integrated Marine Observing System (IMOS)](https://imos.org.au/)
-- [Geoscience Australia](https://www.ga.gov.au/)
-- [CAUL open access](https://oaaustralasia.org/)
-- [ANZLIC](https://www.anzlic.gov.au/)
-- [Code for Australia](https://www.codeforaustralia.org/) - is a social entreprise
-- [Tech guilds](https://techguilds.au/)
-- [Electron workshop](https://electronworkshop.org/)
 - [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet society
 - [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/)
-- [OpenSI](https://opensi.net/)
-- [Linux Australia](https://linux.org.au/)
-- [Free software australia](https://freesoftware.org.au/)
+- [Free software australia](https://freesoftware.org.au/), and this one too [Free Software Australia](https://freesoftware.au/)
 - [Digital freedom foundation](https://digitalfreedoms.org/)
-- [Wikimedia Australia](https://wikimedia.org.au/)
-- [CSIRO's Data61](https://csirostaff.org.au/news/2026/04/30/csiro-pulls-the-plug-on-data61-with-manufacturing-amalgamation/) retired
-- [Australian Open Science Network](https://caul.edu.au/external-groups/australian-open-science-network/)
 - [Australia internet governance forum](https://auigf.au/news)
 - [Australian Integrity Advocacy Organisations](https://www.accountabilityrt.org/australian-integrity-advocacy-organisations/)
 - [Australian Government Linked Data Working Group](https://www.linked.data.gov.au/showcase)
-- [Open Electricity](https://openelectricity.org.au/about)
 - [Free Software Australia](https://freesoftware.au/)
+
+**Groups that run infrastructure you can use**
+
+- [Australian Research Data Commons](https://ardc.edu.au/) (ARDC)
+- [Australia's Integrated Marine Observing System (IMOS)](https://imos.org.au/)
+- [Geoscience Australia](https://www.ga.gov.au/)
+- [ANZLIC](https://www.anzlic.gov.au/)
+- [OpenSI](https://opensi.net/)
+- [Linux Australia](https://linux.org.au/)
+- [CSIRO's Data61](https://csirostaff.org.au/news/2026/04/30/csiro-pulls-the-plug-on-data61-with-manufacturing-amalgamation/) retired
+
+**Groups that build things for the public**
+
+- [Open Australia foundation](https://oaf.org.au/)
+- [Code for Australia](https://www.codeforaustralia.org/) - is a social entreprise
+- [Wikimedia Australia](https://wikimedia.org.au/)
+- [Open Electricity](https://openelectricity.org.au/about)
+- [Computerbank Victoria](https://www.computerbank.org.au/)
+
+**Events groups and guilds**
+
+- [Tech guilds](https://techguilds.au/)
+- [Electron workshop](https://electronworkshop.org/)
+
+**Groups working on open access and open science**
+
+- [Open Access Australasia](https://oaaustralasia.org/) (OAA)
+- [CAUL open access](https://caul.edu.au/topic/open-access/)
+- [Australian Open Science Network](https://caul.edu.au/external-groups/australian-open-science-network/)
 
 ## Hackerspaces and makerspaces
 
@@ -108,10 +123,13 @@ Check out the [Events](https://opensourceaustralia.guide/events) page. What have
 Maybe add:
 - [Software Freedom Day 2025](https://sfd.org.au)
 - [Hardware Freedom Day 2026](https://linuxvictoria.org/posts/2026-04-27_hardware-freedom-day-2026/). [Hardware Freedom Day](https://digitalfreedoms.org/en/hfd) is an annual community celebration of designs for physical things that anyone can study, build on and modify.
-- [Document Freedom Day](https://digitalfreedoms.org/en/document-freedom-day).
+- [Document Freedom Day](https://digitalfreedoms.org/en/document-freedom-day)
 - [Adfinis events](https://www.adfinis.com/en-au/events) - Adfinis is a service provider of open source IT solutions and they hold meetups and webinars around open source solutions including GitLab and SUSE.
 
+## Blog posts
 
+- A post for each category page, giving a longer definition, examples of use, international context, etc
+-
 
 ## Glossary terms
 
@@ -207,10 +225,6 @@ Maybe add:
 - Digital sovereignty
 - Indigenous Data Sovereignty
 
-## Blog posts
-
-- A post for each category page, giving a longer definition, examples of use, international context, etc
--
 
 ## People to talk to
 
