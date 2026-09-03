@@ -114,6 +114,10 @@ Do these need a mention on the page?
 
 ## Open Source AI
 
+- [Agentic AI Foundation (AAIF) Community Melbourne](https://luma.com/aaif-melbourne), Australian chapter of the chapter of the [Agentic AI Foundation](https://github.com/aaif)
+- [Kangaroo LLM](https://www.linkedin.com/company/kangaroo-llm/) - is this dead, or even real? See also [this article from 2024](https://ia.acs.org.au/article/2024/australian-ai-project-calls-for-more-unpaid-volunteers.html)
+- [Matilda](https://maincode.com/) isn't open source. Maincode treats open-weight models as inputs to its system rather than releasing its own.
+
 ## Education or Open learning
 
 ## Events
