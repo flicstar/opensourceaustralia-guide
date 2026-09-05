@@ -16,6 +16,8 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. If 
 
 📃  Check out the [Open data](https://opensourceaustralia.guide/open-data) page. What have I missed?
 
+- [Build a ballot](https://www.buildaballot.org.au/). Civic tech using open data.
+
 ## Open APIs
 
 - [api.gov.au API list](https://api.gov.au/apis) - federal, state and territory APIs in one catalogue
@@ -58,7 +60,7 @@ Do these need a mention on the page?
 ## Organisations and groups
 
 - [Linux Australia](https://linux.org.au/)
-- [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet society
+- [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet societ. They host the auIGF.
 - [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/)
 - [Free software australia](https://freesoftware.org.au/), and this one too [Free Software Australia](https://freesoftware.au/)
 - [Digital freedom foundation](https://digitalfreedoms.org/)
@@ -79,7 +81,7 @@ Do these need a mention on the page?
 **Groups that build things for the public**
 
 - [Open Australia foundation](https://oaf.org.au/)
-- [Code for Australia](https://www.codeforaustralia.org/) - is a social entreprise
+- [Code for Australia](https://www.codeforaustralia.org/)
 - [Wikimedia Australia](https://wikimedia.org.au/)
 - [Open Electricity](https://openelectricity.org.au/about)
 - [Computerbank Victoria](https://www.computerbank.org.au/)
@@ -146,7 +148,30 @@ Maybe add:
 ## Blog posts
 
 - A post for each category page, giving a longer definition, examples of use, international context, etc
--
+- [Open MyGov](https://openmygov.au/) Fraser Tweedale. Also, [FOI request: removal of the "Make source code open" criterion](https://www.righttoknow.org.au/request/digital_service_standard_removal)
+- [Australian Free Software Association](https://freesoftware.au/wiki/campaigns) campaigns
+- How do open source projects in Australia get funded? Grants, VC, sponsorship, etc. [Wikimedia.org.au Partner projects](https://wikimedia.org.au/wiki/Partner_Projects_2026-2027), [Linux Australia grants program](https://linux.org.au/grants-program/)  [Airtree open source VC](https://www.airtree.vc/open-source-vc/fundraising-in-australia-updated-open-source-investor-list)
+- Event recaps. For example, [Public Sector Network NSW Government Innovation Week 2026](https://publicsectornetwork.com/events/government-innovation-week-new-south-wales-sydney-2026/), and [Drupal attending](https://drupalsouth.org/news/2026/drupalsouth-community-represented-public-sector-network-nsw-2026). PyconAU recap, etc
+
+**Global/Overseas**
+
+- Germany’s [sovereign tech fund](https://www.sovereign.tech/programs/fund)
+- This petition: [Recognition of Work on Open-Source as Volunteering in Germany](https://www.ehrenamt-opensource.de/en/petition-international). What is the status in Australia?
+- The [Free Software Foundation Europe](https://fsfe.org/). Request [Ada & Zangemann](https://fsfe.org/activities/ada-zangemann/index.en.html) for your local library.
+- European consortium [Digital Commons EDIC](https://digital-commons-edic.eu/news/2026-07-01-advisory-board-call-for-experts/)
+- [NLnet Foundation](https://nlnet.nl/)
+- French [open source community for professional software](https://www.ow2.org/) OW2Con26 global event.
+- The [Mozilla Data Collective](https://mozilladatacollective.com/) allows you to share your data, retain ownership of it, and control who uses it. Upload datasets from research, community collections or specialised corpora. They compensate original owners of data.
+- [What defines the ‘open’ in ‘open AI’?](https://www.turing.ac.uk/blog/what-defines-open-open-ai)  The Alan Turing Institute
+- [A Research Lab for Open Source](https://stewardshiplab.org/ideas/a-research-lab-for-open-source/) from Software Stewardship Lab
+- [Social post about](https://www.linkedin.com/posts/martin-macfie-44aba0261_we-are-delighted-to-announce-that-datagovscot-activity-7497977898545631232-tXF3) data.gov.scot, [data.gov.scot](https://data.gov.scot/)
+
+**Not open source, but interesting**
+
+- Policies around data residency, building of data centres, cloud hosting, view on digital sovereignty. [Post from FibreconX about data centre capacity](https://www.linkedin.com/posts/fibreconx_the-network-gap-fibreconx-activity-7460538670614286336-2MD1). [Trellis Data’s Agentaus](https://trellisdata.com/newsroom/new-ai-assessor-tool-speeds-up-the-path-to-disp-readinessnbsp-rnxzf) (not open source, but sovereign)
+- Indigenous data sovereignty: [Maiam nayri Wingara](https://www.maiamnayriwingara.org/), [Global Indigenous Data Alliance](https://www.gida-global.org/), [Framework for Governance of Indigenous Data, NIAA](https://www.niaa.gov.au/sites/default/files/documents/2024-05/framework-governance-indigenous-data.pdf). Indigenous data sovereignty is the principle that Aboriginal and Torres Strait Islander peoples have the right to govern data about their communities, lands and knowledge. [Social post from Animikii](https://www.linkedin.com/posts/animikii_indigenousdatasovereignty-datagovernance-activity-7498755810840473600-WUwH)
+- [Tech policy design institute](https://techpolicy.au/map/). Not open source but geez, this map is interesting.
+- [Good Things Australia](https://goodthingsaustralia.org/). Not open source, but digital goodness in Australia
 
 ## Glossary terms
 

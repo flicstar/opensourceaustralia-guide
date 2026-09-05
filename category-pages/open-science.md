@@ -31,9 +31,7 @@ These catalogues index data that's held elsewhere, so you can search across many
 
 ## Open access publishing
 
-Open access means published research that anyone can read without paying for it. For the history of how open access developed here, see
-[Open access in Australia](https://en.wikipedia.org/wiki/Open_access_in_Australia){:target="_blank"}
-on Wikipedia.
+Open access means published research that anyone can read without paying for it. Jack McKenna gives a summary of [Open Access in Australia](https://blog.mdpi.com/2024/11/26/open-access-in-australia/){:target="_blank"} on the MDPI blog, and you can read the [history of how open access developed here](https://en.wikipedia.org/wiki/Open_access_in_Australia){:target="_blank"} on Wikipedia.
 
 {% assign group = entries | where: "type", "open-access" | sort_natural: "sort_key" %}
 {% for entry in group %}
