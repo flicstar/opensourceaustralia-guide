@@ -152,6 +152,7 @@ Maybe add:
 - [Australian Free Software Association](https://freesoftware.au/wiki/campaigns) campaigns
 - How do open source projects in Australia get funded? Grants, VC, sponsorship, etc. [Wikimedia.org.au Partner projects](https://wikimedia.org.au/wiki/Partner_Projects_2026-2027), [Linux Australia grants program](https://linux.org.au/grants-program/)  [Airtree open source VC](https://www.airtree.vc/open-source-vc/fundraising-in-australia-updated-open-source-investor-list)
 - Event recaps. For example, [Public Sector Network NSW Government Innovation Week 2026](https://publicsectornetwork.com/events/government-innovation-week-new-south-wales-sydney-2026/), and [Drupal attending](https://drupalsouth.org/news/2026/drupalsouth-community-represented-public-sector-network-nsw-2026). PyconAU recap, etc
+- A post (or a dedicated page?) for recommended listens, reading, watching (podcasts, YouTubers, books).
 
 **Global/Overseas**
 
