@@ -13,7 +13,7 @@ The peak conference for open source in Australia is [Everything Open](https://op
 
 Other events are specific to their context or topic. You might find a happening by joining a user group specific to the tool, program or protocol you’re interested in, because they usually gather regularly.
 
-You might also find relevant meetups near you by searching for the term “open source” on event platforms like [meetup.com](https://www.meetup.com/topics/opensource/au/) and the [Tech Events website](https://techevents.au/?view=national).
+You might also find relevant meetups near you by searching for the term “open source” on event platforms like [meetup.com](https://www.meetup.com/topics/opensource/au/){:target="_blank"} and the [Tech Events website](https://techevents.au/?view=national){:target="_blank"}.
 
 <span>{% include icons/construction.svg %}</span> Update my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#events){:target="_blank"} to let me know what I've missed. {% include icons/construction.svg %}
 
