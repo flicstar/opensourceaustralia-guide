@@ -139,7 +139,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 
 📃 Check out the [Events](https://opensourceaustralia.guide/events) page. What have I missed?
 
-Maybe add:
+- [WikiCon Australia](https://wikimedia.org.au/wiki/WikiCon_Australia)
 - [Software Freedom Day 2025](https://sfd.org.au)
 - [Hardware Freedom Day 2026](https://linuxvictoria.org/posts/2026-04-27_hardware-freedom-day-2026/). [Hardware Freedom Day](https://digitalfreedoms.org/en/hfd) is an annual community celebration of designs for physical things that anyone can study, build on and modify.
 - [Document Freedom Day](https://digitalfreedoms.org/en/document-freedom-day)
