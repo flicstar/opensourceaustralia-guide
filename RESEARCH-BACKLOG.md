@@ -17,6 +17,7 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. If 
 📃  Check out the [Open data](https://opensourceaustralia.guide/open-data) page. What have I missed?
 
 - [Build a ballot](https://www.buildaballot.org.au/). Civic tech using open data.
+- [RAPID-CDL](https://rapid-cdl.edu.au/)
 
 ## Open APIs
 
@@ -166,6 +167,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [What defines the ‘open’ in ‘open AI’?](https://www.turing.ac.uk/blog/what-defines-open-open-ai)  The Alan Turing Institute
 - [A Research Lab for Open Source](https://stewardshiplab.org/ideas/a-research-lab-for-open-source/) from Software Stewardship Lab
 - [Social post about](https://www.linkedin.com/posts/martin-macfie-44aba0261_we-are-delighted-to-announce-that-datagovscot-activity-7497977898545631232-tXF3) data.gov.scot, [data.gov.scot](https://data.gov.scot/)
+- [DataUmbrella](https://www.dataumbrella.org/)
 
 **Not open source, but interesting**
 
