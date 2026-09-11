@@ -60,7 +60,8 @@ Do these need a mention on the page?
 
 ## Organisations and groups
 
-- [Linux Australia](https://linux.org.au/)
+What counts as an org or group? If a group only exists for one function, like to run a meetup/event or to host a data portal, then I'm not including it here.
+
 - [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet societ. They host the auIGF.
 - [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/)
 - [Free software australia](https://freesoftware.org.au/), and this one too [Free Software Australia](https://freesoftware.au/)
@@ -149,11 +150,11 @@ This is the page I most want to read and the one I don't know how to write. If y
 ## Blog posts
 
 - A post for each category page, giving a longer definition, examples of use, international context, etc
-- [Open MyGov](https://openmygov.au/) Fraser Tweedale. Also, [FOI request: removal of the "Make source code open" criterion](https://www.righttoknow.org.au/request/digital_service_standard_removal)
-- [Australian Free Software Association](https://freesoftware.au/wiki/campaigns) campaigns
+- [Open MyGov](https://openmygov.au/) Fraser Tweedale. Also, [FOI request: removal of the "Make source code open" criterion](https://www.righttoknow.org.au/request/digital_service_standard_remova
 - How do open source projects in Australia get funded? Grants, VC, sponsorship, etc. [Wikimedia.org.au Partner projects](https://wikimedia.org.au/wiki/Partner_Projects_2026-2027), [Linux Australia grants program](https://linux.org.au/grants-program/)  [Airtree open source VC](https://www.airtree.vc/open-source-vc/fundraising-in-australia-updated-open-source-investor-list)
 - Event recaps. For example, [Public Sector Network NSW Government Innovation Week 2026](https://publicsectornetwork.com/events/government-innovation-week-new-south-wales-sydney-2026/), and [Drupal attending](https://drupalsouth.org/news/2026/drupalsouth-community-represented-public-sector-network-nsw-2026). PyconAU recap, etc
 - A post (or a dedicated page?) for recommended listens, reading, watching (podcasts, YouTubers, books).
+- Some ideas from [Australian Free Software Association](https://freesoftware.au/wiki/campaigns) campaigns
 
 **Global/Overseas**
 
