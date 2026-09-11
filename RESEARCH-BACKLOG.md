@@ -160,6 +160,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - Germany’s [sovereign tech fund](https://www.sovereign.tech/programs/fund)
 - This petition: [Recognition of Work on Open-Source as Volunteering in Germany](https://www.ehrenamt-opensource.de/en/petition-international). What is the status in Australia?
 - The [Free Software Foundation Europe](https://fsfe.org/). Request [Ada & Zangemann](https://fsfe.org/activities/ada-zangemann/index.en.html) for your local library.
+- [Refund for freedom](https://en.refund4freedom.org/)
 - European consortium [Digital Commons EDIC](https://digital-commons-edic.eu/news/2026-07-01-advisory-board-call-for-experts/)
 - [NLnet Foundation](https://nlnet.nl/)
 - French [open source community for professional software](https://www.ow2.org/) OW2Con26 global event.
