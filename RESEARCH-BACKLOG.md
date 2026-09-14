@@ -48,7 +48,7 @@ Feel free to add a line here or email me at hello@opensourceaustralia.guide. If 
 * [Australian Access Federation](https://aaf.edu.au/)
 * [AGRkMS](https://www.naa.gov.au/information-management/standards/australian-government-recordkeeping-metadata-standard)
 * [AGLS Metadata Standard (AS 5044\)](https://webarchive.nla.gov.au/awa/20230802044920/https://agls.gov.au/) - decommissioned
-* [Standards Australia](https://www.standards.org.au/) - national standards body. Most AS standards sit behind a paywall.
+* [Standards Australia](https://www.standards.org.au/) - national standards body. Open process ([comment.standards.org.au](https://comment.standards.org.au/)), paywalled output with read-only access ([readerroom.standards.org.au](https://readerroom.standards.org.au/)). [Working towards access to standards](https://share.hsforms.com/2ri57QA6CSo2DCKtQyfg1qQdet13) referenced in Commonwealth, State and Territory laws and regulation.
 
 ## Open science
 
