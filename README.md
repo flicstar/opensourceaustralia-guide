@@ -1,16 +1,18 @@
 ![Guide to Open Source in Australia](assets/images/logo.png)
 
-An information hub website for the Australian open source ecosystem: hardware and software projects, organisations, events, and policy.
+An information hub website for the Australian open source ecosystem: hardware and software projects, organisations, events and policy.
 
 🌐 [**opensourceaustralia.guide**](https://opensourceaustralia.guide)
 
 ## Contributing
 
-This is a community garden. Corrections, missing entries and thoughtful refinements are welcome. Please open an issue.
+This is a community garden. Corrections, missing entries and thoughtful refinements are welcome. Right now the most useful contribution is a link or a name for the [research backlog](RESEARCH-BACKLOG.md). Open an issue or a PR against that file, or see the [Google doc version](https://docs.google.com/document/d/1_6RP8DH57jTOLEeAZqtfAr8RNfr68mi8_ND75Guy9B0/edit?tab=t.0) if you don't have a GitHub account.
 
 An entry needs a significant Australian presence and a stated relationship to open source in Australia.
 
-There's a [research backlog](RESEARCH-BACKLOG.md) of links and names I've found but not yet verified or written up.
+I'd also love to hear from you directly. Ideas, opportunities, people I should talk to, or a gap I've obviously missed: [hello@opensourceaustralia.guide](mailto:hello@opensourceaustralia.guide).
+
+Once the structure settles, contributions will open up across the site, including a path for community-written blog posts.
 
 ## Site details
 
