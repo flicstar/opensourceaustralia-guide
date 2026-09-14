@@ -63,7 +63,7 @@ Do these need a mention on the page?
 What counts as an org or group? If a group only exists for one function, like to run a meetup/event or to host a data portal, then I'm not including it here.
 
 - [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet societ. They host the auIGF.
-- [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/)
+- [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/). This wikipedia page, [List of free and OSS orgs](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_organizations), is out-of-date for Australia.
 - [Free software australia](https://freesoftware.org.au/), and this one too [Free Software Australia](https://freesoftware.au/)
 - [Digital freedom foundation](https://digitalfreedoms.org/)
 - [Australia internet governance forum](https://auigf.au/news)
