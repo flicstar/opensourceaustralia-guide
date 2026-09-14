@@ -134,6 +134,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [Agentic AI Foundation (AAIF) Community Melbourne](https://luma.com/aaif-melbourne), Australian chapter of the [Agentic AI Foundation](https://github.com/aaif)
 - [Kangaroo LLM](https://www.linkedin.com/company/kangaroo-llm/) - is this dead, or even real? See also [this article from 2024](https://ia.acs.org.au/article/2024/australian-ai-project-calls-for-more-unpaid-volunteers.html)
 - [Matilda](https://maincode.com/) isn't open source. Maincode treats open-weight models as inputs to its system rather than releasing its own.
+- [OpenSi](https://opensi.net/) are exploring the development of a truly Australian open source large language model, trained primarily on Australian data and designed to support Australia's sovereign AI capabilities.
 
 ## Education or Open learning
 
@@ -149,10 +150,18 @@ This is the page I most want to read and the one I don't know how to write. If y
 
 ## Blog posts
 
-- A post for each category page, giving a longer definition, examples of use, international context, etc
-- [Open MyGov](https://openmygov.au/) Fraser Tweedale. Also, [FOI request: removal of the "Make source code open" criterion](https://www.righttoknow.org.au/request/digital_service_standard_remova
-- How do open source projects in Australia get funded? Grants, VC, sponsorship, etc. [Wikimedia.org.au Partner projects](https://wikimedia.org.au/wiki/Partner_Projects_2026-2027), [Linux Australia grants program](https://linux.org.au/grants-program/)  [Airtree open source VC](https://www.airtree.vc/open-source-vc/fundraising-in-australia-updated-open-source-investor-list)
-- Event recaps. For example, [Public Sector Network NSW Government Innovation Week 2026](https://publicsectornetwork.com/events/government-innovation-week-new-south-wales-sydney-2026/), and [Drupal attending](https://drupalsouth.org/news/2026/drupalsouth-community-represented-public-sector-network-nsw-2026). PyconAU recap, etc
+- A post for each **[category page](https://opensourceaustralia.guide/explore)**, giving a longer definition, examples of use, international context, etc
+- **Things that are happening**:
+  - [Open MyGov](https://openmygov.au/) Fraser Tweedale. Also, [FOI request: removal of the "Make source code open" criterion](https://www.righttoknow.org.au/request/digital_service_standard_remova
+  - OpenSI
+- **Events from all angles**
+  - Promos
+  - Recaps. For example, [Public Sector Network NSW Government Innovation Week 2026](https://publicsectornetwork.com/events/government-innovation-week-new-south-wales-sydney-2026/), and [Drupal attending](https://drupalsouth.org/news/2026/drupalsouth-community-represented-public-sector-network-nsw-2026). PyConAU recap, etc
+  - Behind-the-scenes of organising, etc.
+    - Talk to Jack Skinner about PyConAu
+- **Funding**
+  - How do open source projects in Australia get funded? Grants, VC, sponsorship, etc. [Wikimedia.org.au Partner projects](https://wikimedia.org.au/wiki/Partner_Projects_2026-2027), [Linux Australia grants program](https://linux.org.au/grants-program/)  [Airtree open source VC](https://www.airtree.vc/open-source-vc/fundraising-in-australia-updated-open-source-investor-list)
+  - Promo different grants and opportunties available
 - A post (or a dedicated page?) for recommended listens, reading, watching (podcasts, YouTubers, books).
 - Some ideas from [Australian Free Software Association](https://freesoftware.au/wiki/campaigns) campaigns
 
