@@ -175,6 +175,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [Kangaroo LLM](https://www.linkedin.com/company/kangaroo-llm/) - is this dead, or even real? See also [this article from 2024](https://ia.acs.org.au/article/2024/australian-ai-project-calls-for-more-unpaid-volunteers.html)
 - [Matilda](https://maincode.com/) isn't open source. Maincode treats open-weight models as inputs to its system rather than releasing its own.
 - [OpenSi](https://opensi.net/) are exploring the development of a truly Australian open source large language model, OzLLM, trained primarily on Australian data and designed to support Australia's sovereign AI capabilities.
+- [AI sovereignties](https://github.com/civic-interplay/ai-sovereignties) from [Civic Interplay](https://civicinterplay.io/). Also, [Australian data centres](https://datacentres.civicinterplay.io/). Does this belong under Open Science instead?
 
 ## Education or Open learning
 
