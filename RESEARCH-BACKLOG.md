@@ -10,12 +10,12 @@ Feel free to add a line here or email me at [hello@opensourceaustralia.guide](ma
 
 ## Open source software
 
-This page lists open source software with Australian origins or long-running Australian maintenance. You can't talk about software without mentioning the people, so in the future let's add a Notable People page and stretch-target: a History page (with cool graphical timeline).
+A list of open source software with Australian origins or long-running Australian maintenance.
 
 - [Moodle](https://moodle.org/) - learning management system created in 2001 by Martin Dougiamas, an Australian educator and computer scientist. [Dougiamas on how it started](https://dougiamas.com/about/), [Moodle history](https://docs.moodle.org/502/en/History), [Moodle.com](https://moodle.com/?ref=dougiamas.com)
 - [FreePBX](https://www.freepbx.org/) - web interface for configuring Asterisk phone systems, written in 2004 by Australian programmer Rob Thomas as the Asterisk Management Portal. [Wikipedia](https://en.wikipedia.org/wiki/FreePBX)
 - [BeeWare](https://beeware.org/) - tools for packaging and running Python code on multiple platforms
-- The [Australian nuclear science and technology organization (ANSTO)](https://www.ansto.gov.au/) helps researchers use open source software to conduct experiments using the Australian Synchrotron. There is a lot of the open software coming out of this.
+- The [Australian nuclear science and technology organization (ANSTO)](https://www.ansto.gov.au/) helps researchers use open source software to conduct experiments using the Australian Synchrotron. There is a lot of open software coming out of this.
 - [Puppy Linux, Quirky and EasyOS](https://bkhome.org/tag_linux.html) - lightweight Linux distributions created by Barry Kauler
 - [Grafana](https://grafana.com/blog/grafana-labs-at-5-how-we-got-here-and-where-were-going/) - observability and dashboard platform. Co-founder and CTO Anthony Woods is from Western Australia. [Documentary](https://grafana.com/blog/the-story-of-grafana-documentary-from-one-developers-dream-to-20-million-users-worldwide/)
 - [Azul](https://australiancybersecuritycentre.github.io/azul/) - malware analysis tooling by the Australian Signals Directorate. [ASD announcement](https://www.asd.gov.au/news/2026-02-24-asd-has-open-sourced-azul-help-uplift-cyber-defences-globally-against-malware)
@@ -93,7 +93,7 @@ Crosslink to [Hackerspaces and makerspaces](#hackerspaces-and-makerspaces) page.
 Do these need a mention on the page?
 - [Access National Research Infrastructure](https://www.access-nri.org.au/)
 - [Australian Access Federation](https://aaf.edu.au/)
-- [CERN OSPO](https://opensource.web.cern.ch/). Not australian but maybe we are an affiliated member?
+- [CERN OSPO](https://opensource.web.cern.ch/). Not Australian but maybe we are an affiliated member?
 
 ## Organisations and groups
 
@@ -142,10 +142,10 @@ What counts as an org or group? If a group only exists for one function, like to
 
 - [Hackerspaces Wiki](https://wiki.hackerspaces.org/australia)
 - [The Australian Hackerspace Network](https://groups.google.com/g/ozhs-net) - Inactive
-- Australian Hackerspaces Association
 - [Australian Makerspace Directory](https://makerspaces.com.au/)
 - [Connected Community Hackerspace](https://www.hackmelbourne.org/about-the-cchs/), [CCHS - Melbourne Hackerspace](https://hackaday.io/hackerspace/734-cchs-melbourne-hackerspace)
 - [Melbourne Tech Guilds](https://techguilds.au/)
+- Check the listings on this [Pandora page](https://pandora.nla.gov.au/col/18478)
 
 ## Government procurement and policy
 
@@ -193,7 +193,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 
 - A post for each **[category page](https://opensourceaustralia.guide/explore)**, giving a longer definition, examples of use, international context, etc
 - **Things that are happening**:
-  - [Open MyGov](https://openmygov.au/) Fraser Tweedale. Also, [FOI request: removal of the "Make source code open" criterion](https://www.righttoknow.org.au/request/digital_service_standard_remova
+  - [Open MyGov](https://openmygov.au/) Fraser Tweedale. Also, [FOI request: removal of the "Make source code open" criterion](https://www.righttoknow.org.au/request/digital_service_standard_remova)
   - OpenSI
 - **Events from all angles**
   - Promos
@@ -228,7 +228,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 
 **Not open source, but interesting**
 
-- Policies around data residency, building of data centres, cloud hosting, view on digital sovereignty. [Post from FibreconX about data centre capacity](https://www.linkedin.com/posts/fibreconx_the-network-gap-fibreconx-activity-7460538670614286336-2MD1). [Trellis Data’s Agentaus](https://trellisdata.com/newsroom/new-ai-assessor-tool-speeds-up-the-path-to-disp-readinessnbsp-rnxzf) (not open source, but sovereign)
+- Policies around data residency, building of data centres, cloud hosting, view on digital sovereignty. [Post from FibreconX about data centre capacity](https://www.linkedin.com/posts/fibreconx_the-network-gap-fibreconx-activity-7460538670614286336-2MD1). The Conversation: [Data centres in Australia: your questions answered](https://theconversation.com/data-centres-in-australia-your-questions-answered-290841)
 - Indigenous data sovereignty: [Maiam nayri Wingara](https://www.maiamnayriwingara.org/), [Global Indigenous Data Alliance](https://www.gida-global.org/), [Framework for Governance of Indigenous Data, NIAA](https://www.niaa.gov.au/sites/default/files/documents/2024-05/framework-governance-indigenous-data.pdf). Indigenous data sovereignty is the principle that Aboriginal and Torres Strait Islander peoples have the right to govern data about their communities, lands and knowledge. [Social post from Animikii](https://www.linkedin.com/posts/animikii_indigenousdatasovereignty-datagovernance-activity-7498755810840473600-WUwH)
 - [Tech policy design institute](https://techpolicy.au/map/). Not open source but geez, this map is interesting.
 - [Good Things Australia](https://goodthingsaustralia.org/). Not open source, but digital goodness in Australia
@@ -332,17 +332,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 
 In no particular order:
 
-- [ ] Sae Ra Germaine
-- [ ] Fraser Tweedale
-- [ ] Cameron Shorter
-- [ ] Donna Benjamin
-- [ ] Hugh Blemings
-- [ ] Andrew Tridgell
-- [ ] John Lions
-- [ ] Rob Thomas
-- [ ] Liz Stokes
-- [ ] Tim Sherratt
-- [ ] Joel Nothman
+-
 
 ## Uncategorised
 
