@@ -12,6 +12,19 @@ Feel free to add a line here or email me at [hello@opensourceaustralia.guide](ma
 
 ## Open hardware
 
+Crosslink to [Hackerspaces and makerspaces](#hackerspaces-and-makerspaces) page.
+
+- [Speeduino](https://speeduino.com/) and https://wiki.speeduino.com/ and https://github.com/speeduino/speeduino Josh Stewart. Open source engine management on Arduino.
+- [Open Source Hardware Association](https://oshwa.org/) lists certified open source hardware projects filterable by country so you can see [Australian hardware with verified licenses](https://certification.oshwa.org/list.html?q=australia).
+- [Freetronics](https://github.com/freetronics). Also, [SuperHouse](https://www.superhouse.tv/)
+- [Kookaberry](https://learn.auststem.com.au/the-kookaberry-story/)
+- [ArduPilot](https://ardupilot.org/) and also maybe [CubePilot](https://cubepilot.org/#/home)
+- [OpenPOWER](https://openpowerfoundation.org/), [Microwatt](https://en.wikipedia.org/wiki/OpenPOWER_Microwatt). [NCI joined.](https://openpowerfoundation.org/blog/nci-australia-openpower-member/)
+- [Open Hardware Foundation](https://openhwfoundation.org/) Global. Any Australian connection?
+- [Open science hardware foundation](opensciencehardware.org). No Australian connection.
+- [GOSH Open science hardware](https://openhardware.science/). No Australian connection.
+
+
 ## Open data
 
 📃  Check out the [Open data](https://opensourceaustralia.guide/open-data) page. What have I missed?
@@ -57,6 +70,7 @@ Feel free to add a line here or email me at [hello@opensourceaustralia.guide](ma
 Do these need a mention on the page?
 - [Access National Research Infrastructure](https://www.access-nri.org.au/)
 - [Australian Access Federation](https://aaf.edu.au/)
+- [CERN OSPO](https://opensource.web.cern.ch/). Not australian but maybe we are an affiliated member?
 
 ## Organisations and groups
 
@@ -70,6 +84,8 @@ What counts as an org or group? If a group only exists for one function, like to
 - [Australian Integrity Advocacy Organisations](https://www.accountabilityrt.org/australian-integrity-advocacy-organisations/)
 - [Australian Government Linked Data Working Group](https://www.linked.data.gov.au/showcase)
 -  [Open Knowledge Australia](https://au.okfn.org/index.html) - an archived project from the Open Knowledge Foundation.
+-  [Hardware Freedom Group](https://engage.electronworkshop.com.au/group-hardware-freedom)
+-  [OzLabs](https://ozlabs.org/)
 
 **Groups that run infrastructure you can use**
 
@@ -147,6 +163,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [Hardware Freedom Day 2026](https://linuxvictoria.org/posts/2026-04-27_hardware-freedom-day-2026/). [Hardware Freedom Day](https://digitalfreedoms.org/en/hfd) is an annual community celebration of designs for physical things that anyone can study, build on and modify.
 - [Document Freedom Day](https://digitalfreedoms.org/en/document-freedom-day)
 - [Adfinis events](https://www.adfinis.com/en-au/events) - Adfinis is a service provider of open source IT solutions and they hold meetups and webinars around open source solutions including GitLab and SUSE.
+- [Open Hardware MiniConfs](http://www.openhardwareconf.org/wiki/Main_Page). Inactive
 
 ## Blog posts
 
@@ -179,6 +196,11 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [A Research Lab for Open Source](https://stewardshiplab.org/ideas/a-research-lab-for-open-source/) from Software Stewardship Lab
 - [Social post about](https://www.linkedin.com/posts/martin-macfie-44aba0261_we-are-delighted-to-announce-that-datagovscot-activity-7497977898545631232-tXF3) data.gov.scot, [data.gov.scot](https://data.gov.scot/)
 - [DataUmbrella](https://www.dataumbrella.org/)
+- [OSHNED](https://www.linkedin.com/posts/jerrydevos_openhardware-openscience-opensciencenl-share-7478011861532295171-cHse/). Netherlands: a national open hardware coordinator funded for four years across five universities.
+- UNOpenSourceWeek
+- [CURIOSS](https://curioss.org/) Community for University and Research Institution OSPOs, see [this LinkedIn post](https://www.linkedin.com/posts/unopensourceweek-osposforgood-globalgoals-ugcPost-7505280348612714498-qGlE/) from UNOICT
+- [Refund for freedom](https://en.refund4freedom.org/).
+
 
 **Not open source, but interesting**
 
