@@ -12,25 +12,25 @@ Feel free to add a line here or email me at [hello@opensourceaustralia.guide](ma
 
 This page lists open source software with Australian origins or long-running Australian maintenance. You can't talk about software without mentioning the people, so in the future let's add a Notable People page and stretch-target: a History page (with cool graphical timeline).
 
-- [Moodle](https://moodle.org/): learning management system created in 2001 by Martin Dougiamas, an Australian educator and computer scientist. [Dougiamas on how it started](https://dougiamas.com/about/), [Moodle history](https://docs.moodle.org/502/en/History), [Moodle.com](https://moodle.com/?ref=dougiamas.com)
-- [FreePBX](https://www.freepbx.org/): web interface for configuring Asterisk phone systems, written in 2004 by Australian programmer Rob Thomas as the Asterisk Management Portal. [Wikipedia](https://en.wikipedia.org/wiki/FreePBX)
-- [BeeWare](https://beeware.org/): tools for packaging and running Python code on multiple platforms
+- [Moodle](https://moodle.org/) - learning management system created in 2001 by Martin Dougiamas, an Australian educator and computer scientist. [Dougiamas on how it started](https://dougiamas.com/about/), [Moodle history](https://docs.moodle.org/502/en/History), [Moodle.com](https://moodle.com/?ref=dougiamas.com)
+- [FreePBX](https://www.freepbx.org/) - web interface for configuring Asterisk phone systems, written in 2004 by Australian programmer Rob Thomas as the Asterisk Management Portal. [Wikipedia](https://en.wikipedia.org/wiki/FreePBX)
+- [BeeWare](https://beeware.org/) - tools for packaging and running Python code on multiple platforms
 - The [Australian nuclear science and technology organization (ANSTO)](https://www.ansto.gov.au/) helps researchers use open source software to conduct experiments using the Australian Synchrotron. There is a lot of the open software coming out of this.
-- [Puppy Linux, Quirky and EasyOS](https://bkhome.org/tag_linux.html): lightweight Linux distributions created by Barry Kauler
-- [Grafana](https://grafana.com/blog/grafana-labs-at-5-how-we-got-here-and-where-were-going/): observability and dashboard platform. Co-founder and CTO Anthony Woods is from Western Australia. [Documentary](https://grafana.com/blog/the-story-of-grafana-documentary-from-one-developers-dream-to-20-million-users-worldwide/)
-- [Azul](https://australiancybersecuritycentre.github.io/azul/): malware analysis tooling by the Australian Signals Directorate. [ASD announcement](https://www.asd.gov.au/news/2026-02-24-asd-has-open-sourced-azul-help-uplift-cyber-defences-globally-against-malware)
+- [Puppy Linux, Quirky and EasyOS](https://bkhome.org/tag_linux.html) - lightweight Linux distributions created by Barry Kauler
+- [Grafana](https://grafana.com/blog/grafana-labs-at-5-how-we-got-here-and-where-were-going/) - observability and dashboard platform. Co-founder and CTO Anthony Woods is from Western Australia. [Documentary](https://grafana.com/blog/the-story-of-grafana-documentary-from-one-developers-dream-to-20-million-users-worldwide/)
+- [Azul](https://australiancybersecuritycentre.github.io/azul/) - malware analysis tooling by the Australian Signals Directorate. [ASD announcement](https://www.asd.gov.au/news/2026-02-24-asd-has-open-sourced-azul-help-uplift-cyber-defences-globally-against-malware)
 - This list of projects on the [Australian free software association site](https://freesoftware.au/wiki/AustralianFreeSoftwareProjects)
-- [Samba](https://www.samba.org/): lets Linux and Unix machines share files and services with Windows. Started by Andrew Tridgell in Canberra.
-- [rsync](https://rsync.samba.org/): copies and synchronises files efficiently by comparing what has changed. Also from Andrew Tridgell.
-- [librsync](https://librsync.github.io/): library implementing the rsync delta algorithm, LGPL-2.1-or-later.
-- [ArduPilot](https://ardupilot.org/): autopilot software for drones and other autonomous vehicles.
-- [distcc](https://github.com/distcc/distcc): distributes C and C++ compilation across several machines. Created by Martin Pool.
-- [Codec2](https://github.com/drowe67/codec2): low bit rate speech codec by David Rowe in Adelaide, LGPL. Also FreeDV and the SM1000 hardware. [Rowetel](https://www.rowetel.com/)
-- [MicroPython](https://micropython.org/): Python for microcontrollers, written by Damien George. Runs on the micro:bit and [Kookaberry](https://learn.auststem.com.au/the-kookaberry-story/).
-- [netfilter and iptables](https://www.netfilter.org/): packet filtering in the Linux kernel, written by Rusty Russell in Canberra. The project is international now. Its predecessor, ipchains, is also Rusty's work.
-- [morph.io](http://morph.io): hosted web scraping service run by the Open Australia Foundation. [Current state of the project](https://oaf.org.au/2026/07/30/morph-io-is-stuck-in-2016-help-us-get-it-out/)
-- [CiviCRM Elections extension](https://github.com/agileware/au.com.agileware.elections): adds instant-runoff voting to CiviCRM, AGPL-3.0, built by Agileware in Australia. [Extension listing](https://civicrm.org/extensions/elections)
-- [OpenBMC](https://www.openbmc.org/): Linux firmware stack for baseboard management controllers. Multi-vendor project with ongoing maintenance from the OzLabs team in Canberra. [Source](https://github.com/openbmc/openbmc). Still active?
+- [Samba](https://www.samba.org/) - lets Linux and Unix machines share files and services with Windows. Started by Andrew Tridgell in Canberra.
+- [rsync](https://rsync.samba.org/) - copies and synchronises files efficiently by comparing what has changed. Also from Andrew Tridgell.
+- [librsync](https://librsync.github.io/) - library implementing the rsync delta algorithm, LGPL-2.1-or-later.
+- [ArduPilot](https://ardupilot.org/) - autopilot software for drones and other autonomous vehicles.
+- [distcc](https://github.com/distcc/distcc) - distributes C and C++ compilation across several machines. Created by Martin Pool.
+- [Codec2](https://github.com/drowe67/codec2) - low bit rate speech codec by David Rowe in Adelaide, LGPL. Also FreeDV and the SM1000 hardware. [Rowetel](https://www.rowetel.com/)
+- [MicroPython](https://micropython.org/) - Python for microcontrollers, written by Damien George. Runs on the micro:bit and [Kookaberry](https://learn.auststem.com.au/the-kookaberry-story/).
+- [netfilter and iptables](https://www.netfilter.org/) - packet filtering in the Linux kernel, written by Rusty Russell in Canberra. The project is international now. Its predecessor, ipchains, is also Rusty's work.
+- [morph.io](http://morph.io) - hosted web scraping service run by the Open Australia Foundation. [Current state of the project](https://oaf.org.au/2026/07/30/morph-io-is-stuck-in-2016-help-us-get-it-out/)
+- [CiviCRM Elections extension](https://github.com/agileware/au.com.agileware.elections) - adds instant-runoff voting to CiviCRM, AGPL-3.0, built by Agileware in Australia. [Extension listing](https://civicrm.org/extensions/elections)
+- [OpenBMC](https://www.openbmc.org/) - Linux firmware stack for baseboard management controllers. Multi-vendor project with ongoing maintenance from the OzLabs team in Canberra. [Source](https://github.com/openbmc/openbmc). Still active?
 - [Enlightenment](https://www.enlightenment.org/), [Carsten Rasterman Haitzler](https://en.wikipedia.org/wiki/Carsten_Haitzler)
 
 
