@@ -230,7 +230,8 @@ This is the page I most want to read and the one I don't know how to write. If y
 
 **Not open source, but interesting**
 
-- Policies around data residency, building of data centres, cloud hosting, view on digital sovereignty. [Post from FibreconX about data centre capacity](https://www.linkedin.com/posts/fibreconx_the-network-gap-fibreconx-activity-7460538670614286336-2MD1). The Conversation: [Data centres in Australia: your questions answered](https://theconversation.com/data-centres-in-australia-your-questions-answered-290841)
+- Policies around data residency, building of data centres, cloud hosting.  [Post from FibreconX about data centre capacity](https://www.linkedin.com/posts/fibreconx_the-network-gap-fibreconx-activity-7460538670614286336-2MD1). The Conversation: [Data centres in Australia: your questions answered](https://theconversation.com/data-centres-in-australia-your-questions-answered-290841)
+- Views on digital sovereignty in Australia. Event: [Digital Sovereignty Forum](https://digitalsovereigntyforum.com.au/2026/)
 - Indigenous data sovereignty: [Maiam nayri Wingara](https://www.maiamnayriwingara.org/), [Global Indigenous Data Alliance](https://www.gida-global.org/), [Framework for Governance of Indigenous Data, NIAA](https://www.niaa.gov.au/sites/default/files/documents/2024-05/framework-governance-indigenous-data.pdf). Indigenous data sovereignty is the principle that Aboriginal and Torres Strait Islander peoples have the right to govern data about their communities, lands and knowledge. [Social post from Animikii](https://www.linkedin.com/posts/animikii_indigenousdatasovereignty-datagovernance-activity-7498755810840473600-WUwH)
 - [Tech policy design institute](https://techpolicy.au/map/). Not open source but geez, this map is interesting.
 - [Good Things Australia](https://goodthingsaustralia.org/). Not open source, but digital goodness in Australia
