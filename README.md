@@ -18,7 +18,7 @@ Once the structure settles, contributions will open up across the site, includin
 
 It's a Jekyll site on GitHub Pages.
 
-There's no analytics yet and no cookies, no tracking pixels, and nothing loads from a third party. I'll probably add some kind of cookieless analytics eventually - like GoatCounter maybe?
+See the GoatCounter cookieless analytics: [opensourceaustralia.goatcounter.com](https://opensourceaustralia.goatcounter.com/)
 
 ## Licences
 
