@@ -235,6 +235,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - Indigenous data sovereignty: [Maiam nayri Wingara](https://www.maiamnayriwingara.org/), [Global Indigenous Data Alliance](https://www.gida-global.org/), [Framework for Governance of Indigenous Data, NIAA](https://www.niaa.gov.au/sites/default/files/documents/2024-05/framework-governance-indigenous-data.pdf). Indigenous data sovereignty is the principle that Aboriginal and Torres Strait Islander peoples have the right to govern data about their communities, lands and knowledge. [Social post from Animikii](https://www.linkedin.com/posts/animikii_indigenousdatasovereignty-datagovernance-activity-7498755810840473600-WUwH)
 - [Tech policy design institute](https://techpolicy.au/map/). Not open source but geez, this map is interesting.
 - [Good Things Australia](https://goodthingsaustralia.org/). Not open source, but digital goodness in Australia
+- [Local resilience tech](https://lores.tech/), [Merri-bek.tech](https://www.merri-bek.tech/). Jade Ambrose. Also, [Local-first.conf](https://www.localfirstconf.com/)
 
 ## Glossary terms
 
