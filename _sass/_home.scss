@@ -208,7 +208,7 @@
 .home-cta {
   @extend %full-bleed;
   background-color: var(--surface-raised);
-  padding: 0 $spacing-unit $spacing-unit * 1.75;
+  padding: $spacing-unit * 0.75 $spacing-unit 0;
 }
 
 .home-cta__card {

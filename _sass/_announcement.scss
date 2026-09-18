@@ -1,0 +1,50 @@
+/**
+ * Site announcement
+ */
+.announcement {
+  color: var(--on-invert-heading);
+  background-color: var(--surface-invert);
+}
+
+.announcement__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-unit;
+  padding-top: $spacing-unit * 0.45;
+  padding-bottom: $spacing-unit * 0.45;
+  font-size: $small-font-size;
+  line-height: 1.4;
+}
+
+.announcement__message {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: $spacing-unit * 0.35;
+}
+
+.announcement .inline-icon {
+  flex: 0 0 auto;
+  width: 1.4em;
+  height: 1.4em;
+}
+
+.announcement__link {
+  flex: 0 0 auto;
+  color: var(--on-invert-heading);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+
+  &:visited,
+  &:hover,
+  &:focus {
+    color: var(--on-invert-heading);
+  }
+}
+
+@include media-query($on-palm) {
+  .announcement__container {
+    align-items: center;
+  }
+}
