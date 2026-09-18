@@ -2,7 +2,7 @@
 
 This is a working list of things to look into. Entries move from here to the live site, [opensourceaustralia.guide](https://opensourceaustralia.guide/), after verification.
 
-I want to link out to external sites as much as possible, so where directories already exist, I will link to them rather than recreate them.
+I don't want to recreate existing directories, so will link out to them as much as possible.
 
 Feel free to add a line here or email me at [hello@opensourceaustralia.guide](mailto:hello@opensourceaustralia.guide). If you don't have a GitHub account, you can make suggestions in this [Google doc](https://docs.google.com/document/d/1_6RP8DH57jTOLEeAZqtfAr8RNfr68mi8_ND75Guy9B0/edit?tab=t.0).
 
@@ -98,9 +98,9 @@ Do these need a mention on the page?
 
 ## Organisations and groups
 
-What counts as an org or group? If a group only exists for one function, like to run a meetup/event or to host a data portal, then I'm not including it here.
+What counts as an org or group? If a group only exists for one function, like to run a meetup or host a data portal, then I'm not including it here.
 
-- [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet societ. They host the auIGF.
+- [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet society. They host the auIGF.
 - [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/). This wikipedia page, [List of free and OSS orgs](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_organizations), is out-of-date for Australia.
 - [Free software australia](https://freesoftware.org.au/), and this one too [Free Software Australia](https://freesoftware.au/)
 - [Digital freedom foundation](https://digitalfreedoms.org/)
