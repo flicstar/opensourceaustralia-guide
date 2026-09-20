@@ -1,5 +1,6 @@
 ---
 layout: home
+image: /assets/images/logo.png
 tagline: A curated directory of the Australian open source landscape - tools, data, groups, policies and events.
 subtitle: 
 ---
