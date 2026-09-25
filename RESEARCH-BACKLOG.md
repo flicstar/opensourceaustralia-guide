@@ -110,6 +110,7 @@ What counts as an org or group? If a group only exists for one function, like to
 -  [Open Knowledge Australia](https://au.okfn.org/index.html) - an archived project from the Open Knowledge Foundation.
 -  [Hardware Freedom Group](https://engage.electronworkshop.com.au/group-hardware-freedom)
 -  [OzLabs](https://ozlabs.org/)
+-  One laptop per child (OLPC) Australia - Inactive
 
 **Groups that run infrastructure you can use**
 
@@ -321,6 +322,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - Open source hardware certification
 - Planned obsolescence
 - Right to Repair
+- OEM Original equipment manufacturer
 
 **AI**
 - Open weights
