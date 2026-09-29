@@ -191,6 +191,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [Adfinis events](https://www.adfinis.com/en-au/events) - Adfinis is a service provider of open source IT solutions and they hold meetups and webinars around open source solutions including GitLab and SUSE.
 - [Open Hardware MiniConfs](http://www.openhardwareconf.org/wiki/Main_Page). Inactive
 - [OpenStack Days](https://events.aptira.com/) Inactive
+- [FOST](https://www.joinfost.io/events/australia). 3-part commercial conference with open source tracks/speakers
 
 ## Blog posts
 
