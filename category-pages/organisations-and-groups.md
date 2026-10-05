@@ -7,6 +7,10 @@ permalink: /organisations
 
 {% assign entries = site.data.category_data["organisations"] %}
 
+Organisations working in open source in Australia include government agencies, universities, foundations, industry bodies and community groups.
+
+Some are national bodies with staff and budgets. Others are small volunteer groups. They run infrastructure, build tools, back events and shape policy.
+
 <span>{% include icons/construction.svg %}</span> This page is a work in progress. Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#organisations-and-groups){:target="_blank"} file to see the organisations I still need to add here. {% include icons/construction.svg %}
 
 
