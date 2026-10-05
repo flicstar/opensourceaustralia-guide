@@ -13,6 +13,7 @@ Some are national bodies with staff and budgets. Others are small volunteer grou
 
 <span>{% include icons/construction.svg %}</span> This page is a work in progress. Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#organisations-and-groups){:target="_blank"} file to see the organisations I still need to add here. {% include icons/construction.svg %}
 
+{% comment %}
 
 ## Umbrella and backing bodies
 
@@ -67,3 +68,5 @@ Groups that make the case for open source, open data, and digital rights.
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
+
+{% endcomment %}
