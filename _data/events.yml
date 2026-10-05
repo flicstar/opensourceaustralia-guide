@@ -7,7 +7,7 @@
   url: https://everythingopen.au
   type: conferences
   status: active
-  run_by: linux-australia
+  organisation_slug: linux-australia
   tags:
     - everything-open
   summary: Australia's main conference for open technologies.
@@ -23,7 +23,7 @@
   url: https://osgeo-oceania.org/events/
   type: conferences
   status: inactive
-  run_by: osgeo-oceania
+  organisation_slug: osgeo-oceania
   tags:
     - open-software
     - open-data
@@ -36,7 +36,7 @@
   url: https://pycon.org.au
   type: conferences
   status: active
-  run_by: linux-australia
+  organisation_slug: linux-australia
   tags:
     - open-software
   summary: The national conference for everyone using the Python Programming Language.
@@ -88,7 +88,7 @@
   url: https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network
   type: conferences
   status: inactive
-  run_by: australian-repair-network
+  organisation_slug: australian-repair-network
   tags:
     - right-to-repair
     - open-hardware
@@ -117,7 +117,7 @@
   url: https://linux.org.au/joomladay/
   type: conferences
   status: inactive
-  run_by: linux-australia
+  organisation_slug: linux-australia
   tags:
     - open-software
   summary: A community event for users of the Joomla content management system.
@@ -140,7 +140,7 @@
   url: https://linux.org.au/linux-conf-au/
   type: conferences
   status: inactive
-  run_by: linux-australia
+  organisation_slug: linux-australia
   tags:
     - open-software
   summary: The premier Linux and open source conference for Australia and New Zealand from 1999 to 2022.
@@ -195,7 +195,7 @@
   url: https://www.healthhack.com.au/
   type: hackathons
   status: inactive
-  run_by: linux-australia
+  organisation_slug: linux-australia
   tags:
     - open-software
     - open-research
@@ -224,7 +224,7 @@
   url: https://electronworkshop.org/calendar/
   type: regular-gatherings
   status: active
-  run_by: electron-workshop
+  organisation_slug: electron-workshop
   tags:
     - everything-open
   summary: A recurring program of gatherings in Melbourne and online.

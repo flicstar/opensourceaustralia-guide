@@ -112,7 +112,7 @@
   type: civic-tech
   sort_key: "010"
   status: active
-  run_by: openaustralia-foundation
+  organisation_slug: openaustralia-foundation
   description: |
     Publishes Hansard records for the House of Representatives and the Senate, going back to 2006.
 
@@ -122,7 +122,7 @@
   type: civic-tech
   sort_key: "020"
   status: active
-  run_by: openaustralia-foundation
+  organisation_slug: openaustralia-foundation
   description: |
     Shows how your MP has voted on any issue, in language designed to be readable without prior knowledge of parliamentary procedure.
 
@@ -132,7 +132,7 @@
   type: civic-tech
   sort_key: "030"
   status: active
-  run_by: openaustralia-foundation
+  organisation_slug: openaustralia-foundation
   description: |
     Helps you submit a Freedom of Information request. Requests and responses are published and archived.
 
@@ -142,7 +142,7 @@
   type: civic-tech
   sort_key: "040"
   status: active
-  run_by: openaustralia-foundation
+  organisation_slug: openaustralia-foundation
   description: |
     A searchable collection of Australian local government planning applications, so you can see what is being built and knocked down near you.
 

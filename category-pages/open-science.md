@@ -17,7 +17,7 @@ Collections that hold research data you can use.
 
 {% assign group = entries | where: "type", "research-data-collection" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Catalogues and search
@@ -26,7 +26,7 @@ These catalogues index data that's held elsewhere, so you can search across many
 
 {% assign group = entries | where: "type", "catalogue-search" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Open access publishing
@@ -35,7 +35,7 @@ Open access means published research that anyone can read without paying for it.
 
 {% assign group = entries | where: "type", "open-access" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Open methods
@@ -44,5 +44,5 @@ Open methods means sharing how the research was done, not just what it found. Th
 
 {% assign group = entries | where: "type", "open-methods" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}

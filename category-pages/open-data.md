@@ -19,7 +19,7 @@ Australian Government agencies are expected to make their non-sensitive data ope
 
 {% assign group = entries | where: "type", "government-portals" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Civic tech
@@ -28,7 +28,7 @@ Civic tech projects take government information that that anyone can see but few
 
 {% assign group = entries | where: "type", "civic-tech" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## GLAM
@@ -37,7 +37,7 @@ GLAM stands for Galleries, Libraries, Archives and Museums. Open GLAM is a movem
 
 {% assign group = entries | where: "type", "glam" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Transport
@@ -46,7 +46,7 @@ Timetables, stop locations, real-time vehicle positions and road network data. M
 
 {% assign group = entries | where: "type", "transport" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Geospatial and mapping
@@ -55,7 +55,7 @@ Spatial data is any information with a location attached to it, describing where
 
 {% assign group = entries | where: "type", "geospatial-and-mapping" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Energy
@@ -64,5 +64,5 @@ Generation, demand, pricing and emissions data from Australia's electricity grid
 
 {% assign group = entries | where: "type", "energy" | sort_natural: "sort_key" %}
 {% for entry in group %}
-  {% include directory-entry.html entry=entry show_run_by=false %}
+  {% include directory-entry.html entry=entry %}
 {% endfor %}

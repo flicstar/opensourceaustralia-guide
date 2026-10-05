@@ -117,6 +117,5 @@
   type: open-methods
   sort_key: "020"
   status: active
-  run_by: australian-research-data-commons
   description: |
     Principles for making research software findable, accessible, interoperable and reusable, adapted from the FAIR principles for data. Developed internationally, with the [ARDC](https://opensourceaustralia.guide/organisations#australian-research-data-commons) playing an active role. The ARDC publishes guidance on adopting the principles in Australia.
