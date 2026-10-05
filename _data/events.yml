@@ -63,11 +63,12 @@
   url: https://auigf.au
   type: conferences
   status: active
+  organisation_slug:
   tags:
     - internet-governance
   summary: The annual Australian forum on internet public policy.
   description: |
-    The Australian Internet Governance Forum (auIGF) is an annual gathering where people from government, industry, civil society, academia and the technical community discuss public policy questions about the internet in Australia. It is modelled on the global [Internet Governance Forum](https://www.intgovforum.org/en) and uses the same multi-stakeholder approach, meaning no single sector sets the agenda.
+    Formerly known as NetThing, the Australian Internet Governance Forum (auIGF) is an annual gathering where people from government, industry, civil society, academia and the technical community discuss public policy questions about the internet in Australia. It is modelled on the global [Internet Governance Forum](https://www.intgovforum.org/en) and uses the same multi-stakeholder approach, meaning no single sector sets the agenda.
 
     The programme is built from session proposals submitted by the community and forum is volunteer-run. Read more about the event, including a brief history, from the [.au Domain Administration (auDA)](https://www.auda.org.au/news-insights/events/australian-internet-governance-forum-auigf/).
 
