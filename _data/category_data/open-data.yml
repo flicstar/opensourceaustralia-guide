@@ -1,223 +1,245 @@
 ---
 # Government portals
 
-- slug: "australian-bureau-of-statistics"
-  name: "Australian Bureau of Statistics"
-  url: "https://www.abs.gov.au/"
-  type: "government-portals"
+- slug: australian-bureau-of-statistics
+  name: Australian Bureau of Statistics
+  url: https://www.abs.gov.au/
+  type: government-portals
   sort_key: "010"
-  status: "active"
+  status: active
   description: |
     Publishes census data, along with the classifications and standards used to collect it. Custom data requests are available for a fee.
 
-- slug: "data-gov-au"
-  name: "data.gov.au"
-  url: "https://data.gov.au/"
-  type: "government-portals"
+- slug: data-gov-au
+  name: data.gov.au
+  url: https://data.gov.au/
+  type: government-portals
   sort_key: "020"
-  status: "active"
+  status: active
   description: |
     The central catalogue of Australian open government data. Alongside government data it lists publicly funded research data and datasets from private institutions held to be in the public interest.
 
     Some state and local material is aggregated here, but each state and territory also runs its own portal.
 
-- slug: "data-nsw"
-  name: "Data.NSW"
-  url: "https://data.nsw.gov.au/"
-  type: "government-portals"
+- slug: data-nsw
+  name: Data.NSW
+  url: https://data.nsw.gov.au/
+  type: government-portals
   sort_key: "030"
-  status: "active"
-  description: "Datasets published by New South Wales government agencies."
+  status: active
+  description: |
+    Datasets published by New South Wales government agencies.
 
-- slug: "data-vic"
-  name: "DataVic"
-  url: "https://www.data.vic.gov.au/"
-  type: "government-portals"
+- slug: data-vic
+  name: DataVic
+  url: https://www.data.vic.gov.au/
+  type: government-portals
   sort_key: "040"
-  status: "active"
-  description: "Datasets published by Victorian government agencies."
+  status: active
+  description: |
+    Datasets published by Victorian government agencies.
 
-- slug: "data-qld"
-  name: "Queensland Government Open Data Portal"
-  url: "https://www.data.qld.gov.au/"
-  type: "government-portals"
+- slug: data-qld
+  name: Queensland Government Open Data Portal
+  url: https://www.data.qld.gov.au/
+  type: government-portals
   sort_key: "050"
-  status: "active"
-  description: "Datasets published by Queensland government agencies."
+  status: active
+  description: |
+    Datasets published by Queensland government agencies.
 
-- slug: "data-wa"
-  name: "Data WA"
-  url: "https://data.wa.gov.au/"
-  type: "government-portals"
+- slug: data-wa
+  name: Data WA
+  url: https://data.wa.gov.au/
+  type: government-portals
   sort_key: "060"
-  status: "active"
-  description: "Datasets published by Western Australian government agencies."
+  status: active
+  description: |
+    Datasets published by Western Australian government agencies.
 
-- slug: "data-sa"
-  name: "Data.SA"
-  url: "https://data.sa.gov.au/"
-  type: "government-portals"
+- slug: data-sa
+  name: Data.SA
+  url: https://data.sa.gov.au/
+  type: government-portals
   sort_key: "070"
-  status: "active"
-  description: "Datasets published by South Australian government agencies."
+  status: active
+  description: |
+    Datasets published by South Australian government agencies.
 
-- slug: "data-act"
-  name: "data.act.gov.au"
-  url: "https://www.data.act.gov.au/"
-  type: "government-portals"
+- slug: data-act
+  name: data.act.gov.au
+  url: https://www.data.act.gov.au/
+  type: government-portals
   sort_key: "080"
-  status: "active"
-  description: "Datasets published by ACT government agencies."
+  status: active
+  description: |
+    Datasets published by ACT government agencies.
 
-- slug: "data-nt"
-  name: "NTG Open Data Portal"
-  url: "https://data.nt.gov.au/"
-  type: "government-portals"
+- slug: data-nt
+  name: NTG Open Data Portal
+  url: https://data.nt.gov.au/
+  type: government-portals
   sort_key: "090"
-  status: "active"
-  description: "Datasets published by Northern Territory government agencies."
+  status: active
+  description: |
+    Datasets published by Northern Territory government agencies.
 
-- slug: "listdata-tasmania"
-  name: "LISTdata"
-  url: "https://listdata.thelist.tas.gov.au/"
-  type: "government-portals"
+- slug: listdata-tasmania
+  name: LISTdata
+  url: https://listdata.thelist.tas.gov.au/
+  type: government-portals
   sort_key: "100"
-  status: "active"
+  status: active
   description: |
     Spatial, land and property datasets for Tasmania, managed by Land Tasmania.
 
     Tasmania has no equivalent central portal for non-spatial data. That material sits on individual department sites, such as Libraries Tasmania and Mineral Resources Tasmania, or on national platforms.
 
-- slug: "dateno"
-  name: "Dateno"
-  url: "https://dateno.io/"
-  type: "government-portals"
-  status: "active"
+- slug: dateno
+  name: Dateno
+  url: https://dateno.io/
+  type: government-portals
   sort_key: "110"
+  status: active
   description: |
-     Dateno is a search engine built specifically to run over open data sets around the world, and it includes some Australian datasets.
+    Dateno is a search engine built specifically to run over open data sets around the world, and it includes some Australian datasets.
 
 # Civic tech
 
-- slug: "openaustralia"
-  name: "OpenAustralia"
-  url: "https://www.openaustralia.org.au/"
-  type: "civic-tech"
+- slug: openaustralia
+  name: OpenAustralia
+  url: https://www.openaustralia.org.au/
+  type: civic-tech
   sort_key: "010"
-  status: "active"
-  run_by: "openaustralia-foundation"
-  description: "Publishes Hansard records for the House of Representatives and the Senate, going back to 2006."
+  status: active
+  run_by: openaustralia-foundation
+  description: |
+    Publishes Hansard records for the House of Representatives and the Senate, going back to 2006.
 
-- slug: "they-vote-for-you"
-  name: "They Vote For You"
-  url: "https://theyvoteforyou.org.au/"
-  type: "civic-tech"
+- slug: they-vote-for-you
+  name: They Vote For You
+  url: https://theyvoteforyou.org.au/
+  type: civic-tech
   sort_key: "020"
-  status: "active"
-  run_by: "openaustralia-foundation"
-  description: "Shows how your MP has voted on any issue, in language designed to be readable without prior knowledge of parliamentary procedure."
+  status: active
+  run_by: openaustralia-foundation
+  description: |
+    Shows how your MP has voted on any issue, in language designed to be readable without prior knowledge of parliamentary procedure.
 
-- slug: "right-to-know"
-  name: "Right To Know"
-  url: "https://www.righttoknow.org.au/"
-  type: "civic-tech"
+- slug: right-to-know
+  name: Right To Know
+  url: https://www.righttoknow.org.au/
+  type: civic-tech
   sort_key: "030"
-  status: "active"
-  run_by: "openaustralia-foundation"
-  description: "Helps you submit a Freedom of Information request. Requests and responses are published and archived."
+  status: active
+  run_by: openaustralia-foundation
+  description: |
+    Helps you submit a Freedom of Information request. Requests and responses are published and archived.
 
-- slug: "planningalerts"
-  name: "PlanningAlerts"
-  url: "https://www.planningalerts.org.au/"
-  type: "civic-tech"
+- slug: planningalerts
+  name: PlanningAlerts
+  url: https://www.planningalerts.org.au/
+  type: civic-tech
   sort_key: "040"
-  status: "active"
-  run_by: "openaustralia-foundation"
-  description: "A searchable collection of Australian local government planning applications, so you can see what is being built and knocked down near you."
+  status: active
+  run_by: openaustralia-foundation
+  description: |
+    A searchable collection of Australian local government planning applications, so you can see what is being built and knocked down near you.
 
 # GLAM
 
-- slug: "glam-workbench"
-  name: "GLAM Workbench"
-  url: "https://glam-workbench.net/"
-  type: "glam"
+- slug: glam-workbench
+  name: GLAM Workbench
+  url: https://glam-workbench.net/
+  type: glam
   sort_key: "010"
-  status: "active"
-  description: "A maintained catalogue of Australian GLAM data sources, built by [Tim Sherratt](https://timsherratt.au/). Includes Trove, the National Library of Australia, and the Australian War Memorial among many others."
+  status: active
+  description: |
+    A maintained catalogue of Australian GLAM data sources, built by [Tim Sherratt](https://timsherratt.au/). Includes Trove, the National Library of Australia, and the Australian War Memorial among many others.
 
 # Transport
 
-- slug: "imove-transport-data-directory"
-  name: "iMOVE Australia transport data directory"
-  url: "https://imoveaustralia.com/news-articles/intelligent-transport-systems/australian-transport-open-data/"
-  type: "transport"
+- slug: imove-transport-data-directory
+  name: iMOVE Australia transport data directory
+  url: https://imoveaustralia.com/news-articles/intelligent-transport-systems/australian-transport-open-data/
+  type: transport
   sort_key: "010"
-  status: "active"
-  description: "A maintained list of Australian transport open data sources, compiled by iMOVE Australia, a federally funded not-for-profit organisation."
+  status: active
+  description: |
+    A maintained list of Australian transport open data sources, compiled by iMOVE Australia, a federally funded not-for-profit organisation.
 
-- slug: "national-freight-data-hub"
-  name: "National Freight Data Hub"
-  url: "https://datahub.freightaustralia.gov.au/"
-  type: "transport"
+- slug: national-freight-data-hub
+  name: National Freight Data Hub
+  url: https://datahub.freightaustralia.gov.au/
+  type: transport
   sort_key: "020"
-  status: "active"
-  description: "Freight data across Australia covering road, rail, sea and air."
+  status: active
+  description: |
+    Freight data across Australia covering road, rail, sea and air.
 
 # Geospatial and mapping
 
-- slug: "elvis"
-  name: "Elvis elevation and depth"
-  url: "https://elevation.fsdf.org.au/"
-  type: "geospatial-and-mapping"
+- slug: elvis
+  name: Elvis elevation and depth
+  url: https://elevation.fsdf.org.au/
+  type: geospatial-and-mapping
   sort_key: "010"
-  status: "active"
-  description: "Australian elevation and bathymetry data, searchable by area of interest. Brings together open data from Commonwealth, state and territory governments."
+  status: active
+  description: |
+    Australian elevation and bathymetry data, searchable by area of interest. Brings together open data from Commonwealth, state and territory governments.
 
-- slug: "geoscience-australia-portal"
-  name: "Geoscience Australia Portal"
-  url: "https://portal.ga.gov.au/"
-  type: "geospatial-and-mapping"
+- slug: geoscience-australia-portal
+  name: Geoscience Australia Portal
+  url: https://portal.ga.gov.au/
+  type: geospatial-and-mapping
   sort_key: "020"
-  status: "active"
-  description: "Geoscientific data, maps and tools covering Australian resources, geology, groundwater and natural hazards."
+  status: active
+  description: |
+    Geoscientific data, maps and tools covering Australian resources, geology, groundwater and natural hazards.
 
-- slug: "openstreetmap-australian-data-sources"
-  name: "OpenStreetMap Australian data sources"
-  url: "https://wiki.openstreetmap.org/wiki/Australian_Data_Sources"
-  type: "geospatial-and-mapping"
+- slug: openstreetmap-australian-data-sources
+  name: OpenStreetMap Australian data sources
+  url: https://wiki.openstreetmap.org/wiki/Australian_Data_Sources
+  type: geospatial-and-mapping
   sort_key: "030"
-  status: "active"
-  description: "A wiki page listing the open datasets that Australian OpenStreetMap contributors are permitted to use, along with the import catalogue and the state mapping projects."
+  status: active
+  description: |
+    A wiki page listing the open datasets that Australian OpenStreetMap contributors are permitted to use, along with the import catalogue and the state mapping projects.
 
 # Energy
 
-- slug: "aemo"
-  name: "Australian Energy Market Operator (AEMO)"
-  url: "https://www.aemo.com.au/energy-systems/data-dashboards"
-  type: "energy"
+- slug: aemo
+  name: Australian Energy Market Operator (AEMO)
+  url: https://www.aemo.com.au/energy-systems/data-dashboards
+  type: energy
   sort_key: "010"
-  status: "active"
-  description: "Generation, demand, price and dispatch data for Australia's electricity markets."
+  status: active
+  description: |
+    Generation, demand, price and dispatch data for Australia's electricity markets.
 
-- slug: "apvi-solar-maps"
-  name: "APVI Solar Maps"
-  url: "https://pv-map.apvi.org.au/"
-  type: "energy"
+- slug: apvi-solar-maps
+  name: APVI Solar Maps
+  url: https://pv-map.apvi.org.au/
+  type: energy
   sort_key: "020"
-  status: "active"
-  description: "Rooftop solar data for Australia from the Australian Photovoltaic Institute."
-- slug: "clean-energy-regulator"
-  name: "Clean Energy Regulator"
-  url: "https://data.cer.gov.au/"
-  type: "energy"
-  sort_key: "030"
-  status: "active"
-  description: "Data on Australia's carbon and renewable energy schemes."
+  status: active
+  description: |
+    Rooftop solar data for Australia from the Australian Photovoltaic Institute.
 
-- slug: "open-electricity-platform"
-  name: "Open electricity platform"
-  url: "https://platform.openelectricity.org.au/"
-  type: "energy"
+- slug: clean-energy-regulator
+  name: Clean Energy Regulator
+  url: https://data.cer.gov.au/
+  type: energy
+  sort_key: "030"
+  status: active
+  description: |
+    Data on Australia's carbon and renewable energy schemes.
+
+- slug: open-electricity-platform
+  name: Open electricity platform
+  url: https://platform.openelectricity.org.au/
+  type: energy
   sort_key: "040"
-  status: "active"
-  description: "Access real-time and historical energy data from across Australia's electricity grid."
+  status: active
+  description: |
+    Access real-time and historical energy data from across Australia's electricity grid.

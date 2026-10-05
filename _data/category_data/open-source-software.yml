@@ -1,0 +1,164 @@
+---
+# Civic and community tools
+
+- slug: civicrm-elections
+  name: CiviCRM Elections extension
+  url: https://github.com/agileware/au.com.agileware.elections
+  type: civic-and-community-tools
+  status: active
+  description: |
+    Adds instant-runoff voting to CiviCRM. Built by Agileware in Australia. See the [extension listing](https://civicrm.org/extensions/elections).
+
+- slug: morph-io
+  name: morph.io
+  url: http://morph.io
+  type: civic-and-community-tools
+  status: inactive
+  description: |
+    Hosted web scraping service run by the Open Australia Foundation. They have written about the [current state of the project](https://oaf.org.au/2026/07/30/morph-io-is-stuck-in-2016-help-us-get-it-out/).
+
+# Communications
+
+- slug: codec2
+  name: Codec2
+  url: https://github.com/drowe67/codec2
+  type: communications
+  status: active
+  description: |
+    Low bit rate speech codec by David Rowe in Adelaide. Also FreeDV and the SM1000 hardware. More at [Rowetel](https://www.rowetel.com/).
+
+- slug: freepbx
+  name: FreePBX
+  url: https://www.freepbx.org/
+  type: communications
+  status: active
+  description: |
+    Web interface for configuring Asterisk phone systems, written in 2004 by Australian programmer Rob Thomas as the Asterisk Management Portal. See [Wikipedia](https://en.wikipedia.org/wiki/FreePBX).
+
+# Data and monitoring
+
+- slug: grafana
+  name: Grafana
+  url: https://grafana.com/
+  type: data-and-monitoring
+  status: active
+  description: |
+    Observability and dashboard platform. Co-founder and CTO Anthony Woods is from Western Australia. Grafana Labs has written about [how it got here](https://grafana.com/blog/grafana-labs-at-5-how-we-got-here-and-where-were-going/) and made a [documentary](https://grafana.com/blog/the-story-of-grafana-documentary-from-one-developers-dream-to-20-million-users-worldwide/).
+
+# Desktops and window managers
+
+- slug: enlightenment
+  name: Enlightenment
+  url: https://www.enlightenment.org/
+  type: desktops-and-window-managers
+  status: active
+  description: |
+    Window manager and desktop environment. Started by [Carsten "Rasterman" Haitzler](https://en.wikipedia.org/wiki/Carsten_Haitzler).
+
+# Education
+
+- slug: moodle
+  name: Moodle
+  url: https://moodle.org/
+  type: education
+  status: active
+  description: |
+    Learning management system created in 2001 by Martin Dougiamas, an Australian educator and computer scientist. He has written about [how it started](https://dougiamas.com/about/), and there is a [Moodle history page](https://docs.moodle.org/502/en/History) and [Moodle.com](https://moodle.com/?ref=dougiamas.com).
+
+# Networking and file sharing
+
+- slug: librsync
+  name: librsync
+  url: https://librsync.github.io/
+  type: networking-and-file-sharing
+  status: active
+  description: |
+    Library implementing the rsync delta algorithm, LGPL-2.1-or-later.
+
+- slug: netfilter-and-iptables
+  name: netfilter and iptables
+  url: https://www.netfilter.org/
+  type: networking-and-file-sharing
+  status: active
+  description: |
+    Packet filtering in the Linux kernel, written by Rusty Russell in Canberra. The project is international now. Its predecessor, ipchains, is also Rusty's work.
+
+- slug: rsync
+  name: rsync
+  url: https://rsync.samba.org/
+  type: networking-and-file-sharing
+  status: active
+  description: |
+    Copies and synchronises files efficiently by comparing what has changed. Also from Andrew Tridgell.
+
+- slug: samba
+  name: Samba
+  url: https://www.samba.org/
+  type: networking-and-file-sharing
+  status: active
+  description: |
+    Lets Linux and Unix machines share files and services with Windows. Started by Andrew Tridgell in Canberra.
+
+# Operating systems and firmware
+
+- slug: openbmc
+  name: OpenBMC
+  url: https://www.openbmc.org/
+  type: operating-systems-and-firmware
+  status: active
+  description: |
+    Linux firmware stack for baseboard management controllers. Multi-vendor project with ongoing maintenance from the OzLabs team in Canberra. [Source](https://github.com/openbmc/openbmc).
+
+- slug: puppy-linux
+  name: Puppy Linux, Quirky and EasyOS
+  url: https://bkhome.org/tag_linux.html
+  type: operating-systems-and-firmware
+  status: active
+  description: |
+    Lightweight Linux distributions created by Barry Kauler.
+
+# Robotics and autonomous vehicles
+
+- slug: ardupilot
+  name: ArduPilot
+  url: https://ardupilot.org/
+  type: robotics-and-autonomous-vehicles
+  status: active
+  description: |
+    Autopilot software for drones and other autonomous vehicles.
+
+# Security
+
+- slug: azul
+  name: Azul
+  url: https://australiancybersecuritycentre.github.io/azul/
+  type: security
+  status: active
+  description: |
+    Malware analysis tooling by the Australian Signals Directorate. See the [ASD announcement](https://www.asd.gov.au/news/2026-02-24-asd-has-open-sourced-azul-help-uplift-cyber-defences-globally-against-malware).
+
+# Software development
+
+- slug: beeware
+  name: BeeWare
+  url: https://beeware.org/
+  type: software-development
+  status: active
+  description: |
+    Tools for packaging and running Python code on multiple platforms.
+
+- slug: distcc
+  name: distcc
+  url: https://github.com/distcc/distcc
+  type: software-development
+  status: active
+  description: |
+    Distributes C and C++ compilation across several machines. Created by Martin Pool.
+
+- slug: micropython
+  name: MicroPython
+  url: https://micropython.org/
+  type: software-development
+  status: active
+  description: |
+    Python for microcontrollers, written by Damien George. Runs on the micro:bit and the [Kookaberry](https://learn.auststem.com.au/the-kookaberry-story/).
