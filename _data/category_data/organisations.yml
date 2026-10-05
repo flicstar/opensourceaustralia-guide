@@ -1,57 +1,294 @@
 ---
 
-- slug: openaustralia-foundation
-  name: OpenAustralia Foundation
-  url: https://www.openaustraliafoundation.org.au/
-  status: active
-  description: |
-    An Australian charity that builds and runs civic tech projects using public government data.
+# Umbrella and backing bodies
 
 - slug: linux-australia
   name: Linux Australia
   url: https://linux.org.au/
+  type: umbrella
   status: active
+  tags:
+    - community
   description: |
     The peak body for open source communities in Australasia. It supports conferences, events and community projects, holding funds and providing organisational backing for volunteer-run activities.
 
 - slug: osgeo-oceania
   name: OSGeo Oceania
   url: https://osgeo-oceania.org/
+  type: umbrella
   status: active
+  tags:
+    - community
   description: |
     The regional chapter of the Open Source Geospatial Foundation, covering Australia, New Zealand and the Pacific.
 
-- slug: electron-workshop
-  name: Electron Workshop
-  url: https://electronworkshop.org/
-  status: active
+# Infrastructure
+
+- slug: anzlic
+  name: ANZLIC
+  url: https://www.anzlic.gov.au/
+  type: infrastructure
+  status: TBD
+  tags:
+    - government
   description: |
-    A peer network connecting community groups, non-profits, and individuals working in the open source and innovation commons space.
+    TBD
 
 - slug: australian-research-data-commons
   name: Australian Research Data Commons (ARDC)
   url: https://ardc.edu.au/
+  type: infrastructure
   status: active
+  tags:
+    - academic
   description: |
     A national research data infrastructure facility that supports the management, preservation, and sharing of research data across Australian universities and research institutions.
 
-- slug: australian-repair-network
-  name: Australian Repair Network
-  url: https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network
-  status: active
+- slug: data61
+  name: CSIRO's Data61
+  url: TBD
+  type: infrastructure
+  status: inactive
+  tags:
+    - government
   description: |
-    A network of individuals and organisations working to promote the right to repair in Australia.
+    TBD
+
+- slug: geoscience-australia
+  name: Geoscience Australia
+  url: https://www.ga.gov.au/
+  type: infrastructure
+  status: TBD
+  tags:
+    - government
+  description: |
+    TBD
+
+- slug: integrated-marine-observing-system
+  name: Australia's Integrated Marine Observing System (IMOS)
+  url: https://imos.org.au/
+  type: infrastructure
+  status: TBD
+  tags:
+    - academic
+  description: |
+    TBD
+
+- slug: opensi
+  name: OpenSI
+  url: https://opensi.net/
+  type: infrastructure
+  status: TBD
+  description: |
+    TBD
+
+# Builders
+
+- slug: code-for-australia
+  name: Code for Australia
+  url: https://www.codeforaustralia.org/
+  type: builders
+  status: TBD
+  tags:
+    - community
+  description: |
+    TBD
 
 - slug: computerbank-victoria
   name: Computerbank Victoria
   url: https://www.computerbank.org.au/
+  type: builders
   status: active
+  tags:
+    - community
   description: |
     Computerbank is a Melbourne not for profit organisation that has been refurbishing donated computers since 1998. Skilled volunteers install Linux and useful software, and the machines go to concession card holders, community groups and not-for-profits at low cost.
+
+- slug: olpc-australia
+  name: One Laptop Per Child (OLPC) Australia
+  url: TBD
+  type: builders
+  status: inactive
+  description: |
+    TBD
+
+- slug: open-electricity
+  name: Open Electricity
+  url: https://openelectricity.org.au/about
+  type: builders
+  status: TBD
+  description: |
+    TBD
+
+- slug: openaustralia-foundation
+  name: OpenAustralia Foundation
+  url: https://www.openaustraliafoundation.org.au/
+  type: builders
+  status: active
+  tags:
+    - community
+  description: |
+    An Australian charity that builds and runs civic tech projects using public government data.
+
+- slug: ozlabs
+  name: OzLabs
+  url: https://ozlabs.org/
+  type: builders
+  status: TBD
+  tags:
+    - industry
+  description: |
+    TBD
+
+- slug: wikimedia-australia
+  name: Wikimedia Australia
+  url: https://wikimedia.org.au/
+  type: builders
+  status: TBD
+  tags:
+    - community
+  description: |
+    TBD
+
+# Communities and event organisations
+
+- slug: electron-workshop
+  name: Electron Workshop
+  url: https://electronworkshop.org/
+  type: communities
+  status: active
+  tags:
+    - community
+  description: |
+    A peer network connecting community groups, non-profits, and individuals working in the open source and innovation commons space.
+
+- slug: hardware-freedom-group
+  name: Hardware Freedom Group
+  url: https://engage.electronworkshop.com.au/group-hardware-freedom
+  type: communities
+  status: TBD
+  tags:
+    - community
+  description: |
+    TBD
 
 - slug: melbourne-tech-guilds
   name: Melbourne Tech Guilds
   url: https://techguilds.au/
+  type: communities
   status: active
+  tags:
+    - community
   description: |
     Melbourne Tech Guilds is a maker community that started in December 2025. It meets on the first Sunday of the month and splits into five interest groups: robotics, mechanics, IoT, coding and deep dive. Projects run on open hardware and open tooling, mostly Arduino, ESP32 and Raspberry Pi, with Home Assistant and MQTT on the IoT side. Mentoring is free and the group is non-commercial.
+
+
+# Open access and open science
+
+- slug: australian-open-science-network
+  name: Australian Open Science Network
+  url: https://caul.edu.au/external-groups/australian-open-science-network/
+  type: open-science
+  status: TBD
+  tags:
+    - academic
+  description: |
+    TBD
+
+- slug: caul-open-access
+  name: CAUL open access
+  url: https://caul.edu.au/topic/open-access/
+  type: open-science
+  status: TBD
+  tags:
+    - academic
+  description: |
+    TBD
+
+- slug: open-access-australasia
+  name: Open Access Australasia (OAA)
+  url: https://oaaustralasia.org/
+  type: open-science
+  status: TBD
+  tags:
+    - academic
+  description: |
+    TBD
+
+# Advocacy and policy
+
+- slug: australian-government-linked-data-working-group
+  name: Australian Government Linked Data Working Group
+  url: https://www.linked.data.gov.au/showcase
+  type: advocacy
+  status: TBD
+  tags:
+    - government
+  description: |
+    TBD
+
+- slug: australian-integrity-advocacy-organisations
+  name: Australian Integrity Advocacy Organisations
+  url: https://www.accountabilityrt.org/australian-integrity-advocacy-organisations/
+  type: advocacy
+  status: TBD
+  description: |
+    TBD
+
+- slug: australian-repair-network
+  name: Australian Repair Network
+  url: https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network
+  type: advocacy
+  status: active
+  tags:
+    - academic
+  description: |
+    A network of individuals and organisations working to promote the right to repair in Australia.
+
+- slug: digital-freedom-foundation
+  name: Digital Freedom Foundation
+  url: https://digitalfreedoms.org/
+  type: advocacy
+  status: TBD
+  description: |
+    TBD
+
+- slug: free-software-australia
+  name: Free Software Australia
+  url: https://freesoftware.org.au/
+  type: advocacy
+  status: TBD
+  tags:
+    - community
+  description: |
+    TBD
+
+- slug: internet-australia
+  name: Internet Australia
+  url: https://www.internet.org.au/
+  type: advocacy
+  status: TBD
+  tags:
+    - community
+  description: |
+    TBD. The Australian chapter of the internet society. They co-host the auIGF.
+
+- slug: open-knowledge-australia
+  name: Open Knowledge Australia
+  url: https://au.okfn.org/index.html
+  type: advocacy
+  status: TBD
+  tags:
+    - community
+  description: |
+    TBD. An archived project from the Open Knowledge Foundation.
+
+- slug: open-source-industry-australia
+  name: Open Source Industry Australia (OSIA)
+  url: https://osia.com.au/
+  type: advocacy
+  status: TBD
+  tags:
+    - industry
+  description: |
+    TBD
