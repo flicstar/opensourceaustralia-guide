@@ -109,6 +109,14 @@
 
 # Operating systems and firmware
 
+- slug: sel4
+  name: seL4
+  url: https://sel4.systems/
+  type: operating-systems-and-firmware
+  status: active
+  description: |
+    A microkernel with a complete mathematical proof that its code does what its specification says, down to the compiled binary. Developed in Australia by NICTA and UNSW, open sourced in 2014, and now maintained by the seL4 Foundation under the Linux Foundation. It runs in defence systems, autonomous vehicles and medical devices. The proofs are public too, which is rare for verification work at this scale. Still developed by [Trustworthy Systems](#trustworthy-systems) at UNSW.
+
 - slug: openbmc
   name: OpenBMC
   url: https://www.openbmc.org/
@@ -170,3 +178,13 @@
   status: active
   description: |
     Python for microcontrollers, written by Damien George. Runs on the micro:bit and the [Kookaberry](https://learn.auststem.com.au/the-kookaberry-story/).
+
+    - slug: pancake
+  name: Pancake
+  url: https://trustworthy.systems/projects/pancake
+  type: software-development
+  status: active
+  tags:
+    - academic
+  description: |
+    A systems programming language with a verified compiler, built by [Trustworthy Systems](#trustworthy-systems) at UNSW for writing device drivers that can be proven correct. It is built on the lower parts of the CakeML compiler, an international verified compiler project UNSW contributes to. You can try the language in a browser through the [Pancake Playground](https://trustworthy.systems/pancake-playground/).
