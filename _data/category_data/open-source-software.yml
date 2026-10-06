@@ -37,6 +37,14 @@
 
 # Data and monitoring
 
+- slug: open-data-cube
+  name: Open Data Cube
+  url: https://www.opendatacube.org/
+  type: data-and-monitoring
+  status: active
+  description: |
+    A set of Python libraries and a PostgreSQL database for working with satellite imagery and other geospatial raster data. It started at Geoscience Australia as the Australian Geoscience Data Cube, built with CSIRO and the National Computational Infrastructure to make the newly opened Landsat archive usable. Other countries wanted the same thing, so it became an international open source project. It now runs Digital Earth Australia and Digital Earth Africa, among others. Code on [GitHub](https://github.com/opendatacube).
+
 - slug: grafana
   name: Grafana
   url: https://grafana.com/
