@@ -35,7 +35,7 @@
     - government
     - open-standards
   description: |
-    ANZLIC is the Spatial Information Council (formerly the Australia and New Zealand Land Information Council). It is an intergovernmental organisation that sets the shared rules that let government spatial data be found, trusted and reused across state, territory and national borders. It maintains the [metadata standards](https://www.anzlic.gov.au/resources/asnzs-iso-1911512015-metadata) that describe what a dataset is and where it came from so anyone publishing spatial data can check their records against the standard.
+    The Spatial Information Council (formerly the Australia and New Zealand Land Information Council). It is an intergovernmental organisation that sets the shared rules that let government spatial data be found, trusted and reused across state, territory and national borders. It maintains the [metadata standards](https://www.anzlic.gov.au/resources/asnzs-iso-1911512015-metadata) that describe what a dataset is and where it came from so anyone publishing spatial data can check their records against the standard.
 
     ANZLIC also sponsors the [Foundation Spatial Data Framework](https://www.anzlic.gov.au/archiveresource-archive/foundation-spatial-data-framework), which defines the core data themes, like addresses, elevation and land cover, that everything else is built on. The technical delivery is done by agencies, mostly [Geoscience Australia](#geoscience-australia).
 
@@ -51,13 +51,13 @@
 
 - slug: data61
   name: CSIRO's Data61
-  url: https://en.wikipedia.org/wiki/NICTA
+  url:
   type: infrastructure
   status: inactive
   tags:
     - government
   description: |
-    Australia's national digital and data research group, formed in 2016 by merging National ICT Australia (NICTA) with CSIRO's Digital Productivity Flagship. The name combined Australia's country calling code with a focus on data science. It worked on AI, robotics, cybersecurity and software engineering, and built the technical standards for the Consumer Data Right. CSIRO [dissolved the brand in April 2026](https://csirostaff.org.au/news/2026/04/30/csiro-pulls-the-plug-on-data61-with-manufacturing-amalgamation/) and folded the unit into a new Technology research unit alongside manufacturing.
+    Australia's national digital and data research group, formed in 2016 by merging [National ICT Australia (NICTA)](https://en.wikipedia.org/wiki/NICTA) with CSIRO's [Digital Productivity Flagship](https://open-ecosystem.org/partners/csiro-digital-productivity-services-flagship-dpas). The name combined Australia's country calling code with a focus on data science. It worked on AI, robotics, cybersecurity and software engineering, and built the technical standards for the Consumer Data Right. CSIRO [dissolved the brand in April 2026](https://csirostaff.org.au/news/2026/04/30/csiro-pulls-the-plug-on-data61-with-manufacturing-amalgamation/) and folded the unit into a new Technology research unit alongside manufacturing.
 
     Its source code remains at [CSIRO Data61 Engineering & Design](https://github.com/data61) on GitHub.
 
@@ -76,31 +76,37 @@
   name: Australia's Integrated Marine Observing System (IMOS)
   url: https://imos.org.au/
   type: infrastructure
-  status: TBD
+  status: active
   tags:
     - academic
+    - open-data
   description: |
-    TBD
+    A national research infrastructure facility that has been operating a wide range of observing equipment throughout Australia's coastal and open oceans since 2006. IMOS makes all of its data openly and freely accessible through the [Australian Ocean Data Network](https://opensourceaustralia.guide/open-science#australian-ocean-data-network) portal.
+
+# Builders
 
 - slug: opensi
   name: OpenSI
   url: https://opensi.net/
-  type: infrastructure
-  status: TBD
-  description: |
-    TBD
-
-# Builders
-
-- slug: code-for-australia
-  name: Code for Australia
-  url: https://www.codeforaustralia.org/
   type: builders
-  status: TBD
+  status: active
   tags:
-    - community
+    - academic
+    - open-source-ai
   description: |
-    TBD
+    A non-profit institute at the University of Canberra supporting open source technologies in research, development, education and implementation. Its research covers four themes: data solutions at scale, cyber security and privacy, artificial intelligence and machine learning, and open source business models. OpenSI works with students and researchers through higher degree research scholarships, semester and part-time projects, capstone and sponsored projects, and paid internships.
+
+    The research philosophy is grounded in the principles of [open science](https://opensourceaustralia.guide/open-science), and successful projects are donated and transferred to open source communities for ongoing development. Its code is published at [TheOpenSI](https://github.com/TheOpenSI) on GitHub.
+
+- slug: trustworthy-systems
+  name: Trustworthy Systems
+  url: https://trustworthy.systems/
+  type: builders
+  status: active
+  tags:
+    - academic
+  description: |
+    A research group at [UNSW Sydney](https://www.unsw.edu.au/engineering/our-schools/computer-science-and-engineering/our-research/research-groups/trustworthy-systems) that builds software with mathematical proofs of its security, safety and reliability. Best known for [seL4](https://opensourceaustralia.guide/open-source-software#sel4), the first operating system kernel proven correct from high-level security properties down to the compiled binary. The group started at NICTA, moved into [CSIRO's Data61](#data61), and returned to UNSW in 2021 after Data61 cut its funding. Most of its software is released open source at [github.com/au-ts](https://github.com/au-ts/), and projects move to the seL4 Foundation's repositories once the foundation adopts them.
 
 - slug: computerbank-victoria
   name: Computerbank Victoria
@@ -114,19 +120,28 @@
 
 - slug: olpc-australia
   name: One Laptop Per Child (OLPC) Australia
-  url: TBD
+  url:
   type: builders
   status: inactive
+    - community
+    - open-hardware
+    - education
   description: |
-    TBD
+    The Australian arm of [One Laptop per Child](https://en.wikipedia.org/wiki/One_Laptop_per_Child), the project behind the XO laptop. It was announced at [linux.conf.au](https://opensourceaustralia.guide/events#linux-conf-au) in January 2008 and launched in March that year.
 
-- slug: open-electricity
-  name: Open Electricity
-  url: https://openelectricity.org.au/about
+    OLPC Australia put XO laptops into remote and disadvantaged schools, and released open source work of its own. XO-AU was the Australian build of the XO software and content, customized for local schools and communities. XS-AU was a reconfigured school server. A mini update server let one XO update others over wifi, and a charging rack came with a charger designed in-house.
+
+    Development was coordinated at dev.laptop.org.au, now offline. OLPC rebranded in 2012 as One Education, which sells a laptop called the Infinity and no longer describes its work as open source. OLPC Australia's website is preserved on the [Internet Archive](https://web.archive.org/web/20130420043409/https://www.laptop.org.au/).
+
+- slug: superpower-institute
+  name: The Superpower Institute
+  url: https://www.superpowerinstitute.com.au/
   type: builders
-  status: TBD
+  status: active
+  tags:
+    - open-data
   description: |
-    TBD
+    A Melbourne non-profit that builds free, open-source platforms that fill gaps in Australia's climate and energy data, including [Open Electricity](https://opensourceaustralia.guide/open-data#open-electricity) and [Open Methane](https://opensourceaustralia.guide/open-data#open-methane).
 
 - slug: openaustralia-foundation
   name: OpenAustralia Foundation
