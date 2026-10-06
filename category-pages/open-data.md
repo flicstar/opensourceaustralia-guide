@@ -66,3 +66,12 @@ Generation, demand, pricing and emissions data from Australia's electricity grid
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
+
+## Climate
+
+Weather observations, long-run climate records and emissions measurements.
+
+{% assign group = entries | where: "type", "climate" | sort_natural: "sort_key" %}
+{% for entry in group %}
+  {% include directory-entry.html entry=entry %}
+{% endfor %}
