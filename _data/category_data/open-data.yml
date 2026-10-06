@@ -237,11 +237,24 @@
   description: |
     Data on Australia's carbon and renewable energy schemes.
 
-- slug: open-electricity-platform
-  name: Open electricity platform
-  url: https://platform.openelectricity.org.au/
+- slug: open-electricity
+  name: Open Electricity
+  url: https://openelectricity.org.au/
   type: energy
   sort_key: "040"
   status: active
+  organisation-slug: superpower-institute
   description: |
-    Access real-time and historical energy data from across Australia's electricity grid.
+    Real-time and historical data from across Australia's electricity grid, covering the National Electricity Market and the Wholesale Electricity Market. Formerly OpenNEM. Developers can access the same data through the [energy data platform](https://platform.openelectricity.org.au/).
+
+# Climate
+
+- slug: open-methane
+  name: Open Methane
+  url: https://openmethane.org/
+  type: climate
+  sort_key: "010"
+  status: active
+  organisation-slug: superpower-institute
+  description: |
+    An online platform for monitoring Australia's methane emissions, combining atmospheric modelling with satellite measurements. The source code is published at Open Methane](https://github.com/openmethane) on GitHub.
