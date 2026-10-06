@@ -10,7 +10,9 @@
   tags:
     - community
   description: |
-    The peak body for open source communities in Australasia. It supports conferences, events and community projects, holding funds and providing organisational backing for volunteer-run activities.
+    The peak body for open source communities in Australasia. It supports conferences, events and community projects, holding funds and providing organisational backing for volunteer-run activities. It also runs an annual grants program for open source, open data, open hardware and open culture work.
+
+    Founded in 1997, Linux Australia is a non-profit organisation run by volunteers and governed by a council elected by members each year. Membership is free. See more on the [Wikipedia page](https://en.wikipedia.org/wiki/Linux_Australia).
 
 - slug: osgeo-oceania
   name: OSGeo Oceania
@@ -20,7 +22,7 @@
   tags:
     - community
   description: |
-    The regional chapter of the Open Source Geospatial Foundation, covering Australia, New Zealand and the Pacific.
+    The regional chapter of the [Open Source Geospatial Foundation](https://www.osgeo.org/), covering Australia, New Zealand and the Pacific. OSGeo Oceania is a volunteer organisation devoted to growing and enabling the [OpenStreetMap](https://www.openstreetmap.org/about) and Open Source Geospatial communities in Oceania.
 
 # Infrastructure
 
@@ -28,11 +30,14 @@
   name: ANZLIC
   url: https://www.anzlic.gov.au/
   type: infrastructure
-  status: TBD
+  status: active
   tags:
     - government
+    - open-standards
   description: |
-    TBD
+    ANZLIC is the Spatial Information Council (formerly the Australia and New Zealand Land Information Council). It is an intergovernmental organisation that sets the shared rules that let government spatial data be found, trusted and reused across state, territory and national borders. It maintains the [metadata standards](https://www.anzlic.gov.au/resources/asnzs-iso-1911512015-metadata) that describe what a dataset is and where it came from so anyone publishing spatial data can check their records against the standard.
+
+    ANZLIC also sponsors the [Foundation Spatial Data Framework](https://www.anzlic.gov.au/archiveresource-archive/foundation-spatial-data-framework), which defines the core data themes, like addresses, elevation and land cover, that everything else is built on. The technical delivery is done by agencies, mostly [Geoscience Australia](#geoscience-australia).
 
 - slug: australian-research-data-commons
   name: Australian Research Data Commons (ARDC)
@@ -46,23 +51,26 @@
 
 - slug: data61
   name: CSIRO's Data61
-  url: TBD
+  url: https://en.wikipedia.org/wiki/NICTA
   type: infrastructure
   status: inactive
   tags:
     - government
   description: |
-    TBD
+    Australia's national digital and data research group, formed in 2016 by merging National ICT Australia (NICTA) with CSIRO's Digital Productivity Flagship. The name combined Australia's country calling code with a focus on data science. It worked on AI, robotics, cybersecurity and software engineering, and built the technical standards for the Consumer Data Right. CSIRO [dissolved the brand in April 2026](https://csirostaff.org.au/news/2026/04/30/csiro-pulls-the-plug-on-data61-with-manufacturing-amalgamation/) and folded the unit into a new Technology research unit alongside manufacturing.
+
+    Its source code remains at [CSIRO Data61 Engineering & Design](https://github.com/data61) on GitHub.
 
 - slug: geoscience-australia
   name: Geoscience Australia
   url: https://www.ga.gov.au/
   type: infrastructure
-  status: TBD
+  status: active
   tags:
     - government
+    - open-data
   description: |
-    TBD
+    The Australian Government's geoscience agency is the national custodian of Australia's geographic and geological data. It releases its material under a Creative Commons Attribution licence, is the largest contributor to [data.gov.au](https://opensourceaustralia.guide/open-data#data-gov-au) and publishes its own holdings through the  [Geoscience Australia Portal](https://opensourceaustralia.guide/open-data#geoscience-australia-portal). It builds what [ANZLIC](#anzlic) sets the standards for, including the [Digital Atlas of Australia](#digital-atlas-of-australia). Its Digital Earth Australia platform, which lets you browse satellite imagery, runs on  open source software, [Open Data Cube](https://www.opendatacube.org/). See more on the [Wikipedia page](https://en.wikipedia.org/wiki/Geoscience_Australia).
 
 - slug: integrated-marine-observing-system
   name: Australia's Integrated Marine Observing System (IMOS)
