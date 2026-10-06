@@ -51,7 +51,6 @@
 
 - slug: data61
   name: CSIRO's Data61
-  url:
   type: infrastructure
   status: inactive
   tags:
@@ -120,7 +119,6 @@
 
 - slug: olpc-australia
   name: One Laptop Per Child (OLPC) Australia
-  url:
   type: builders
   status: inactive
     - community
