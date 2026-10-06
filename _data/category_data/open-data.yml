@@ -179,14 +179,15 @@
 
 # Geospatial and mapping
 
-- slug: elvis
-  name: Elvis elevation and depth
-  url: https://elevation.fsdf.org.au/
+- slug: digital-atlas-of-australia
+  name: Digital Atlas of Australia
+  url: https://digital.atlas.gov.au/
   type: geospatial-and-mapping
   sort_key: "010"
   status: active
+  organisation_slug: geoscience-australia
   description: |
-    Australian elevation and bathymetry data, searchable by area of interest. Brings together open data from Commonwealth, state and territory governments.
+    A national geospatial platform that brings together curated, trusted datasets from across government in one place, viewable as maps or downloadable for reuse.
 
 - slug: geoscience-australia-portal
   name: Geoscience Australia Portal
@@ -194,6 +195,7 @@
   type: geospatial-and-mapping
   sort_key: "020"
   status: active
+  organisation_slug: geoscience-australia
   description: |
     Geoscientific data, maps and tools covering Australian resources, geology, groundwater and natural hazards.
 
