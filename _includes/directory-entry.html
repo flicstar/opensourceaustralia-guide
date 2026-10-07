@@ -3,7 +3,11 @@
 {% assign org = orgs | where: "slug", entry.organisation_slug | first %}
 <article class="entry{% if entry.status == "inactive" %} entry--inactive{% endif %}" id="{{ entry.slug }}">
   <h3 class="entry-name">
-    <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.name }}</a>
+    {% if entry.url and entry.url != "" %}
+      <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.name }}</a>
+    {% else %}
+      {{ entry.name }}
+    {% endif %}
     <a class="entry-anchor" href="#{{ entry.slug }}" aria-label="Link to {{ entry.name }}">#</a>
   </h3>
   {% if entry.status == "inactive" or org or entry.organisation_slug and include.show_organisation_slug != false %}
