@@ -9,6 +9,8 @@
   status: active
   tags:
     - community
+    - events
+    - open-source-software
   description: |
     The peak body for open source communities in Australasia. It supports conferences, events and community projects, holding funds and providing organisational backing for volunteer-run activities. It also runs an annual grants program for open source, open data, open hardware and open culture work.
 
@@ -21,6 +23,7 @@
   status: active
   tags:
     - community
+    - events
   description: |
     The regional chapter of the [Open Source Geospatial Foundation](https://www.osgeo.org/), covering Australia, New Zealand and the Pacific. OSGeo Oceania is a volunteer organisation devoted to growing and enabling the [OpenStreetMap](https://www.openstreetmap.org/about) and Open Source Geospatial communities in Oceania.
 
@@ -46,6 +49,7 @@
   status: active
   tags:
     - academic
+    - open-data
   description: |
     A national research data infrastructure facility that supports the management, preservation, and sharing of research data across Australian universities and research institutions.
 
@@ -72,7 +76,7 @@
     The Australian Government's geoscience agency is the national custodian of Australia's geographic and geological data. It releases its material under a Creative Commons Attribution licence, is the largest contributor to [data.gov.au](https://opensourceaustralia.guide/open-data#data-gov-au) and publishes its own holdings through the  [Geoscience Australia Portal](https://opensourceaustralia.guide/open-data#geoscience-australia-portal). It builds what [ANZLIC](#anzlic) sets the standards for, including the [Digital Atlas of Australia](#digital-atlas-of-australia). Its Digital Earth Australia platform, which lets you browse satellite imagery, runs on  open source software, [Open Data Cube](https://www.opendatacube.org/). See more on the [Wikipedia page](https://en.wikipedia.org/wiki/Geoscience_Australia).
 
 - slug: integrated-marine-observing-system
-  name: Australia's Integrated Marine Observing System (IMOS)
+  name: Integrated Marine Observing System (IMOS)
   url: https://imos.org.au/
   type: infrastructure
   status: active
@@ -81,6 +85,18 @@
     - open-data
   description: |
     A national research infrastructure facility that has been operating a wide range of observing equipment throughout Australia's coastal and open oceans since 2006. IMOS makes all of its data openly and freely accessible through the [Australian Ocean Data Network](https://opensourceaustralia.guide/open-science#australian-ocean-data-network) portal.
+
+
+- slug: australian-government-linked-data-working-group
+  name: Australian Government Linked Data Working Group (AGLDWG)
+  url: https://www.linked.data.gov.au/
+  type: infrastructure
+  status: active
+  tags:
+    - government
+    - open-standards
+  description: |
+    A group of Commonwealth government staff and researchers, established in 2012, working on linked data, a set of open web standards for publishing data so that every term in it points to a published definition. The group writes guidance for agencies on using those standards, and publishes the resulting vocabularies and definitions under an open licence, so anyone can reuse them.
 
 # Builders
 
@@ -148,28 +164,34 @@
   status: active
   tags:
     - community
+    - open-data
   description: |
-    An Australian charity that builds and runs civic tech projects using public government data.
+    An Australian charity that builds and runs [civic tech](https://opensourceaustralia.guide/open-data#civic-tech) projects using public government data.
 
 - slug: ozlabs
   name: OzLabs
   url: https://ozlabs.org/
   type: builders
-  status: TBD
+  status: inactive
   tags:
     - industry
+    - open-source-software
   description: |
-    TBD
+    A collective of Australian free and open source software developers, formed in Canberra in 1999 and closely partnered with IBM for roughly 25 years. Members worked on the Linux kernel's PowerPC port, Samba, rsync, KVM for Power, Skiboot, Petitboot and OpenBMC. The association with IBM ended in January 2026, though many members continue working in open source elsewhere. See the OzLabs [history page](https://ozlabs.org/about.html) for the full story.
+
+    Rusty Russell founded [linux.conf.au](https://opensourceaustralia.guide/events#linux-conf-au) while at OzLabs.
 
 - slug: wikimedia-australia
   name: Wikimedia Australia
   url: https://wikimedia.org.au/
   type: builders
-  status: TBD
+  status: active
   tags:
     - community
+    - glam
+    - events
   description: |
-    TBD
+    The Australian chapter of the international [Wikimedia Foundation](https://wikimediafoundation.org/), and an independent charitable organisation. It supports people and organisations to contribute to Wikipedia, Wikidata and other Wikimedia platforms through events, training and partnerships.
 
 # Communities and event organisations
 
@@ -180,18 +202,9 @@
   status: active
   tags:
     - community
+    - events
   description: |
     A peer network connecting community groups, non-profits, and individuals working in the open source and innovation commons space.
-
-- slug: hardware-freedom-group
-  name: Hardware Freedom Group
-  url: https://engage.electronworkshop.com.au/group-hardware-freedom
-  type: communities
-  status: TBD
-  tags:
-    - community
-  description: |
-    TBD
 
 - slug: melbourne-tech-guilds
   name: Melbourne Tech Guilds
@@ -200,9 +213,9 @@
   status: active
   tags:
     - community
+    - open-hardware
   description: |
     Melbourne Tech Guilds is a maker community that started in December 2025. It meets on the first Sunday of the month and splits into five interest groups: robotics, mechanics, IoT, coding and deep dive. Projects run on open hardware and open tooling, mostly Arduino, ESP32 and Raspberry Pi, with Home Assistant and MQTT on the IoT side. Mentoring is free and the group is non-commercial.
-
 
 # Open access and open science
 
@@ -210,51 +223,35 @@
   name: Australian Open Science Network
   url: https://caul.edu.au/external-groups/australian-open-science-network/
   type: open-science
-  status: TBD
+  status: active
   tags:
     - academic
+    - open-science
   description: |
-    TBD
+    A forum where Australia's major research bodies exchange information on open science, advocate for it, and coordinate the country's response to international initiatives like the [UNESCO Open Science Recommendation](https://www.unesco.org/en/open-science). It is co-convened by [CAUL](#caul), [Open Access Australasia](#open-access-australasia) and the [ARDC](#australian-research-data-commons).
 
-- slug: caul-open-access
-  name: CAUL open access
-  url: https://caul.edu.au/topic/open-access/
+- slug: caul
+  name: Council of Australasian University Librarians (CAUL)
+  url: https://caul.edu.au/
   type: open-science
-  status: TBD
+  status: active
   tags:
     - academic
+    - open-access
   description: |
-    TBD
+    A membership body for university libraries across Australia and New Zealand, and a registered charity. CAUL leads initiatives to increase open access to research outputs through content procurement, policy development and advocacy, and runs the CAUL Consortium, which negotiates read-and-publish agreements with publishers on behalf of member institutions. It also runs the [Open Educational Resources Collective](https://oercollective.caul.edu.au/catalogue/), a catalogue of free peer-reviewed open textbooks. CAUL co-convenes the [Australian Open Science Network](#australian-open-science-network).
 
 - slug: open-access-australasia
   name: Open Access Australasia (OAA)
   url: https://oaaustralasia.org/
   type: open-science
-  status: TBD
+  status: active
   tags:
-    - academic
+    - open-access
   description: |
-    TBD
+    A membership organisation advocating for open scholarship across Australia and New Zealand, formerly the Australasian Open Access Strategy Group. Its scope covers the whole research and education landscape, including open access publishing, open data, open educational resources and other open practices. OAA makes submissions to government consultations, sometimes jointly with [CAUL](#caul), and co-convenes the [Australian Open Science Network](#australian-open-science-network).
 
 # Advocacy and policy
-
-- slug: australian-government-linked-data-working-group
-  name: Australian Government Linked Data Working Group
-  url: https://www.linked.data.gov.au/showcase
-  type: advocacy
-  status: TBD
-  tags:
-    - government
-  description: |
-    TBD
-
-- slug: australian-integrity-advocacy-organisations
-  name: Australian Integrity Advocacy Organisations
-  url: https://www.accountabilityrt.org/australian-integrity-advocacy-organisations/
-  type: advocacy
-  status: TBD
-  description: |
-    TBD
 
 - slug: australian-repair-network
   name: Australian Repair Network
@@ -263,8 +260,9 @@
   status: active
   tags:
     - academic
+    - open-hardware
   description: |
-    A network of individuals and organisations working to promote the right to repair in Australia.
+     A network based at Griffith University that brings together universities, not-for-profits, industry associations, consumer groups and repairers to promote the right to repair in Australia. It engages with government and industry on the legislative and policy changes responding to the international right to repair movement, and runs forums and the [Australian Repair Summit](https://opensourceaustralia.guide/events#australian-repair-summit).
 
 - slug: digital-freedom-foundation
   name: Digital Freedom Foundation
@@ -291,6 +289,7 @@
   status: TBD
   tags:
     - community
+    - events
   description: |
     TBD. The Australian chapter of the internet society. They co-host the auIGF.
 
