@@ -177,7 +177,7 @@
     - industry
     - open-source-software
   description: |
-    A collective of Australian free and open source software developers, formed in Canberra in 1999 and closely partnered with IBM for roughly 25 years. Members worked on the Linux kernel's PowerPC port, Samba, rsync, KVM for Power, Skiboot, Petitboot and OpenBMC. The association with IBM ended in January 2026, though many members continue working in open source elsewhere. See the OzLabs [history page](https://ozlabs.org/about.html) for the full story.
+    A collective of Australian free and open source software developers, formed in Canberra in 1999 and closely partnered with IBM for roughly 25 years. Members worked on the Linux kernel's PowerPC port, Samba, rsync, KVM for Power, Skiboot, Petitboot and OpenBMC. The association with IBM ended in January 2026, though many members continue working in open source elsewhere. The OzLabs [About page](https://ozlabs.org/about.html) has the full history.
 
     Rusty Russell founded [linux.conf.au](https://opensourceaustralia.guide/events#linux-conf-au) while at OzLabs.
 
