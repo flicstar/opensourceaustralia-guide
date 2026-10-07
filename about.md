@@ -15,6 +15,6 @@ I live in Melbourne but my days are spent in European open source, and when I go
 
 They say write the book you want to read, so I built the site I wanted to browse. And if you don't actually know what open source is — _hi Mum_ — start at [What is Open Source?](/what-is-open-source)
 
-In this guide, I use the term **open source** quite broadly, to cover software, hardware, data, standards, repair, policies, you name it. I know I’m casting a wide net but I really wanted to bring everything into one place.
+In this guide, I use the term **open source** quite broadly, to cover software (including free software), hardware, data, standards, repair, policies, you name it. I know I’m casting a wide net but I really wanted to bring everything into one place.
 
 Something that should be here but isn't? [Let me know what I've missed](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md){:target="_blank"}, I'd love to add it.

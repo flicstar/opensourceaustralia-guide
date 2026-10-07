@@ -9,8 +9,9 @@ permalink: /open-source-software
 
 Open source software means the source code for the software is available for anyone to read, change, and share. This is in direct contrast to proprietary or closed-source software like Microsoft Word or Spotify.
 
-Australia has a long history of building and maintaining open source software. Some of it you probably even use today. This page lists software with Australian origins and projects that have been shaped in a serious way by Australians.
+You might also see the terms *free software*, and *free and open source software (FOSS)*. See [What is Open Source](what-is-open-source.md) for how these terms differ.
 
+Australia has a long history of building and maintaining open source software. Some of it you probably even use today. This page lists software with Australian origins and projects that have been shaped in a serious way by Australians.
 
 <span>{% include icons/construction.svg %}</span> Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#open-source-software){:target="_blank"} file to see what I've captured so far, and let me know what I've missed. {% include icons/construction.svg %}
 
