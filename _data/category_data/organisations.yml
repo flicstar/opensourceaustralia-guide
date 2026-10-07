@@ -121,7 +121,7 @@
   tags:
     - academic
   description: |
-    A research group at [UNSW Sydney](https://www.unsw.edu.au/engineering/our-schools/computer-science-and-engineering/our-research/research-groups/trustworthy-systems) that builds software with mathematical proofs of its security, safety and reliability. Best known for [seL4](https://opensourceaustralia.guide/open-source-software#sel4), the first operating system kernel proven correct from high-level security properties down to the compiled binary. The group started at NICTA, moved into [CSIRO's Data61](#data61), and returned to UNSW in 2021 after Data61 cut its funding. Most of its software is released open source at [github.com/au-ts](https://github.com/au-ts/), and projects move to the seL4 Foundation's repositories once the foundation adopts them.
+    A research group at [UNSW Sydney](https://www.unsw.edu.au/engineering/our-schools/computer-science-and-engineering/our-research/research-groups/trustworthy-systems) that builds software with mathematical proofs of its security, safety and reliability. Best known for [seL4](https://opensourceaustralia.guide/open-source-software#sel4), the first operating system kernel proven correct from high-level security properties down to the compiled binary. The group started at NICTA, moved into [CSIRO's Data61](#data61), and returned to UNSW in 2021. Most of its software is released open source at [github.com/au-ts](https://github.com/au-ts/), and projects move to the seL4 Foundation's repositories once the foundation adopts them.
 
 - slug: computerbank-victoria
   name: Computerbank Victoria
@@ -155,7 +155,7 @@
   tags:
     - open-data
   description: |
-    A Melbourne non-profit that builds free, open-source platforms that fill gaps in Australia's climate and energy data, including [Open Electricity](https://opensourceaustralia.guide/open-data#open-electricity) and [Open Methane](https://opensourceaustralia.guide/open-data#open-methane).
+    A Melbourne non-profit that builds free, open-source platforms making Australia's climate and energy data usable, including [Open Electricity](https://opensourceaustralia.guide/open-data#open-electricity) and [Open Methane](https://opensourceaustralia.guide/open-data#open-methane).
 
 - slug: openaustralia-foundation
   name: OpenAustralia Foundation
