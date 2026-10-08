@@ -62,21 +62,13 @@
 
 # Catalogues and search
 
-- slug: australian-research-data-commons
-  name: Australian Research Data Commons
-  url: https://ardc.edu.au/
-  type: catalogue-search
-  sort_key: "010"
-  status: active
-  description: |
-    National digital research infrastructure that helps Australian researchers find, manage, analyse and share research data across all disciplines.
-
 - slug: research-data-australia
   name: Research Data Australia
   url: https://researchdata.edu.au/
   type: catalogue-search
   sort_key: "020"
   status: active
+  organisation_slug: australian-research-data-commons
   description: |
     A search portal covering data, projects, researchers and data services from more than a hundred Australian research organisations, government agencies and cultural institutions.
 
