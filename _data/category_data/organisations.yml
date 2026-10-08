@@ -10,7 +10,7 @@
   tags:
     - community
     - events
-    - open-source-software
+    - foss
   description: |
     The peak body for open source communities in Australasia. It supports conferences, events and community projects, holding funds and providing organisational backing for volunteer-run activities. It also runs an annual grants program for open source, open data, open hardware and open culture work.
 
@@ -175,7 +175,7 @@
   status: inactive
   tags:
     - industry
-    - open-source-software
+    - foss
   description: |
     A collective of Australian free and open source software developers, formed in Canberra in 1999 and closely partnered with IBM for roughly 25 years. Members worked on the Linux kernel's PowerPC port, Samba, rsync, KVM for Power, Skiboot, Petitboot and OpenBMC. The association with IBM ended in January 2026, though many members continue working in open source elsewhere. The OzLabs [About page](https://ozlabs.org/about.html) has the full history.
 
@@ -193,7 +193,7 @@
   description: |
     The Australian chapter of the international [Wikimedia Foundation](https://wikimediafoundation.org/), and an independent charitable organisation. It supports people and organisations to contribute to Wikipedia, Wikidata and other Wikimedia platforms through events, training and partnerships.
 
-# Communities and event organisations
+# Communities and user groups
 
 - slug: electron-workshop
   name: Electron Workshop
@@ -204,7 +204,7 @@
     - community
     - events
   description: |
-    A peer network connecting community groups, non-profits, and individuals working in the open source and innovation commons space.
+    A peer network connecting community groups, non-profits, and individuals working in the open source and innovation commons space. The run a recurring program of gatherings in Melbourne and online, spanning software freedom, open source, privacy, right to repair, cooperatives and internet governance. Formats include un-forum sessions, chainferences (satellite gatherings held in conjunction with a main conference) and fortnightly sprints.
 
 - slug: melbourne-tech-guilds
   name: Melbourne Tech Guilds
@@ -216,6 +216,91 @@
     - open-hardware
   description: |
     Melbourne Tech Guilds is a maker community that started in December 2025. It meets on the first Sunday of the month and splits into five interest groups: robotics, mechanics, IoT, coding and deep dive. Projects run on open hardware and open tooling, mostly Arduino, ESP32 and Raspberry Pi, with Home Assistant and MQTT on the IoT side. Mentoring is free and the group is non-commercial.
+
+- slug: flounder
+  name: Flounder
+  url: https://flounder.linux.org.au/
+  type: communities
+  status: active
+  tags:
+    - foss
+  summary: An online meeting group for free software users in Australia and New Zealand.
+  description: |
+    Flounder (FLOSS Down Under) is an online meeting group for free software users across Australia and New Zealand. Meetings run as open discussions covering whatever members are working on, and the group has also held hack days. Because it is online only, it suits people outside the capital cities where most user groups meet.
+
+    Summaries of past meetings are published on the site, and the group uses [Matrix rooms](https://flounder.linux.org.au/joinus/) for community discussion and cooperative coding.
+
+- slug: homelab-brisbane
+  name: Homelab Brisbane
+  url: https://homelabbrisbane.com.au/
+  type: communities
+  status: active
+  tags:
+    - foss
+    - open-hardware
+  summary: A Brisbane group for people running their own hardware at home.
+  description: |
+    A Brisbane group for tech enthusiasts who explore the latest trends in technology using their own hardware, in their own time. They meet online every month and in person once a month at a library meeting room, moving the venue around the city. The group runs its own Jitsi server for the online meetings and its own Discourse forum for discussion between them.
+
+- slug: rust-sydney
+  name: Rust Sydney
+  url: https://github.com/RustAU/Sydney
+  type: communities
+  status: active
+  tags:
+    - foss
+  summary: A Sydney meetup for people working with the Rust programming language.
+  description: |
+    A Sydney meetup for people working with [Rust](https://rust-lang.org/), an open source systems programming language. Meetups run as a series of short talks and cover everything from embedded work and compilers to games and audio. Meetups dates are announced on GitHub, on Meetup and in the RustAU Discord.
+
+    Sessions are streamed and recorded, and slides are published in the group's GitHub repository.
+
+- slug: geogeeks
+  name: GeoGeeks
+  url: https://geogeeks.org/
+  type: communities
+  status: active
+  tags:
+    - foss
+    - open-data
+  summary: A Perth meetup group for open geospatial software and mapping.
+  description: |
+    A Perth meetup group for people working with open geospatial software and data. Topics include QGIS, PostGIS, OpenStreetMap and geospatial Python. Events are open to anyone and include guest speakers, mapathons and technical workshops.
+
+- slug: humbug
+  name: HUMBUG
+  url: https://www.humbug.org.au/
+  type: communities
+  status: active
+  tags:
+    - foss
+  summary: A Brisbane computer club focused on Unix-like operating systems and open source software.
+  description: |
+    Home Unix Machine Brisbane User Group (HUMBUG), is a Brisbane computer club for people interested in Unix and Unix-like operating systems and open source software. This group has actively been running since 1995.
+
+- slug: laravel-perth
+  name: Laravel Perth
+  url: https://laravelperth.au/
+  type: communities
+  status: active
+  tags:
+    - foss
+  summary: A Perth meetup group for developers using the Laravel PHP framework.
+  description: |
+    A Perth meetup group for developers using [Laravel](https://laravel.com/), an open source web application framework written in PHP. Meetups cover tools and techniques in Laravel development, and the group is aimed at connecting PHP developers in Western Australia.
+
+- slug: linux-user-groups
+  name: Linux user groups
+  url: https://linux.org.au/lugs/
+  type: communities
+  status: active
+  tags:
+    - foss
+  summary: Local groups for people interested in Linux and open source software.
+  description: |
+    Linux user groups, or LUGs, are local groups for people interested in [Linux](https://www.linux.org/) and open source software. They hold meetings, provide education and community support, and sometimes run events like installfests. Most are free or very cheap to attend and welcome people with no experience.
+
+    [Linux Australia](https://opensourceaustralia.guide/organisations#linux-australia) maintains a current list of Australian LUGs, organised by state, with contact details for each.
 
 # Open access and open science
 

@@ -41,7 +41,7 @@ Groups that make and maintain things for the public to use.
   {% include directory-entry.html entry=entry %}
 {% endfor %}
 
-## Communities and gatherings
+## Communities and user groups
 
 Groups that bring people together, in person or online.
 

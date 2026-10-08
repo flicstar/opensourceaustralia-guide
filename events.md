@@ -11,7 +11,7 @@ description: "Conferences, meetups and community events for open source in Austr
 
 The peak conference for open source in Australia is [Everything Open](https://opensourceaustralia.guide/events#everything-open) run by [Linux Australia](https://opensourceaustralia.guide/organisations#linux-australia). This community event is volunteer-run, and the clue’s in the name \- the event caters to *everything open*: software, hardware, data, government, science, the GLAM sector, and many other open communities.
 
-Other events are specific to their context or topic. You might find a happening by joining a user group specific to the tool, program or protocol you’re interested in, because they usually gather regularly.
+Other events are specific to their context or topic. You might find a happening by joining a [user group](https://opensourceaustralia.guide/organisations#communities-and-user-groups) specific to the tool, program or protocol you’re interested in, because they usually gather regularly.
 
 You might also find relevant meetups near you by searching for the term “open source” on [meetup.com](https://www.meetup.com/topics/opensource/au/){:target="_blank"}. For developer events specifically, try the [Tech Events website](https://techevents.au/?view=national){:target="_blank"}, [DevEvents](devevents.io){:target="_blank"} and [Confs.tech](https://confs.tech/?online=hybrid&continents=Oceania).
 
@@ -24,13 +24,6 @@ You might also find relevant meetups near you by searching for the term “open 
   {% include directory-entry.html entry=entry %}
 {% endfor %}
 
-## Regular gatherings and meetups
-
-{% assign group = events | where: "type", "regular-gatherings" | sort_natural: "slug" %}
-{% for entry in group %}
-  {% include directory-entry.html entry=entry %}
-{% endfor %}
-
 ## Hackathons
 
 {% assign group = events | where: "type", "hackathons" | sort_natural: "slug" %}
@@ -38,11 +31,9 @@ You might also find relevant meetups near you by searching for the term “open 
   {% include directory-entry.html entry=entry %}
 {% endfor %}
 
-{% comment %}
 ## Community celebration days
 
 {% assign group = events | where: "type", "community-celebration-days" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
-{% endcomment %}
