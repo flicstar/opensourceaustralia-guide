@@ -27,6 +27,8 @@
   description: |
     The regional chapter of the [Open Source Geospatial Foundation](https://www.osgeo.org/), covering Australia, New Zealand and the Pacific. OSGeo Oceania is a volunteer organisation devoted to growing and enabling the [OpenStreetMap](https://www.openstreetmap.org/about) and Open Source Geospatial communities in Oceania.
 
+    Australian mappers coordinate through the [Australian Mapping Community](https://wiki.openstreetmap.org/wiki/Australian_Mapping_Community) pages on the OSM wiki.
+
 # Infrastructure
 
 - slug: anzlic
@@ -349,51 +351,34 @@
   description: |
      A network based at Griffith University that brings together universities, not-for-profits, industry associations, consumer groups and repairers to promote the right to repair in Australia. It engages with government and industry on the legislative and policy changes responding to the international right to repair movement, and runs forums and the [Australian Repair Summit](https://opensourceaustralia.guide/events#australian-repair-summit).
 
-- slug: digital-freedom-foundation
-  name: Digital Freedom Foundation
-  url: https://digitalfreedoms.org/
-  type: advocacy
-  status: TBD
-  description: |
-    TBD
-
 - slug: free-software-australia
   name: Free Software Australia
-  url: https://freesoftware.org.au/
+  url: https://freesoftware.au/
   type: advocacy
-  status: TBD
+  status: inactive
   tags:
     - community
+    - foss
   description: |
-    TBD
-
-- slug: internet-australia
-  name: Internet Australia
-  url: https://www.internet.org.au/
-  type: advocacy
-  status: TBD
-  tags:
-    - community
-    - events
-  description: |
-    TBD. The Australian chapter of the internet society. They co-host the auIGF.
+    A collaboration between free software activist groups in Melbourne, Brisbane and Sydney, formed out of Free Software Melbourne in 2010. It ran monthly meetups, Software Freedom Day events and submissions to government consultations. Its last recorded meetup was in August 2023.
 
 - slug: open-knowledge-australia
   name: Open Knowledge Australia
   url: https://au.okfn.org/index.html
   type: advocacy
-  status: TBD
+  status: inactive
   tags:
     - community
+    - open-data
   description: |
-    TBD. An archived project from the Open Knowledge Foundation.
+    The Australian group of the global [Open Knowledge](https://okfn.org/) network, which promotes the open sharing of data, information and knowledge. Volunteers ran meetups in Melbourne, Brisbane and Canberra. The last post went up in February 2017, and the Open Knowledge Foundation has since marked the project archived.
 
 - slug: open-source-industry-australia
   name: Open Source Industry Australia (OSIA)
   url: https://osia.com.au/
   type: advocacy
-  status: TBD
+  status: inactive
   tags:
     - industry
   description: |
-    TBD
+    The industry body for Australian free and open source software companies, incorporated in 2004. It lobbied government on open standards in government technology procurement, copyright reform and Pacific trade agreements. Its [government submissions](https://osia.com.au/publications_government_submissions.html) and [case studies](https://osia.com.au/case_study_national_archives.html) of open source in Australian organisations are still online.
