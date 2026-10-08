@@ -17,7 +17,7 @@
   sort_key: "020"
   status: active
   description: |
-    The central catalogue of Australian open government data. Alongside government data it lists publicly funded research data and datasets from private institutions held to be in the public interest.
+    The central catalogue of Australian open government data. Alongside government data it lists publicly funded research data and datasets from private institutions held to be in the public interest. The portal runs on [CKAN](https://ckan.org/), open source data portal software.
 
     Some state and local material is aggregated here, but each state and territory also runs its own portal.
 
