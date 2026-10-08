@@ -98,47 +98,7 @@ Do these need a mention on the page?
 
 ## Organisations and groups
 
-What counts as an org or group? If a group only exists for one function, like to run a meetup or host a data portal, then I'm not including it here.
-
-- [Internet Australia](https://www.internet.org.au/) the Australian chapter of the internet society. They host the auIGF.
-- [Open Source Industry Australia](https://osia.com.au/) (OSIA), see also this [12 year old article](https://www.zdnet.com/article/aust-open-source-community-launches-national-body/). This wikipedia page, [List of free and OSS orgs](https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_organizations), is out-of-date for Australia.
-- [Free software australia](https://freesoftware.org.au/), and this one too [Free Software Australia](https://freesoftware.au/)
-- [Digital freedom foundation](https://digitalfreedoms.org/)
-- [Australia internet governance forum](https://auigf.au/news)
-- [Australian Integrity Advocacy Organisations](https://www.accountabilityrt.org/australian-integrity-advocacy-organisations/)
-- [Australian Government Linked Data Working Group](https://www.linked.data.gov.au/showcase)
--  [Open Knowledge Australia](https://au.okfn.org/index.html) - an archived project from the Open Knowledge Foundation.
--  [Hardware Freedom Group](https://engage.electronworkshop.com.au/group-hardware-freedom)
--  [OzLabs](https://ozlabs.org/)
--  One laptop per child (OLPC) Australia - Inactive
-
-**Groups that run infrastructure you can use**
-
-- [Australian Research Data Commons](https://ardc.edu.au/) (ARDC)
-- [Australia's Integrated Marine Observing System (IMOS)](https://imos.org.au/)
-- [Geoscience Australia](https://www.ga.gov.au/)
-- [ANZLIC](https://www.anzlic.gov.au/)
-- [OpenSI](https://opensi.net/)
-- [CSIRO's Data61](https://csirostaff.org.au/news/2026/04/30/csiro-pulls-the-plug-on-data61-with-manufacturing-amalgamation/) retired
-
-**Groups that build things for the public**
-
-- [Open Australia foundation](https://oaf.org.au/)
-- [Code for Australia](https://www.codeforaustralia.org/)
-- [Wikimedia Australia](https://wikimedia.org.au/)
-- [Open Electricity](https://openelectricity.org.au/about)
-- [Computerbank Victoria](https://www.computerbank.org.au/)
-
-**Events groups and guilds**
-
-- [Tech guilds](https://techguilds.au/)
-- [Electron workshop](https://electronworkshop.org/)
-
-**Groups working on open access and open science**
-
-- [Open Access Australasia](https://oaaustralasia.org/) (OAA)
-- [CAUL open access](https://caul.edu.au/topic/open-access/)
-- [Australian Open Science Network](https://caul.edu.au/external-groups/australian-open-science-network/)
+📃 Check out the [Organisations and groups](https://opensourceaustralia.guide/organisations) page. What have I missed?
 
 ## Hackerspaces and makerspaces
 

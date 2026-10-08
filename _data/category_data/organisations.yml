@@ -29,6 +29,17 @@
 
     Australian mappers coordinate through the [Australian Mapping Community](https://wiki.openstreetmap.org/wiki/Australian_Mapping_Community) pages on the OSM wiki.
 
+- slug: auug
+  name: AUUG
+  url: http://classic.auug.org.au/
+  type: umbrella
+  status: inactive
+  tags:
+    - community
+    - foss
+  description: |
+    An Australian association for Unix, Linux and open source professionals, founded in 1975. The AUUG Preservation Society took over the auug.org.au domain in 2011, and the [archived site](http://classic.auug.org.au/) holds back issues of AUUGN. See more on the [Wikipedia page](https://en.wikipedia.org/wiki/AUUG).
+
 # Infrastructure
 
 - slug: anzlic
