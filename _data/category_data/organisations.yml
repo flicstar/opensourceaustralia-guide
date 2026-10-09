@@ -33,7 +33,7 @@
   name: AUUG
   url: http://classic.auug.org.au/
   type: umbrella
-  status: inactive
+  status: retired
   tags:
     - community
     - foss
@@ -68,8 +68,9 @@
 
 - slug: data61
   name: CSIRO's Data61
+  url:
   type: infrastructure
-  status: inactive
+  status: retired
   tags:
     - government
   description: |
@@ -86,7 +87,7 @@
     - government
     - open-data
   description: |
-    The Australian Government's geoscience agency is the national custodian of Australia's geographic and geological data. It releases its material under a Creative Commons Attribution licence, is the largest contributor to [data.gov.au](https://opensourceaustralia.guide/open-data#data-gov-au) and publishes its own holdings through the  [Geoscience Australia Portal](https://opensourceaustralia.guide/open-data#geoscience-australia-portal). It builds what [ANZLIC](#anzlic) sets the standards for, including the [Digital Atlas of Australia](#digital-atlas-of-australia). Its Digital Earth Australia platform, which lets you browse satellite imagery, runs on  open source software, [Open Data Cube](https://www.opendatacube.org/). See more on the [Wikipedia page](https://en.wikipedia.org/wiki/Geoscience_Australia).
+    The Australian Government's geoscience agency is the national custodian of Australia's geographic and geological data. It releases its material under a Creative Commons Attribution licence, is the largest contributor to [data.gov.au](https://opensourceaustralia.guide/open-data#data-gov-au) and publishes its own holdings through the [Geoscience Australia Portal](https://opensourceaustralia.guide/open-data#geoscience-australia-portal). It builds what [ANZLIC](#anzlic) sets the standards for, including the [Digital Atlas of Australia](#digital-atlas-of-australia). Its Digital Earth Australia platform, which lets you browse satellite imagery, runs on open source software, [Open Data Cube](https://www.opendatacube.org/). See more on the [Wikipedia page](https://en.wikipedia.org/wiki/Geoscience_Australia).
 
 - slug: integrated-marine-observing-system
   name: Integrated Marine Observing System (IMOS)
@@ -148,8 +149,10 @@
 
 - slug: olpc-australia
   name: One Laptop Per Child (OLPC) Australia
+  url:
   type: builders
-  status: inactive
+  status: retired
+  tags:
     - community
     - open-hardware
     - education
@@ -185,7 +188,7 @@
   name: OzLabs
   url: https://ozlabs.org/
   type: builders
-  status: inactive
+  status: retired
   tags:
     - industry
     - foss
@@ -208,6 +211,17 @@
 
 # Communities and user groups
 
+- slug: joomla-australia
+  name: Joomla Australia
+  url: https://joomla.org.au/
+  type: communities
+  status: active
+  tags:
+    - foss
+    - events
+  description: |
+    The Australian user group for [Joomla](https://www.joomla.org/), an open source content management system. It runs a regular community meetup online, and the [JoomlaDay Australia](https://opensourceaustralia.guide/events#joomladay-australia) event. Members also use a Discord server for day-to-day help and discussion. It is a subcommittee of [Linux Australia](#linux-australia).
+
 - slug: electron-workshop
   name: Electron Workshop
   url: https://electronworkshop.org/
@@ -217,7 +231,7 @@
     - community
     - events
   description: |
-    A peer network connecting community groups, non-profits, and individuals working in the open source and innovation commons space. The run a recurring program of gatherings in Melbourne and online, spanning software freedom, open source, privacy, right to repair, cooperatives and internet governance. Formats include un-forum sessions, chainferences (satellite gatherings held in conjunction with a main conference) and fortnightly sprints.
+    A peer network connecting community groups, non-profits, and individuals working in the open source and innovation commons space. They run a recurring program of gatherings in Melbourne and online, spanning software freedom, open source, privacy, right to repair, cooperatives and internet governance. Formats include un-forum sessions, chainferences (satellite gatherings held in conjunction with a main conference) and fortnightly sprints.
 
 - slug: melbourne-tech-guilds
   name: Melbourne Tech Guilds
@@ -237,7 +251,6 @@
   status: active
   tags:
     - foss
-  summary: An online meeting group for free software users in Australia and New Zealand.
   description: |
     Flounder (FLOSS Down Under) is an online meeting group for free software users across Australia and New Zealand. Meetings run as open discussions covering whatever members are working on, and the group has also held hack days. Because it is online only, it suits people outside the capital cities where most user groups meet.
 
@@ -251,7 +264,6 @@
   tags:
     - foss
     - open-hardware
-  summary: A Brisbane group for people running their own hardware at home.
   description: |
     A Brisbane group for tech enthusiasts who explore the latest trends in technology using their own hardware, in their own time. They meet online every month and in person once a month at a library meeting room, moving the venue around the city. The group runs its own Jitsi server for the online meetings and its own Discourse forum for discussion between them.
 
@@ -262,9 +274,8 @@
   status: active
   tags:
     - foss
-  summary: A Sydney meetup for people working with the Rust programming language.
   description: |
-    A Sydney meetup for people working with [Rust](https://rust-lang.org/), an open source systems programming language. Meetups run as a series of short talks and cover everything from embedded work and compilers to games and audio. Meetups dates are announced on GitHub, on Meetup and in the RustAU Discord.
+    A Sydney meetup for people working with [Rust](https://rust-lang.org/), an open source systems programming language. Meetups run as a series of short talks and cover everything from embedded work and compilers to games and audio. Meetup dates are announced on GitHub, on Meetup and in the RustAU Discord.
 
     Sessions are streamed and recorded, and slides are published in the group's GitHub repository.
 
@@ -276,7 +287,6 @@
   tags:
     - foss
     - open-data
-  summary: A Perth meetup group for open geospatial software and mapping.
   description: |
     A Perth meetup group for people working with open geospatial software and data. Topics include QGIS, PostGIS, OpenStreetMap and geospatial Python. Events are open to anyone and include guest speakers, mapathons and technical workshops.
 
@@ -287,7 +297,6 @@
   status: active
   tags:
     - foss
-  summary: A Brisbane computer club focused on Unix-like operating systems and open source software.
   description: |
     Home Unix Machine Brisbane User Group (HUMBUG), is a Brisbane computer club for people interested in Unix and Unix-like operating systems and open source software. This group has actively been running since 1995.
 
@@ -298,7 +307,6 @@
   status: active
   tags:
     - foss
-  summary: A Perth meetup group for developers using the Laravel PHP framework.
   description: |
     A Perth meetup group for developers using [Laravel](https://laravel.com/), an open source web application framework written in PHP. Meetups cover tools and techniques in Laravel development, and the group is aimed at connecting PHP developers in Western Australia.
 
@@ -309,7 +317,6 @@
   status: active
   tags:
     - foss
-  summary: Local groups for people interested in Linux and open source software.
   description: |
     Linux user groups, or LUGs, are local groups for people interested in [Linux](https://www.linux.org/) and open source software. They hold meetings, provide education and community support, and sometimes run events like installfests. Most are free or very cheap to attend and welcome people with no experience.
 
@@ -358,9 +365,9 @@
   status: active
   tags:
     - academic
-    - open-hardware
+    - right-to-repair
   description: |
-     A network based at Griffith University that brings together universities, not-for-profits, industry associations, consumer groups and repairers to promote the right to repair in Australia. It engages with government and industry on the legislative and policy changes responding to the international right to repair movement, and runs forums and the [Australian Repair Summit](https://opensourceaustralia.guide/events#australian-repair-summit).
+    A network based at Griffith University that brings together universities, not-for-profits, industry associations, consumer groups and repairers to promote the right to repair in Australia. It engages with government and industry on the legislative and policy changes responding to the international right to repair movement, and runs forums and the [Australian Repair Summit](https://opensourceaustralia.guide/events#australian-repair-summit).
 
 - slug: free-software-australia
   name: Free Software Australia
@@ -377,7 +384,7 @@
   name: Open Knowledge Australia
   url: https://au.okfn.org/index.html
   type: advocacy
-  status: inactive
+  status: retired
   tags:
     - community
     - open-data
@@ -388,8 +395,9 @@
   name: Open Source Industry Australia (OSIA)
   url: https://osia.com.au/
   type: advocacy
-  status: inactive
+  status: retired
   tags:
     - industry
+    - foss
   description: |
     The industry body for Australian free and open source software companies, incorporated in 2004. It lobbied government on open standards in government technology procurement, copyright reform and Pacific trade agreements. Its [government submissions](https://osia.com.au/publications_government_submissions.html) and [case studies](https://osia.com.au/case_study_national_archives.html) of open source in Australian organisations are still online.

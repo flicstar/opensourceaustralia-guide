@@ -3,7 +3,7 @@
  *
  * Markup comes from _includes/directory-entry.html:
  *
- *   article.entry.entry--inactive#slug
+ *   article.entry.entry--inactive#slug, article.entry.entry--retired#slug
  *     h3.entry-name > a, a.entry-anchor
  *     p.entry-run-by > span.entry-status, ...
  *     div.entry-description
@@ -65,7 +65,8 @@
   border-radius: 2px;
 }
 
-.entry--inactive .entry-name {
+.entry--inactive .entry-name,
+.entry--retired .entry-name {
   color: var(--text-meta);
 
   a {

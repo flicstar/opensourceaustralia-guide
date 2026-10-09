@@ -1,7 +1,7 @@
 {% assign orgs = site.data.category_data["organisations"] %}
 {% assign org = nil %}
 {% assign org = orgs | where: "slug", entry.organisation_slug | first %}
-<article class="entry{% if entry.status == "inactive" %} entry--inactive{% endif %}" id="{{ entry.slug }}">
+<article class="entry{% if entry.status == "inactive" or entry.status == "retired" %} entry--{{ entry.status }}{% endif %}" id="{{ entry.slug }}">
   <h3 class="entry-name">
     {% if entry.url and entry.url != "" %}
       <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.name }}</a>
@@ -10,9 +10,9 @@
     {% endif %}
     <a class="entry-anchor" href="#{{ entry.slug }}" aria-label="Link to {{ entry.name }}">#</a>
   </h3>
-  {% if entry.status == "inactive" or org or entry.organisation_slug and include.show_organisation_slug != false %}
+  {% if entry.status == "inactive" or entry.status == "retired" or org or entry.organisation_slug and include.show_organisation_slug != false %}
     <p class="entry-run-by">
-      {% if entry.status == "inactive" %}<span class="entry-status">Inactive{% if entry.inactive %} {{ entry.inactive }}{% endif %}</span>{% endif %}
+      {% if entry.status == "inactive" %}<span class="entry-status">Inactive{% if entry.inactive %} {{ entry.inactive }}{% endif %}</span>{% elsif entry.status == "retired" %}<span class="entry-status">Retired</span>{% endif %}
       {% if org %}
         <span>Run by <a href="/organisations#{{ org.slug }}">{{ org.name }}</a></span>
       {% elsif entry.organisation_slug and include.show_organisation_slug != false %}
