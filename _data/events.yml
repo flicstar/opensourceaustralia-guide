@@ -94,7 +94,7 @@
     - open-hardware
   summary: A one-day gathering on the right to repair the things you own.
   description: |
-    A one-day gathering that brings repair businesses, consumer advocates, researchers, industry bodies and government together to discuss the right to repair. The first summit was held in 2021 and it runs annually.
+    A one-day gathering that brings repair businesses, consumer advocates, researchers, industry bodies and government together to discuss the right to repair. The first summit was held in 2021 and has runs annually.
 
     Sessions from the 2025 event are available to [watch online](https://events.griffith.edu.au/event/c73c75df-a339-45df-9ec4-e06506d4d380/program-videos).
 
@@ -114,15 +114,15 @@
 
 - slug: joomladay-australia
   name: JoomlaDay Australia
-  url: https://linux.org.au/joomladay/
+  url: https://joomla.org.au/
   type: conferences
-  status: inactive
-  organisation_slug: linux-australia
+  status: active
+  organisation_slug: joomla-australia
   tags:
     - foss
   summary: A community event for users of the Joomla content management system.
   description: |
-    JoomlaDay is a community event for users of [Joomla](https://www.joomla.org/), an open source content management system. Joomla has a smaller user base in Australia than WordPress or Drupal, and its Australian events are sporadic.
+    JoomlaDay is a community event for users of [Joomla](https://www.joomla.org/), an open source content management system.
 
 - slug: kubernetes-community-days-australia
   name: Kubernetes Community Days Australia (KCD)
@@ -139,7 +139,7 @@
   name: linux.conf.au
   url: https://linux.org.au/linux-conf-au/
   type: conferences
-  status: inactive
+  status: retired
   organisation_slug: linux-australia
   tags:
     - foss
@@ -167,7 +167,7 @@
   name: OSDC
   url: https://en.wikipedia.org/wiki/Open_Source_Developers%27_Conference
   type: conferences
-  status: inactive
+  status: retired
   tags:
     - foss
   summary: A not-for-profit conference for open source developers in Australasia.
@@ -175,6 +175,17 @@
     The Open Source Developers' Conference was a not-for-profit conference for open source developers in Australasia, organised around a range of programming languages such as Perl, Python, PHP, Ruby and Java, along with open source databases and version control systems.
 
     Founded in Melbourne in 2004, no OSDC has been held since 2015, and the association behind it merged into [Linux Australia](https://opensourceaustralia.guide/organisations#linux-australia).
+
+- slug: wordcamps-australia
+  name: WordCamps Australia
+  url: https://wpaustralia.org/events/
+  type: conferences
+  status: active
+  tags:
+    - foss
+  summary: Community conferences about WordPress, held in cities around Australia.
+  description: |
+    Community conferences about [WordPress](https://en-au.wordpress.org/), the software behind a large share of the world's websites. Each one is organised locally, so the host city changes, and they cater to everyone from complete beginners through to professional developers.
 
 # Hackathons
 
@@ -206,13 +217,3 @@
 
     Code from past projects can be found in the [HealthHack Australia repository](https://github.com/HealthHackAustralia/HealthHackAustralia/blob/master/README.md) on GitHub.
 
-- slug: wordcamps-australia
-  name: WordCamps Australia
-  url: https://wpaustralia.org/events/
-  type: conferences
-  status: active
-  tags:
-    - foss
-  summary: Community conferences about WordPress, held in cities around Australia.
-  description: |
-    Community conferences about [WordPress](https://en-au.wordpress.org/), the software behind a large share of the world's websites. Each one is organised locally, so the host city changes, and they cater to everyone from complete beginners through to professional developers.
