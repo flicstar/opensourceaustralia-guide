@@ -107,6 +107,14 @@
   description: |
     Lets Linux and Unix machines share files and services with Windows. Started by Andrew Tridgell in Canberra.
 
+- slug: lores-mesh
+  name: LoRes Mesh
+  url: https://lores.tech/
+  type: networking-and-file-sharing
+  status: active
+  description: |
+    Software for running a resilient local internet. A LoRes Node is a cluster of small low-powered computers, like Raspberry Pis, that hosts websites, email and other services for a local community. Nodes talk to each other over a peer-to-peer network, so they keep working when the internet or the power goes down. LoRes Mesh is currently used by [Merri-bek Tech](https://opensourceaustralia.guide/organisations#merri-bek-tech).
+
 # Operating systems and firmware
 
 - slug: sel4

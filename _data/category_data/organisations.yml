@@ -114,6 +114,17 @@
 
 # Builders
 
+- slug: merri-bek-tech
+  name: Merri-bek Tech
+  url: https://www.merri-bek.tech/
+  type: builders
+  status: active
+  tags:
+    - community
+    - foss
+  description: |
+    A volunteer-run non-profit organisation building local web hosting across the Merri-bek area in Melbourne's north, as an affordable alternative to commercial cloud services. The longer aim is a local network that keeps working during power outages and other disruptions.
+
 - slug: opensi
   name: OpenSI
   url: https://opensi.net/
