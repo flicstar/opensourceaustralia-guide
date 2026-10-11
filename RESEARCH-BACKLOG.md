@@ -10,7 +10,7 @@ Feel free to add a line here or email me at [hello@opensourceaustralia.guide](ma
 
 ## Open source software
 
-A list of open source software with Australian origins or long-running Australian maintenance.
+A list of FOSS projects with Australian origins or long-running Australian maintenance.
 
 - [Moodle](https://moodle.org/) - learning management system created in 2001 by Martin Dougiamas, an Australian educator and computer scientist. [How it started](https://dougiamas.com/about/), [Moodle history](https://docs.moodle.org/502/en/History), [Moodle.com](https://moodle.com/?ref=dougiamas.com)
 - [FreePBX](https://www.freepbx.org/) - web interface for configuring Asterisk phone systems, written in 2004 by Australian programmer Rob Thomas as the Asterisk Management Portal. [Wikipedia](https://en.wikipedia.org/wiki/FreePBX)
