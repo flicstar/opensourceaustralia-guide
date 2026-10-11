@@ -134,9 +134,11 @@
     - academic
     - open-source-ai
   description: |
-    A non-profit institute at the University of Canberra supporting open source technologies in research, development, education and implementation. Its research covers four themes: data solutions at scale, cyber security and privacy, artificial intelligence and machine learning, and open source business models. OpenSI works with students and researchers through higher degree research scholarships, semester and part-time projects, capstone and sponsored projects, and paid internships.
+    OpenSI is a non-profit open-source institute established through collaboration between the University of Canberra and industry partners. It supports the research, development, education and implementation of open-source technologies, with a strong emphasis on artificial intelligence, cybersecurity and quantum technologies.
 
-    The research philosophy is grounded in the principles of [open science](https://opensourceaustralia.guide/open-science), and successful projects are donated and transferred to open source communities for ongoing development. Its code is published at [TheOpenSI](https://github.com/TheOpenSI) on GitHub.
+    OpenSI connects research, education and industry through multidisciplinary open-source projects that give students and researchers opportunities to work on real-world technologies and contribute to production-ready, publicly accessible outcomes. Engagement includes higher degree research, Capstone and sponsored projects, industry-embedded internships and other research-led pathways. Current initiatives include CoSMIC, an open-source AI orchestration platform; SmartGate; and OzLLM, an initiative exploring an open Australian language model.
+
+    OpenSI's approach is grounded in open collaboration, with research outputs and software developed to contribute back to open-source communities wherever appropriate. Its public code and projects are available through [TheOpenSI](https://github.com/TheOpenSI) on GitHub.
 
 - slug: trustworthy-systems
   name: Trustworthy Systems
