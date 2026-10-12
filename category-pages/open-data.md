@@ -3,6 +3,7 @@ layout: category
 category: open-data
 title: "Open data"
 permalink: /open-data
+research_backlog_anchor: open-data
 ---
 
 {% assign entries = site.data.category_data["open-data"] %}

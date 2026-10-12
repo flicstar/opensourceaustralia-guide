@@ -14,6 +14,13 @@ layout: default
     <aside class="page-sidebar">
       {% include toc.html %}
 
+      <div class="page-backlog">
+        <h2 class="page-backlog__heading"><span>{% include icons/construction.svg %}</span> Under construction <span>{% include icons/construction.svg %}</span></h2>
+        <p>
+          Check my <a href="{{ site.repo_url }}/blob/main/RESEARCH-BACKLOG.md#{{ page.research_backlog_anchor }}" target="_blank" rel="noopener">Research backlog</a> and let me know what I've missed.
+        </p>
+      </div>
+
       {% if page.contributors %}
         <div class="page-credits">
           <p class="page-credits__label">Contributors</p>

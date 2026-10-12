@@ -3,11 +3,10 @@ layout: category
 category: hackerspaces-makerspaces
 title: "Hackerspaces and makerspaces"
 permalink: /hackerspaces-makerspaces
+research_backlog_anchor: hackerspaces-and-makerspaces
 ---
 
 {% assign entries = site.data.category_data["hackerspaces-makerspaces"] %}
-
-<span>{% include icons/construction.svg %}</span> Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#hackerspaces-and-makerspaces){:target="_blank"} file to see what I've captured so far, and let me know what I've missed. {% include icons/construction.svg %}
 
 {% assign group = entries | sort_natural: "slug" %}
 {% for entry in group %}

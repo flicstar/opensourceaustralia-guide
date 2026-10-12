@@ -60,6 +60,22 @@
   gap: 1.5rem;
 }
 
+.page-backlog {
+  padding-top: 1rem;
+
+  &__heading {
+    margin: 0 0 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+}
+
 // Sidebar only when there is room for one.
 // Below this width the nav sits in flow above the content.
 @media (min-width: 64em) {

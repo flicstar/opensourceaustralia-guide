@@ -3,11 +3,10 @@ layout: category
 category: government
 title: Government procurement and policy
 permalink: /government
+research_backlog_anchor: government-procurement-and-policy
 ---
 
 {% assign entries = site.data.category_data["government"] %}
-
-<span>{% include icons/construction.svg %}</span> Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#government-procurement-and-policy){:target="_blank"} file to see what I've captured so far, and let me know what I've missed. {% include icons/construction.svg %}
 
 {% assign group = entries | sort_natural: "slug" %}
 {% for entry in group %}
