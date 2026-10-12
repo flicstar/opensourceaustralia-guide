@@ -53,6 +53,14 @@
   description: |
     Observability and dashboard platform. Co-founder and CTO Anthony Woods is from Western Australia. Grafana Labs has written about [how it got here](https://grafana.com/blog/grafana-labs-at-5-how-we-got-here-and-where-were-going/) and made a [documentary](https://grafana.com/blog/the-story-of-grafana-documentary-from-one-developers-dream-to-20-million-users-worldwide/).
 
+- slug: performance-co-pilot
+  name: Performance Co-Pilot (PCP)
+  url: https://pcp.io
+  type: data-and-monitoring
+  status: active
+  description: |
+    System performance monitoring and analysis toolkit. Designed at SGI in Melbourne and released as a commercial product in 1995. SGI re-released the core as free software and it now ships with the major Linux distributions. Much of the development work is still done in Australia. See [Wikipedia](https://en.wikipedia.org/wiki/Performance_Co-Pilot). See also https://www.wikiwand.com/en/Performance_Co-Pilot
+
 # Desktops and window managers
 
 - slug: enlightenment
@@ -116,6 +124,14 @@
     Software for running a resilient local internet. A LoRes Node is a cluster of small low-powered computers, like Raspberry Pis, that hosts websites, email and other services for a local community. Nodes talk to each other over a peer-to-peer network, so they keep working when the internet or the power goes down. LoRes Mesh is currently used by [Merri-bek Tech](https://opensourceaustralia.guide/organisations#merri-bek-tech).
 
 # Operating systems and firmware
+
+- slug: xfs
+  name: XFS
+  url: https://xfs.org/
+  type: operating-systems-and-firmware
+  status: active
+  description: |
+    High performance journaling filesystem, now part of the Linux kernel. SGI formed a team in Melbourne to port XFS from IRIX to Linux and to run the encumbrance review that cleared it for release under the GPL in 2000. The team wrote up the work in a [2000 USENIX paper](https://www.usenix.org/conference/2000-usenix-annual-technical-conference/porting-sgi-xfs-file-system-linux), and LWN covered the history in [XFS: There and back and there again](https://lwn.net/Articles/638546/).
 
 - slug: sel4
   name: seL4
