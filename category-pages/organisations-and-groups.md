@@ -3,6 +3,8 @@ layout: category
 category: organisations
 title: "Organisations and groups"
 permalink: /organisations
+description: Peak bodies, foundations, user groups and communities working with open source in Australia.
+image: "/assets/images/logo-social.png"
 ---
 
 {% assign entries = site.data.category_data["organisations"] %}
