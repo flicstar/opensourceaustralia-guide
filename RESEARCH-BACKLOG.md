@@ -180,7 +180,8 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [CURIOSS](https://curioss.org/) Community for University and Research Institution OSPOs, see [this LinkedIn post](https://www.linkedin.com/posts/unopensourceweek-osposforgood-globalgoals-ugcPost-7505280348612714498-qGlE/) from UNOICT
 - [Refund for freedom](https://en.refund4freedom.org/)
 - [Open Source Design](https://opensourcedesign.net/)
--  [Open regulatory compliance](https://orcwg.org/)
+- [Open regulatory compliance](https://orcwg.org/)
+- [Youth Hacking 4 Freedom](http://yh4f.org/)
 
 
 **Not open source, but interesting**
