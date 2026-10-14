@@ -17,8 +17,6 @@ Other events are specific to their context or topic. You might find a happening 
 
 You might also find relevant meetups near you by searching for the term “open source” on [meetup.com](https://www.meetup.com/topics/opensource/au/){:target="_blank"}. For developer events specifically, try the [Tech Events website](https://techevents.au/?view=national){:target="_blank"}, [DevEvents](https://devevents.io){:target="_blank"} and [Confs.tech](https://confs.tech/?online=hybrid&continents=Oceania){:target="_blank"}.
 
-<span>{% include icons/construction.svg %}</span> Update my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#events){:target="_blank"} to let me know what I've missed. {% include icons/construction.svg %}
-
 ## Conferences
 
 {% assign group = events | where: "type", "conferences" | sort_natural: "slug" %}
