@@ -10,11 +10,12 @@
   organisation_slug: linux-australia
   tags:
     - everything-open
+    - foss
   summary: Australia's main conference for open technologies.
   description: |
     Australia's main conference for open technologies. Across three days it covers open source software, open hardware, open data, open government, the GLAM sector, and open communities. This is an annual conference, and is volunteer-run.
 
-    Born out of [linux.conf.au (LCA)](https://opensourceaustralia.guide/events#linux-conf-au), the premier Linux and open source conference for Australia and New Zealand from 1999 to 2022, Everything Open started in 2023 to broaden those connections beyond Linux.
+    Born out of [linux.conf.au (LCA)](#linux-conf-au), the premier Linux and open source conference for Australia and New Zealand from 1999 to 2022, Everything Open started in 2023 to broaden those connections beyond Linux.
 
     Sessions from past events are available to watch on the [Everything Open YouTube channel](https://www.youtube.com/@EverythingOpen).
 
@@ -71,13 +72,13 @@
 
     The programme is built from session proposals submitted by the community and forum is volunteer-run. It's co-hosted by [Internet Australia](https://www.internet.org.au/), the Australian chapter of the Internet Society. Read more about the event, including a brief history, from the [.au Domain Administration (auDA)](https://www.auda.org.au/news-insights/events/australian-internet-governance-forum-auigf/).
 
-- slug: rsaa
-  name: Research Software Asia Australia Conference
+- slug: rseaa
+  name: Research Software Asia Australia Conference (RSEAA)
   url: https://rseaa.org/
   type: conferences
   status: active
   tags:
-    - open-science
+    - open-research
     - foss
   summary: An online conference for people who build and maintain research software.
   description: |
@@ -105,7 +106,7 @@
   status: active
   tags:
     - open-data
-    - open-science
+    - open-research
   summary: The conference for the people and infrastructure behind digital research.
   description: |
     The main conference for the people and infrastructure behind digital research: data specialists, research software engineers, librarians, technologists, policy makers and industry partners. Hosted by [Australasian eResearch Organisations](https://www.aero.edu.au/) (AeRO), this is an institutional rather than community-run event for universities, national research infrastructure and funding bodies. The conference is broader than open source, but open source tools, open data and reproducible research methods feature throughout.
@@ -145,7 +146,7 @@
     - foss
   summary: The premier Linux and open source conference for Australia and New Zealand from 1999 to 2022.
   description: |
-    linux.conf.au (LCA) was the premier Linux and open source conference for Australia and New Zealand for over two decades. It ran nearly every year from 1999 to 2022, moving to a different city each time, and was entirely volunteer-run. The format spanned five days: two days of miniconfs (special-interest tracks), followed by three days of main-conference talks. It evolved into the [Everything Open](https://opensourceaustralia.guide/events#everything-open) conference.
+    linux.conf.au (LCA) was the premier Linux and open source conference for Australia and New Zealand for over two decades. It ran nearly every year from 1999 to 2022, moving to a different city each time, and was entirely volunteer-run. The format spanned five days: two days of miniconfs (special-interest tracks), followed by three days of main-conference talks. It evolved into the [Everything Open](#everything-open) conference.
 
     Sessions from past events are available to watch on the [Linux.conf.au YouTube channel](https://www.youtube.com/@linuxconfau/playlists).
 
@@ -174,7 +175,7 @@
   description: |
     The Open Source Developers' Conference was a not-for-profit conference for open source developers in Australasia, organised around a range of programming languages such as Perl, Python, PHP, Ruby and Java, along with open source databases and version control systems.
 
-    Founded in Melbourne in 2004, no OSDC has been held since 2015, and the association behind it merged into [Linux Australia](https://opensourceaustralia.guide/organisations#linux-australia).
+    Founded in Melbourne in 2004, no OSDC has been held since 2015, and the association behind it merged into [Linux Australia](/organisations#linux-australia).
 
 - slug: wordcamps-australia
   name: WordCamps Australia

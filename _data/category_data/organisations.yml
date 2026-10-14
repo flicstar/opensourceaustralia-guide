@@ -87,7 +87,7 @@
     - government
     - open-data
   description: |
-    The Australian Government's geoscience agency is the national custodian of Australia's geographic and geological data. It releases its material under a Creative Commons Attribution licence, is the largest contributor to [data.gov.au](https://opensourceaustralia.guide/open-data#data-gov-au) and publishes its own holdings through the [Geoscience Australia Portal](https://opensourceaustralia.guide/open-data#geoscience-australia-portal). It builds what [ANZLIC](#anzlic) sets the standards for, including the [Digital Atlas of Australia](#digital-atlas-of-australia). Its Digital Earth Australia platform, which lets you browse satellite imagery, runs on open source software, [Open Data Cube](https://www.opendatacube.org/). See more on the [Wikipedia page](https://en.wikipedia.org/wiki/Geoscience_Australia).
+    The Australian Government's geoscience agency is the national custodian of Australia's geographic and geological data. It releases its material under a Creative Commons Attribution licence, is the largest contributor to [data.gov.au](/open-data#data-gov-au) and publishes its own holdings through the [Geoscience Australia Portal](/open-data#geoscience-australia-portal). It builds what [ANZLIC](#anzlic) sets the standards for, including the [Digital Atlas of Australia](#digital-atlas-of-australia). Its Digital Earth Australia platform, which lets you browse satellite imagery, runs on open source software, [Open Data Cube](https://www.opendatacube.org/). See more on the [Wikipedia page](https://en.wikipedia.org/wiki/Geoscience_Australia).
 
 - slug: integrated-marine-observing-system
   name: Integrated Marine Observing System (IMOS)
@@ -98,8 +98,7 @@
     - academic
     - open-data
   description: |
-    A national research infrastructure facility that has been operating a wide range of observing equipment throughout Australia's coastal and open oceans since 2006. IMOS makes all of its data openly and freely accessible through the [Australian Ocean Data Network](https://opensourceaustralia.guide/open-science#australian-ocean-data-network) portal.
-
+    A national research infrastructure facility that has been operating a wide range of observing equipment throughout Australia's coastal and open oceans since 2006. IMOS makes all of its data openly and freely accessible through the [Australian Ocean Data Network](/open-science#australian-ocean-data-network) portal.
 
 - slug: australian-government-linked-data-working-group
   name: Australian Government Linked Data Working Group (AGLDWG)
@@ -148,7 +147,7 @@
   tags:
     - academic
   description: |
-    A research group at [UNSW Sydney](https://www.unsw.edu.au/engineering/our-schools/computer-science-and-engineering/our-research/research-groups/trustworthy-systems) that builds software with mathematical proofs of its security, safety and reliability. Best known for [seL4](https://opensourceaustralia.guide/open-source-software#sel4), the first operating system kernel proven correct from high-level security properties down to the compiled binary. The group started at NICTA, moved into [CSIRO's Data61](#data61), and returned to UNSW in 2021. Most of its software is released open source at [github.com/au-ts](https://github.com/au-ts/), and projects move to the seL4 Foundation's repositories once the foundation adopts them.
+    A research group at [UNSW Sydney](https://www.unsw.edu.au/engineering/our-schools/computer-science-and-engineering/our-research/research-groups/trustworthy-systems) that builds software with mathematical proofs of its security, safety and reliability. Best known for [seL4](/open-source-software#sel4), the first operating system kernel proven correct from high-level security properties down to the compiled binary. The group started at NICTA, moved into [CSIRO's Data61](#data61), and returned to UNSW in 2021. Most of its software is released open source at [github.com/au-ts](https://github.com/au-ts/), and projects move to the seL4 Foundation's repositories once the foundation adopts them.
 
 - slug: computerbank-victoria
   name: Computerbank Victoria
@@ -170,7 +169,7 @@
     - open-hardware
     - education
   description: |
-    The Australian arm of [One Laptop per Child](https://en.wikipedia.org/wiki/One_Laptop_per_Child), the project behind the XO laptop. It was announced at [linux.conf.au](https://opensourceaustralia.guide/events#linux-conf-au) in January 2008 and launched in March that year.
+    The Australian arm of [One Laptop per Child](https://en.wikipedia.org/wiki/One_Laptop_per_Child), the project behind the XO laptop. It was announced at [linux.conf.au](/events#linux-conf-au) in January 2008 and launched in March that year.
 
     OLPC Australia put XO laptops into remote and disadvantaged schools, and released open source work of its own. XO-AU was the Australian build of the XO software and content, customized for local schools and communities. XS-AU was a reconfigured school server. A mini update server let one XO update others over wifi, and a charging rack came with a charger designed in-house.
 
@@ -184,7 +183,7 @@
   tags:
     - open-data
   description: |
-    A Melbourne non-profit that builds free, open-source platforms making Australia's climate and energy data usable, including [Open Electricity](https://opensourceaustralia.guide/open-data#open-electricity) and [Open Methane](https://opensourceaustralia.guide/open-data#open-methane).
+    A Melbourne non-profit that builds free, open-source platforms making Australia's climate and energy data usable, including [Open Electricity](/open-data#open-electricity) and [Open Methane](/open-data#open-methane).
 
 - slug: openaustralia-foundation
   name: OpenAustralia Foundation
@@ -195,7 +194,7 @@
     - community
     - open-data
   description: |
-    An Australian charity that builds and runs [civic tech](https://opensourceaustralia.guide/open-data#civic-tech) projects using public government data.
+    An Australian charity that builds and runs [civic tech](/open-data#civic-tech) projects using public government data.
 
 - slug: ozlabs
   name: OzLabs
@@ -208,7 +207,7 @@
   description: |
     A collective of Australian free and open source software developers, formed in Canberra in 1999 and closely partnered with IBM for roughly 25 years. Members worked on the Linux kernel's PowerPC port, Samba, rsync, KVM for Power, Skiboot, Petitboot and OpenBMC. The association with IBM ended in January 2026, though many members continue working in open source elsewhere. The OzLabs [About page](https://ozlabs.org/about.html) has the full history.
 
-    Rusty Russell founded [linux.conf.au](https://opensourceaustralia.guide/events#linux-conf-au) while at OzLabs.
+    Rusty Russell founded [linux.conf.au](/events#linux-conf-au) while at OzLabs.
 
 - slug: wikimedia-australia
   name: Wikimedia Australia
@@ -233,7 +232,7 @@
     - foss
     - events
   description: |
-    The Australian user group for [Joomla](https://www.joomla.org/), an open source content management system. It runs a regular community meetup online, and the [JoomlaDay Australia](https://opensourceaustralia.guide/events#joomladay-australia) event. Members also use a Discord server for day-to-day help and discussion. It is a subcommittee of [Linux Australia](#linux-australia).
+    The Australian user group for [Joomla](https://www.joomla.org/), an open source content management system. It runs a regular community meetup online, and the [JoomlaDay Australia](/events#joomladay-australia) event. Members also use a Discord server for day-to-day help and discussion. It is a subcommittee of [Linux Australia](#linux-australia).
 
 - slug: electron-workshop
   name: Electron Workshop
@@ -333,7 +332,18 @@
   description: |
     Linux user groups, or LUGs, are local groups for people interested in [Linux](https://www.linux.org/) and open source software. They hold meetings, provide education and community support, and sometimes run events like installfests. Most are free or very cheap to attend and welcome people with no experience.
 
-    [Linux Australia](https://opensourceaustralia.guide/organisations#linux-australia) maintains a current list of Australian LUGs, organised by state, with contact details for each.
+    [Linux Australia](#linux-australia) maintains a current list of Australian LUGs, organised by state, with contact details for each.
+
+- slug: wp-australia
+  name: WP Australia
+  url: https://wpaustralia.org/
+  type: communities
+  status: active
+  tags:
+    - foss
+    - community
+  description: |
+    The national hub for Australia's [WordPress](https://en-au.wordpress.org/) community. It lists local meetup groups and [WordCamps](/events#wordcamps-australia) happening around the country, and it hosts the Slack workspace that ties those groups together.
 
 # Open access and open science
 
@@ -380,7 +390,7 @@
     - academic
     - right-to-repair
   description: |
-    A network based at Griffith University that brings together universities, not-for-profits, industry associations, consumer groups and repairers to promote the right to repair in Australia. It engages with government and industry on the legislative and policy changes responding to the international right to repair movement, and runs forums and the [Australian Repair Summit](https://opensourceaustralia.guide/events#australian-repair-summit).
+    A network based at Griffith University that brings together universities, not-for-profits, industry associations, consumer groups and repairers to promote the right to repair in Australia. It engages with government and industry on the legislative and policy changes responding to the international right to repair movement, and runs forums and the [Australian Repair Summit](/events#australian-repair-summit).
 
 - slug: free-software-australia
   name: Free Software Australia

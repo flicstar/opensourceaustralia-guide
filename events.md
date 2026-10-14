@@ -9,11 +9,11 @@ description: "Conferences, meetups and community events for open source in Austr
 
 <div class="category-summary">Australia has open source events ranging from national conferences to free monthly meetups. Check the organiser's site for current information.</div>
 
-The peak conference for open source in Australia is [Everything Open](https://opensourceaustralia.guide/events#everything-open) run by [Linux Australia](https://opensourceaustralia.guide/organisations#linux-australia). This community event is volunteer-run, and the clue’s in the name \- the event caters to *everything open*: software, hardware, data, government, science, the GLAM sector, and many other open communities.
+The peak conference for open source in Australia is [Everything Open](https://opensourceaustralia.guide/events#everything-open) run by [Linux Australia](https://opensourceaustralia.guide/organisations#linux-australia). This community event is volunteer-run, and the clue’s in the name - the event caters to *everything open*: software, hardware, data, government, science, the GLAM sector, and many other open communities.
 
 Other events are specific to their context or topic. You might find a happening by joining a [user group](https://opensourceaustralia.guide/organisations#communities-and-user-groups) specific to the tool, program or protocol you’re interested in, because they usually gather regularly.
 
-You might also find relevant meetups near you by searching for the term “open source” on [meetup.com](https://www.meetup.com/topics/opensource/au/){:target="_blank"}. For developer events specifically, try the [Tech Events website](https://techevents.au/?view=national){:target="_blank"}, [DevEvents](devevents.io){:target="_blank"} and [Confs.tech](https://confs.tech/?online=hybrid&continents=Oceania).
+You might also find relevant meetups near you by searching for the term “open source” on [meetup.com](https://www.meetup.com/topics/opensource/au/){:target="_blank"}. For developer events specifically, try the [Tech Events website](https://techevents.au/?view=national){:target="_blank"}, [DevEvents](https://devevents.io){:target="_blank"} and [Confs.tech](https://confs.tech/?online=hybrid&continents=Oceania){:target="_blank"}.
 
 <span>{% include icons/construction.svg %}</span> Update my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#events){:target="_blank"} to let me know what I've missed. {% include icons/construction.svg %}
 
