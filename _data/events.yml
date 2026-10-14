@@ -188,6 +188,70 @@
   description: |
     Community conferences about [WordPress](https://en-au.wordpress.org/), the software behind a large share of the world's websites. Each one is organised locally, so the host city changes, and they cater to everyone from complete beginners through to professional developers.
 
+- slug: wikicon-australia
+  name: WikiCon Australia
+  url: https://wikimedia.org.au/wiki/WikiCon_Australia
+  type: conferences
+  status: active
+  organisation_slug: wikimedia-australia
+  tags:
+    - glam
+    - community
+  summary: The conference for Australia's Wikimedia community.
+  description: |
+    The weekend conference for people who contribute to Wikipedia, Wikidata and the other [Wikimedia](https://wikimediafoundation.org/) projects in Australia. It's run by [Wikimedia Australia](/organisations#wikimedia-australia) and moves to a different city each time.
+
+- slug: laracon-au
+  name: Laracon AU
+  url: https://laracon.au/
+  type: conferences
+  status: active
+  tags:
+    - foss
+  summary: The Australian conference for the Laravel web framework.
+  description: |
+    The Australian edition of Laracon, the conference for people building with [Laravel](https://laravel.com/), an open source PHP web framework.
+
+    Laracon AU is an official event held with permission of Laravel Holdings. Recordings and details from earlier years are on the [past events page](https://laracon.au/past-events).
+
+- slug: fost-australia
+  name: FOST Australia
+  url: https://www.joinfost.io/events/australia
+  type: conferences
+  status: active
+  tags:
+    - open-apis
+    - open-standards
+  summary: A commercial conference on APIs and platform engineering, with open source content throughout.
+  description: |
+    Future of Software Technologies (FOST) is a commercial conference held in Melbourne, covering APIs, AI and platform engineering. It runs three co-located events under one ticket: apidays Australia, Cloud Native Summit and GraphQL Day.
+
+    This is a vendor-sponsored industry event rather than a community one, but open standards and open source tooling run through the program, and the GraphQL Day track is run with the [GraphQL Foundation](https://graphql.org/).
+
+- slug: open-hardware-miniconf
+  name: Open Hardware MiniConf
+  url: http://www.openhardwareconf.org/wiki/Main_Page
+  type: conferences
+  status: retired
+  tags:
+    - open-hardware
+  summary: A hardware build and talks day that ran inside linux.conf.au.
+  description: |
+    A specialist stream that ran inside [linux.conf.au](/events#linux-conf-au) rather than as a standalone event. Attendees spent the morning soldering together an electronics kit, then the afternoon on talks about open hardware. Everyone went home with something they had built.
+
+    It started as the Arduino MiniConf in Wellington in 2010 and took the Open Hardware name in 2015 as it grew past Arduino. It ended with linux.conf.au in 2022. The [wiki](http://www.openhardwareconf.org/wiki/Main_Page) holds build notes and parts lists for every year.
+
+- slug: openstack-australia-day
+  name: OpenStack Australia Day
+  url: https://events.aptira.com/
+  type: conferences
+  status: retired
+  tags:
+    - foss
+  summary: A conference on open source cloud infrastructure.
+  description: |
+    A one-day conference on [OpenStack](https://www.openstack.org/) and open source cloud infrastructure, organised by Australian company Aptira and supported by the OpenStack Foundation. Events ran in Sydney, Canberra and Melbourne between 2015 and 2019. Programs and media from the earlier events are available on the [aptira event](https://events.aptira.com/) site.
+
 # Hackathons
 
 - slug: govhack
@@ -218,3 +282,30 @@
 
     Code from past projects can be found in the [HealthHack Australia repository](https://github.com/HealthHackAustralia/HealthHackAustralia/blob/master/README.md) on GitHub.
 
+# community-celebration-days
+
+- slug: software-freedom-day
+  name: Software Freedom Day
+  url: https://sfd.org.au
+  type: community-celebration-days
+  status: active
+  tags:
+    - foss
+    - community
+  summary: A worldwide celebration of free and open source software, held every September.
+  description: |
+    A yearly celebration of free and open source software, held on a Saturday in September in cities around the world. Events are free and aimed at people with no experience. Anyone can host one in their own town, and the site has a [guide](https://sfd.org.au/organise/) for doing it. Worldwide coordination is by the [Digital Freedom Foundation](https://digitalfreedoms.org).
+
+- slug: hardware-freedom-day
+  name: Hardware Freedom Day
+  url: https://digitalfreedoms.org/en/hfd
+  type: community-celebration-days
+  status: active
+  tags:
+    - open-hardware
+    - community
+  summary: An annual community celebration of designs for physical things that anyone can study, build on and modify.
+  description: |
+    An annual community celebration of open hardware: designs for physical things that anyone can study, build on and modify. It's one of three freedom days coordinated worldwide by the [Digital Freedom Foundation](https://digitalfreedoms.org).
+
+    The first Australian Hardware Freedom Day was held in Melbourne in April 2026. Linux Victoria published a [recap with photos](https://linuxvictoria.org/posts/2026-04-27_hardware-freedom-day-2026/).
