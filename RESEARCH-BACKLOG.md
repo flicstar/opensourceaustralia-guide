@@ -53,9 +53,6 @@ Crosslink to [Hackerspaces and makerspaces](#hackerspaces-and-makerspaces) page.
 
 📃  Check out the [Open data](https://opensourceaustralia.guide/open-data) page. What have I missed?
 
-- [Build a ballot](https://www.buildaballot.org.au/). Civic tech using open data.
-- [RAPID-CDL](https://rapid-cdl.edu.au/)
-
 ## Open APIs
 
 - [api.gov.au API list](https://api.gov.au/apis) - federal, state and territory APIs in one catalogue
@@ -192,6 +189,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [Tech policy design institute](https://techpolicy.au/map/). Not open source but geez, this map is interesting.
 - [Good Things Australia](https://goodthingsaustralia.org/). Not open source, but digital goodness in Australia
 - [Local resilience tech](https://lores.tech/), [Merri-bek.tech](https://www.merri-bek.tech/). Jade Ambrose. Also, [Local-first.conf](https://www.localfirstconf.com/)
+- Civic tech tools like [Build a ballot](https://www.buildaballot.org.au/).
 
 ## Glossary terms
 

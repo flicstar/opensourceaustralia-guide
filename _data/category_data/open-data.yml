@@ -243,7 +243,7 @@
   type: energy
   sort_key: "040"
   status: active
-  organisation-slug: superpower-institute
+  organisation_slug: superpower-institute
   description: |
     Real-time and historical data from across Australia's electricity grid, covering the National Electricity Market and the Wholesale Electricity Market. Formerly OpenNEM. Developers can access the same data through the [energy data platform](https://platform.openelectricity.org.au/).
 
@@ -255,6 +255,6 @@
   type: climate
   sort_key: "010"
   status: active
-  organisation-slug: superpower-institute
+  organisation_slug: superpower-institute
   description: |
     An online platform for monitoring Australia's methane emissions, combining atmospheric modelling with satellite measurements. The source code is published at [Open Methane](https://github.com/openmethane) on GitHub.

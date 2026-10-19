@@ -60,13 +60,24 @@
   description: |
     Environmental monitoring data from TERN, Australia's ecosystem observatory. The data supports terrestrial and coastal ecosystem science and environmental management.
 
+- slug: rapid-cdl
+  name: RAPID-CDL
+  url: https://rapid-cdl.edu.au/
+  type: research-data-collection
+  sort_key: "070"
+  status: in-progress
+  description: |
+     Reusable and Accessible Public Interest Documents, a project making parliamentary proceedings, inquiry submissions, hearing transcripts and ministerial records usable for research. The work covers a FAIR-aligned metadata standard and documented research workflows, starting with Federal Hansard. A partnership between the University of Queensland, QUT and QCIF Digital Research, co-invested with the [ARDC](/organisations#australian-research-data-commons).
+
+     There is nothing to download yet. The project publishes progress on its [blog](https://rapid-cdl.edu.au/blog/).
+
 # Catalogues and search
 
 - slug: research-data-australia
   name: Research Data Australia
   url: https://researchdata.edu.au/
   type: catalogue-search
-  sort_key: "020"
+  sort_key: "010"
   status: active
   organisation_slug: australian-research-data-commons
   description: |
@@ -76,7 +87,7 @@
   name: Research Infrastructure Connected
   url: https://riconnected.org.au/
   type: catalogue-search
-  sort_key: "030"
+  sort_key: "020"
   status: active
   description: |
     A searchable index of the national research infrastructure supported by the National Collaborative Research Infrastructure Strategy, connecting researchers to the facilities and services they need.
@@ -110,4 +121,4 @@
   sort_key: "020"
   status: active
   description: |
-    Principles for making research software findable, accessible, interoperable and reusable, adapted from the FAIR principles for data. Developed internationally, with the [ARDC](https://opensourceaustralia.guide/organisations#australian-research-data-commons) playing an active role. The ARDC publishes guidance on adopting the principles in Australia.
+    Principles for making research software findable, accessible, interoperable and reusable, adapted from the FAIR principles for data. Developed internationally, with the [ARDC](/organisations#australian-research-data-commons) playing an active role. The ARDC publishes guidance on adopting the principles in Australia.
