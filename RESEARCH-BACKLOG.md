@@ -174,6 +174,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [Open Source Design](https://opensourcedesign.net/)
 - [Open regulatory compliance](https://orcwg.org/)
 - [Youth Hacking 4 Freedom](http://yh4f.org/)
+- [EOSA](https://europeanopensource.academy/overview), [TYPO3 joined](https://news.typo3.com/article/typo3-association-joins-the-european-open-source-academys-partner-program)
 
 
 **Not open source, but interesting**
