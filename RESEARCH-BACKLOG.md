@@ -88,11 +88,6 @@ Crosslink to [Hackerspaces and makerspaces](#hackerspaces-and-makerspaces) page.
 
 📃 Check out the [Open science](https://opensourceaustralia.guide/open-science) page. What have I missed?
 
-Do these need a mention on the page?
-- [Access National Research Infrastructure](https://www.access-nri.org.au/)
-- [Australian Access Federation](https://aaf.edu.au/)
-- [CERN OSPO](https://opensource.web.cern.ch/). Not Australian but maybe we are an affiliated member?
-
 ## Organisations and groups
 
 📃 Check out the [Organisations and groups](https://opensourceaustralia.guide/organisations) page. What have I missed?

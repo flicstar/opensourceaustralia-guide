@@ -35,6 +35,20 @@
   description: |
     Web interface for configuring Asterisk phone systems, written in 2004 by Australian programmer Rob Thomas as the Asterisk Management Portal. See [Wikipedia](https://en.wikipedia.org/wiki/FreePBX).
 
+# Science and research
+
+- slug: access-nri
+  name: ACCESS-NRI
+  url: https://www.access-nri.org.au/
+  type: science-research
+  status: active
+  description: |
+    Australia's climate simulator. ACCESS-NRI develops and supports the Australian Community Climate and Earth System Simulator, a set of models that simulate past, present and future climate, weather and Earth systems.
+
+    Code is published at [access-nri](https://github.com/access-nri) on GitHub. Documentation and community support sit on [ACCESS-Hive](https://docs.access-hive.org.au/) and its [forum](https://forum.access-hive.org.au/).
+
+    Hosted at ANU and run with the Bureau of Meteorology, CSIRO, the Australian Antarctic Division and five universities. Enabled by NCRIS. Given how often NCRIS shows up across the directory,(ARDC, AAF, ACCESS-NRI, TERN, AURIN), it's worth one entry somewhere. Your Government Procurement & Policy page is the honest fit, since it''s a funding mechanism rather than a project. One entry explaining what NCRIS is, then every other entry can just say “enabled by NCRIS” and link to it.
+
 # Data and monitoring
 
 - slug: open-data-cube
