@@ -1,25 +1,34 @@
 ---
+# Directories
+
 - name: Australian Makerspace Directory
   url: https://makerspaces.com.au/
+  type: directories
   status: active
   description: A searchable map and directory of makerspaces, hackerspaces and community workshops across Australia, browsable by equipment such as 3D printers, laser cutters and CNC machines. Listings cover community-run spaces, library makerspaces, university facilities and commercial studios, and anyone can submit a space that is missing.
 
 - name: Hackerspaces and Makerspaces (PANDORA)
   url: https://pandora.nla.gov.au/col/18478
+  type: directories
   status: retired
   description: A collection in Australia's web archive, selected by the National Library of Australia and the State Library of Queensland, holding archived websites of twenty Australian hackerspaces and makerspaces.
 
-- name: Melbourne Tech Guilds
-  url: https://techguilds.au/
-  status: active
-  description: A Melbourne maker community organised into guilds covering mechanics, IoT, coding, and robotics. It offers free mentoring to members working on their own projects.
-
 - name: Hackerspaces Wiki
   url: https://wiki.hackerspaces.org/australia
+  type: directories
   status: active
   description: A global, community-edited wiki about hackerspaces, with an Australia page listing around eighteen active spaces by city and state, along with notes on which ones accept visiting residencies. The wider wiki holds documentation on starting and running a space, covering legal structure, finding premises, decision-making, membership software and door hardware.
 
+# Networks
+
+- name: Melbourne Tech Guilds
+  url: https://techguilds.au/
+  type: networks
+  status: active
+  description: A Melbourne maker community organised into guilds covering mechanics, IoT, coding, and robotics. It offers free mentoring to members working on their own projects.
+
 - name: OZHS Discord
   url: https://discord.gg/cDms98twRj
+  type: networks
   status: active
   description: A chat server for people who organise Australian hackerspaces, run by members of Brisbane Makerspace. Brisbane Makerspace also runs a separate, open server at discord.brisbanemaker.space for anyone wanting to talk about makerspace topics in Brisbane or around Australia.
