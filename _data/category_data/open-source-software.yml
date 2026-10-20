@@ -47,7 +47,7 @@
 
     Code is published at [access-nri](https://github.com/access-nri) on GitHub. Documentation and community support sit on [ACCESS-Hive](https://docs.access-hive.org.au/) and its [forum](https://forum.access-hive.org.au/).
 
-    Hosted at ANU and run with the Bureau of Meteorology, CSIRO, the Australian Antarctic Division and five universities. Enabled by NCRIS. Given how often NCRIS shows up across the directory,(ARDC, AAF, ACCESS-NRI, TERN, AURIN), it's worth one entry somewhere. Your Government Procurement & Policy page is the honest fit, since it''s a funding mechanism rather than a project. One entry explaining what NCRIS is, then every other entry can just say “enabled by NCRIS” and link to it.
+    Hosted at ANU and run with the Bureau of Meteorology, CSIRO, the Australian Antarctic Division and five universities. Enabled by NCRIS. Given how often NCRIS shows up across the directory,(ARDC, AAF, ACCESS-NRI, TERN, AURIN), it's worth one entry somewhere. Your Government Procurement & Policy page is the honest fit, since it's a funding mechanism rather than a project. One entry explaining what NCRIS is, then every other entry can just say “enabled by NCRIS” and link to it.
 
 # Data and monitoring
 
@@ -191,6 +191,17 @@
   description: |
     Malware analysis tooling by the Australian Signals Directorate. See the [ASD announcement](https://www.asd.gov.au/news/2026-02-24-asd-has-open-sourced-azul-help-uplift-cyber-defences-globally-against-malware).
 
+- slug: keen
+  name: KEEN
+  url: https://keen.cloud
+  type: security
+  status: active
+  description: |
+    Evidence and ISMS tooling, short for Key Evidence ENgine. It collects records from systems an organisation already runs, such as logs, git activity, wiki pages and RSS feeds, and maps them to controls in compliance frameworks including ISO 27001, Cyber Essentials and the UK DVSTF. It also holds policies, risks, assets and other ISMS records. [Source](https://github.com/FERCBusters/keen) and [documentation](https://keen.cloud/help/).
+
+
+    Tooling for organisations that have to prove they follow a security standard. It gathers records from systems a team already runs, like server logs, code changes and wiki pages, then links each record to the specific rule it helps satisfy. The aim is that an audit can draw on everyday activity instead of a separate paper trail. It also keeps the policies, risks and asset lists that sit alongside the evidence. Works with ISO 27001 and several other standards. [Source](https://github.com/FERCBusters/keen) and [documentation](https://keen.cloud/help/). -> Need to determine for this whole page: whether we mention the licence, how we link to the source, to what extent we mention developer names.
+
 # Software development
 
 - slug: beeware
@@ -217,7 +228,7 @@
   description: |
     Python for microcontrollers, written by Damien George. Runs on the micro:bit and the [Kookaberry](https://learn.auststem.com.au/the-kookaberry-story/).
 
-    - slug: pancake
+- slug: pancake
   name: Pancake
   url: https://trustworthy.systems/projects/pancake
   type: software-development

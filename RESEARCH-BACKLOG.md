@@ -48,6 +48,7 @@ Crosslink to [Hackerspaces and makerspaces](#hackerspaces-and-makerspaces) page.
 - [Open Hardware Foundation](https://openhwfoundation.org/) Global. Any Australian connection?
 - [Open science hardware foundation](opensciencehardware.org). No Australian connection.
 - [GOSH Open science hardware](https://openhardware.science/). No Australian connection.
+- [Steph Piper MakerQueen](https://www.makerqueen.com.au/). Soldering kits
 
 ## Open data
 
@@ -94,12 +95,7 @@ Crosslink to [Hackerspaces and makerspaces](#hackerspaces-and-makerspaces) page.
 
 ## Hackerspaces and makerspaces
 
-- [Hackerspaces Wiki](https://wiki.hackerspaces.org/australia)
-- [The Australian Hackerspace Network](https://groups.google.com/g/ozhs-net) - Inactive
-- [Australian Makerspace Directory](https://makerspaces.com.au/)
-- [Connected Community Hackerspace](https://www.hackmelbourne.org/about-the-cchs/), [CCHS - Melbourne Hackerspace](https://hackaday.io/hackerspace/734-cchs-melbourne-hackerspace)
-- [Melbourne Tech Guilds](https://techguilds.au/)
-- Check the listings on this [Pandora page](https://pandora.nla.gov.au/col/18478)
+📃 Check out the [Hackerspaces and makerspaces](https://opensourceaustralia.guide/hackerspaces-makerspaces) page. What have I missed?
 
 ## Government procurement and policy
 
@@ -175,6 +171,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [Open regulatory compliance](https://orcwg.org/)
 - [Youth Hacking 4 Freedom](http://yh4f.org/)
 - [EOSA](https://europeanopensource.academy/overview), [TYPO3 joined](https://news.typo3.com/article/typo3-association-joins-the-european-open-source-academys-partner-program)
+- [State of open source survey](https://opensource.org/blog/announcing-the-2027-state-of-open-source-survey)
 
 
 **Not open source, but interesting**
