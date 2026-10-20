@@ -172,7 +172,7 @@ This is the page I most want to read and the one I don't know how to write. If y
 - [Youth Hacking 4 Freedom](http://yh4f.org/)
 - [EOSA](https://europeanopensource.academy/overview), [TYPO3 joined](https://news.typo3.com/article/typo3-association-joins-the-european-open-source-academys-partner-program)
 - [State of open source survey](https://opensource.org/blog/announcing-the-2027-state-of-open-source-survey)
-
+- [Beyond severance: The entangled economies of free software, open source and the high-tech industry](https://journals.sagepub.com/doi/10.1177/20539517261494679)
 
 **Not open source, but interesting**
 
