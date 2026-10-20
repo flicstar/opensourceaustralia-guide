@@ -20,14 +20,14 @@ If you want to understand how open source works in practice, a hackerspace is a 
 
 ## Finding a space
 
-{% assign group = entries | where: "type", "directories" | sort_natural: "sort_key" %}
+{% assign group = entries | where: "type", "directories" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
 
 ## Networks and communities
 
-{% assign group = entries | where: "type", "networks" | sort_natural: "sort_key" %}
+{% assign group = entries | where: "type", "networks" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
