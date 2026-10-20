@@ -1,19 +1,22 @@
 ---
 # Directories
 
-- name: Australian Makerspace Directory
+- slug: australian-makerspace-directory
+  name: Australian Makerspace Directory
   url: https://makerspaces.com.au/
   type: directories
   status: active
   description: A searchable map and directory of makerspaces, hackerspaces and community workshops across Australia, browsable by equipment such as 3D printers, laser cutters and CNC machines. Listings cover community-run spaces, library makerspaces, university facilities and commercial studios, and anyone can submit a space that is missing.
 
-- name: Hackerspaces and Makerspaces (PANDORA)
+- slug: hackerspaces-and-makerspaces-pandora
+  name: Hackerspaces and Makerspaces (PANDORA)
   url: https://pandora.nla.gov.au/col/18478
   type: directories
   status: retired
   description: A collection in Australia's web archive, selected by the National Library of Australia and the State Library of Queensland, holding archived websites of twenty Australian hackerspaces and makerspaces.
 
-- name: Hackerspaces Wiki
+- slug: hackerspaces-wiki
+  name: Hackerspaces Wiki
   url: https://wiki.hackerspaces.org/australia
   type: directories
   status: active
@@ -21,13 +24,15 @@
 
 # Networks
 
-- name: Melbourne Tech Guilds
+- slug: melbourne-tech-guilds
+  name: Melbourne Tech Guilds
   url: https://techguilds.au/
   type: networks
   status: active
   description: A Melbourne maker community organised into guilds covering mechanics, IoT, coding, and robotics. It offers free mentoring to members working on their own projects.
 
-- name: OZHS Discord
+- slug: ozhs-discord
+  name: OZHS Discord
   url: https://discord.gg/cDms98twRj
   type: networks
   status: active
