@@ -1,6 +1,6 @@
 name: Add a business to the directory
 description: Add your business to the service providers list
-title: "[Listing] "
+title: "[Add service provider listing] Your business name"
 labels: ["listing"]
 body:
   - type: markdown
@@ -27,8 +27,8 @@ body:
     id: based_in
     attributes:
       label: Where you're based
-      description: City and state. You need a presence in Australia to be listed.
-      placeholder: Ballarat, Victoria
+      description: City then state. You need a presence in Australia to be listed.
+      placeholder: Ballarat, VIC
     validations:
       required: true
 
@@ -43,18 +43,20 @@ body:
         - label: Support
         - label: Training
         - label: Consulting
-    validations:
-      required: true
+        - label: Something else
+
+  - type: input
+    id: services_other
+    attributes:
+      label: Other services
+      description: Only if you ticked "Something else".
 
   - type: textarea
     id: projects
     attributes:
-      label: Projects and tools you work with
-      description: Name them. One per line. We can't list a business that only says it does open source.
-      placeholder: |
-        Drupal
-        GovCMS
-        PostgreSQL
+      label: Open projects and tools you work with
+      description: We can't list a business doesn't work with anything open.
+      placeholder: Drupal, GovCMS, PostgreSQL
     validations:
       required: true
 
@@ -67,15 +69,9 @@ body:
       required: true
 
   - type: textarea
-    id: description
+    id: about
     attributes:
       label: About your business
       description: Two or three sentences in your own words. Plain description, not marketing copy.
     validations:
       required: true
-
-  - type: input
-    id: upstream
-    attributes:
-      label: Upstream involvement (optional)
-      description: A GitHub org, maintainership, partner page, anything public.
