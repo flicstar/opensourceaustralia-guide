@@ -1,0 +1,34 @@
+{% assign orgs = site.data.category_data["organisations"] %}
+{% assign org = nil %}
+{% assign org = orgs | where: "slug", entry.organisation_slug | first %}
+<article class="entry" id="{{ entry.slug }}">
+  <h3 class="entry-name">
+    {% if entry.url and entry.url != "" %}
+      <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.name }}</a>
+    {% else %}
+      {{ entry.name }}
+    {% endif %}
+    <a class="entry-anchor" href="#{{ entry.slug }}" aria-label="Link to {{ entry.name }}">#</a>
+  </h3>
+{% if entry.based_in or entry.contact %}
+  <p class="entry-meta">
+    {% if entry.based_in %}
+      <span>Based in {{ entry.based_in }}</span>
+    {% endif %}
+    {% if entry.contact %}
+      <span><a href="{{ entry.contact }}">Contact {{ entry.name }}</a></span>
+    {% endif %}
+  </p>
+{% endif %}
+  <div class="entry-description">
+    {{ entry.description | markdownify }}
+  </div>
+{% if entry.services %}
+  <ul class="entry-tags" aria-label="Services">
+    {% for service in entry.services %}
+      <li class="entry-tag">{{ service | capitalize }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+</article>
+

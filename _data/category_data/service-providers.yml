@@ -1,0 +1,74 @@
+# Web and content management
+
+- slug: butterfly
+  name: Butterfly
+  url: https://butterfly.com.au/
+  type: web-and-content-management
+  based_in: Melbourne, VIC
+  services:
+    - development
+    - migration
+    - hosting
+    - support
+  description: |
+    Butterfly builds websites and web applications on WordPress, Drupal, Joomla and Wagtail, and handles platform migrations, Australian hosting and WCAG accessibility. It works with government, healthcare, education and not-for-profit organisations.
+
+- slug: itomic
+  name: Itomic
+  url: https://www.itomic.com.au/
+  type: web-and-content-management
+  based_in: Perth, WA
+  services:
+    - development
+    - migration
+    - hosting
+    - support
+  description: |
+    Itomic builds and maintains WordPress and Drupal websites, custom web applications and mobile apps, with Australian hosting, security and ongoing support. It works with small businesses, not-for-profits, government and universities.
+
+# Learning and collection systems
+
+- slug: catalyst-it-australia
+  name: Catalyst IT Australia
+  url: https://www.catalyst-au.net/
+  type: learning-and-collection-systems
+  based_in: Sydney, NSW
+  services:
+    - hosting
+    - development
+    - migration
+    - support
+    - training
+    - consulting
+  description: |
+    Catalyst IT Australia hosts, customises and supports Moodle, Mahara, Totara, Drupal, GovCMS and Koha, with custom development, system integration, load testing and LMS migration. Most of its work is with education providers, government agencies and not-for-profits.
+
+- slug: medeopolis
+  name: Medeopolis
+  url: https://medeopolis.com.au/
+  type: learning-and-collection-systems
+  based_in: Hobart, TAS
+  services:
+    - development
+    - migration
+    - hosting
+    - support
+    - training
+  description: |
+    Medeopolis works with collection and archive systems including CollectiveAccess, AtoM, Archivematica and Omeka S, along with Django, Wagtail and Tendenci, covering development, data migration, managed Australian hosting, systems administration and training. Its work with galleries, libraries, archives and museums runs under the name GLAM IT Systems.
+
+# Infrastructure and cloud
+
+- slug: adfinis
+  name: Adfinis
+  url: https://www.adfinis.com/en-au
+  type: infrastructure-and-cloud
+  based_in: Brisbane, Queensland
+  services:
+    - consulting
+    - development
+    - hosting
+    - support
+  contact: https://www.adfinis.com/en-au/contact
+  description: |
+    Adfinis is a global organisation that works on open source infrastructure: cloud, security, system automation, forms and workflows, and digital sovereignty, with managed services and 24/7 support. They also host occasional local meetups on open source infrastructure topics - check their [events](https://www.adfinis.com/en-au/events) page for details.

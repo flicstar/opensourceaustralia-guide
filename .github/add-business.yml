@@ -1,0 +1,81 @@
+name: Add a business to the directory
+description: Add your business to the service providers list
+title: "[Listing] "
+labels: ["listing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding your business. Everything here ends up on the public listing, so write it the way you want it read.
+
+  - type: input
+    id: name
+    attributes:
+      label: Business name
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Website
+      placeholder: https://example.com.au
+    validations:
+      required: true
+
+  - type: input
+    id: based_in
+    attributes:
+      label: Where you're based
+      description: City and state. You need a presence in Australia to be listed.
+      placeholder: Ballarat, Victoria
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: services
+    attributes:
+      label: Services you provide
+      options:
+        - label: Development
+        - label: Migration
+        - label: Hosting
+        - label: Support
+        - label: Training
+        - label: Consulting
+    validations:
+      required: true
+
+  - type: textarea
+    id: projects
+    attributes:
+      label: Projects and tools you work with
+      description: Name them. One per line. We can't list a business that only says it does open source.
+      placeholder: |
+        Drupal
+        GovCMS
+        PostgreSQL
+    validations:
+      required: true
+
+  - type: input
+    id: sectors
+    attributes:
+      label: Who you usually work with
+      placeholder: small business, local government, schools
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: About your business
+      description: Two or three sentences in your own words. Plain description, not marketing copy.
+    validations:
+      required: true
+
+  - type: input
+    id: upstream
+    attributes:
+      label: Upstream involvement (optional)
+      description: A GitHub org, maintainership, partner page, anything public.
