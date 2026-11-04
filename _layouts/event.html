@@ -9,10 +9,12 @@ layout: default
       {% include toc.html %}
 
       <div class="page-backlog">
-        <h2 class="page-backlog__heading"><span>{% include icons/construction.svg %}</span> Under construction <span>{% include icons/construction.svg %}</span></h2>
-        <p>
-          Check my <a href="{{ site.repo_url }}/blob/main/RESEARCH-BACKLOG.md#{{ page.research_backlog_anchor }}" target="_blank" rel="noopener">Research backlog</a> and let me know what I've missed.
-        </p>
+        <h2 class="page-backlog__heading">
+          <a href="https://github.com/flicstar/opensourceaustralia-guide/issues/new?template=add-event.yml" target="_blank" rel="noopener">
+            Add an event {% include icons/github.svg %}
+          </a>
+        </h2>
+        <p>Create an issue to add an event to this page.</p>
       </div>
 
       {% if page.contributors %}

@@ -4,7 +4,6 @@ title: "Events"
 permalink: /events
 description: Conferences, meetups and community events for open source in Australia.
 image: /assets/images/category/events.png
-research_backlog_anchor: events
 ---
 
 {% assign events = site.data.events %}

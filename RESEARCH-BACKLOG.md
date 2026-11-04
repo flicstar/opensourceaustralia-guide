@@ -128,10 +128,6 @@ This is the page I most want to read and the one I don't know how to write. If y
 
 ## Education or Open learning
 
-## Events
-
-📃 Check out the [Events](https://opensourceaustralia.guide/events) page. What have I missed?
-
 ## Blog posts
 
 - A post for each **[category page](https://opensourceaustralia.guide/explore)**, giving a longer definition, examples of use, international context, etc
