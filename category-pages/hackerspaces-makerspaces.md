@@ -5,7 +5,7 @@ title: "Hackerspaces and makerspaces"
 permalink: /hackerspaces-makerspaces
 description: Directories and networks for finding Australian hackerspaces and makerspaces, community workshops where people share tools, equipment and skills.
 image: /assets/images/category/hackerspaces.png
-research_backlog_anchor: hackerspaces-and-makerspaces
+issue_template: add-entry.yml
 ---
 
 {% assign entries = site.data.category_data["hackerspaces-makerspaces"] %}

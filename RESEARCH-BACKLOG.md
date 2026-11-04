@@ -81,18 +81,6 @@ Crosslink to [Hackerspaces and makerspaces](#hackerspaces-and-makerspaces) page.
 * [AGLS Metadata Standard (AS 5044\)](https://webarchive.nla.gov.au/awa/20230802044920/https://agls.gov.au/) - decommissioned
 * [Standards Australia](https://www.standards.org.au/) - national standards body. Open process ([comment.standards.org.au](https://comment.standards.org.au/)), paywalled output with read-only access ([readerroom.standards.org.au](https://readerroom.standards.org.au/)). [Working towards access to standards](https://share.hsforms.com/2ri57QA6CSo2DCKtQyfg1qQdet13) referenced in Commonwealth, State and Territory laws and regulation.
 
-## Open science
-
-📃 Check out the [Open science](https://opensourceaustralia.guide/open-science) page. What have I missed?
-
-## Organisations and groups
-
-📃 Check out the [Organisations and groups](https://opensourceaustralia.guide/organisations) page. What have I missed?
-
-## Hackerspaces and makerspaces
-
-📃 Check out the [Hackerspaces and makerspaces](https://opensourceaustralia.guide/hackerspaces-makerspaces) page. What have I missed?
-
 ## Government procurement and policy
 
 This is the page I most want to read and the one I don't know how to write. If you understand this area, or can point me in the right direction, please get in touch!

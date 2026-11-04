@@ -3,7 +3,7 @@ layout: category
 category: open-science
 title: "Open science"
 permalink: /open-science
-research_backlog_anchor: open-science
+issue_template: add-entry.yml
 ---
 
 {% assign entries = site.data.category_data["open-science"] %}

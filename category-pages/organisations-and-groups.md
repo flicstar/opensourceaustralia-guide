@@ -5,7 +5,7 @@ title: "Organisations and groups"
 permalink: /organisations
 description: Peak bodies, foundations, user groups and communities working with open source software, hardware, data and research in Australia
 image: /assets/images/category/organisations.png
-research_backlog_anchor: organisations-and-groups
+issue_template: add-entry.yml
 ---
 
 {% assign entries = site.data.category_data["organisations"] %}
