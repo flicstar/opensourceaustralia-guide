@@ -1,0 +1,75 @@
+name: Add an event
+description: Add a conference, hackathon or community day to the events page. User group events are listed on the Organisations page.
+title: "[Add event] event name"
+labels: ["event"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the tip. Fill in what you know. If you're not sure about something, leave it and I'll look it up.
+
+  - type: input
+    id: name
+    attributes:
+      label: Event name
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Website
+      description: The page where someone would find dates and tickets.
+      placeholder: https://example.org.au
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Is it still running?
+      options:
+        - Active
+        - On hiatus
+        - Retired
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: What's it about?
+      options:
+        - label: Everything open
+        - label: Free and open source software
+        - label: Open hardware
+        - label: Open data
+        - label: Open research
+        - label: Open science
+        - label: Open standards
+        - label: Open APIs
+        - label: GLAM
+        - label: Right to repair
+        - label: Internet governance
+        - label: Community
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happens there?
+      description: A couple of sentences. Who it's for, what the format is, where it's held, how often.
+    validations:
+      required: true
+
+  - type: input
+    id: organisation
+    attributes:
+      label: Who runs it?
+      description: The organisation behind it, if there is one.
+
+  - type: input
+    id: recordings
+    attributes:
+      label: Recordings or past programs
+      description: A YouTube channel or archive page, if you know of one.

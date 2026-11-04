@@ -1,0 +1,67 @@
+name: Suggest an entry
+description: Tell me about something that belongs in the directory
+title: "[Entry] name of the thing"
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the tip. Fill in what you know and leave the rest. I'll research it and write it up.
+
+  - type: input
+    id: name
+    attributes:
+      label: What's it called?
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Website
+      placeholder: https://example.org.au
+    validations:
+      required: true
+
+  - type: dropdown
+    id: page
+    attributes:
+      label: What page do you think it belongs on?
+      description: Not sure is a fine answer.
+      options:
+        - Not sure
+        - Open source software
+        - Open source hardware
+        - Organisations and groups
+        - Government procurement and policy
+        - Open data
+        - Digital sovereignty and data residency
+        - Right to repair
+        - Glossary
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What is it, and why does it belong?
+      description: A couple of sentences. What it does, and what the Australian connection is.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Is it still going?
+      options:
+        - Yes
+        - Not sure
+        - No, it's finished
+    validations:
+      required: true
+
+  - type: input
+    id: who
+    attributes:
+      label: Anyone I should talk to?
+      description: A name or a public link is plenty. Please don't post someone's email address without asking them first.
