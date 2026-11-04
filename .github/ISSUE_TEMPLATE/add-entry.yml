@@ -54,9 +54,9 @@ body:
     attributes:
       label: Is it still going?
       options:
-        - Yes
-        - Not sure
-        - No, it's finished
+        - "Yes"
+        - "Not sure"
+        - "No, it's finished"
     validations:
       required: true
 
