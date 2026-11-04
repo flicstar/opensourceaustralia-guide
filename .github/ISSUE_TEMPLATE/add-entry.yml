@@ -28,15 +28,17 @@ body:
     attributes:
       label: What page do you think it belongs on?
       options:
-        - Not sure
-        - Open source software
+        - Free and open source software
         - Open source hardware
-        - Organisations and groups
         - Government procurement and policy
+        - Open APIs
         - Open data
-        - Digital sovereignty and data residency
-        - Right to repair
-        - Glossary
+        - Open education
+        - Open science
+        - Open source AI
+        - Open standards
+        - Organisations and groups
+        - Hackerspaces and makerspaces
         - Not sure
     validations:
       required: true
