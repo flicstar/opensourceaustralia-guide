@@ -23,6 +23,17 @@ layout: default
         </div>
       {% endif %}
 
+      {% if page.issue_template %}
+        <div class="page-backlog">
+          <h2 class="page-backlog__heading">
+            <a href="{{ site.repo_url }}/issues/new?template={{ page.issue_template }}" target="_blank" rel="noopener">
+              {{ page.issue_link_label | default: "Add an entry" }} {% include icons/github.svg %}
+            </a>
+          </h2>
+          <p>Create an issue to suggest an entry for this page.</p>
+        </div>
+      {% endif %}
+
       {% if page.contributors %}
         <div class="page-credits">
           <p class="page-credits__label">Contributors</p>

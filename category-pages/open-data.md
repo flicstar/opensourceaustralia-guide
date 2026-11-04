@@ -5,7 +5,7 @@ title: "Open data"
 permalink: /open-data
 description: Open data you can work with from federal and state government portals, civic tech, GLAM collections, transport, geospatial, energy and climate datasets.
 image: /assets/images/category/open-data.png
-research_backlog_anchor: open-data
+issue_template: add-entry.yml
 ---
 
 {% assign entries = site.data.category_data["open-data"] %}

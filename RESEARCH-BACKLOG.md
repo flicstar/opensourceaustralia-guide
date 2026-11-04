@@ -50,10 +50,6 @@ Crosslink to [Hackerspaces and makerspaces](#hackerspaces-and-makerspaces) page.
 - [GOSH Open science hardware](https://openhardware.science/). No Australian connection.
 - [Steph Piper MakerQueen](https://www.makerqueen.com.au/). Soldering kits
 
-## Open data
-
-📃  Check out the [Open data](https://opensourceaustralia.guide/open-data) page. What have I missed?
-
 ## Open APIs
 
 - [api.gov.au API list](https://api.gov.au/apis) - federal, state and territory APIs in one catalogue
