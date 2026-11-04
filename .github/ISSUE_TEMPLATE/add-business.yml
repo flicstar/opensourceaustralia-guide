@@ -51,11 +51,11 @@ body:
       label: Other services
       description: Only if you ticked "Something else".
 
-  - type: textarea
+  - type: input
     id: projects
     attributes:
       label: Open projects and tools you work with
-      description: We can't list a business doesn't work with anything open.
+      description: We can't list a business that doesn't work with anything open.
       placeholder: Drupal, GovCMS, PostgreSQL
     validations:
       required: true
