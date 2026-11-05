@@ -41,6 +41,8 @@ If you run a business that belongs here, it’s free to add your listing. You mu
 
 ## Web and content management
 
+Plenty of web agencies in Australia work with open source CMSs. You can find Drupal agencies based in, or serving, Australia on their [Organizations page](https://new.drupal.org/organizations?title=&loc_served%5B%5D=27573){:target="_blank"}.
+
 {% assign group = entries | where: "type", "web-and-content-management" | sort_natural: "slug" %}
 {% for entry in group %}
   {% include businesses-and-suppliers-entry.html entry=entry %}
