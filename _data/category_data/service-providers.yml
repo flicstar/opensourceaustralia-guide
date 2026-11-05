@@ -11,20 +11,7 @@
     - hosting
     - support
   description: |
-    Butterfly builds websites and web applications on WordPress, Drupal, Joomla and Wagtail, and handles platform migrations, Australian hosting and WCAG accessibility. It works with government, healthcare, education and not-for-profit organisations.
-
-- slug: itomic
-  name: Itomic
-  url: https://www.itomic.com.au/
-  type: web-and-content-management
-  based_in: Perth, WA
-  services:
-    - development
-    - migration
-    - hosting
-    - support
-  description: |
-    Itomic builds and maintains WordPress and Drupal websites, custom web applications and mobile apps, with Australian hosting, security and ongoing support. It works with small businesses, not-for-profits, government and universities.
+    Butterfly does [open source development for Australian organisations](https://butterfly.com.au/tech-stack/). It builds websites and web applications, and handles platform migrations, Australian hosting and WCAG accessibility. It works with government, healthcare, education and not-for-profit organisations.
 
 # Learning and collection systems
 
@@ -55,7 +42,7 @@
     - support
     - training
   description: |
-    Medeopolis works with collection and archive systems including CollectiveAccess, AtoM, Archivematica and Omeka S, along with Django, Wagtail and Tendenci, covering development, data migration, managed Australian hosting, systems administration and training. Its work with galleries, libraries, archives and museums runs under the name GLAM IT Systems.
+    Medeopolis works with collection and archive systems including CollectiveAccess, AtoM, Archivematica and Omeka S, along with Django, Wagtail and Tendenci, covering development, data migration, managed Australian hosting, systems administration and training. Everything it offers is released under an OSI-approved licence. Its collections work runs through [GLAM IT Systems](https://glamit.systems/) for archives, museums, universities and historical societies.
 
 # Infrastructure and cloud
 
