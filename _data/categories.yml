@@ -55,13 +55,13 @@
     Peak bodies, foundations, user groups and communities working with open
     source in Australia.
 
-- slug: service-providers
-  title: Service providers
+- slug: businesses-and-suppliers
+  title: Businesses and suppliers
   icon: handshake
   summary: >-
     Australian businesses that work with open source.
   description: >-
-    Consultancies, hosting providers, contractors and trainers working with open source software, hardware and data in Australia.
+    Consultancies, hosting providers, trainers and suppliers working with open source software, hardware and data in Australia.
 
 - slug: hackerspaces-makerspaces
   title: Hackerspaces and makerspaces

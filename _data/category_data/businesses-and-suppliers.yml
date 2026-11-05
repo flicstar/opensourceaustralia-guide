@@ -59,3 +59,42 @@
   contact: https://www.adfinis.com/en-au/contact
   description: |
     Adfinis is a global organisation that works on open source infrastructure: cloud, security, system automation, forms and workflows, and digital sovereignty, with managed services and 24/7 support. They also host occasional local meetups on open source infrastructure topics - check their [events](https://www.adfinis.com/en-au/events) page for details.
+
+# Linux desktops and support
+
+- slug: linux-now
+  name: Linux Now
+  url: https://www.linuxnow.com.au/
+  type: linux-desktops-and-support
+  based_in: Melbourne, VIC
+  services:
+    - retail
+    - support
+    - migration
+    - consulting
+  description: |
+    Linux Now supplies desktops, laptops and servers with the Linux distribution of your choice installed and tested, including CentOS, Debian, Fedora, Linux Mint, openSUSE, Red Hat, SUSE and the Ubuntu family. It also handles migration from other systems, remote support and cloud setup.
+
+- slug: arkpc
+  name: ArkPC
+  url: https://arkpc.com.au/
+  type: linux-desktops-and-support
+  based_in: Kingsholme, QLD
+  services:
+    - retail
+    - support
+    - consulting
+  description: |
+    ArkPC sells new and refurbished desktops and laptops with hardware chosen and tested for compatibility with the Linux distribution you want, installed and configured before delivery. It also sells Linux installation as a standalone service and offers remote support.
+
+# Open hardware suppliers
+
+- slug: edtechs
+  name: Edtechs
+  url: https://www.edtechs.com.au/
+  type: open-hardware-suppliers
+  based_in: Manly NSW
+  services:
+    - retail
+  description: |
+    Edtechs sells classroom and maker space equipment Arduino boards and starter kits, LilyPad sewable electronics, Raspberry Pi, micro:bit and 3D printers. It also stocks project books and teaching resources that go with them.
