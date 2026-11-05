@@ -5,6 +5,8 @@ title: "Businesses and suppliers"
 permalink: /businesses-and-suppliers
 description: Australian businesses offering development, hosting, support, training and hardware for open source software, data and research.
 image: /assets/images/category/handshake.png
+issue_template: add-business.yml
+issue_link_label: "Add your business"
 ---
 
 {% assign entries = site.data.category_data["businesses-and-suppliers"] %}
@@ -14,8 +16,6 @@ Using open source is generally free. Getting help with it is not, and paying som
 A listing on this page is not an endorsement. You still need to ask your own questions before you engage anyone.
 
 If you run a business that belongs here, it’s free to add your listing. You must have an Australian presence, and you'll need to include what open source projects or tools you use, the services you provide, and what sector you usually work with (for example, small business, government, schools, not for profits).
-
-[**Add your business**](https://github.com/flicstar/opensourceaustralia-guide/issues/new?template=add-business.yml){:target="_blank"}
 
 ## Infrastructure and cloud
 
