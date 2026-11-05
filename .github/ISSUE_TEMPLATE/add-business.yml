@@ -1,6 +1,6 @@
 name: Add a business to the directory
-description: Add your business to the service providers list
-title: "[Add service provider listing] Your business name"
+description: Add your business to the businesses and suppliers page
+title: "[Add business listing] Your business name"
 labels: ["listing"]
 body:
   - type: markdown
@@ -40,6 +40,7 @@ body:
         - label: Development
         - label: Migration
         - label: Hosting
+        - label: Retail
         - label: Support
         - label: Training
         - label: Consulting
