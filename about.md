@@ -9,7 +9,7 @@ permalink: /about
      alt="Cartoon portrait of Felicity Brand"
      width="80" height="80" class="author-photo">
 
-G'day, I'm Felicity Brand. I write and edit for a living, mostly for open source organisations — my day job is at [Open Strategy Partners](https://openstrategypartners.com), a communications agency based in Cologne, Germany.
+G'day, I'm Felicity Brand. I write and edit for a living, mostly for open source organisations — my day job is at [Open Strategy Partners](https://openstrategypartners.com){:target="_blank"}, a communications agency based in Cologne, Germany.
 
 I live in Melbourne but my days are spent in European open source, and when I go looking for views of the Australian open source landscape, it's not  easy to find. The projects, organisations, and policies exist, but the information is scattered. Australia has a long history of open source with active communities and projects that reach well beyond this country, but nothing ties it all together.
 
