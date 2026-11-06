@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: glossary
 title: "Glossary"
 permalink: /glossary
 description: "Plain-language definitions for terms used across this site: licensing, community, open data, hardware, standards, open science, AI and more."
@@ -22,8 +22,6 @@ There are many other specialist glossaries you can refer to that go deeper on pa
 {% assign entries = site.data["glossary-terms"] %}
 
 ## Terms
-
-[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
 {% assign letters = "A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z" | split: "|" %}
 {% assign sorted_entries = entries | sort_natural: "name" %}

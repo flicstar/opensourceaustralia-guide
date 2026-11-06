@@ -3,22 +3,26 @@
 - slug: apache-license-2-0
   name: Apache License 2.0
   type: licensing-and-legal
-  description:
+  description: |
+    A permissive licence from the Apache Software Foundation. You can use the code in anything, including paid products, as long as you keep the notices and say what you changed. It also grants you patent rights from the people who contributed, which is why many companies prefer it to MIT.
 
 - slug: attribution
   name: Attribution
   type: licensing-and-legal
-  description:
+  description: |
+    Crediting the person or project whose work you used. Most open licences require it, and for a permissive licence it's often the only thing asked of you. It's the BY in 'CC BY'. For software code, it's keeping the copyright notice in the files you copied. For other things, like using someone's photo on your website, it usually means naming the work, who made it, and the licence. For example, "Photo by Jane Citizen, CC BY 4.0".
 
 - slug: cc0
   name: CC0 / public domain dedication
   type: licensing-and-legal
-  description:
+  description: |
+    A Creative Commons tool for giving up every right you can give up. Anyone can use the work for anything, and nobody has to credit you. Popular for data, where tracking credit across merged datasets gets impractical.
 
 - slug: contributor-license-agreement
   name: Contributor License Agreement (CLA)
   type: licensing-and-legal
-  description:
+  description: |
+    A contract a project asks you to sign before it takes your code. You keep your copyright, but you grant the project broad rights over what you contributed, sometimes broad enough to let it change the licence later. Companies tend to use CLAs. Community projects often use a DCO instead.
 
 - slug: copyleft
   name: Copyleft

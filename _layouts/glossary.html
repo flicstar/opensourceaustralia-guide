@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<article class="category">
+  <h1>{{ page.title }}</h1>
+
+  <div class="page-with-toc">
+    <aside class="page-sidebar">
+      <nav class="toc" aria-labelledby="glossary-navigation-heading">
+        <h2 class="toc__heading" id="glossary-navigation-heading">Jump to letter</h2>
+        <ul class="toc__list toc__list--alphabet">
+          {% assign letters = "A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z" | split: "|" %}
+          {% for letter in letters %}
+            {% assign letter_id = letter | downcase %}
+            <li class="toc__item"><a href="#{{ letter_id }}">{{ letter }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      {% if page.issue_template %}
+        <div class="page-backlog">
+          <h2 class="page-backlog__heading">
+            <a href="{{ site.repo_url }}/issues/new?template={{ page.issue_template }}" target="_blank" rel="noopener">
+              {{ page.issue_link_label | default: "Add an entry" }} {% include icons/github.svg %}
+            </a>
+          </h2>
+          <p>Create an issue to suggest an entry for this page.</p>
+        </div>
+      {% endif %}
+
+      {% if page.contributors %}
+        <div class="page-credits">
+          <p class="page-credits__label">Contributors</p>
+          <p class="page-credits__text">
+            Thanks to
+            {% for person in page.contributors %}
+              {% if forloop.length == 1 %}
+                <a href="{{ person.url }}">{{ person.name }}</a>
+              {% elsif forloop.first %}
+                <a href="{{ person.url }}">{{ person.name }}</a>
+              {% elsif forloop.last %}
+                and <a href="{{ person.url }}">{{ person.name }}</a>
+              {% else %}
+                , <a href="{{ person.url }}">{{ person.name }}</a>
+              {% endif %}
+            {% endfor %}
+            for help with this page.
+          </p>
+        </div>
+      {% endif %}
+    </aside>
+
+    <div class="page-with-toc__content">
+      {{ content }}
+    </div>
+  </div>
+</article>
