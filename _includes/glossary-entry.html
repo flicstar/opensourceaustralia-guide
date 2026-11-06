@@ -1,0 +1,16 @@
+<article class="entry" id="{{ include.entry.slug }}">
+  <h4 class="entry-name">
+    {{ include.entry.name }}
+    <a class="entry-anchor" href="#{{ include.entry.slug }}" aria-label="Link to {{ include.entry.name }}">#</a>
+  </h4>
+  {% if include.entry.description %}
+    <div class="entry-description">
+      {{ include.entry.description | markdownify }}
+    </div>
+  {% endif %}
+  {% if include.entry.type %}
+    <ul class="entry-tags" aria-label="Type">
+      <li class="entry-tag">{{ include.entry.type }}</li>
+    </ul>
+  {% endif %}
+</article>

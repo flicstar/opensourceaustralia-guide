@@ -1,5 +1,4 @@
 # Glossary terms
-# description values left blank for now
 
 - slug: apache-license-2-0
   name: Apache License 2.0
@@ -109,7 +108,8 @@
 - slug: benevolent-dictator-for-life
   name: Benevolent Dictator for Life (BDFL)
   type: community-and-governance
-  description:
+  description: |
+    Benevolent Dictator for Life is a governance model of one person.
 
 - slug: bus-factor
   name: Bus factor

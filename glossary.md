@@ -2,8 +2,8 @@
 layout: category
 title: "Glossary"
 permalink: /glossary
-description: "Plain-language definitions of open source terms."
-image:
+description: "Plain-language definitions for terms used across this site: licensing, community, open data, hardware, standards, open science, AI and more."
+image: /assets/images/category/glossary.png
 issue_template: add-entry.yml
 ---
 
@@ -19,61 +19,23 @@ There are many other specialist glossaries you can refer to that go deeper on pa
 
 <span>{% include icons/construction.svg %}</span> Checkout my [Research backlog](https://github.com/flicstar/opensourceaustralia-guide/blob/main/RESEARCH-BACKLOG.md#glossary-terms){:target="_blank"} file to see what I've captured so far, and let me know what I've missed. {% include icons/construction.svg %}
 
-{% assign entries = site.data.["glossary-terms"] %}
+{% assign entries = site.data["glossary-terms"] %}
 
 ## Terms
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [J](#j) · [K](#k) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w) · [X](#x) · [Y](#y) · [Z](#z)
 
+{% assign letters = "A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z" | split: "|" %}
+{% assign sorted_entries = entries | sort_natural: "name" %}
+{% for letter in letters %}
 
-### A
+### {{ letter }}
 
-### B
-
-### C
-
-### D
-
-### E
-
-### F
-
-### G
-
-### H
-
-### I
-
-### J
-
-### K
-
-### L
-
-### M
-
-### N
-
-### O
-
-### P
-
-### Q
-
-### R
-
-### S
-
-### T
-
-### U
-
-### V
-
-### W
-
-### X
-
-### Y
-
-### Z
+{% assign letter_lower = letter | downcase %}
+{% for entry in sorted_entries %}
+  {% assign entry_initial = entry.name | slice: 0 | downcase %}
+  {% if entry_initial == letter_lower %}
+{% include glossary-entry.html entry=entry %}
+  {% endif %}
+{% endfor %}
+{% endfor %}
