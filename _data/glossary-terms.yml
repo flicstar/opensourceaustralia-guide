@@ -1,0 +1,537 @@
+# Glossary terms
+# description values left blank for now
+
+- slug: apache-license-2-0
+  name: Apache License 2.0
+  type: licensing-and-legal
+  description:
+
+- slug: attribution
+  name: Attribution
+  type: licensing-and-legal
+  description:
+
+- slug: cc0
+  name: CC0 / public domain dedication
+  type: licensing-and-legal
+  description:
+
+- slug: contributor-license-agreement
+  name: Contributor License Agreement (CLA)
+  type: licensing-and-legal
+  description:
+
+- slug: copyleft
+  name: Copyleft
+  type: licensing-and-legal
+  description:
+
+- slug: creative-commons
+  name: Creative Commons
+  type: licensing-and-legal
+  description:
+
+- slug: developer-certificate-of-origin
+  name: Developer Certificate of Origin (DCO)
+  type: licensing-and-legal
+  description:
+
+- slug: dual-licensing
+  name: Dual licensing
+  type: licensing-and-legal
+  description:
+
+- slug: fair-source
+  name: Fair-source
+  type: licensing-and-legal
+  description:
+
+- slug: four-freedoms
+  name: Four Freedoms
+  type: licensing-and-legal
+  description:
+
+- slug: free-software
+  name: Free software
+  type: licensing-and-legal
+  description:
+
+- slug: foss
+  name: Free and Open Source Software (FOSS)
+  type: licensing-and-legal
+  description:
+
+- slug: gnu-general-public-license
+  name: GNU General Public License (GPL)
+  type: licensing-and-legal
+  description:
+
+- slug: license-compatibility
+  name: License compatibility
+  type: licensing-and-legal
+  description:
+
+- slug: mit-license
+  name: MIT License
+  type: licensing-and-legal
+  description:
+
+- slug: open-publication-license
+  name: Open Publication License (OPL)
+  type: licensing-and-legal
+  description:
+
+- slug: open-source-definition
+  name: Open Source Definition
+  type: licensing-and-legal
+  description:
+
+- slug: permissive-license
+  name: Permissive license
+  type: licensing-and-legal
+  description:
+
+- slug: relicensing
+  name: Relicensing
+  type: licensing-and-legal
+  description:
+
+- slug: source-available
+  name: Source-available
+  type: licensing-and-legal
+  description:
+
+- slug: spdx
+  name: SPDX
+  type: licensing-and-legal
+  description:
+
+- slug: benevolent-dictator-for-life
+  name: Benevolent Dictator for Life (BDFL)
+  type: community-and-governance
+  description:
+
+- slug: bus-factor
+  name: Bus factor
+  type: community-and-governance
+  description:
+
+- slug: code-of-conduct
+  name: Code of conduct
+  type: community-and-governance
+  description:
+
+- slug: contributor
+  name: Contributor
+  type: community-and-governance
+  description:
+
+- slug: fork
+  name: Fork
+  type: community-and-governance
+  description:
+
+- slug: foundation
+  name: Foundation
+  type: community-and-governance
+  description:
+
+- slug: governance-model
+  name: Governance model
+  type: community-and-governance
+  description:
+
+- slug: good-first-issue
+  name: Good first issue
+  type: community-and-governance
+  description:
+
+- slug: maintainer
+  name: Maintainer
+  type: community-and-governance
+  description:
+
+- slug: open-community
+  name: Open Community
+  type: community-and-governance
+  description:
+
+- slug: open-knowledge
+  name: Open Knowledge
+  type: community-and-governance
+  description:
+
+- slug: request-for-comments
+  name: Request for Comments (RFC)
+  type: community-and-governance
+  description:
+
+- slug: upstream-downstream
+  name: Upstream / downstream
+  type: community-and-governance
+  description:
+
+- slug: user-group
+  name: User group
+  type: community-and-governance
+  description:
+
+- slug: ci-cd
+  name: Continuous integration / continuous delivery (CI/CD)
+  type: development-practice
+  description:
+
+- slug: distribution
+  name: Distribution (distro)
+  type: development-practice
+  description:
+
+- slug: git
+  name: Git
+  type: development-practice
+  description:
+
+- slug: issue-tracker
+  name: Issue tracker
+  type: development-practice
+  description:
+
+- slug: long-term-support
+  name: Long-term support (LTS)
+  type: development-practice
+  description:
+
+- slug: package-manager
+  name: Package manager
+  type: development-practice
+  description:
+
+- slug: pull-request
+  name: Pull request / merge request
+  type: development-practice
+  description:
+
+- slug: reproducible-builds
+  name: Reproducible builds
+  type: development-practice
+  description:
+
+- slug: repository
+  name: Repository
+  type: development-practice
+  description:
+
+- slug: semantic-versioning
+  name: Semantic versioning
+  type: development-practice
+  description:
+
+- slug: software-bill-of-materials
+  name: Software Bill of Materials (SBOM)
+  type: development-practice
+  description:
+
+- slug: software-supply-chain
+  name: Software supply chain
+  type: development-practice
+  description:
+
+- slug: version-control
+  name: Version control
+  type: development-practice
+  description:
+
+- slug: commercial-open-source
+  name: Commercial open source
+  type: business-and-sustainability
+  description:
+
+- slug: digital-public-goods
+  name: Digital public goods
+  type: business-and-sustainability
+  description:
+
+- slug: maintainer-burnout
+  name: Maintainer burnout
+  type: business-and-sustainability
+  description:
+
+- slug: open-core
+  name: Open core
+  type: business-and-sustainability
+  description:
+
+- slug: open-source-program-office
+  name: Open Source Program Office (OSPO)
+  type: business-and-sustainability
+  description:
+
+- slug: public-money-public-code
+  name: Public Money, Public Code
+  type: business-and-sustainability
+  description:
+
+- slug: sponsorship-and-funding-models
+  name: Sponsorship and funding models
+  type: business-and-sustainability
+  description:
+
+- slug: vendor-lock-in
+  name: Vendor lock-in
+  type: business-and-sustainability
+  description:
+
+- slug: care-principles
+  name: CARE principles
+  type: open-data
+  description:
+
+- slug: ckan
+  name: CKAN
+  type: open-data
+  description:
+
+- slug: fair-principles
+  name: FAIR principles
+  type: open-data
+  description:
+
+- slug: glam
+  name: GLAM
+  type: open-data
+  description: GLAM stands for Galleries, Libraries, Archives, and Museums. Open GLAM is an initiative that promotes free and open access to digital cultural heritage.
+
+- slug: gtfs
+  name: GTFS (General Transit Feed Specification)
+  type: open-data
+  description: The General Transit Feed Specification is a shared open data standard that lets public transit agencies publish their route paths, stop locations, and timetables. It consists of two primary frameworks, GTFS Schedule and GTFS Realtime.
+
+- slug: linked-open-data
+  name: Linked open data
+  type: open-data
+  description:
+
+- slug: machine-readable
+  name: Machine-readable
+  type: open-data
+  description:
+
+- slug: metadata
+  name: Metadata
+  type: open-data
+  description:
+
+- slug: open-data
+  name: Open Data
+  type: open-data
+  description:
+
+- slug: open-educational-resources
+  name: Open Educational Resources (OER)
+  type: open-data
+  description:
+
+- slug: open-government
+  name: Open government
+  type: open-data
+  description:
+
+- slug: open-licence
+  name: Open licence
+  type: open-data
+  description:
+
+- slug: persistent-identifier
+  name: Persistent identifier (DOI, ORCID)
+  type: open-data
+  description:
+
+- slug: rdf
+  name: RDF
+  type: open-data
+  description:
+
+- slug: api
+  name: API
+  type: standards-and-interoperability
+  description:
+
+- slug: fhir
+  name: FHIR
+  type: standards-and-interoperability
+  description:
+
+- slug: iiif
+  name: IIIF
+  type: standards-and-interoperability
+  description:
+
+- slug: interoperability
+  name: Interoperability
+  type: standards-and-interoperability
+  description:
+
+- slug: ogc-web-services
+  name: OGC web services (WMS, WFS)
+  type: standards-and-interoperability
+  description:
+
+- slug: open-api
+  name: Open API
+  type: standards-and-interoperability
+  description:
+
+- slug: open-architecture
+  name: Open Architecture
+  type: standards-and-interoperability
+  description:
+
+- slug: open-computing
+  name: Open Computing
+  type: standards-and-interoperability
+  description:
+
+- slug: open-data-format
+  name: Open Data Format
+  type: standards-and-interoperability
+  description:
+
+- slug: open-standards
+  name: Open Standards
+  type: standards-and-interoperability
+  description:
+
+- slug: open-systems
+  name: Open Systems
+  type: standards-and-interoperability
+  description:
+
+- slug: peppol
+  name: Peppol
+  type: standards-and-interoperability
+  description:
+
+- slug: standards-body
+  name: Standards body
+  type: standards-and-interoperability
+  description:
+
+- slug: citizen-science
+  name: Citizen science
+  type: science-and-research
+  description:
+
+- slug: open-access
+  name: Open Access (gold, green, diamond)
+  type: science-and-research
+  description:
+
+- slug: open-notebook-science
+  name: Open notebook science
+  type: science-and-research
+  description:
+
+- slug: open-peer-review
+  name: Open peer review
+  type: science-and-research
+  description:
+
+- slug: preprint
+  name: Preprint
+  type: science-and-research
+  description:
+
+- slug: reproducibility
+  name: Reproducibility
+  type: science-and-research
+  description:
+
+- slug: cern-open-hardware-licence
+  name: CERN Open Hardware Licence
+  type: hardware-and-repair
+  description:
+
+- slug: open-source-hardware-certification
+  name: Open source hardware certification
+  type: hardware-and-repair
+  description:
+
+- slug: planned-obsolescence
+  name: Planned obsolescence
+  type: hardware-and-repair
+  description:
+
+- slug: repair-cafe
+  name: Repair café
+  type: hardware-and-repair
+  description:
+
+- slug: right-to-repair
+  name: Right to Repair
+  type: hardware-and-repair
+  description:
+
+- slug: risc-v
+  name: RISC-V
+  type: hardware-and-repair
+  description:
+
+- slug: model-card
+  name: Model card
+  type: ai
+  description:
+
+- slug: open-source-ai
+  name: Open Source AI
+  type: ai
+  description:
+
+- slug: open-weights
+  name: Open weights
+  type: ai
+  description:
+
+- slug: osaid
+  name: OSAID (Open Source AI Definition)
+  type: ai
+  description:
+
+- slug: training-data-transparency
+  name: Training data transparency
+  type: ai
+  description:
+
+- slug: cloud-repatriation
+  name: Cloud repatriation
+  type: sovereignty-and-policy
+  description:
+
+- slug: data-residency
+  name: Data residency
+  type: sovereignty-and-policy
+  description:
+
+- slug: data-sovereignty
+  name: Data sovereignty
+  type: sovereignty-and-policy
+  description:
+
+- slug: digital-public-infrastructure
+  name: Digital public infrastructure
+  type: sovereignty-and-policy
+  description:
+
+- slug: digital-sovereignty
+  name: Digital sovereignty
+  type: sovereignty-and-policy
+  description:
+
+- slug: indigenous-data-sovereignty
+  name: Indigenous Data Sovereignty
+  type: sovereignty-and-policy
+  description:
+
+- slug: sovereign-capability
+  name: Sovereign capability
+  type: sovereignty-and-policy
+  description:
