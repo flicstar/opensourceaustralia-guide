@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: category
 title: Explore
 permalink: /explore
 ---
@@ -11,10 +11,10 @@ permalink: /explore
 {% assign main = categories | where: "type", "whats-out-there" | sort_natural: "slug" %}
 {% for category in main %}
 {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
-<h2 class="explore-heading">
+<h3 class="explore-heading">
   {% include {{ icon_path }} %}
   <a href="/{{ category.slug }}">{{ category.title }}</a>
-</h2>
+</h3>
 
 <p>{{ category.description }}</p>
 {% endfor %}
@@ -24,10 +24,10 @@ permalink: /explore
 {% assign people = categories | where: "type", "find-your-people" | sort_natural: "slug" %}
 {% for category in people %}
 {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
-<h2 class="explore-heading">
+<h3 class="explore-heading">
   {% include {{ icon_path }} %}
   <a href="/{{ category.slug }}">{{ category.title }}</a>
-</h2>
+</h3>
 
 <p>{{ category.description }}</p>
 {% endfor %}
