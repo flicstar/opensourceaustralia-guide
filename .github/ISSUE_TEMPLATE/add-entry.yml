@@ -39,6 +39,8 @@ body:
         - Open standards
         - Organisations and groups
         - Hackerspaces and makerspaces
+        - Recommended follows
+        - Community chat
         - Not sure
     validations:
       required: true

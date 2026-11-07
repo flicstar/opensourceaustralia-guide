@@ -1,5 +1,10 @@
+---
+
+# What's out there
+
 - slug: open-source-software
   title: Open source software
+  type: whats-out-there
   icon: software
   summary: >-
     Free and open source software in Australia.
@@ -8,6 +13,7 @@
 
 - slug: open-source-hardware
   title: Open source hardware
+  type: whats-out-there
   icon: hardware
   summary: >-
     Openly licensed hardware designs, makerspaces and repair-friendly devices.
@@ -16,6 +22,7 @@
 
 - slug: open-data
   title: Open data
+  type: whats-out-there
   icon: database
   summary: >-
     Public datasets, civic technology, cultural collections and geospatial data.
@@ -24,6 +31,7 @@
 
 - slug: open-apis
   title: Open APIs
+  type: whats-out-there
   icon: api
   summary: >-
     Public APIs, developer tools and integration platforms.
@@ -32,6 +40,7 @@
 
 - slug: open-standards
   title: Open standards
+  type: whats-out-there
   icon: standards
   summary: >-
     Open standards for software, data and interoperability.
@@ -40,14 +49,36 @@
 
 - slug: open-science
   title: Open science
+  type: whats-out-there
   icon: science
   summary: >-
     Open access research: publications, data and methods.
   description: >-
     Australian open science: open access research, publications, data and methods.
 
+- slug: businesses-and-suppliers
+  title: Businesses and suppliers
+  type: whats-out-there
+  icon: handshake
+  summary: >-
+    Australian businesses that work with open source.
+  description: >-
+    Consultancies, hosting providers, trainers and suppliers working with open source software, hardware and data in Australia.
+
+- slug: government
+  title: Government procurement and policy
+  type: whats-out-there
+  icon: government
+  summary: >-
+    How Australian governments build and work with open source.
+  description: >-
+    The policies, procurement practices and public sector initiatives shaping how Australian governments build, buy and share technology.
+
+# Find your people
+
 - slug: organisations
   title: Organisations and groups
+  type: find-your-people
   icon: groups
   summary: >-
     Australian groups working in open source.
@@ -55,26 +86,29 @@
     Peak bodies, foundations, user groups and communities working with open
     source in Australia.
 
-- slug: businesses-and-suppliers
-  title: Businesses and suppliers
-  icon: handshake
-  summary: >-
-    Australian businesses that work with open source.
-  description: >-
-    Consultancies, hosting providers, trainers and suppliers working with open source software, hardware and data in Australia.
-
 - slug: hackerspaces-makerspaces
   title: Hackerspaces and makerspaces
+  type: find-your-people
   icon: makerspace
   summary: >-
     Community spaces for people to work on projects with shared tools and equipment.
   description: >-
     Australian hackerspaces and makerspaces: community workshops with shared tools and equipment.
 
-- slug: government
-  title: Government procurement and policy
-  icon: government
+- slug: follow
+  title: Follows
+  type: find-your-people
+  icon: follow
   summary: >-
-    How Australian governments build and work with open source.
+    Books, podcasts, and videos worth your time.
   description: >-
-    The policies, procurement practices and public sector initiatives shaping how Australian governments build, buy and share technology.
+    Recommended books, podcasts, and videos to check out, all with an Australian connection.
+
+- slug: chat
+  title: Community chat
+  type: find-your-people
+  icon: chat
+  summary: >-
+    Online spaces where people talk about all things open.
+  description: >-
+    Mailing lists, Mastodon instances, Matrix rooms and forums where people working with open source in Australia talk to each other.

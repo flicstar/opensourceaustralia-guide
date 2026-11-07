@@ -4,10 +4,12 @@ title: Explore
 permalink: /explore
 ---
 
-## What's out there
-
 {% assign categories = site.data.categories %}
-{% for category in categories %}
+
+## See what's out there
+
+{% assign main = categories | where: "type", "whats-out-there" | sort_natural: "slug" %}
+{% for category in main %}
 {% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
 <h2 class="explore-heading">
   {% include {{ icon_path }} %}
@@ -17,18 +19,15 @@ permalink: /explore
 <p>{{ category.description }}</p>
 {% endfor %}
 
-&nbsp;
-
 ## Find your people
 
+{% assign people = categories | where: "type", "find-your-people" | sort_natural: "slug" %}
+{% for category in people %}
+{% assign icon_path = "icons/" | append: category.icon | append: ".svg" %}
 <h2 class="explore-heading">
-  <a href="/chat">Community chat</a>
+  {% include {{ icon_path }} %}
+  <a href="/{{ category.slug }}">{{ category.title }}</a>
 </h2>
 
-<p>Online spaces where people talk about all things open.</p>
-
-<h2 class="explore-heading">
-  <a href="/follow">Recommended follows </a>
-</h2>
-
-<p>Podcasts, videos and books from Australian hosts, guests and authors.</p>
+<p>{{ category.description }}</p>
+{% endfor %}

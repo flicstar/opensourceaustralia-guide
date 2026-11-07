@@ -2,7 +2,7 @@
 layout: category
 title: "Community chat"
 permalink: /community-chat
-description: Open data you can work with from federal and state government portals, civic tech, GLAM collections, transport, geospatial, energy and climate datasets.
+description: .
 image: /assets/images/category/chat.png
 issue_template: add-entry.yml
 ---
