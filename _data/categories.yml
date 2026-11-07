@@ -104,8 +104,8 @@
   description: >-
     Recommended books, podcasts, and videos to check out, all with an Australian connection.
 
-- slug: chat
-  title: Community chat
+- slug: community-chats
+  title: Community chats
   type: find-your-people
   icon: chat
   summary: >-
