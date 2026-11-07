@@ -10,7 +10,7 @@ issue_template: add-entry.yml
 
 {% assign entries = site.data["follow"] %}
 
-Books, podcasts, and videos with an Australian connection. Add your favourites here.
+Mixed media content with an Australian connection to add to your feed. Share  your favourites!
 
 ## Books
 
