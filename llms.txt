@@ -1,0 +1,42 @@
+---
+permalink: /llms.txt
+layout: null
+---
+# Guide to Open Source in Australia
+
+> A curated guide to Australian open source software, hardware, data, standards, research, organisations, policy and events.
+
+Use this index to find the site's main pages. Directory entries are curated and may change; follow links on each page to check current project, organisation and event information.
+
+## Start here
+
+- [Home]({{ site.url }}/): An overview of the guide and its main topics.
+- [Explore the directory]({{ site.url }}/explore): Browse the directory by topic, or find Australian communities and resources.
+- [What is open source?]({{ site.url }}/what-is-open-source): An introductory explainer; this page is still under development.
+
+## Projects, data and policy
+
+{% assign topics = site.data.categories | where: "type", "whats-out-there" | sort_natural: "title" %}
+{% for topic in topics %}
+- [{{ topic.title }}]({{ site.url }}/{{ topic.slug }}): {{ topic.description | strip_newlines | strip }}
+{% endfor %}
+
+## Communities and resources
+
+{% assign topics = site.data.categories | where: "type", "find-your-people" | sort_natural: "title" %}
+{% for topic in topics %}
+- [{{ topic.title }}]({{ site.url }}/{{ topic.slug }}): {{ topic.description | strip_newlines | strip }}{% if topic.slug == "community-chats" %} The page is still under development.{% endif %}
+{% endfor %}
+
+## Other pages
+
+- [About]({{ site.url }}/about): Why Felicity Brand created the guide and what it covers.
+- [Blog]({{ site.url }}/blog): Planned writing about open source in Australia; contributions are welcome.
+- [Events]({{ site.url }}/events): Australian open source conferences, meetups, hackathons and community celebration days.
+- [Glossary]({{ site.url }}/glossary): Plain-language definitions of terms used across the site.
+
+## Contributing and reuse
+
+- [Research backlog]({{ site.repo_url }}/blob/main/RESEARCH-BACKLOG.md): Suggest missing entries and see what research is planned.
+- [Contact]({{ site.url }}/about): Contact the guide's maintainer, Felicity Brand.
+- Site content is licensed under [CC BY 4.0]({{ site.licence.content_url}}). Please attribute the Guide to Open Source in Australia when reusing it.
