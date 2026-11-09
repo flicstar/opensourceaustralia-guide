@@ -40,9 +40,9 @@
     - glam
     - foss
   description: |
-    A podcast from CAVAL, a Melbourne-based consortium of university libraries. It covers the library sector broadly, and open source comes up regularly.
+    A podcast from CAVAL, a Melbourne-based consortium of university libraries.
 
-    [Open Source vs. Big Vendors](https://www.caval.edu.au/blog/podcast-posts/open-source-vs-big-vendors-a-conversation-with-sebastian-hammer-video/) is a conversation with Sebastian Hammer of Index Data about open source in library technology.
+    The [Open Source vs. Big Vendors](https://www.caval.edu.au/blog/podcast-posts/open-source-vs-big-vendors-a-conversation-with-sebastian-hammer-video/) episode is a conversation with Sebastian Hammer of Index Data about open source in library technology.
 
 - slug: tech-mirror
   name: Tech Mirror
