@@ -2,6 +2,8 @@
 layout: event
 title: "Events"
 permalink: /events
+last_modified_at: AUTO
+data_file: _data/events.yml
 description: Conferences, meetups and community events for open source in Australia.
 image: /assets/images/category/events.png
 ---

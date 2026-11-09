@@ -7,6 +7,8 @@
   type: government-portals
   sort_key: "010"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Publishes census data, along with the classifications and standards used to collect it. Custom data requests are available for a fee.
 
@@ -16,6 +18,8 @@
   type: government-portals
   sort_key: "020"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     The central catalogue of Australian open government data. Alongside government data it lists publicly funded research data and datasets from private institutions held to be in the public interest. The portal runs on [CKAN](https://ckan.org/), open source data portal software.
 
@@ -27,6 +31,8 @@
   type: government-portals
   sort_key: "030"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Datasets published by New South Wales government agencies.
 
@@ -36,6 +42,8 @@
   type: government-portals
   sort_key: "040"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Datasets published by Victorian government agencies.
 
@@ -45,6 +53,8 @@
   type: government-portals
   sort_key: "050"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Datasets published by Queensland government agencies.
 
@@ -54,6 +64,8 @@
   type: government-portals
   sort_key: "060"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Datasets published by Western Australian government agencies.
 
@@ -63,6 +75,8 @@
   type: government-portals
   sort_key: "070"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Datasets published by South Australian government agencies.
 
@@ -72,6 +86,8 @@
   type: government-portals
   sort_key: "080"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Datasets published by ACT government agencies.
 
@@ -81,6 +97,8 @@
   type: government-portals
   sort_key: "090"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Datasets published by Northern Territory government agencies.
 
@@ -90,6 +108,8 @@
   type: government-portals
   sort_key: "100"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Spatial, land and property datasets for Tasmania, managed by Land Tasmania.
 
@@ -101,6 +121,8 @@
   type: government-portals
   sort_key: "110"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Dateno is a search engine built specifically to run over open data sets around the world, and it includes some Australian datasets.
 
@@ -113,6 +135,8 @@
   sort_key: "010"
   status: active
   organisation_slug: openaustralia-foundation
+  added: 2026-08
+  verified: 2026-08
   description: |
     Publishes Hansard records for the House of Representatives and the Senate, going back to 2006.
 
@@ -123,6 +147,8 @@
   sort_key: "020"
   status: active
   organisation_slug: openaustralia-foundation
+  added: 2026-08
+  verified: 2026-08
   description: |
     Shows how your MP has voted on any issue, in language designed to be readable without prior knowledge of parliamentary procedure.
 
@@ -133,6 +159,8 @@
   sort_key: "030"
   status: active
   organisation_slug: openaustralia-foundation
+  added: 2026-08
+  verified: 2026-08
   description: |
     Helps you submit a Freedom of Information request. Requests and responses are published and archived.
 
@@ -143,6 +171,8 @@
   sort_key: "040"
   status: active
   organisation_slug: openaustralia-foundation
+  added: 2026-08
+  verified: 2026-08
   description: |
     A searchable collection of Australian local government planning applications, so you can see what is being built and knocked down near you.
 
@@ -154,6 +184,8 @@
   type: glam
   sort_key: "010"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     A maintained catalogue of Australian GLAM data sources, built by [Tim Sherratt](https://timsherratt.au/). Includes Trove, the National Library of Australia, and the Australian War Memorial among many others.
 
@@ -165,6 +197,8 @@
   type: transport
   sort_key: "010"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     A maintained list of Australian transport open data sources, compiled by iMOVE Australia, a federally funded not-for-profit organisation.
 
@@ -174,6 +208,8 @@
   type: transport
   sort_key: "020"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Freight data across Australia covering road, rail, sea and air.
 
@@ -186,6 +222,8 @@
   sort_key: "010"
   status: active
   organisation_slug: geoscience-australia
+  added: 2026-08
+  verified: 2026-08
   description: |
     A national geospatial platform that brings together curated, trusted datasets from across government in one place, viewable as maps or downloadable for reuse.
 
@@ -196,6 +234,8 @@
   sort_key: "020"
   status: active
   organisation_slug: geoscience-australia
+  added: 2026-08
+  verified: 2026-08
   description: |
     Geoscientific data, maps and tools covering Australian resources, geology, groundwater and natural hazards.
 
@@ -205,6 +245,8 @@
   type: geospatial-and-mapping
   sort_key: "030"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     A wiki page listing the open datasets that Australian OpenStreetMap contributors are permitted to use, along with the import catalogue and the state mapping projects.
 
@@ -216,6 +258,8 @@
   type: energy
   sort_key: "010"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Generation, demand, price and dispatch data for Australia's electricity markets.
 
@@ -225,6 +269,8 @@
   type: energy
   sort_key: "020"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Rooftop solar data for Australia from the Australian Photovoltaic Institute.
 
@@ -234,6 +280,8 @@
   type: energy
   sort_key: "030"
   status: active
+  added: 2026-08
+  verified: 2026-08
   description: |
     Data on Australia's carbon and renewable energy schemes.
 
@@ -244,6 +292,8 @@
   sort_key: "040"
   status: active
   organisation_slug: superpower-institute
+  added: 2026-08
+  verified: 2026-08
   description: |
     Real-time and historical data from across Australia's electricity grid, covering the National Electricity Market and the Wholesale Electricity Market. Formerly OpenNEM. Developers can access the same data through the [energy data platform](https://platform.openelectricity.org.au/).
 
@@ -256,5 +306,7 @@
   sort_key: "010"
   status: active
   organisation_slug: superpower-institute
+  added: 2026-09
+  verified: 2026-09
   description: |
     An online platform for monitoring Australia's methane emissions, combining atmospheric modelling with satellite measurements. The source code is published at [Open Methane](https://github.com/openmethane) on GitHub.

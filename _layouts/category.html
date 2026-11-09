@@ -64,4 +64,8 @@ layout: default
   </div>
 
   {% comment %} Directory entries will loop in here {% endcomment %}
+
+  {% if page.last_modified_at %}
+  <p class="updated">Entry list last changed {{ page.last_modified_at | date: "%-d %B %Y" }}</p>
+{% endif %}
 </article>

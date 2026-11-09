@@ -19,12 +19,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.4'
           bundler-cache: true
       - uses: actions/configure-pages@v5
         id: pages
+      - name: Stamp last_modified_at from data file history
+        run: |
+          grep -rl "^last_modified_at: AUTO$" --include="*.md" . | while read -r page; do
+            src=$(grep -m1 "^data_file:" "$page" | sed 's/^data_file: *//')
+            [ -z "$src" ] && continue
+            date=$(git log -1 --format=%cs -- "$src")
+            sed -i "s|^last_modified_at: AUTO$|last_modified_at: $date|" "$page"
+          done
       - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production

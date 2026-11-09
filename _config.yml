@@ -40,6 +40,7 @@ seo_noindex: true
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

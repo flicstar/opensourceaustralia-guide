@@ -2,6 +2,8 @@
 layout: category
 category: open-data
 title: "Open data"
+last_modified_at: AUTO
+data_file: _data/category_data/open-data.yml
 permalink: /open-data
 description: Open data you can work with from federal and state government portals, civic tech, GLAM collections, transport, geospatial, energy and climate datasets.
 image: /assets/images/category/open-data.png
