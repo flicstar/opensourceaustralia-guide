@@ -6,7 +6,7 @@ permalink: /open-source-hardware
 research_backlog_anchor: open-hardware
 ---
 
-{% assign entries = site.data.category_data["open-source-hardware"] %}
+{% assign entries = site.data.category_data["open-hardware"] %}
 
 {% assign group = entries | sort_natural: "slug" %}
 {% for entry in group %}
