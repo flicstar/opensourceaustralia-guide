@@ -2,7 +2,9 @@
 layout: glossary
 title: "Glossary"
 permalink: /glossary
-description: "Plain-language definitions for terms used across this site: licensing, community, open data, hardware, standards, open science, AI and more."
+last_modified_at: AUTO
+data_file: _data/glossary-terms.yml
+description: Plain-language definitions for terms used across this site: licensing, community, open data, hardware, standards, open science, AI and more.
 image: /assets/images/category/glossary.png
 issue_template: add-entry.yml
 ---

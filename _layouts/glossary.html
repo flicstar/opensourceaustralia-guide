@@ -54,4 +54,9 @@ layout: default
       {{ content }}
     </div>
   </div>
+
+  {% if page.last_modified_at %}
+  <p class="updated">Glossary list last changed {{ page.last_modified_at | date: "%-d %B %Y" }}</p>
+
+  {% endif %}
 </article>
