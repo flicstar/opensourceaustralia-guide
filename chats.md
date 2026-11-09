@@ -1,10 +1,11 @@
 ---
 layout: category
+category: community-chats
 title: "Community chats"
 permalink: /community-chats
 last_modified_at: AUTO
 data_file: _data/chats.yml
-description: .
+description: "Where the Australian open source community talks: mailing lists, Mastodon servers, Matrix rooms and Slack groups you can join."
 image: /assets/images/category/chat.png
 issue_template: add-entry.yml
 ---
