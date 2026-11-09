@@ -7,6 +7,8 @@
   url: https://en.wikipedia.org/wiki/Lions%27_Commentary_on_UNIX_6th_Edition,_with_Source_Code
   type: books
   status: active
+  added: 2026-11
+  verified: 2026-11
   tags:
     - academic
     - foss
@@ -22,6 +24,8 @@
   url: https://www.opensourcevoices.org/
   type: podcasts
   status: retired
+  added: 2026-11
+  verified: 2026-11
   tags:
     - community
     - foss
@@ -36,6 +40,8 @@
   url: https://www.caval.edu.au/blog/category/podcast-posts/
   type: podcasts
   status: active
+  added: 2026-11
+  verified: 2026-11
   tags:
     - glam
     - foss
@@ -49,6 +55,8 @@
   url: https://techpolicy.au/podcasts
   type: podcasts
   status: active
+  added: 2026-11
+  verified: 2026-11
   tags:
     - government
     - open-source-ai
@@ -62,6 +70,8 @@
   url: https://www.youtube.com/watch?v=UmkdhT1AR2Q
   type: videos
   status: active
+  added: 2026-11
+  verified: 2026-11
   tags:
     - community
     - foss

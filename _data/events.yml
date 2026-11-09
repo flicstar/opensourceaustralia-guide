@@ -7,6 +7,8 @@
   url: https://everythingopen.au
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: linux-australia
   tags:
     - everything-open
@@ -24,6 +26,8 @@
   url: https://osgeo-oceania.org/events/
   type: conferences
   status: inactive
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: osgeo-oceania
   tags:
     - foss
@@ -37,6 +41,8 @@
   url: https://pycon.org.au
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: linux-australia
   tags:
     - foss
@@ -51,6 +57,8 @@
   url: https://drupalsouth.org/
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   summary: The Drupal conference for Australia and New Zealand.
@@ -64,6 +72,8 @@
   url: https://auigf.au
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - internet-governance
   summary: The annual Australian forum on internet public policy.
@@ -77,6 +87,8 @@
   url: https://rseaa.org/
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-research
     - foss
@@ -89,6 +101,8 @@
   url: https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network
   type: conferences
   status: inactive
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: australian-repair-network
   tags:
     - right-to-repair
@@ -104,6 +118,8 @@
   url: https://conference.eresearch.edu.au
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-data
     - open-research
@@ -118,6 +134,8 @@
   url: https://joomla.org.au/
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: joomla-australia
   tags:
     - foss
@@ -130,6 +148,8 @@
   url: https://community.cncf.io/kcd-australia/
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   summary: Community-run conferences on Kubernetes and cloud native technology.
@@ -141,6 +161,8 @@
   url: https://linux.org.au/linux-conf-au/
   type: conferences
   status: retired
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: linux-australia
   tags:
     - foss
@@ -155,6 +177,8 @@
   url: https://github.com/resbaz
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-science
     - open-data
@@ -169,6 +193,8 @@
   url: https://en.wikipedia.org/wiki/Open_Source_Developers%27_Conference
   type: conferences
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   summary: A not-for-profit conference for open source developers in Australasia.
@@ -182,6 +208,8 @@
   url: https://wpaustralia.org/events/
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   summary: Community conferences about WordPress, held in cities around Australia.
@@ -193,6 +221,8 @@
   url: https://wikimedia.org.au/wiki/WikiCon_Australia
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: wikimedia-australia
   tags:
     - glam
@@ -206,6 +236,8 @@
   url: https://laracon.au/
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   summary: The Australian conference for the Laravel web framework.
@@ -219,6 +251,8 @@
   url: https://www.joinfost.io/events/australia
   type: conferences
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-apis
     - open-standards
@@ -233,6 +267,8 @@
   url: http://www.openhardwareconf.org/wiki/Main_Page
   type: conferences
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-hardware
   summary: A hardware build and talks day that ran inside linux.conf.au.
@@ -246,6 +282,8 @@
   url: https://events.aptira.com/
   type: conferences
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   summary: A conference on open source cloud infrastructure.
@@ -259,6 +297,8 @@
   url: https://govhack.org
   type: hackathons
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-data
     - foss
@@ -271,6 +311,8 @@
   url: https://www.healthhack.com.au/
   type: hackathons
   status: inactive
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: linux-australia
   tags:
     - foss
@@ -289,6 +331,8 @@
   url: https://sfd.org.au
   type: community-celebration-days
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
     - community
@@ -301,6 +345,8 @@
   url: https://digitalfreedoms.org/en/hfd
   type: community-celebration-days
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-hardware
     - community
