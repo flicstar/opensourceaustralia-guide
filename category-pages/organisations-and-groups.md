@@ -3,7 +3,6 @@ layout: category
 category: organisations
 title: "Organisations and groups"
 permalink: /organisations
-last_modified_at: AUTO
 data_file: _data/category_data/organisations.yml
 description: Peak bodies, foundations, user groups and communities working with open source software, hardware, data and research in Australia
 image: /assets/images/category/organisations.png

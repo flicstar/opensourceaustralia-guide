@@ -29,11 +29,13 @@ jobs:
         id: pages
       - name: Stamp last_modified_at from data file history
         run: |
-          grep -rl "^last_modified_at: AUTO$" --include="*.md" . | while read -r page; do
+          grep -rl "^data_file:" --include="*.md" \
+            --exclude-dir=_site --exclude-dir=vendor . | while read -r page; do
+            grep -q "^last_modified_at:" "$page" && continue
             src=$(grep -m1 "^data_file:" "$page" | sed 's/^data_file: *//')
-            [ -z "$src" ] && continue
             date=$(git log -1 --format=%cs -- "$src")
-            sed -i "s|^last_modified_at: AUTO$|last_modified_at: $date|" "$page"
+            [ -z "$date" ] && continue
+            sed -i "/^data_file:/a last_modified_at: $date" "$page"
           done
       - run: bundle exec jekyll build
         env:

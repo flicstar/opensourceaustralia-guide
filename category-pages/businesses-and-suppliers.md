@@ -3,7 +3,6 @@ layout: category
 category: businesses-and-suppliers
 title: "Businesses and suppliers"
 permalink: /businesses-and-suppliers
-last_modified_at: AUTO
 data_file: _data/category_data/businesses-and-suppliers.yml
 description: Australian businesses offering development, hosting, support, training and hardware for open source software, data and research.
 image: /assets/images/category/handshake.png

@@ -3,7 +3,6 @@ layout: category
 category: open-science
 title: "Open science"
 permalink: /open-science
-last_modified_at: AUTO
 data_file: _data/category_data/open-science.yml
 description: Research data collections, catalogues that search across institutions, open access publishing and open methods.
 image: /assets/images/category/open-science.png
