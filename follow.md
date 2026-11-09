@@ -3,6 +3,8 @@ layout: category
 category: follow
 title: "Recommended follows"
 permalink: /follow
+last_modified_at: AUTO
+data_file: _data/follow.yml
 description: Books, podcasts, videos and people worth following, from Australian hosts, guests and authors.
 image: /assets/images/category/follow.png
 issue_template: add-entry.yml

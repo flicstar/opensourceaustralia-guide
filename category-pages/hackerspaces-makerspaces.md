@@ -3,6 +3,8 @@ layout: category
 category: hackerspaces-makerspaces
 title: "Hackerspaces and makerspaces"
 permalink: /hackerspaces-makerspaces
+last_modified_at: AUTO
+data_file: _data/category_data/hackerspaces-makerspaces.yml
 description: Directories and networks for finding Australian hackerspaces and makerspaces, community workshops where people share tools, equipment and skills.
 image: /assets/images/category/hackerspaces.png
 issue_template: add-entry.yml
