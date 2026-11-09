@@ -4,6 +4,8 @@
   name: Butterfly
   url: https://butterfly.com.au/
   type: web-and-content-management
+  added: 2026-11
+  verified: 2026-11
   based_in: Melbourne, VIC
   services:
     - development
@@ -19,6 +21,8 @@
   name: Catalyst IT Australia
   url: https://www.catalyst-au.net/
   type: learning-and-collection-systems
+  added: 2026-11
+  verified: 2026-11
   based_in: Sydney, NSW
   services:
     - hosting
@@ -34,6 +38,8 @@
   name: Medeopolis
   url: https://medeopolis.com.au/
   type: learning-and-collection-systems
+  added: 2026-11
+  verified: 2026-11
   based_in: Hobart, TAS
   services:
     - development
@@ -50,6 +56,8 @@
   name: Adfinis
   url: https://www.adfinis.com/en-au
   type: infrastructure-and-cloud
+  added: 2026-11
+  verified: 2026-11
   based_in: Brisbane, Queensland
   services:
     - consulting
@@ -66,6 +74,8 @@
   name: Linux Now
   url: https://www.linuxnow.com.au/
   type: linux-desktops-and-support
+  added: 2026-11
+  verified: 2026-11
   based_in: Melbourne, VIC
   services:
     - retail
@@ -79,6 +89,8 @@
   name: ArkPC
   url: https://arkpc.com.au/
   type: linux-desktops-and-support
+  added: 2026-11
+  verified: 2026-11
   based_in: Kingsholme, QLD
   services:
     - retail
@@ -93,6 +105,8 @@
   name: Edtechs
   url: https://www.edtechs.com.au/
   type: open-hardware-suppliers
+  added: 2026-11
+  verified: 2026-11
   based_in: Manly NSW
   services:
     - retail

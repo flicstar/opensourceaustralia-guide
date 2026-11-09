@@ -6,6 +6,8 @@
   url: https://github.com/agileware/au.com.agileware.elections
   type: civic-and-community-tools
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Adds instant-runoff voting to CiviCRM. Built by Agileware in Australia. See the [extension listing](https://civicrm.org/extensions/elections).
 
@@ -14,6 +16,8 @@
   url: http://morph.io
   type: civic-and-community-tools
   status: inactive
+  added: 2026-10
+  verified: 2026-10
   description: |
     Hosted web scraping service run by the Open Australia Foundation. They have written about the [current state of the project](https://oaf.org.au/2026/07/30/morph-io-is-stuck-in-2016-help-us-get-it-out/).
 
@@ -24,6 +28,8 @@
   url: https://github.com/drowe67/codec2
   type: communications
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Low bit rate speech codec by David Rowe in Adelaide. Also FreeDV and the SM1000 hardware. More at [Rowetel](https://www.rowetel.com/).
 
@@ -32,6 +38,8 @@
   url: https://www.freepbx.org/
   type: communications
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Web interface for configuring Asterisk phone systems, written in 2004 by Australian programmer Rob Thomas as the Asterisk Management Portal. See [Wikipedia](https://en.wikipedia.org/wiki/FreePBX).
 
@@ -42,6 +50,8 @@
   url: https://www.access-nri.org.au/
   type: science-research
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Australia's climate simulator. ACCESS-NRI develops and supports the Australian Community Climate and Earth System Simulator, a set of models that simulate past, present and future climate, weather and Earth systems.
 
@@ -56,6 +66,8 @@
   url: https://www.opendatacube.org/
   type: data-and-monitoring
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     A set of Python libraries and a PostgreSQL database for working with satellite imagery and other geospatial raster data. It started at Geoscience Australia as the Australian Geoscience Data Cube, built with CSIRO and the National Computational Infrastructure to make the newly opened Landsat archive usable. Other countries wanted the same thing, so it became an international open source project. It now runs Digital Earth Australia and Digital Earth Africa, among others. Code on [GitHub](https://github.com/opendatacube).
 
@@ -64,6 +76,8 @@
   url: https://grafana.com/
   type: data-and-monitoring
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Observability and dashboard platform. Co-founder and CTO Anthony Woods is from Western Australia. Grafana Labs has written about [how it got here](https://grafana.com/blog/grafana-labs-at-5-how-we-got-here-and-where-were-going/) and made a [documentary](https://grafana.com/blog/the-story-of-grafana-documentary-from-one-developers-dream-to-20-million-users-worldwide/).
 
@@ -72,6 +86,8 @@
   url: https://pcp.io
   type: data-and-monitoring
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     System performance monitoring and analysis toolkit. Designed at SGI in Melbourne and released as a commercial product in 1995. SGI re-released the core as free software and it now ships with the major Linux distributions. Much of the development work is still done in Australia. See [Wikipedia](https://en.wikipedia.org/wiki/Performance_Co-Pilot). See also https://www.wikiwand.com/en/Performance_Co-Pilot
 
@@ -82,6 +98,8 @@
   url: https://www.enlightenment.org/
   type: desktops-and-window-managers
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Window manager and desktop environment. Started by [Carsten "Rasterman" Haitzler](https://en.wikipedia.org/wiki/Carsten_Haitzler).
 
@@ -92,6 +110,8 @@
   url: https://moodle.org/
   type: education
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Learning management system created in 2001 by Martin Dougiamas, an Australian educator and computer scientist. He has written about [how it started](https://dougiamas.com/about/), and there is a [Moodle history page](https://docs.moodle.org/502/en/History) and [Moodle.com](https://moodle.com/?ref=dougiamas.com).
 
@@ -102,6 +122,8 @@
   url: https://librsync.github.io/
   type: networking-and-file-sharing
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Library implementing the rsync delta algorithm, LGPL-2.1-or-later.
 
@@ -110,6 +132,8 @@
   url: https://www.netfilter.org/
   type: networking-and-file-sharing
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Packet filtering in the Linux kernel, written by Rusty Russell in Canberra. The project is international now. Its predecessor, ipchains, is also Rusty's work.
 
@@ -118,6 +142,8 @@
   url: https://rsync.samba.org/
   type: networking-and-file-sharing
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Copies and synchronises files efficiently by comparing what has changed. Also from Andrew Tridgell.
 
@@ -126,6 +152,8 @@
   url: https://www.samba.org/
   type: networking-and-file-sharing
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Lets Linux and Unix machines share files and services with Windows. Started by Andrew Tridgell in Canberra.
 
@@ -134,6 +162,8 @@
   url: https://lores.tech/
   type: networking-and-file-sharing
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Software for running a resilient local internet. A LoRes Node is a cluster of small low-powered computers, like Raspberry Pis, that hosts websites, email and other services for a local community. Nodes talk to each other over a peer-to-peer network, so they keep working when the internet or the power goes down. LoRes Mesh is currently used by [Merri-bek Tech](https://opensourceaustralia.guide/organisations#merri-bek-tech).
 
@@ -144,6 +174,8 @@
   url: https://xfs.org/
   type: operating-systems-and-firmware
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     High performance journaling filesystem, now part of the Linux kernel. SGI formed a team in Melbourne to port XFS from IRIX to Linux and to run the encumbrance review that cleared it for release under the GPL in 2000. The team wrote up the work in a [2000 USENIX paper](https://www.usenix.org/conference/2000-usenix-annual-technical-conference/porting-sgi-xfs-file-system-linux), and LWN covered the history in [XFS: There and back and there again](https://lwn.net/Articles/638546/).
 
@@ -152,6 +184,8 @@
   url: https://sel4.systems/
   type: operating-systems-and-firmware
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     A microkernel with a complete mathematical proof that its code does what its specification says, down to the compiled binary. Developed in Australia by NICTA and UNSW, open sourced in 2014, and now maintained by the seL4 Foundation under the Linux Foundation. It runs in defence systems, autonomous vehicles and medical devices. The proofs are public too, which is rare for verification work at this scale. Still developed by [Trustworthy Systems](#trustworthy-systems) at UNSW.
 
@@ -160,6 +194,8 @@
   url: https://www.openbmc.org/
   type: operating-systems-and-firmware
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Linux firmware stack for baseboard management controllers. Multi-vendor project with ongoing maintenance from the OzLabs team in Canberra. [Source](https://github.com/openbmc/openbmc).
 
@@ -168,6 +204,8 @@
   url: https://bkhome.org/tag_linux.html
   type: operating-systems-and-firmware
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Lightweight Linux distributions created by Barry Kauler.
 
@@ -178,6 +216,8 @@
   url: https://ardupilot.org/
   type: robotics-and-autonomous-vehicles
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Autopilot software for drones and other autonomous vehicles.
 
@@ -188,6 +228,8 @@
   url: https://australiancybersecuritycentre.github.io/azul/
   type: security
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Malware analysis tooling by the Australian Signals Directorate. See the [ASD announcement](https://www.asd.gov.au/news/2026-02-24-asd-has-open-sourced-azul-help-uplift-cyber-defences-globally-against-malware).
 
@@ -196,6 +238,8 @@
   url: https://keen.cloud
   type: security
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Evidence and ISMS tooling, short for Key Evidence ENgine. It collects records from systems an organisation already runs, such as logs, git activity, wiki pages and RSS feeds, and maps them to controls in compliance frameworks including ISO 27001, Cyber Essentials and the UK DVSTF. It also holds policies, risks, assets and other ISMS records. [Source](https://github.com/FERCBusters/keen) and [documentation](https://keen.cloud/help/).
 
@@ -209,6 +253,8 @@
   url: https://beeware.org/
   type: software-development
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Tools for packaging and running Python code on multiple platforms.
 
@@ -217,6 +263,8 @@
   url: https://github.com/distcc/distcc
   type: software-development
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Distributes C and C++ compilation across several machines. Created by Martin Pool.
 
@@ -225,6 +273,8 @@
   url: https://micropython.org/
   type: software-development
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Python for microcontrollers, written by Damien George. Runs on the micro:bit and the [Kookaberry](https://learn.auststem.com.au/the-kookaberry-story/).
 
@@ -233,6 +283,8 @@
   url: https://trustworthy.systems/projects/pancake
   type: software-development
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - academic
   description: |

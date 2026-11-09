@@ -7,6 +7,8 @@
   url: https://linux.org.au/
   type: umbrella
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - events
@@ -21,6 +23,8 @@
   url: https://osgeo-oceania.org/
   type: umbrella
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - events
@@ -34,6 +38,8 @@
   url: http://classic.auug.org.au/
   type: umbrella
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - foss
@@ -47,6 +53,8 @@
   url: https://www.anzlic.gov.au/
   type: infrastructure
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - government
     - open-standards
@@ -60,6 +68,8 @@
   url: https://ardc.edu.au/
   type: infrastructure
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - academic
     - open-data
@@ -71,6 +81,8 @@
   url:
   type: infrastructure
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - government
   description: |
@@ -83,6 +95,8 @@
   url: https://www.ga.gov.au/
   type: infrastructure
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - government
     - open-data
@@ -94,6 +108,8 @@
   url: https://imos.org.au/
   type: infrastructure
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - academic
     - open-data
@@ -105,6 +121,8 @@
   url: https://www.linked.data.gov.au/
   type: infrastructure
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - government
     - open-standards
@@ -118,6 +136,8 @@
   url: https://www.merri-bek.tech/
   type: builders
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - foss
@@ -129,6 +149,8 @@
   url: https://opensi.net/
   type: builders
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - academic
     - open-source-ai
@@ -144,6 +166,8 @@
   url: https://trustworthy.systems/
   type: builders
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - academic
   description: |
@@ -154,6 +178,8 @@
   url: https://www.computerbank.org.au/
   type: builders
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
   description: |
@@ -164,6 +190,8 @@
   url:
   type: builders
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - open-hardware
@@ -180,6 +208,8 @@
   url: https://www.superpowerinstitute.com.au/
   type: builders
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-data
   description: |
@@ -190,6 +220,8 @@
   url: https://www.openaustraliafoundation.org.au/
   type: builders
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - open-data
@@ -201,6 +233,8 @@
   url: https://ozlabs.org/
   type: builders
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - industry
     - foss
@@ -214,6 +248,8 @@
   url: https://wikimedia.org.au/
   type: builders
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - glam
@@ -228,6 +264,8 @@
   url: https://joomla.org.au/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
     - events
@@ -239,6 +277,8 @@
   url: https://electronworkshop.org/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - events
@@ -250,6 +290,8 @@
   url: https://techguilds.au/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - open-hardware
@@ -261,6 +303,8 @@
   url: https://flounder.linux.org.au/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   description: |
@@ -273,6 +317,8 @@
   url: https://homelabbrisbane.com.au/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
     - open-hardware
@@ -284,6 +330,8 @@
   url: https://github.com/RustAU/Sydney
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   description: |
@@ -296,6 +344,8 @@
   url: https://geogeeks.org/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
     - open-data
@@ -307,6 +357,8 @@
   url: https://www.humbug.org.au/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   description: |
@@ -317,6 +369,8 @@
   url: https://laravelperth.au/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   description: |
@@ -327,6 +381,8 @@
   url: https://linux.org.au/lugs/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
   description: |
@@ -339,6 +395,8 @@
   url: https://wpaustralia.org/
   type: communities
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - foss
     - community
@@ -352,6 +410,8 @@
   url: https://caul.edu.au/external-groups/australian-open-science-network/
   type: open-science
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - academic
     - open-science
@@ -363,6 +423,8 @@
   url: https://caul.edu.au/
   type: open-science
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - academic
     - open-access
@@ -374,6 +436,8 @@
   url: https://oaaustralasia.org/
   type: open-science
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - open-access
   description: |
@@ -386,6 +450,8 @@
   url: https://www.griffith.edu.au/arts-education-law/griffith-law-school/research/australian-repair-network
   type: advocacy
   status: active
+  added: 2026-10
+  verified: 2026-10
   tags:
     - academic
     - right-to-repair
@@ -397,6 +463,8 @@
   url: https://freesoftware.au/
   type: advocacy
   status: inactive
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - foss
@@ -408,6 +476,8 @@
   url: https://au.okfn.org/index.html
   type: advocacy
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - community
     - open-data
@@ -419,6 +489,8 @@
   url: https://osia.com.au/
   type: advocacy
   status: retired
+  added: 2026-10
+  verified: 2026-10
   tags:
     - industry
     - foss

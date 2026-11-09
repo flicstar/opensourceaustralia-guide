@@ -8,6 +8,8 @@
   type: research-data-collection
   sort_key: "010"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Open digital infrastructure that brings Australian biodiversity data together from many sources into one accessible, reusable collection.
 
@@ -17,6 +19,8 @@
   type: research-data-collection
   sort_key: "020"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     The Australian Urban Research Infrastructure Network. Holds health, transport, housing, economic, land use and demographic data for urban, regional and social science research.
 
@@ -28,6 +32,8 @@
   type: research-data-collection
   sort_key: "030"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Australian marine and climate science data, and the main access point for data and metadata from the Integrated Marine Observing System.
 
@@ -39,6 +45,8 @@
   type: research-data-collection
   sort_key: "040"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Research data, software and other digital assets from Australia's national science agency, across a range of disciplines.
 
@@ -48,6 +56,8 @@
   type: research-data-collection
   sort_key: "050"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Consistent, nation-wide soil and landscape attribute data in a downloadable format.
 
@@ -57,6 +67,8 @@
   type: research-data-collection
   sort_key: "060"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Environmental monitoring data from TERN, Australia's ecosystem observatory. The data supports terrestrial and coastal ecosystem science and environmental management.
 
@@ -66,6 +78,8 @@
   type: research-data-collection
   sort_key: "070"
   status: in-progress
+  added: 2026-10
+  verified: 2026-10
   description: |
      Reusable and Accessible Public Interest Documents, a project making parliamentary proceedings, inquiry submissions, hearing transcripts and ministerial records usable for research. The work covers a FAIR-aligned metadata standard and documented research workflows, starting with Federal Hansard. A partnership between the University of Queensland, QUT and QCIF Digital Research, co-invested with the [ARDC](/organisations#australian-research-data-commons).
 
@@ -79,6 +93,8 @@
   type: catalogue-search
   sort_key: "010"
   status: active
+  added: 2026-10
+  verified: 2026-10
   organisation_slug: australian-research-data-commons
   description: |
     A search portal covering data, projects, researchers and data services from more than a hundred Australian research organisations, government agencies and cultural institutions.
@@ -89,6 +105,8 @@
   type: catalogue-search
   sort_key: "020"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     A searchable index of the national research infrastructure supported by the National Collaborative Research Infrastructure Strategy, connecting researchers to the facilities and services they need.
 
@@ -100,6 +118,8 @@
   type: open-access
   sort_key: "010"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Publishes a list of open repositories across the region, including the open access repository of every major Australian university.
 
@@ -111,6 +131,8 @@
   type: open-methods
   sort_key: "010"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Guidance for making research open across the whole research cycle, covering policy, governance, pathways and processes.
 
@@ -120,5 +142,7 @@
   type: open-methods
   sort_key: "020"
   status: active
+  added: 2026-10
+  verified: 2026-10
   description: |
     Principles for making research software findable, accessible, interoperable and reusable, adapted from the FAIR principles for data. Developed internationally, with the [ARDC](/organisations#australian-research-data-commons) playing an active role. The ARDC publishes guidance on adopting the principles in Australia.
