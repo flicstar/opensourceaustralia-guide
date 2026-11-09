@@ -13,16 +13,16 @@ issue_template: add-entry.yml
 
 Mixed media content with an Australian connection to add to your feed. Share  your favourites!
 
-## Books
+## Blogs
 
-{% assign group = entries | where: "type", "books" | sort_natural: "name" %}
+{% assign group = entries | where: "type", "blogs" | sort_natural: "name" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}
 
-## Newsletters
+## Books
 
-{% assign group = entries | where: "type", "newsletters" | sort_natural: "name" %}
+{% assign group = entries | where: "type", "books" | sort_natural: "name" %}
 {% for entry in group %}
   {% include directory-entry.html entry=entry %}
 {% endfor %}

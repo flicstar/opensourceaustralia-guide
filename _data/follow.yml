@@ -15,7 +15,28 @@
   description: |
     John Lions taught computing at UNSW and wrote this walkthrough of the UNIX source code in 1977. Licensing restrictions meant it couldn't be taught or distributed, so it circulated as photocopies for two decades before it could be republished in 1996. It is a founding text in the argument that you learn to write software by reading it.
 
-# Newsletters
+# Blogs
+
+- slug: planet-linux-australia
+  name: Planet Linux Australia
+  url: https://planet.luv.asn.au/
+  type: blogs
+  status: active
+  tags:
+    - community
+    - foss
+  description: |
+    A planet is an aggregator: a site that pulls in the feeds from a group of blogs and shows the posts together, newest first. This one gathers around blogs from Australian and New Zealand open source people, plus Linux Australia's own announcements. It's hosted by [Linux Users of Victoria](https://www.luv.asn.au/).
+
+- slug: pivotnine-open-source
+  name: PivotNine
+  url: https://pivotnine.com/tags/open-source/
+  type: blogs
+  status: active
+  tags:
+    - foss
+  description: |
+    Justin Warren's writing on open source and the technology industry, published on the site of his Melbourne analyst firm, Pivotnine.
 
 # Podcasts
 

@@ -11,11 +11,12 @@ issue_template: add-entry.yml
 
 {% assign entries = site.data["chats"] %}
 
+Places to talk with other people working on open things in Australia.
 
 ## Mailing lists
 
-A mailing list sends every message to everyone who subscribed, and you
-reply by email. Most keep a public archive you can read first.
+Email, but to a group. Every message goes to everyone who subscribed, and
+you reply by email too. Most lists keep a public archive you can read first.
 
 {% assign group = entries | where: "type", "mailing-lists" | sort_natural: "name" %}
 {% for entry in group %}
@@ -25,7 +26,8 @@ reply by email. Most keep a public archive you can read first.
 
 ## Mastodon
 
-Mastodon is a social network made of independent federated servers that talk to each other. If you're interested in the fediverse, there are general-purpose Australian servers like [aus.social](https://aus.social/) and [mastodon.au](https://mastodon.au/).
+Mastodon is a social network made of independent, federated servers that talk to each other. You post short messages and follow a feed of other
+people's. If you're interested in joining the fediverse, there are general-purpose Australian servers like [aus.social](https://aus.social/) and [mastodon.au](https://mastodon.au/).
 
 {% assign group = entries | where: "type", "mastodon" | sort_natural: "name" %}
 {% for entry in group %}
@@ -35,8 +37,7 @@ Mastodon is a social network made of independent federated servers that talk to 
 
 ## Matrix
 
-Matrix is an open standard for chat, so anyone can run a server and any
-app can connect to it.
+Matrix is an open standard for chat, so anyone can run a server and you use an app like [Element](https://element.io/) to connect to it. Conversation happens in rooms you join by topic.
 
 {% assign group = entries | where: "type", "matrix" | sort_natural: "name" %}
 {% for entry in group %}
@@ -47,7 +48,7 @@ app can connect to it.
 ## Slack
 
 Slack is a commercial chat tool that some open source projects use for
-community conversations.
+community conversations. Channels divide things up by topic, and you can reply in a thread, so several conversations can run in one channel at once.
 
 {% assign group = entries | where: "type", "slack" | sort_natural: "name" %}
 {% for entry in group %}
