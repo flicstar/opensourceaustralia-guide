@@ -6,7 +6,9 @@ layout: null
 
 > A curated guide to Australian open source software, hardware, data, standards, research, organisations, policy and events.
 
-Use this index to find the site's main pages. Directory entries are curated and may change; follow links on each page to check current project, organisation and event information.
+Use this index to find the site's main pages, or see the [XML sitemap]({{ site.url }}/sitemap.xml) for a machine-readable list of published site URLs.
+
+Directory entries are curated and may change; follow links on each page to check current project, organisation and event information.
 
 ## Start here
 
