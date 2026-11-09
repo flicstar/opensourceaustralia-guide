@@ -11,10 +11,12 @@ issue_template: add-entry.yml
 
 {% assign entries = site.data["chats"] %}
 
-Places to talk with other people working on open things in Australia. Plenty of user groups run their own specific chats, for example,
+Places to talk with other people working on open things in Australia.
+
+Plenty of user groups run their own specific chats, for example,
 [Flounder](/organisations#flounder) has Matrix rooms, and
 [Homelab Brisbane](/organisations#homelab-brisbane) runs a Discourse forum.
-Have a look at the organisations and groups you're intested in for more.
+Have a look at the [organisations and groups](/organisations#communities-and-user-groups) you're intested in for more.
 
 ## Mailing lists
 

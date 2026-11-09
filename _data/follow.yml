@@ -15,6 +15,16 @@
   description: |
     John Lions taught computing at UNSW and wrote this walkthrough of the UNIX source code in 1977. Licensing restrictions meant it couldn't be taught or distributed, so it circulated as photocopies for two decades before it could be republished in 1996. It is a founding text in the argument that you learn to write software by reading it.
 
+- slug: practical-arduino
+  name: "Practical Arduino: Cool Projects for Open Source Hardware"
+  url: https://www.oreilly.com/library/view/practical-arduino-cool/9781430224778/
+  type: books
+  status: active
+  tags:
+    - open-hardware
+  description: |
+    Jonathan Oxer and Hugh Blemings walk through a series of Arduino builds, each one a complete project with circuit, code and explanation. Published by Apress in 2009, so some components have moved on, but the approach to designing and documenting an open hardware project still holds up.
+
 # Blogs
 
 - slug: planet-linux-australia
@@ -99,3 +109,14 @@
     - glam
   description: |
     A talk by Sae Ra Germaine, recorded for [Data Umbrella](https://www.youtube.com/@DataUmbrella) in 2023. The presentation covers what it's like to do open source from Australia, touches on several notable open source projects in Australia and New Zealand, and the role of Linux Australia. Data Umbrella is a global community for people in data science and open source.
+
+- slug: superhouse
+  name: SuperHouse
+  url: https://www.youtube.com/superhousetv
+  type: videos
+  status: active
+  tags:
+    - foss
+    - open-hardware
+  description: |
+    Jonathan Oxer's YouTube channel on home automation and assistive technology built with open source tools: Arduino, Raspberry Pi, ESP32, MQTT and Linux.
