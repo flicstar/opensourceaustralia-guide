@@ -1,1 +1,82 @@
 ---
+
+# Mailing lists
+
+- slug: linux-australia-mailing-lists
+  name: Linux Australia mailing lists
+  url: https://lists.linux.org.au/mailman/listinfo
+  type: mailing-lists
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  tags:
+    - foss
+  description: |
+    Linux Australia runs public Mailman lists covering the organisation itself, its conferences and its user groups. The archives are open.
+
+# Mastodon
+
+- slug: ausglam-space
+  name: Aus GLAM Space
+  url: https://ausglam.space/
+  type: mastodon
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  tags:
+    - glam
+  description: |
+    A Mastodon server for Australasian galleries, libraries, archives, museums and records people.
+
+- slug: fosstodon
+  name: Fosstodon
+  url: https://fosstodon.org/
+  type: mastodon
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  tags:
+    - foss
+  description: |
+    A global Mastodon server built around free and open source software.
+
+# Matrix
+
+- slug: everything-open-matrix
+  name: Everything Open on Matrix
+  url: https://matrix.to/#/%23everythingopen:matrix.org
+  type: matrix
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  tags:
+    - events
+    - everything-open
+  description: |
+    The general discussion room for the Everything Open conference. It carries over between years, so it's a reasonable place to ask about the conference at any point.
+
+- slug: linux-australia-matrix
+  name: Linux Australia on Matrix
+  url: https://matrix.to/#/%23linux-australia:matrix.org
+  type: matrix
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  tags:
+    - foss
+  description: |
+    A Matrix space holding Linux Australia's rooms, with separate channels for general discussion, user groups and linux.conf.au.
+
+# Slack
+
+- slug: wp-australia-slack
+  name: WordPress Australia Slack
+  url: https://wpaustralia.org/slack/
+  type: slack
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  tags:
+    - foss
+  description: |
+    A Slack group run by WordPress Australia for WordPress users around the country, with channels for individual cities.
