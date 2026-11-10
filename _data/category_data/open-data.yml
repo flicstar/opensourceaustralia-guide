@@ -303,10 +303,43 @@
   name: Open Methane
   url: https://openmethane.org/
   type: climate
-  sort_key: "010"
+  sort_key: "030"
   status: active
   organisation_slug: superpower-institute
   added: 2026-09
   verified: 2026-09
   description: |
     An online platform for monitoring Australia's methane emissions, combining atmospheric modelling with satellite measurements. The source code is published at [Open Methane](https://github.com/openmethane) on GitHub.
+
+- slug: silo
+  name: SILO
+  url: https://longpaddock.qld.gov.au/silo/
+  type: climate
+  sort_key: "040"
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  description: |
+    A database of Australian daily climate data from 1889 to yesterday, covering rainfall, temperature, evaporation and other variables. Delivered by the Climate Projections and Services team within the Queensland Treasury.
+
+- slug: climate-change-in-australia
+  name: Climate Change in Australia
+  url: https://www.climatechangeinaustralia.gov.au/
+  type: climate
+  sort_key: "020"
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  description: |
+    National climate projections from CSIRO and the Bureau of Meteorology, with tools for exploring projected change by region, warming level and climate variable.
+
+- slug: bom-data-catalogue
+  name: Bureau of Meteorology Data Catalogue
+  url: https://www.bom.gov.au/resources/data-services
+  type: climate
+  sort_key: "010"
+  status: active
+  added: 2026-11
+  verified: 2026-11
+  description: |
+    How to get data from the Bureau, covering weather, climate, water, ocean and space weather. Access varies by dataset: some data is free to download, some is paid. The [Bureau of Meteorology Data Catalogue](https://www.bom.gov.au/metadata/catalogue/about.shtml) is another way to browse, where each record lists what the data covers and what you may do with it.
