@@ -126,7 +126,6 @@ This is the page I most want to read and the one I don't know how to write. If y
 - **Funding**
   - How do open source projects in Australia get funded? Grants, VC, sponsorship, etc. [Wikimedia.org.au Partner projects](https://wikimedia.org.au/wiki/Partner_Projects_2026-2027), [Linux Australia grants program](https://linux.org.au/grants-program/)  [Airtree open source VC](https://www.airtree.vc/open-source-vc/fundraising-in-australia-updated-open-source-investor-list)
   - Promo different grants and opportunties available
-- A post (or a dedicated page?) for recommended listens, reading, watching (podcasts, YouTubers, books).
 - Some ideas from [Australian Free Software Association](https://freesoftware.au/wiki/campaigns) campaigns
 
 **Global/Overseas**
