@@ -11,7 +11,7 @@ image: /assets/images/category/events.png
 
 <div class="category-summary">Australia has open source events ranging from national conferences to free monthly meetups. Check the organiser's site for current information.</div>
 
-The peak conference for open source in Australia is [Everything Open](#everything-open) run by [Linux Australia](/organisations#linux-australia). This community event is volunteer-run, and the clue’s in the name - the event caters to *everything open*: software, hardware, data, government, science, the GLAM sector, and many other open communities.
+The peak conference for open source in Australia is [Everything Open](#everything-open) auspiced by [Linux Australia](/organisations#linux-australia). This community event is volunteer-run, and the clue’s in the name - the event caters to *everything open*: software, hardware, data, government, science, the GLAM sector, and many other open communities.
 
 Other events are specific to their context or topic. You might find a happening by joining a [user group](/organisations#communities-and-user-groups) specific to the tool, program or protocol you’re interested in, because they usually gather regularly.
 
